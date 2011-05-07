@@ -5,6 +5,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.io.StringReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -13,6 +14,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -26,20 +28,21 @@ import javax.swing.text.html.parser.ParserDelegator;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpHead;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 public class Crawler implements Runnable{
-	private static class CrawledUri{
+	private static class CrawledURI{
 		private URI mUri = null;
 		private int mContainingUris = 0;
 		private int mUnvisitedUris = 0;
 		private int mOccurrence = 0;
 		private Language mLanguage = Language.UNKNOWN;
 		
-		public CrawledUri(URI uri) {
+		public CrawledURI(URI uri) {
 			this.mUri = uri;
 		}
 
@@ -95,106 +98,100 @@ public class Crawler implements Runnable{
 	}
 	
 	private HttpClient mHttpClient = null;
-	private LinkedList<URI> mUriQueue = null;
-	private boolean mUseDepthFirst = false;
-	private HashMap<URI, CrawledUri> mCrawledUris = null;
+	private LinkedList<URI> mToCrawlQueue = null;
+	private HashSet<URI> mVistitedURIs = null;
+	private HashMap<URI, CrawledURI> mCrawledURIs = null;
+	
+	private int mMaxCrawlingCount = 200;
+	private boolean isDepthFirst = false;
 	private boolean isDone = false;
 	
 	public Crawler(boolean useDepthFirst) {
-		this.mUseDepthFirst = useDepthFirst;
+		this.isDepthFirst = useDepthFirst;
 		
 		mHttpClient = new DefaultHttpClient();
-		mCrawledUris = new HashMap<URI, Crawler.CrawledUri>();
-		mUriQueue = new LinkedList<URI>();
+		mToCrawlQueue = new LinkedList<URI>();
+		mVistitedURIs = new HashSet<URI>();
+		mCrawledURIs = new HashMap<URI, Crawler.CrawledURI>();
 		
 		try {
-			mUriQueue.add(new URI("http://de.wikipedia.org/wiki/Bensheim"));
+			mToCrawlQueue.add(new URI("http://de.wikipedia.org/wiki/Bensheim"));
 		} catch (URISyntaxException e) {
 			e.printStackTrace();
 		}
 	}
 	
-	public void run(){
-		int count = 0;
-		while (!isDone) {
-			System.out.println((count++) + " Queue size: " + mUriQueue.size() + " crawled: " + mCrawledUris.size());
-			if(0 < mUriQueue.size()){
-				URI uri = mUriQueue.pop();
-				
-				HttpGet get = new HttpGet(uri);
-				HttpResponse response = null;
-				try {
-					response = mHttpClient.execute(get);
-				} catch (Throwable t) {
-					System.out.println("skip " + uri + " msg:" + t.getMessage());
-					continue;
-				}
-								
+	@Override
+	public void run() {
+		System.out.println("start " + System.currentTimeMillis());
+		while (!isDone && mMaxCrawlingCount > mCrawledURIs.size() && 0 < mToCrawlQueue.size()) {
+			URI currentUri = mToCrawlQueue.pop();
+			mVistitedURIs.add(currentUri);
+			HttpResponse response = null;
+			
+			if(!"http".equalsIgnoreCase(currentUri.getScheme()))
+				continue;
+			
+			System.out.println(mCrawledURIs.size() + " " + currentUri);
+			
+			try {
+				response = mHttpClient.execute(new HttpGet(currentUri));
+			} catch (Throwable t) {
+				continue;
+			} 
+			
+			if(null != response){
+				int code = response.getStatusLine().getStatusCode();
 				HttpEntity entity = response.getEntity();
-				if(null != response && 
-						200 == response.getStatusLine().getStatusCode() && 
-						entity.getContentType().getValue().contains("text/html")){
+				String contentType = entity.getContentType().getValue();
+			
+				if(200 == code){
+					CrawledURI crawledURI = new CrawledURI(currentUri);
+					crawledURI.setOccurrence(1);
 					
-					CrawledUri newUri = new CrawledUri(uri);
-					newUri.setOccurrence(1);
 					try {
 						String html = readStreamToString(entity.getContent());
-						newUri.setLanguage(getLanguageOfHTML(html));
-						List<URI> links = parseLinks(new StringReader(html));
+						List<URI> containingLinks = parseLinks(new StringReader(html));
+						crawledURI.setLanguage(getLanguageOfHTML(html));
+						crawledURI.setContainingUris(containingLinks.size());
+						int unvisitedURIs = 0;
 						
-						newUri.setContainingUris(links.size());
-						int unvisitedUris = 0;
-						
-						for (URI link : links) {
-							if(link.isAbsolute()){
-								if(!mCrawledUris.containsKey(link)){
-									unvisitedUris++;
-								
-									if(mUseDepthFirst)
-										mUriQueue.addFirst(link);
-									else
-										mUriQueue.addLast(link);
+						for (URI link : containingLinks) {
+							link = new URI(link.getScheme(), link.getHost(), link.getPath(), null);
+							if(null != link.getHost() && "http".equalsIgnoreCase(link.getScheme()) && isOnlineAndHTML(link)){
+								System.out.println("\t" + link);
+								if(mCrawledURIs.containsKey(link)){
+									CrawledURI cu = mCrawledURIs.get(link);
+									cu.setOccurrence(cu.getOccurrence()+1);
 								}
 								else{
-									CrawledUri cu = mCrawledUris.get(link);
-									cu.setOccurrence(cu.getOccurrence() + 1);
+									if(!mVistitedURIs.contains(link)){
+										unvisitedURIs++;
+										
+										if(isDepthFirst)
+											mToCrawlQueue.addFirst(link);
+										else
+											mToCrawlQueue.addLast(link);
+									}
 								}
 							}
 						}
-							
-						newUri.setUnvistitedUris(unvisitedUris);
-					} catch (IOException e) {
-						e.printStackTrace();
-						System.out.println("failed to read " + uri);
-					}
 						
-					mCrawledUris.put(newUri.getUri(), newUri);
+						crawledURI.setUnvistitedUris(unvisitedURIs);
+						mCrawledURIs.put(crawledURI.getUri(), crawledURI);
+						
+					} catch (Throwable t) {
+						System.err.println("failed to read " + currentUri + " cause: " + t.getLocalizedMessage());
+						try {entity.getContent().close();} catch (Throwable t1) {/* skip */} 
+						continue;
+					} 
 				}
 				else{
-					try {
-						entity.getContent().close();
-					} catch (Throwable t) {
-						// ignore
-					}
-					continue;
+					try {entity.getContent().close();} catch (Throwable t1) {/* skip */}  
 				}
-			}
-			
-			try {
-				Thread.sleep(250);
-			} catch (InterruptedException e) {
-			}
-			
-			if (200 == mCrawledUris.size()) {
-				System.out.println("done");
-				
-				for (CrawledUri crawled : mCrawledUris.values()) {
-					System.out.println(crawled);
-				}
-		
-				return;
 			}
 		}
+		System.out.println("done " + System.currentTimeMillis());
 	}
 	
 	public Language getLanguageOfHTML(String html){
@@ -207,7 +204,7 @@ public class Crawler implements Runnable{
 		return Language.ENGLISH;
 	}
 	
-	public boolean isAvailableAndHTML(URI uri){
+	public boolean isOnlineAndHTML(URI uri){
 		try {
 			HttpResponse response = mHttpClient.execute(new HttpHead(uri));
 			
@@ -255,11 +252,13 @@ public class Crawler implements Runnable{
 	
 	private void createCVS(File file){
 		try {
-			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			//BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
 			String LF = System.getProperty("line.separator");
 			
-			for (CrawledUri cu : mCrawledUris.values()) {
+			for (CrawledURI cu : mCrawledURIs.values()) {
 				writer.write("\"" + cu.getUri() + "\"," + 
+					"\"" + cu.getUri().getHost() + "\"," + 
 					cu.getOccurrence() + "," + 
 					cu.getContainingUris() + "," + 
 					cu.getUnvisitedUris() + "," +
