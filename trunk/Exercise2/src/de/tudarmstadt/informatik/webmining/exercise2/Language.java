@@ -1,7 +1,6 @@
 package de.tudarmstadt.informatik.webmining.exercise2;
 
 public enum Language {
-	UNKNOWN,
 	DANISH,
 	DUTCH,
 	ENGLISH,
@@ -15,5 +14,5 @@ public enum Language {
 	RUSSIAN,
 	SPAINISH,
 	SWEDISH,
-	TURKISH
+	TURKISH,
 }
