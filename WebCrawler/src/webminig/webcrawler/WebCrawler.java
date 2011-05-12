@@ -1,9 +1,16 @@
 package webminig.webcrawler;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import webminig.webcrawler.Downloader.IDownloadCallback;
 import webminig.webcrawler.PageParser.IPageParserCallback;
@@ -11,7 +18,7 @@ import webminig.webcrawler.PageParser.IPageParserCallback;
 public class WebCrawler{
 	public static final int NUM_DOWNLOADER = 2;
 	public static final int NUM_PARSER = 2;
-	public static final int MAX_CRAWLED_PAGES = 500;
+	public static final int MAX_CRAWLED_PAGES = 200;
 	public static final long THREAD_WAIT_TIME_MILLIS = 200;
 	
 	
@@ -20,6 +27,8 @@ public class WebCrawler{
 		crawler.start("http://www.spiegel.de");
 	}
 	
+	private boolean mDepthFirst = false;
+	
 	private LinkedList<URI> mQueue = new LinkedList<URI>();
 	private LinkedList<Pair<URI, String>> mDownloadedQueue = new LinkedList<Pair<URI,String>>();
 	private HashSet<Integer> mVisited = new HashSet<Integer>();
@@ -27,8 +36,7 @@ public class WebCrawler{
 	
 	private Downloader[] mDownloader = new Downloader[NUM_DOWNLOADER];
 	private PageParser[] mParser = new PageParser[NUM_PARSER];
-	
-	long start = 0;
+	private Timer mTimer = new Timer();
 	
 	private IDownloadCallback mDownloadCallback = new IDownloadCallback() {
 		@Override
@@ -64,8 +72,10 @@ public class WebCrawler{
 					mVisited.add(link.hashCode());
 				}
 				
-				// TODO Suchstrategien 
-				mQueue.addLast(link);
+				if(mDepthFirst)
+					mQueue.addFirst(link);
+				else
+					mQueue.addLast(link);
 			}
 		}
 		
@@ -73,9 +83,6 @@ public class WebCrawler{
 		public void onCrawlingPageFinished(CrawledPage crawledPage) {
 			mRepository.add(crawledPage);
 			System.out.println(crawledPage);
-			
-			if(MAX_CRAWLED_PAGES <= mRepository.size())
-				stop();
 		}
 		
 		@Override
@@ -102,8 +109,17 @@ public class WebCrawler{
 			}
 		}
 	};
+	
+	
+	private TimerTask mEndCrawlTimerTask = new TimerTask() {
+		@Override
+		public void run() {
+			if(!isAnyThreadsWorking() || MAX_CRAWLED_PAGES <= mRepository.size())
+				stop();
+		}
+	};
+	
 	public void start(String seed){
-		start = System.currentTimeMillis();
 		try {
 			mQueue.add(new URI(seed));
 			mQueue.add(new URI("http://www.tagesschau.de"));
@@ -123,6 +139,8 @@ public class WebCrawler{
 			mQueue.add(new URI("http://www.bensheim.de"));
 		} catch (URISyntaxException e) {}
 		
+		mTimer.scheduleAtFixedRate(mEndCrawlTimerTask, 2000, 2000);
+		
 		for (int i = 0; i < NUM_DOWNLOADER; i++){
 			mDownloader[i] = new Downloader(mDownloadCallback);
 			mDownloader[i].start();
@@ -141,6 +159,44 @@ public class WebCrawler{
 		for(int i = 0; i < NUM_PARSER; i++)
 			mParser[i].setRunning(false);
 		
-		System.out.println((System.currentTimeMillis() - start)/1000);
+		mTimer.cancel();
+		
+		String filename = System.currentTimeMillis() + ".log";
+		createCVS(new File(filename));
+	}
+	
+	public boolean isAnyThreadsWorking(){
+		boolean result = true;
+		
+		for (Downloader d : mDownloader)
+			result = result && (Downloader.WORKING != d.getDownloaderState());
+		
+		for(PageParser p : mParser)
+			result = result && (PageParser.WORKING != p.getPraserState());
+		
+		return !result;
+	}
+	
+	private void createCVS(File file){
+		try {
+			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			String LF = System.getProperty("line.separator");
+			
+			writer.write("\"Uri\",\"Host\",\"Links\",\"New Links\",\"Language\"" + LF);
+			for (CrawledPage cp : mRepository) {
+				writer.write("\"" + cp.getUri() + "\"," + 
+					"\"" + cp.getUri().getHost() + "\"," + 
+					cp.getLinkCount() + "," + 
+					cp.getNewLinks() + "," +
+					cp.getLanguage() + 
+					LF
+				);
+			}		
+			
+			writer.flush();
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }

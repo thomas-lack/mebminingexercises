@@ -14,6 +14,9 @@ import javax.swing.text.html.HTMLEditorKit.ParserCallback;
 import javax.swing.text.html.parser.ParserDelegator;
 
 public class PageParser extends Thread{
+	public static final int STOPPED = -1;
+	public static final int IDLE = 0;
+	public static final int WORKING = 1;
 	
 	public static interface IPageParserCallback{
 		public boolean hasNext();
@@ -26,14 +29,33 @@ public class PageParser extends Thread{
 	private IPageParserCallback mCallback = null;
 	private boolean isRunning = true;
 	private LanguageDetector mDetector = new LanguageDetector();
+	private int mState = STOPPED;
 	
 	public PageParser(IPageParserCallback callback) {
 		mCallback = callback;
 	}
 	
+	public boolean isRunning() {
+		synchronized (this) {
+			return isRunning;
+		}
+	}
+	
 	public void setRunning(boolean isRunning) {
 		synchronized (this) {			
 			this.isRunning = isRunning;
+		}
+	}
+	
+	public int getPraserState() {
+		synchronized (this) {
+			return mState;
+		}
+	}
+	
+	public void setParserState(int mState) {
+		synchronized (this) {
+			this.mState = mState;
 		}
 	}
 	
@@ -46,8 +68,9 @@ public class PageParser extends Thread{
 		final ArrayList<Integer> oldLinks = new ArrayList<Integer>();
 		final StringBuilder textBuilder = new StringBuilder();
 		
-		while (isRunning) {
+		while (isRunning()) {
 			if(mCallback.hasNext()){
+				setParserState(WORKING);
 				Pair<URI, String> dataPair = mCallback.getNext();
 				
 				if(null == dataPair)
@@ -56,7 +79,6 @@ public class PageParser extends Thread{
 				textBuilder.replace(0, textBuilder.length(), "");
 				newLinks.clear();
 				oldLinks.clear();
-				//System.out.println("Parser " + getId() + " " + dataPair.getFirst());
 				
 				ParserDelegator delegator = new ParserDelegator();
 				ParserCallback callback = new ParserCallback(){
@@ -104,19 +126,30 @@ public class PageParser extends Thread{
 				
 				try {
 					delegator.parse(new StringReader(dataPair.getSecond()), callback, true);
+					
 					CrawledPage page = new CrawledPage(dataPair.getFirst());
 					page.setLinkCount(oldLinks.size() + newLinks.size());
 					page.setNewLinks(newLinks.size());
 					page.setLanguage(mDetector.detect(dataPair.getSecond()));
+					
 					mCallback.onCrawlingPageFinished(page);
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
 			}
+			else{
+				setParserState(IDLE);
+				
+				try {
+					sleep(WebCrawler.THREAD_WAIT_TIME_MILLIS);
+				} catch (InterruptedException e) {/* ignore */}
+			}
 			
 			if(isInterrupted())
-				return;
+				setRunning(false);
 		}
+		
+		setParserState(STOPPED);
 	}
 	
 	private URI normalizeURI(URI uri) throws URISyntaxException{

@@ -11,9 +11,14 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 public class Downloader extends Thread {
+	public static final int STOPPED = -1;
+	public static final int IDLE = 0;
+	public static final int WORKING = 1;
+	
 	private IDownloadCallback mCallback = null;
 	private HttpClient mHttpClient = null;
 	private boolean isRunning = true;
+	private int mState = STOPPED;
 	
 	public static interface IDownloadCallback{
 		public boolean hasNext();
@@ -26,9 +31,27 @@ public class Downloader extends Thread {
 		mHttpClient = new DefaultHttpClient();
 	}
 	
+	public boolean isRunning() {
+		synchronized (this) {
+			return isRunning;
+		}
+	}
+	
 	public void setRunning(boolean isRunning) {
 		synchronized (this) {			
 			this.isRunning = isRunning;
+		}
+	}
+	
+	public int getDownloaderState() {
+		synchronized (this) {
+			return mState;
+		}
+	}
+	
+	public void setDownloaderState(int mState) {
+		synchronized (this) {
+			this.mState = mState;
 		}
 	}
 	
@@ -37,15 +60,15 @@ public class Downloader extends Thread {
 		if(null == mCallback || null == mHttpClient)
 			return;
 		
-		while (isRunning) {
+		while (isRunning()) {
 			if(mCallback.hasNext()){
+				setDownloaderState(WORKING);
 				URI uri = mCallback.getNext();
 				
 				if(null == uri)
 					continue;
 				
 				try {
-					//System.out.println("Downloader " + getId() + ": " + uri);
 					HttpGet get = new HttpGet(uri);
 					HttpResponse response = mHttpClient.execute(get);
 					
@@ -60,7 +83,7 @@ public class Downloader extends Thread {
 							while (null != (line = br.readLine())) {
 								sb.append(line).append("\n");
 							}
-							
+						
 							mCallback.onDownloadFinished(uri, sb.toString());
 						}
 						else{
@@ -73,14 +96,19 @@ public class Downloader extends Thread {
 				} catch (Throwable e) {
 					System.err.println("Downloader " + getId() + ": " + uri + " - " + e.getMessage());
 				}
-				
 			}
+			else{
+				setDownloaderState(IDLE);
+			}
+			
+			if(isInterrupted())
+				setRunning(false);
 			
 			try {
 				sleep(WebCrawler.THREAD_WAIT_TIME_MILLIS);
-			} catch (InterruptedException e) {
-				// ignore
-			}
+			} catch (InterruptedException e) {/* ignore */}
 		}
+		
+		setDownloaderState(STOPPED);
 	}
 }
