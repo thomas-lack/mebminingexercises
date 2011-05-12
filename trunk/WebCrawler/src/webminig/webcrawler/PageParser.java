@@ -5,7 +5,6 @@ import java.io.StringReader;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
-import java.util.List;
 
 import javax.swing.text.MutableAttributeSet;
 import javax.swing.text.html.HTML;
@@ -26,6 +25,7 @@ public class PageParser extends Thread{
 	
 	private IPageParserCallback mCallback = null;
 	private boolean isRunning = true;
+	private LanguageDetector mDetector = new LanguageDetector();
 	
 	public PageParser(IPageParserCallback callback) {
 		mCallback = callback;
@@ -107,6 +107,7 @@ public class PageParser extends Thread{
 					CrawledPage page = new CrawledPage(dataPair.getFirst());
 					page.setLinkCount(oldLinks.size() + newLinks.size());
 					page.setNewLinks(newLinks.size());
+					page.setLanguage(mDetector.detect(dataPair.getSecond()));
 					mCallback.onCrawlingPageFinished(page);
 				} catch (IOException e) {
 					e.printStackTrace();

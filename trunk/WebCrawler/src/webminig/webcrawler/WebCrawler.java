@@ -70,7 +70,6 @@ public class WebCrawler{
 		@Override
 		public void onCrawlingPageFinished(CrawledPage crawledPage) {
 			mRepository.add(crawledPage);
-			System.out.println(crawledPage.toString());
 			
 			if(MAX_CRAWLED_PAGES <= mRepository.size())
 				stop();

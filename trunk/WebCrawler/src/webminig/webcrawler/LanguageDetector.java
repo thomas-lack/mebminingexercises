@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class LanguageDetector {
@@ -31,6 +32,33 @@ public class LanguageDetector {
 	
 	public LanguageDetector() {
 		initStopWordsList();
+	}
+	
+	public Language detect(String text){
+		int[] hits = new int[mStopWordsList.size()];
+		Arrays.fill(hits, 0);
+				
+		text.replaceAll("[.,!?'\"\\/|()]", "");
+		String[] words = text.split("[ \t\n\f\r]");
+		
+		// calculate stopword hits
+		for (String word : words) {			
+			for (int i = 0; i < mStopWordsList.size(); i++) {
+				if(mStopWordsList.get(i).contains(word))
+					hits[i]++;
+			}
+		}
+		
+		// get the index with the highest hitcount
+		int maxHitIndex = 0;
+		for (int i = 0; i < hits.length; i++)
+			if(hits[maxHitIndex] < hits[i])
+				maxHitIndex = i;
+		
+		if(0 == hits[maxHitIndex])
+			return null;
+		
+		return Language.values()[maxHitIndex];
 	}
 	
 	/**
