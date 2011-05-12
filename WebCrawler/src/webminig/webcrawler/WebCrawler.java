@@ -11,7 +11,7 @@ import webminig.webcrawler.PageParser.IPageParserCallback;
 public class WebCrawler{
 	public static final int NUM_DOWNLOADER = 2;
 	public static final int NUM_PARSER = 2;
-	public static final int MAX_CRAWLED_PAGES = 100;
+	public static final int MAX_CRAWLED_PAGES = 500;
 	public static final long THREAD_WAIT_TIME_MILLIS = 200;
 	
 	
@@ -27,6 +27,8 @@ public class WebCrawler{
 	
 	private Downloader[] mDownloader = new Downloader[NUM_DOWNLOADER];
 	private PageParser[] mParser = new PageParser[NUM_PARSER];
+	
+	long start = 0;
 	
 	private IDownloadCallback mDownloadCallback = new IDownloadCallback() {
 		@Override
@@ -70,6 +72,7 @@ public class WebCrawler{
 		@Override
 		public void onCrawlingPageFinished(CrawledPage crawledPage) {
 			mRepository.add(crawledPage);
+			System.out.println(crawledPage);
 			
 			if(MAX_CRAWLED_PAGES <= mRepository.size())
 				stop();
@@ -100,6 +103,7 @@ public class WebCrawler{
 		}
 	};
 	public void start(String seed){
+		start = System.currentTimeMillis();
 		try {
 			mQueue.add(new URI(seed));
 			mQueue.add(new URI("http://www.tagesschau.de"));
@@ -136,5 +140,7 @@ public class WebCrawler{
 	
 		for(int i = 0; i < NUM_PARSER; i++)
 			mParser[i].setRunning(false);
+		
+		System.out.println((System.currentTimeMillis() - start)/1000);
 	}
 }
