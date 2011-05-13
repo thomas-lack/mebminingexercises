@@ -16,18 +16,18 @@ import webminig.webcrawler.Downloader.IDownloadCallback;
 import webminig.webcrawler.PageParser.IPageParserCallback;
 
 public class WebCrawler{
-	public static final int NUM_DOWNLOADER = 2;
-	public static final int NUM_PARSER = 2;
-	public static final int MAX_CRAWLED_PAGES = 200;
+	public static final int NUM_DOWNLOADER = 3;
+	public static final int NUM_PARSER = 1;
+	public static final int MAX_CRAWLED_PAGES = 1000;
 	public static final long THREAD_WAIT_TIME_MILLIS = 200;
 	
 	
 	public static void main(String[] args) {
 		WebCrawler crawler = new WebCrawler();
-		crawler.start("http://www.spiegel.de");
+		crawler.start("http://de.wikipedia.org:80/wiki/Web_Mining");
 	}
 	
-	private boolean mDepthFirst = false;
+	private boolean mDepthFirst = true;
 	
 	private LinkedList<URI> mQueue = new LinkedList<URI>();
 	private LinkedList<Pair<URI, String>> mDownloadedQueue = new LinkedList<Pair<URI,String>>();
@@ -43,6 +43,7 @@ public class WebCrawler{
 		public void onDownloadFinished(URI uri, String data) {
 			synchronized (mDownloadedQueue) {
 				mDownloadedQueue.add(new Pair<URI, String>(uri, data));
+				System.out.println(mDownloadedQueue.size());
 			}
 		}
 		
@@ -114,29 +115,31 @@ public class WebCrawler{
 	private TimerTask mEndCrawlTimerTask = new TimerTask() {
 		@Override
 		public void run() {
-			if(!isAnyThreadsWorking() || MAX_CRAWLED_PAGES <= mRepository.size())
+			System.out.println("queue: " + mQueue.size() + " downloaded: " + mDownloadedQueue.size() + " crawled: " + mRepository.size());
+			if(MAX_CRAWLED_PAGES <= mRepository.size())
 				stop();
 		}
-	};
+	}; 
 	
 	public void start(String seed){
+		System.out.println(System.currentTimeMillis());
 		try {
 			mQueue.add(new URI(seed));
-			mQueue.add(new URI("http://www.tagesschau.de"));
-			mQueue.add(new URI("http://www.tu-darmstadt.de"));
-			mQueue.add(new URI("http://de.wikipedia.org"));
-			mQueue.add(new URI("http://www.p0t.de"));
-			mQueue.add(new URI("http://www.heise.de"));
-			mQueue.add(new URI("http://www.golem.de"));
-			mQueue.add(new URI("http://www.spiegel.de"));
-			mQueue.add(new URI("http://www.ebay.de"));
-			mQueue.add(new URI("http://www.twitter.com"));
-			mQueue.add(new URI("http://www.minecraft.net"));
-			mQueue.add(new URI("http://www.facebook.com"));
-			mQueue.add(new URI("http://www.wetter.com"));
-			mQueue.add(new URI("http://www.openstreetmap.org"));
-			mQueue.add(new URI("http://www.hessen.de"));
-			mQueue.add(new URI("http://www.bensheim.de"));
+//			mQueue.add(new URI("http://www.tagesschau.de"));
+//			mQueue.add(new URI("http://www.tu-darmstadt.de"));
+//			mQueue.add(new URI("http://de.wikipedia.org"));
+//			mQueue.add(new URI("http://www.p0t.de"));
+//			mQueue.add(new URI("http://www.heise.de"));
+//			mQueue.add(new URI("http://www.golem.de"));
+//			mQueue.add(new URI("http://www.spiegel.de"));
+//			mQueue.add(new URI("http://www.ebay.de"));
+//			mQueue.add(new URI("http://www.twitter.com"));
+//			mQueue.add(new URI("http://www.minecraft.net"));
+//			mQueue.add(new URI("http://www.facebook.com"));
+//			mQueue.add(new URI("http://www.wetter.com"));
+//			mQueue.add(new URI("http://www.openstreetmap.org"));
+//			mQueue.add(new URI("http://www.hessen.de"));
+//			mQueue.add(new URI("http://www.bensheim.de"));
 		} catch (URISyntaxException e) {}
 		
 		mTimer.scheduleAtFixedRate(mEndCrawlTimerTask, 2000, 2000);
@@ -160,6 +163,7 @@ public class WebCrawler{
 			mParser[i].setRunning(false);
 		
 		mTimer.cancel();
+		System.out.println(System.currentTimeMillis());
 		
 		String filename = System.currentTimeMillis() + ".log";
 		createCVS(new File(filename));
