@@ -22,7 +22,7 @@ public class LanguageDetector {
 		NORWEGIAN,
 		PORTOGUESE,
 		RUSSIAN,
-		SPAINISH,
+		SPANISH,
 		SWEDISH,
 		TURKISH,
 	}
@@ -76,7 +76,7 @@ public class LanguageDetector {
 		mStopWordsList.add(Language.NORWEGIAN.ordinal(), readStopWordsFile(new File("stopwords/norwegian")));
 		mStopWordsList.add(Language.PORTOGUESE.ordinal(), readStopWordsFile(new File("stopwords/portuguese")));
 		mStopWordsList.add(Language.RUSSIAN.ordinal(), readStopWordsFile(new File("stopwords/russian")));
-		mStopWordsList.add(Language.SPAINISH.ordinal(), readStopWordsFile(new File("stopwords/spanish")));
+		mStopWordsList.add(Language.SPANISH.ordinal(), readStopWordsFile(new File("stopwords/spanish")));
 		mStopWordsList.add(Language.SWEDISH.ordinal(), readStopWordsFile(new File("stopwords/swedish")));
 		mStopWordsList.add(Language.TURKISH.ordinal(), readStopWordsFile(new File("stopwords/turkish")));
 	}
