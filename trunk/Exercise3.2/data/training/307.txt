@@ -1,0 +1,14 @@
+            [http://www.cs.utexas.edu/users/markng/Gif/welmark.gif]
+
+        [http://www.cs.utexas.edu/users/markng/Gif/about.gif] [http://
+www.cs.utexas.edu/users/markng/Gif/points.gif] [http://www.cs.utexas.edu/users/
+markng/Gif/visit.gif] [http://www.cs.utexas.edu/users/markng/Gif/cubsden.gif]
+
+                     [ About_Myself | Points_Of_Interest ]
+             [ Visit_Also_My_Friends'_Home_Pages | The_Cub's_Den ]
+
+
+===============================================================================
+
+Last modified Wed Nov 20 1996
+by markng@cs.utexas.edu

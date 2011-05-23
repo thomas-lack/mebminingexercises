@@ -1,0 +1,41 @@
+
+******  SRC="photo.gif" ALIGN=bottom ALT=>  _Chung_Kei_Wong ******
+last modified: Dec 11, 1996
+===============================================================================
+***** About Me *****
+I am a graduate student in the Department_of_Computer_Sciences , The_University
+of_Texas_at_Austin . I am a member of the Networking_Research_Lab which is
+headed by Prof._Simon_S._Lam .
+***** Research Related links... *****
+    * Java_Security_Project
+    * NIST_Computer_Security_Division
+    * Computer_Security_Resource_Clearinghouse
+    * Role_Based_Access_Control_(RBAC)
+    * Prof._Ron_Rivest 's Cryptography_and_Security_page
+***** To Contact Me *****
+EMAIL	ckwong@cs.utexas.edu
+
+POSTAL	Computer Sciences C0500
+	TAY 2.124, U.T. Austin
+	Austin TX 78712 USA
+
+VOICE	+1 512.471.9599 (lab - TAY 150K)
+	+1 512.471.???? (office - PAI 5.50)
+	+1 512.471.7316 (CS dept office)
+
+FAX	+1 512.471.7866
+***** Other links... *****
+    * Hyde_Park_Baptist_Church_Chinese_Mission
+    * Hong_Kong_Student_Association_at_UT_Austin
+    * Linux_OS_Home_Page
+    * NetBSD_Project
+    * FreeBSD_OS_Home_Page
+    * OpenBSD_Project
+===============================================================================
+
+HREF="http://www.internet-audit.com">
+
+HREF="http://stats.internet-audit.com/cgi-bin/stats.exe/0056746">
+ISMAP BORDER=0 SRC="http://six.internet-audit.com/six/ZQ0056746.gif" ALT="Make
+your visit count, load this images.">
+     send me email to ckwong@cs.utexas.edu

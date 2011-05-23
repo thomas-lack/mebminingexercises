@@ -1,0 +1,27 @@
+[./GIFS/ribbon.gif] [./GIFS/ribbon.gif]
+                           **** Lynette I. Millett
+                        Department_of_Computer_Science
+                              Cornell_University
+                             Ithaca, NY 14853 ****
+                            millett@cs.cornell.edu
+
+[./GIFS/cyber.gif]
+***** "As the most participatory form of mass speech yet developed, the
+Internet deserves the highest protection from governmental intrusion." *****
+--from the_decision_in_"ACLU_v._Reno"_CDA_Challenge. [./GIFS/cyber.gif]
+[./GIFS/purple.gif] Script_of_the_second-year_skit_for_the_1995_CUCS_holiday
+party.
+[./GIFS/purple.gif] Personal_information.
+[./GIFS/purple.gif] A_few_pictures_of_our_cats. Last updated: 4 Oct. 1996
+[./GIFS/purple.gif] A_list_of_personal_homepages
+[./GIFS/purple.gif] A_very_old_list_of_links
+[./GIFS/cyber.gif]
+**** "I myself have never been able to find out precisely what feminism is; I
+only know that people call me a feminist whenver I express sentiments that
+differentiate me from a doormat or a prostitute." -- Rebecca West, 1913 ****
+[./GIFS/cyber.gif]
+Last modified: October 22, 1996.
+Comments welcome.
+For a copy of my pgp public key, please look here. [./GIFS//cyber.gif]
+millett@cs.cornell.edu
+* Copyright 1996 Lynette I. Millett *

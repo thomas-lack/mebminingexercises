@@ -1,0 +1,50 @@
+[[NEW]]
+               ****** Welcome to Jianying Luo's Homepage! ******
+                             [[RUNRABIT]] [[OWL]]
+***** About Me *****
+      I am a first year Ph.D. Student in Department_of_Computer_Sciences, The
+      University_of_Texas_at_Austin.
+[[MOTAR]]     * B.S.(Computer Science), Peking_University, Beijing, P.R.China,
+                1996
+===============================================================================
+***** Peking University Alumni *****
+[[PKUTOKEN]]     * Computer_Science_Department_of_Peking_University
+                 * Other_departments_of_Peking_University
+===============================================================================
+***** China and Chinese *****
+              * Chinese_Scenery [[NEW]]
+              * Chinese_Novels
+[[CHINA]]     * Chinese_Classics
+              * Chinese_Magazines
+              * Chinese_Newspapers
+===============================================================================
+***** Useful [UT] links *****
+                 * UT_Registrar
+                 * UT_Gradaute_Studies
+[[MAINBLDG]]     * UT_Library
+                 * UT_Campus
+                 * UTACCESS
+===============================================================================
+***** About Austin *****
+[[AUSTIN]] What's_the_Weather_Today?
+           Austin_City_Limits, lots of exciting stuffs about Austin.
+===============================================================================
+***** Miscellaneous *****
+                  * Yahoo
+                  * Java_Page_at_Sun
+                  * JavaScript_Page_at_Netscape
+                  * The_Perl_Language_Home_Page
+[[BOYATOWER]]     * Computing_Research_Association
+                  * Computer_Journals/Magzines_on_the_Web
+                  * Networked_Computer_Science_Technical_Reports_Library
+                  * The_Collection_of_Computer_Science_Bibliographies
+                  * International_Students,_Inc.
+===============================================================================
+***** Contact Me *****
+      [[MAILSERVICE]] 307 E 31st Street, Apt 107, Austin, Texas 78705
+      [[PHONE]] (512) 476-6770(H)
+      [[EMAIL]] jyluo@cs.utexas.edu
+      [[FINGERME]] Finger_me
+===============================================================================
+          Your comments_and_suggestions would be highly appreciated.
+        You are the  alt="[COUNTER]">th visitor since October 10, 1996.

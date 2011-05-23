@@ -1,0 +1,29 @@
+****** Ross Ortega (the one wearing jeans)
+[Me]ortega@cs.washington.edu
+Department_of_Computer_Science_&amp;_Engineering,
+University_of_Washington, Box 352350,
+Seattle,_WA 98195 USA ******
+===============================================================================
+**** "If we knew what it was we were doing, it would not be called research,
+would it?" -- Albert Einstein ****
+***** Welcome to my home page *****
+After going to school and working in Boston for 7 years, I decided to head west
+(really northwest). I came to UW in the fall of 1990 and will be leaving
+sometime in 199x according to my advisor Gaetano Borriello. OfficiallyI have
+been working on the Chinook project, a CAD tool for real-time embedded
+controller systems. Unofficially I have been brewing beer, learning to hack my
+Mac, and trying to teach my German shepherd, Tequila, how to behave himself.
+***** Professional section *****
+      [o] Chinook_Project
+      [o] My_resume/cv (128K .ps file)
+      [o] Education
+      [o] Experience
+      [o] Publications_and_Papers
+***** Here are puppy pictures of Tequila *****
+    * Tequila_(color)
+    * Tequila2_(color)
+***** I am the office rep for Sieg 431 *****
+    * Check out the web page for 431
+***** Links_that_I_find_interesting *****
+===============================================================================
+Last updated Thu Aug 1 17:48:44 PDT 1996

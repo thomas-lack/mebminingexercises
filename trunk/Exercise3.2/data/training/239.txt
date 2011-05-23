@@ -1,0 +1,40 @@
+
+ _________________________________________
+|[MyGoofyFace]|__******_MIKEDAHLIN_******_|
+|***** General information *****          |
+|Assistant professor of Computer_Sciences,|
+|The_University_of_Texas_at_Austin.       |
+|    * Ph.D. in Computer_Science,         |
+|      UC_Berkeley, 1995.                 |
+|    * M.S. in Computer_Science,          |
+|      UC_Berkeley, 1993.                 |
+|    * B.S. in Electrical_Engineering,    |
+|______Rice_University,_1991._____________|
+***** Teaching *****
+Fall_1996:_395T_Web_Operating_Systems
+Spring_1997:_382M_Advanced_Computer_Architecture
+Everyone should read these "Technical_Classics"
+***** Research *****
+xFS:_A_"Serverless"_Network_File_System
+Web_Operating_Systems
+The_Lab_for_Experimental_Software_Systems_(LESS)
+Publications_list.
+***** Other Information *****
+*** Technology_Trends_Page ***
+    * This page summarizes some recent technology trends that may be of
+      interest to operating systems researchers and compter architects,
+      including historical data I've gathered about the prices and capacity/
+      prices of disks and memory.
+***** Personal Information *****
+    * If this page seems boring, you probably want my_working_internet_root
+      page. (Links to the world.)
+===============================================================================
+   ________________________________________________________________________
+  |                    |Office:          |Postal:                          |
+  |Email:              |Taylor Hall 4.136|Taylor Hall 2.124                |
+  |dahlin@cs.utexas.edu|(512)471-9549    |The University of Texas at Austin|
+  |____________________|_________________|Austin,_TX_78712-1188____________|
+===============================================================================
+bye...
+                                     _____
+                                    |[Bye]|

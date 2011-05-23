@@ -1,0 +1,25 @@
+                  ****** Yuichi Tsuchimoto's Home Page ******
+           [http://www.cs.cornell.edu/Info/People/yuichi/yuichi.gif]
+===============================================================================
+***** Course Work *****
+**** Fall 1996 (Current_Semester) ****
+    * CS414:_Systems_Programming_and_Operating_Systems
+    * CS501:_Programming_Languages_and_Software_Engineering
+**** Spring 1996 ****
+    * CS412: Introduction to Compilers and Translators
+    * CS413: Practicum in Compilers and Translators
+    * CS664:_Machine_Vision
+**** Fall 1995 ****
+    * CS472:_Foundations_of_Artificial_Intelligence
+    * CS473: Practicum in Artificial Intelligence
+    * CS481:_Introduction_to_Theory_of_Computing
+===============================================================================
+I am currently looking for a job in the United State.
+Resume: GIF_format, PostScript_format.
+===============================================================================
+     Yuichi Tsuchimoto
+     e-address: yuichi@cs.cornell.edu
+     http://www.cs.cornell.edu/Info/People/yuichi/
+===============================================================================
+                      Last modification: November 2, 1996
+           http://www.cs.cornell.edu/Info/People/yuichi/welcome.html

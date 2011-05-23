@@ -1,0 +1,35 @@
+****** [-burp-]
+"Passsth me another cold Budweisther !!" ******
+===============================================================================
+  Office
+      3652 ECE
+  Phone
+      (608) 265-3826
+  E-mail
+      ericro@cs.wisc.edu
+===============================================================================
+  Research Area
+      Computer Architecture
+  Advisor
+      Professor J.E. Smith
+  Research Topics
+          * Kestrel_(Multiscalar)_Project
+          * Instruction-Level Parallelism (ILP)
+          * High Bandwidth Instruction Fetch Mechanisms
+          * Branch Prediction Confidence, Branch Mispredict Tolerance
+===============================================================================
+Publications:
+     "Trace_Cache:_a_Low_Latency_Approach_to_High_Bandwidth_Instruction
+     Fetching", Eric Rotenberg, Steve Bennett, and James E. Smith, To
+     appear in Proceedings of the 29th Annual International Symposium on
+     Microarchitecture, December 1996.
+     "Assigning_Confidence_to_Conditional_Branch_Predictions", Erik
+     Jacobsen, Eric Rotenberg, and James E. Smith, To appear in
+     Proceedings of the 29th Annual International Symposium on
+     Microarchitecture, December 1996.
+     "Trace_Cache:_a_Low_Latency_Approach_to_High_Bandwidth_Instruction
+     Fetching", Eric Rotenberg, Steve Bennett, and James E. Smith,
+     University of Wisconsin - Madison Technical Report #1310, April 1996.
+===============================================================================
+Resume
+===============================================================================

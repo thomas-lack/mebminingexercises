@@ -1,0 +1,63 @@
+****** Corey Anderson ******
+ Things that have interested me lately...
+    * Setting up my home_page.
+    * Researching_color_perception_and_automatically_correcting_for_induced
+      color.
+    * Competing in the Programmer_Of_The_Month contest
+    * Searching for info about the LocalTalk_PC_Adapter.
+    * Setting_up_Linux
+    * Playing_with_Wavelets
+    * ACM_International_Collegiate_Programming_Contest
+          o Pacific_Regional_Contest,_Problems,_and_Results
+          o 1995_Final_Problems_and_Results_(html_version)
+          o Previous_years'_Final_Problems_(PS_version)
+    * Duke's_Internet_Programming_Contest
+    * My résumé is now online. It is recent as of August 1996.
+    * Reviewing_computer_graphics_text_and_reference_books, just for fun.
+***** Things that I have done... *****
+    * Graduate_from_the_Univserity_of_Washington_and_Highline_Community
+      College.
+    * Self-tuning_FPGA (Fall 1994)
+    * Helping Polly organize and run the CSE_department's_contribution to the
+      Engineering Open House 1996. (April 1996)
+    * Managing the UW's_ACM_chapter's treasury. (Spring 1995 - Spring 1996)
+    * Under developement (read: not done)! Macintosh_programming
+    * Searching for a good Internet Service Provider
+Cool things I've found...
+    * Usage_statistics_of_CS_Dep't_Web
+    * Lurker's_Guide_to_Babylon_5
+    * Sunsite's_Linux_Archive
+    * The_Dilbert_Zone
+    * My_Mom's_home_page
+    * My_brother's_home_page
+Useful links...
+    * Peek inside our X-term_labs
+    * HTML_reference
+    * HTML_3.0's_new_features_or_what_Netscape_will_let_you_do.
+    * Computer_Science_and_Engineering_Department_home_page
+    * University_of_Washinton_home_page
+    * UWTV
+    * CS_Lab_Tech_notes
+***** My Autumn '96 schedule... *****
+ _____________________________________________________________________
+|_____|____Monday__|__Tuesday_|____Wednesday__|_Thursday_|____Friday__|
+|8:30_|CSE_370_(TA)|CSE_370_OH|CSE_370_(TA)___|CSE_370_OH|CSE_370_(TA)|
+|9:00_|CSE_370_(TA)|CSE_370_OH|CSE_370_(TA)___|CSE_370_OH|CSE_370_(TA)|
+|9:30_|CSE_590IT___|__________|CSE_370_Meeting|__________|____________|
+|10:00|CSE_590IT___|__________|CSE_370_Meeting|__________|____________|
+|10:30|Math_441____|CSE_531___|Math_441_______|CSE_531___|Math_441____|
+|11:00|Math_441____|CSE_531___|Math_441_______|CSE_531___|Math_441____|
+|11:30|____________|CSE_531___|_______________|CSE_531___|____________|
+|12:00|____________|__________|_______________|__________|____________|
+|12:30|____________|__________|_______________|__________|____________|
+|1:00_|____________|__________|_______________|__________|____________|
+|1:30_|CSE_567_____|__________|CSE_567________|__________|CSE_567_____|
+|2:00_|CSE_567_____|__________|CSE_567________|__________|CSE_567_____|
+|2:30_|CSE_370_OH__|__________|_______________|__________|____________|
+|3:00_|CSE_370_OH__|__________|_______________|__________|____________|
+|3:30_|____________|CSE_519___|CSE_590B_______|CSE_520___|____________|
+|4:00_|____________|CSE_519___|CSE_590B_______|CSE_520___|____________|
+|4:30_|____________|CSE_519___|CSE_590B_______|CSE_520___|____________|
+|5:00_|____________|__________|_______________|CSE_520___|____________|
+|5:30_|____________|__________|_______________|__________|____________|
+     corin@cs.washington.edu

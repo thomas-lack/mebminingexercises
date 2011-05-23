@@ -1,0 +1,40 @@
+
+                             ***** Kev's Home Page
+                                     *****
+===============================================================================
+[http://www.cs.cornell.edu/cgi-bin/ssis/Info/People/kmai/kmai.gif]
+Welcome!ize=5> That's the CS Department-issue picture of me to the left. You
+are seeing a not-quite-up-to-date page for frames challenged web viewers.
+===============================================================================
+I'm from Syosset, New York (one of those towns on Long Island) and received my
+Bachelor of Science degree here in December, 1994. After working for a few
+months in California, I decided to come back here in the fall and am currently
+working on a Master of Engineering degree. Why did I leave the "land of sun" to
+come back to Ithaca? Maybe I missed the seasons here - rain, wind, snow,
+ice.... (Actually, I got more than enough rain while I was in Santa Barbara).
+Anyway, I plan to graduate in May, 1996.
+===============================================================================
+I'm currently working on my MEng project with Prof. Ramin Zabih at the Cornell
+Robotics and Vision Lab (CSRVL). If you are interested in the topic of motion
+video segmentation or just general video processing, here_is_a_paper which
+relates to my research in the area.
+===============================================================================
+*** Some Links: ***
+    * Companies:
+          o Green_Hills_Software, Santa_Barbara, California
+          o Lockheed_Martin_(Control_Systems), Binghamton, New York
+          o Altera_Corp., San Jose, California
+    * Fun Stuff:
+          o Games_Domain v
+          o The_Babylon_5_site
+    * Other places:
+          o Most_Universities_in_the_World
+          o CareerMosaic
+          o Top_Web_Sites
+
+===============================================================================
+[Go_up_to_students'_page]
+ Say hi!Email: kmai@cs.cornell.edu
+** Of course, this page is still under construction.
+Last Modified: January 24, 1995. **
+There have been 208 accesses to this page.

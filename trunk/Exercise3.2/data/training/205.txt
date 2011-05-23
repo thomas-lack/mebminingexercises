@@ -1,0 +1,24 @@
+BGCOLOR=#040404 text=#ffffff link=#44ffff vlink=#ffff00 alink=#ff2222>
+                    ****** Adam Seligman's home page ******
+                                      [me]
+===============================================================================
+         [http://weather.yahoo.com/graphics/radar/Southcentral_US.gif]
+             [http://weather.yahoo.com/graphics/satellite/US.jpg]
+                             [Spain, Summer 1994]
+******_Click_here_to_see_if_I_am_logged_on._******
+===============================================================================
+I am a gradual student in UT-Austin's CS program, and I run a weekly happy_hour
+for the department.
+This is my only claim to fame, my undergraduate thesis. I specified the type
+rules and an operational semantics of the OO core of C++. It's available as a
+gzipped dvi_file or a gzipped postscript_file. Let me know what you think of
+it.
+****** Here's how to get in touch with me: ******
+Email adams@cs.utexas.edu.
+Call me at (512) 860-3225.
+Page me with email at 1815205@pagemart.net.
+Spy on the graphics lab here.The lab phone number is (512)471-9598
+Read_our_Progressive_VRML_paper.
+===============================================================================
+Yes, I am a news junkie. Here's where you can get a fix from Reuters_at_Yahoo.
+Alternatively, you could check out the_Nando_Times.

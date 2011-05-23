@@ -1,0 +1,20 @@
+****** Kristin Tufte ******
+===============================================================================
+Research Assistant
+Computer Sciences Department
+University of Wisconsin -- Madison
+1210 West Dayton Street
+Madison, WI 53706
+(608) 262-6622
+tufte@cs.wisc.edu
+===============================================================================
+Advisor: David_J._DeWitt
+===============================================================================
+*** Miscellany: ***
+    * HDF_Information_Server
+    * UW-Madison_DBMS_Research_Group
+    * ACM_SIGMOD_Information_Server_Home_Page
+    * EOS_Project_Science_Office
+===============================================================================
+Last modified: Sat Oct 14 20:13:27 1995 by Kristin Tufte
+     Kristin Tufte / tufte@cs.wisc.edu

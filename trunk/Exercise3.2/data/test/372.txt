@@ -1,0 +1,118 @@
+     Netscape 2 is recommended to view Chinese and listen to this page.
+     This page contains Java Applets.
+[Java Applet AudioItem]
+===============================================================================
+[http://www.cs.utexas.edu/users/twang/icons/new.gif] Visit our MPEG_Viewer_Demo
+Page! It's written in pure Java.
+===============================================================================
+                        [Computer_Sciences_Department]
+                        ******__Tong_Wang_(ÍõÍ®)_******
+===============================================================================
+***** About Me ... *****
+From Nanjing_(Nanking,_ÄÏ¾©), People's_Republic_of_China_(ÖÐ¹ú). I'm currently
+in the Ph.D. program of Computer_Sciences_Department, University_of_Texas_at
+Austin. I'm seeking a full-time job, here is my resume in HTML format! Click
+here for postscript_format. [http://www.cs.utexas.edu/users/twang/icons/
+new.gif]
+[http://www.cs.utexas.edu/users/twang/icons/degree.gif]
+[http://www.cs.utexas.edu/users/twang/icons/greenbal.gif] B.S., Shanghai_Jiao
+Tong_Univeristy_(ÉÏº£½»Í¨´óÑ§), Shanghai, P.R.China, 1992
+[http://www.cs.utexas.edu/users/twang/icons/blueball.gif] M.S., Tsinghua
+University_(Çå»ª´óÑ§), Beijing, P.R.China,1995
+===============================================================================
+***** New Jersey Summer *****
+Lucent_Technologies( a new systems and technology company formed as a result of
+AT&T's planned restructuring ), Bell Laboratories is the company I was working
+for this summer. Here is another homepage for Lucent_Technologies.
+===============================================================================
+***** Life in UT-Austin *****
+[http://www.cs.utexas.edu/users/twang/icons/library2.gif]Course Work
+ _____________________________________________________________________________
+|***_Spring_1996_***______|***_Fall_1995_***_______|***_Fall_1996_***_________|
+|    * Distributed        |    * Distributed       |                          |
+|      Computing II (Prof.|      Computing_I (Prof.|                          |
+|      Misra)             |      Misra)            |    * Computer_Graphics   |
+|    * Communication      |    * Database Systems  |      (Prof._Fussell)     |
+|      Networks (Prof.    |      Implementation    |    * Network_Performance |
+|      Gouda)             |      (Prof._Batory)    |      (Prof._Lam)         |
+|    * Theory of          |    * Algorithms:       |    * Multimedia_Systems  |
+|      Computation (Prof. |      Technique and     |      (Prof._Vin)         |
+|      Zuckerman)         |      theory (Prof.     |                          |
+|_________________________|______Plexton)__________|__________________________|
+
+[http://www.cs.utexas.edu/users/twang/icons/teaching.gif]Teaching Assistant
+    * CS372_:_Introduction_to_Operating_Systems, Fall 1995.
+    * CS105 : C++_Programming, Spring 1996.
+    * CS387H : Database_Implementation, Fall 1996.
+[http://www.cs.utexas.edu/users/twang/icons/teaching.gif]Presentation
+    * Fault-Tolerant_Clock_Synchronization_in_Distributed_Real-Time_Systems,
+      April 25th, 1996.
+    * Mobile_Host_Protocol, Nov., 1996.
+[http://www.cs.utexas.edu/users/twang/icons/library2.gif]Projects
+    * Mini-SQL Database Management System. C/UNIX ( CS387H course project )
+    * Network Design Tools. C++/UNIX/AT&T Standard Component Libary ( Lucent )
+    * Robot_Arm.[http://www.cs.utexas.edu/users/twang/icons/new.gif] C/OpenGL/
+      Tcl/Tk/GLUT/UNIX ( CS384G course project )
+    * MPEG decoder/player in Java.[http://www.cs.utexas.edu/users/twang/icons/
+      new.gif] Java/UNIX ( CS384M course project ) we're working on it, if you
+      can't play mpeg on this page by the end of this semester, you know we're
+      in trouble. ( He He... We made it!!! [http://www.cs.utexas.edu/users/
+      twang/icons/new.gif] Visit our MPEG_Viewer_Demo_Page!  )
+===============================================================================
+***** Music *****
+[http://www.cs.utexas.edu/users/twang/icons/music.gif] My favorites and my
+recommendations:
+ _____________________________________________________________________________
+|Mariah___________________|Boyz_II_Men_____________|Babyface__________________|
+|        [http://         |[http://                |[http://www.cs.utexas.edu/|
+|www.cs.utexas.edu/users/ |www.cs.utexas.edu/users/|users/twang/music/        |
+|twang/music/Mariah.s.gif]|twang/music/            |Babyface.s.gif]           |
+|_________________________|BoyzIIMen.s.gif]________|__________________________|
+You can get some movie and sound clips, here is some
+ _____________________________________________________________________________
+|[http://www.cs.utexas.edu/users/twang/|[http://www.cs.utexas.edu/users/twang/|
+|_________music/boyz.mov.gif]__________|music/fantacy1.mov.gif]_______________|
+|[http://www.cs.utexas.edu/users/twang/|[http://www.cs.utexas.edu/users/twang/|
+|music/sweetday.mov.gif]_______________|music/babyface.mov.gif]_______________|
+===============================================================================
+***** Misc *****
+[http://www.cs.utexas.edu/users/twang/icons/blueball.gif] Chinese_on_WWW.
+Netscape_2.0__BORDER=0>
+[http://www.cs.utexas.edu/users/twang/icons/yellowba.gif] In China, we have our
+own Chinese_Zodiac. Each person is associated with one of 12 different animals.
+So what kind animal am I associated with? Find out in this page.
+[http://www.cs.utexas.edu/users/twang/icons/greenbal.gif] My_friend_from_the
+High_School_Attached_to_Nanjing_Normal_University. My old friend, Haiqing_Lin.
+[http://www.cs.utexas.edu/users/twang/icons/orangeba.gif] My_friends_from
+Shanghai_Jiao_Tong_University. Maintained by Shenfeng_Chen, Thanks to him.
+[http://www.cs.utexas.edu/users/twang/icons/purpleba.gif]My_friends_from
+Tsinghua_University. Quite a lot!
+[http://www.cs.utexas.edu/users/twang/icons/redball.gif] Ò»µØ¼¦Ã«_(Chinese_HZ).
+===============================================================================
+***** Learning *****
+[http://www.cs.utexas.edu/users/twang/icons/www.gif]_WWW_info
+[http://www.cs.utexas.edu/users/twang/icons/library2.gif]_C++
+[http://www.cs.utexas.edu/users/twang/icons/library2.gif]_PERL [http://
+www.cs.utexas.edu/users/twang/icons/new.gif]
+[http://www.cs.utexas.edu/users/twang/icons/library2.gif]_Java_Tutorial [http:/
+/www.cs.utexas.edu/users/twang/icons/new.gif]
+===============================================================================
+***** To Reach Me *****
+3501 Lake Austin Blvd #109 Austin, TX 78703[http://www.cs.utexas.edu/users/
+twang/icons/updated.gif]
+[http://www.cs.utexas.edu/users/twang/icons/phone_yellow.gif] 512-472-3421(H
+Austin, TX) [http://www.cs.utexas.edu/users/twang/icons/updated.gif] 512-471-
+9771 (O UT-Austin)
+[http://www.cs.utexas.edu/users/twang/icons/mail3.gif]_twang@cs.utexas.edu
+===============================================================================
+[http://www.cs.utexas.edu/users/twang/icons/button_construct.gif] This page is
+still underconstruction.
+     You can check out any time you like, but you can never leave. -
+     - Eagles (1976)
+[http://www.cs.utexas.edu/users/twang/icons/bulldog.gif]
+     copyright [http://www.cs.utexas.edu/users/twang/icons/smiley.gif]
+     Tong Wang 1995, created 11/95, last modified 11/96
+     The background song "Deskmate" was performed by Lao Lang.
+     You are the [http://counter.digits.com/wc?-d&6&-r&-z&-
+     c&12&twang_homepage_counter]th visitor according to web-counter since
+     12/19/95. Don't trust it!! :) Here is the log_book.

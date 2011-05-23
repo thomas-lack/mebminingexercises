@@ -1,0 +1,26 @@
+****** Shannon Lloyd ******
+[http://www.cs.wisc.edu/~lloyd/RAIN_LINE.gif]
+  **** TA Responsibilities ****
+      CS_132 Using Computers -- Lectures 3 &amp; 4
+      Lab sections (1366 Comp S&amp;St)
+          * 354 5:20 - 6:35 pm TH
+          * 356 6:40 - 7:55 pm TH
+      Office hours (1351 Comp S&amp;St)
+          * Wednesday 12:00 - 1:00
+          * Thursday 11:00 - 12:00
+          * or by appointment
+**** Fall 1996 courses ****
+    * CS_701 Construction of Compilers (9:30 - 10:45 TH)
+    * CS 771 (545) Computational Linguistics (1:20 - 3:15 MWF)
+**** Various other links ****
+    * Women_in_Computer_Science
+    * University_of_Utah Department of Chemistry
+    * University of Utah Department of Computer_Science
+    * Personal
+    * Engineering_Career_Services
+    * Computation_and_Language_Archive
+    * Computational_Linguistics
+    * Natural_Language_Processing
+    * UW_Artificial_Intelligence
+    * Cognitive_and_Linguistic_Science
+    * xsoft_lexdemo

@@ -1,0 +1,14 @@
+****** Justin Miller -Home Page ******
+[http://www.cs.cornell.edu/Info/People/jmiller/support/jmiller.gif]
+===============================================================================
+That's me, in my Navy uniform. Currently I am a Master of Engineering student
+in Computer_Science at the College of Engineering, Cornell University. This
+semester I am a teaching assistant for COMS_664_Machine_Vision. During the day
+(and many, many long nights), I can be found in the Robotics_and_Vision_Lab
+(CSRVL), where I am a research assistant working for Prof._Ramin_Zabih. My
+primary research interest is Machine Vision, particularly low-level image
+processing.
+===============================================================================
+**** General Information ****
+**** Some of My Rantings. ****
+**** Project_Info. ****

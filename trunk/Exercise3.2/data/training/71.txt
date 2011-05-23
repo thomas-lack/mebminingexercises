@@ -1,0 +1,17 @@
+[http://www.cs.cornell.edu/Info/People/hayden/hayden.gif]
+****** Mark Hayden ******
+hayden@cs.cornell.edu
+Office:
+  4139 Upson
+  Cornell University
+  Ithaca, NY 14853
+  (607)255-4934
+
+===============================================================================
+This fall I will be teaching CS214: A Taste of Unix and C.
+My interests are:
+    * The_Horus_distributed_communication_system.
+    * The_Ensemble_distributed_communication_system.
+    * The_Nuprl_proof_development_system.
+    * Hockey.
+ Last updated November 11, 1996

@@ -1,0 +1,124 @@
+****** Jon Kleinberg ******
+  kleinber@cs.cornell.edu
+  Assistant Professor of Computer_Science
+  Cornell_University
+  Ithaca, NY 14853-7501
+ My research interests are in algorithms and combinatorial optimization, with
+an emphasis on approximation, computational geometry, network optimization and
+distributed computing, and algorithms in molecular biology. Recent work has
+included
+approximation algorithms for routing and disjoint paths problems in networks;
+adversarial queueing theory, an approach to analyzing the stability of network
+routing protocols without probabilistic assumptions;
+geometric methods in combinatorial optimization, particularly the use of
+positive semi-definite programming; and
+geometric algorithms for studying molecular conformation.
+I am spending the 1996-97 academic year visiting the IBM_Almaden_Research
+Center.
+Click here to see
+    * Selected_Publications
+    * Miscellaneous_Links
+***** PAPERS *****
+**** Approximation Algorithms and Combinatorial Optimization ****
+J. Kleinberg. Single-source_unsplittable_flow. Proc. 37th IEEE Symposium on
+Foundations of Computer Science, 1996, to appear.
+J. Kleinberg, R. Rubinfeld. Short_paths_in_expander_graphs. Proc. 37th IEEE
+Symposium on Foundations of Computer Science, 1996, to appear.
+J. Kleinberg, E. Tardos. Disjoint_paths_in_densely_embedded_graphs. Proc. 36th
+IEEE Symposium on Foundations of Computer Science, 1995.
+J. Kleinberg, E. Tardos. Approximations_for_the_disjoint_paths_problem_in_high-
+diameter_planar_networks. Proc. 27th ACM Symposium on Theory of Computing,
+1995.
+A. Aggarwal, J. Kleinberg, D. Williamson. Node-disjoint_paths_on_the_mesh,_and
+a_new_trade-off_in_VLSI_layout. Proc. 28th ACM Symposium on Theory of
+Computing, 1995.
+M. Goemans, J. Kleinberg. An_improved_approximation_ratio_for_the_minimum
+latency_problem. Proc. 7th ACM-SIAM Symposium on Discrete Algorithms, 1996.
+J. Kleinberg, M. Goemans. The_Lovasz_theta_function_and_a_semi-definite
+programming_relaxation_of_vertex_cover. To appear in SIAM J. Discrete Math.
+**** On-Line Algorithms ****
+J. Kleinberg. The_localization_problem_for_mobile_robots. Proc. 35th IEEE
+Symposium on Foundations of Computer Science, 1994.
+J. Kleinberg. On-line_search_in_a_simple_polygon. Proc. 5th ACM-SIAM Symposium
+on Discrete Algorithms, 1994.
+J. Kleinberg. A_lower_bound_for_two-server_balancing_algorithms. Information
+Processing Letters 51(1994).
+R. El-Yaniv, J. Kleinberg. Geometric_two-server_algorithms. Information
+Processing Letters 53(1995).
+J. Kleinberg. On-line_algorithms_for_robot_navigation_and_server_problems. MIT/
+LCS/TR-641. (Master's Thesis.)
+**** Parallel and Distributed Computing ****
+D.M. Andrews, B. Awerbuch, A. Fernandez, J. Kleinberg, F.T. Leighton, Z. Liu.
+Universal_stability_results_for_greedy_contention-resolution_protocols. Proc.
+37th IEEE Symposium on Foundations of Computer Science, 1996, to appear.
+A. Borodin, J. Kleinberg, P. Raghavan, M. Sudan, D. Williamson. Adversarial
+queueing theory. Proc. 28th ACM Symposium on Theory of Computing, 1995.
+J. Kleinberg, H. Attiya, N. Lynch. Trade-offs_between_message_delivery_and
+quiesce_times_in_connection_management_protocols. Proc. 3rd Israel Symposium on
+Theory of Computing and Systems, 1995.
+J. Kleinberg, S. Mullainathan. Resource_bounds_and_combinations_of_consensus
+objects. Proc. 12th ACM Symposium on Principles of Distributed Computing, 1993.
+**** Geometric Algorithms ****
+B. Berger, J. Kleinberg, F.T. Leighton. Reconstructing a Three-Dimensional
+Model with Arbitrary Errors. Proc. 28th ACM Symposium on Theory of Computing,
+1995.
+D. Huttenlocher, J. Kleinberg. Comparing_point_sets_under_projection. Proc. 5th
+ACM-SIAM Symposium on Discrete Algorithms, 1994.
+D. Huttenlocher, K. Kedem, J. Kleinberg. On_dynamic_Voronoi_diagrams_and_the
+minimum_Hausdorff_distance_for_point_sets_under_Euclidean_motion_in_the_plane.
+Proc. 8th ACM Symposium on Computational Geometry, 1992.
+D. Huttenlocher, J. Kleinberg, Invariants_of_set_of_points_or_line_segments
+under_projection. Cornell University Computer Science Technical Report TR 92-
+1292, July 1992.
+***** SOME LINKS *****
+**** Search Tools and Bibliographies ****
+    * AltaVista.
+    * Infoseek.
+    * Excite.
+    * Yahoo.
+    * NYNEX_Yellow_Pages.
+    * Glimpse_computer_science_bibliographies.
+    * NCSTRL:_Networked_Computer_Science_Technical_Reports_Library.
+    * David_Jones's_Hypertext_Bibliography_Project.
+**** Academic Sites ****
+    * Cornell_University.
+    * Cornell_Computer_Science.
+    * Cornell_Operations_Research.
+    * MIT_Lab_for_Computer_Science.
+    * MIT_LCS_Theory_of_Computation_Group.
+    * Stanford_Computer_Science.
+    * Berkeley_Computer_Science.
+    * Computing_Research_Association.
+    * National_Science_Foundation.
+**** Theory of Computing ****
+    * TCS_Virtual_Address_Book.
+    * Bibliographies_on_Theory/Foundations_of_Computer_Science.
+    * Crescenzi/Kann_Compendium_of_NP_Optimization_Problems.
+    * 1996_FOCS_conference.
+    * 1997_SODA_conference.
+    * 1997_STOC_conference.
+**** Computational Biology ****
+    * Computational_Biology_at_USC.
+    * CARB_Biocomputing_Resources.
+    * SDSC's_List_of_Computational_Biology_Servers.
+**** Computational Geometry ****
+    * David_Eppstein's_Geometry_Junkyard.
+    * Jeff_Erickson's_Computational_Geometry_Page.
+**** Internet Security ****
+    * MITRE_Corp.'s_Security_Information_Resources.
+    * Princeton_Safe_Internet_Programming_Group.
+    * Ron_Rivest's_Cryptography_and_Security_Links.
+**** Miscellaneous ****
+    * Netscape.
+    * Intellicast.
+    * CNN_Interactive.
+    * U.S._Tennis_Association.
+    * U.S._Chess_Online.
+    * Car_Talk.
+     Jon M. Kleinberg
+     Department of Computer Science
+     Upson Hall
+     Cornell University
+     Ithaca, NY 14853
+     (607)255-4117
+     kleinber@cs.cornell.edu

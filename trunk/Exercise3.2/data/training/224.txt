@@ -1,0 +1,60 @@
+                                        Cliff Chaput
+                                        The_University_of_Texas_at_Austin
+                                        Department_of_Computer_Sciences
+[http://www.cs.utexas.edu/users/chaput/ Taylor Hall 2.124
+haz3.jpeg]                              Austin, TX 78712
+                                        RobotLab: (512) 471-9563
+                                        Home: (512) 453-DULL
+                                        chaput@cs.utexas.edu
+===============================================================================
+Cliff got his B.A. in Computer Studies from Northwestern_University in 1990,
+but got himself employed as a programmer anyway. He spent two years writing an
+email client and a portable visual object library for Odesta_Systems
+Corporation. He left there for the Institute_for_the_Learning_Sciences in 1992,
+where he wrote educational and traning software in Macintosh Common Lisp, and
+then implemented a simulated environment for educating high school students
+called the GAMES_Project.
+Cliff is now a graduate student in the Computer_Sciences Ph.D. program at UT
+Austin. He hangs out in the Robotics_Lab annoying people with his hair-brained
+schemes about meaning, non-symbolic representation, and artificial life.
+When not programming, Cliff sleeps. In his dreams, he reads and writes fiction;
+listens to Ali Farka Toure and Medeski, Martin and Wood; watches MST3K reruns;
+plays on his Korg DS-8; and rides his bike all over. Turnons include: breakfast
+in bed, new system versions, and raspy-voiced_Starfleet_captains. Turnoffs:
+republicans, Microsoft, hangovers.
+===============================================================================
+*** Fave Sites: ***                     *** Now Playing: ***
+    * Current Events                        * MST3K_Catch_Phrase_Catalog
+          o Daily_News_from_Reuters     =======================================
+          o Intellicast_Weather         *** Papers and Software ***
+                # Austin,_TX                * The_Résumé
+                # Chicago,_IL               * Symbol_Emergence_and_Symbol
+    * Periodicals                             Grounding
+          o Suck                            * RobotMap_for_Macintosh_(fat)
+          o Salon                       =======================================
+          o Mirsky's_Worst_of_the_Web   *** People ***
+          o The_Onion                       * Dave_Faloon
+          o MacWeek                         * Charles_Lewis
+          o MacUser                         * Jeff_Lind
+    * Reference                             * Jeff_Sherwood
+          o Hypertext_Webster_Interface     * Brian_Slator
+          o Yahoo                           * Sandy_Stone
+          o Alta_Vista
+          o Cardiff_Movie_Database
+          o Lycos_Road_Map
+          o alt.culture
+    * Macintosh Data
+          o Apple_Computer
+                # CyberDog
+                # QuickTime
+                # QuickDraw_3D
+                # Apple_Support
+          o MacInTouch
+          o Macintosh_Resource
+          o Cyberdog_Pound
+          o Info-Mac_Archive_Root
+    * Cool/Weird Stuff
+          o Fringeware
+          o The_ACTLab
+          o PBS
+          o NPR

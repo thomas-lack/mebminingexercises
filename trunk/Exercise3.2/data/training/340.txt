@@ -1,0 +1,28 @@
+****** Qualitative Reasoning Research at UTexas ******
+The Qualitative Reasoning (QR) research group does research in several areas.
+    * Qualitative_Reasoning_about_the_Physical_World_(QSIM).
+          o Indexed_bibliography of our research papers.
+          o QSIM_Users: applications of QSIM-like systems.
+    * Spatial_Reasoning_and_Intelligent_Robotics_(TOUR_and_SSH).
+          o Indexed_bibliography of our research papers.
+    * Access-Limited_Logic_for_Knowledge_Representation_(Algernon).
+          o Indexed_bibliography of our research papers.
+The QR group is supervised by Professor Benjamin_Kuipers
+(kuipers@cs.utexas.edu). It is part of the Artificial_Intelligence_Lab and the
+Computer_Science_Department, at the University_of_Texas_at_Austin.
+***** Pointers *****
+    * What's_New.
+    * The Qualitative_Reasoning_book
+    * Graduate students:
+          o in_Qualitative_Reasoning,
+          o in_Robotics,
+          o in_Knowledge_Representation.
+    * Alumni_(including_dissertations)_and_visitors all over the world.
+          o Dissertation_abstracts,
+    * Yellow_Pages.
+Papers and software are most easily accessible via the research area
+descriptions, but you can also visit our:
+    * FTP_directory_for_papers;
+    * FTP_directory_for_software_and_other_documents.
+===============================================================================
+     BJK

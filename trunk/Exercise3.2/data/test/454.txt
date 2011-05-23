@@ -1,0 +1,32 @@
+****** Dylan James McNamee [http://www.cs.washington.edu/homes/dylan/
+miniDylan.gif] ******
+[Free_Speech_Online!]
+     dylan@cs.washington.edu
+     Computer_Science_&_Engineering_Department,
+     University_of_Washington, FR-35,
+     Seattle,_WA 98195 USA
+===============================================================================
+Here is some personal_information.
+***** What I do: *****
+My research has concentrated on the interaction between applications and
+operating systems. I implemented an operating system mechanism that allowed
+applications to implement their own page replacement policy when the kernel's
+policy caused them to perform poorly.
+After that, I helped implement "scheduler activations" in the Mach operating
+system. Scheduler activations are a mechanism that help user-level threads
+systems interact properly with the kernel thread scheduler.
+These experiences lead me to work with the SPIN_project folks, who are building
+a new operating system architecture that generalizes the idea of application-
+tailorable operating systems.
+My current work carries on the research started in the Opal_project. My thesis
+is investigating the interaction between Object-oriented databases (OODBs) and
+operating system virtual memory. This work is demonstrating that significant
+improvements in performance can be achived using commodity operating systems,
+but in a different way than is currently done. Additional improvements can come
+from modifying the operating system slightly to better serve OODBs.
+***** Papers *****
+***** CV *****
+***** 590S_course_web *****
+Geoff Voelker and I built this web for the Winter 96 quarter of the 590S
+systems seminar, which was dedicated to Java. I gave a lecture introducing the
+Java language and environment. Here are the slides_I_used.

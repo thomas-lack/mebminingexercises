@@ -1,0 +1,12 @@
+****** Nobuhiko Mukai ******
+[http://www.cs.cornell.edu/Info/People/mukai/mukai.gif]
+===============================================================================
+===============================================================================
+
+===============================================================================
+This is a home page of Nobuhiko Mukai.
+Now, it's under construction.
+We researched an_effective_JPEG_compression on Multimedia systems (CS631) last
+fall semester (1995).
+I made an animation titled magic on Computer Graphics (CS418) spring semester
+(1996).

@@ -1,0 +1,19 @@
+[http://www.cs.utexas.edu/users/UTCS/report/1994/profiles/gallagher.gif]
+****** Suzy C. Gallagher ******
+Lecturer; Coordinator of Academic Programs
+B.S. in Secondary Education (1962)
+Loyola University
+M.S. in Computer Science (1985)
+University of Southwestern Louisiana
+***** Professional Service *****
+    * SIGCSE Conference Committee, 1991 NECC Conference Committee, 1992 CSC
+      Conference Committee, 1993-94
+***** Areas of Interest *****
+Computer science education and library and information processing
+***** Summary of Research *****
+My interests are in the area of 1) student services: recruitment and retention
+of women and minorities, improvement of computer science education in secondary
+schools and local-area universities; and 2) IS&R Systems: retrieval techniques.
+Additional information can be obtained from individual_faculty_members'_home
+pages.
+[http://www.cs.utexas.edu/icons/UTCS/up.gif]Back_to_List_of_Faculty_Profiles

@@ -1,0 +1,61 @@
+****** Markus Mock
+mock@cs.washington.edu ******
+[http://www.cs.washington.edu/homes/mock/mum.gif]
+     Computer_Science_&_Engineering_Department,
+     University_of_Washington, FR-35,
+     Seattle,_WA 98195 USA
+===============================================================================
+Welcome to Markus' home page.
+===============================================================================
+***** About myself *****
+I moved from Karlsruhe, Germany to Seattle in fall 94. For those interested in
+geography, Karlsruhe is located in the southwest of Germany, in the state of
+Baden-Württemberg. I grew up in another part of that state, in the district of
+Biberach in Upper Swabia (Oberschwaben). Before coming to the UW I studied
+Computer Science at the University_of_Karlsruhe from which I obtained a
+"Diplom" (M.S.) in Computer Science in 1992. I also spent one year at UMass as
+a Fulbright grantee. My main research interests are parallel and distributed
+computing, object-oriented systems and compilers. Currently I am working on
+dynamic_compilation.
+Non-CS interests include Spanish and Latin_American_Culture, travel, e.g. to
+[Peru] good books, e.g. The_Labyrinth_of_Solitude, chess non-mainstream movies,
+eg Die_Angst_des_Torwarts_beim_Elfmeter (do you know Handke?) and salsa_or
+merengue dancing with [http://www.cs.washington.edu/homes/mock/heart.jpg] And,
+if there's still time left, I check out what else to_do in Seattle.
+More to come..
+===============================================================================
+***** Publications *****
+Separate_List
+===============================================================================
+***** Some links to other interesting stuff *****
+    * Current_Chess_Event:_Chess_Olympiad_Yerewan
+    * Colloquia
+    * OOPSLA_96_Volunteers_Page
+    * Mossy_Bits,_CSE_Grad_Journal
+    * A_link_to_the_CSE590K_home_page
+    * A_link_to_the_CSE543_Home_Page
+    * A_link_to_the_CSE590BI_home_page
+    * A_link_to_the_CSE590S_home_page
+    * Other_CSE_Courses
+    * Other_graduate_students
+    * Images_of_UW
+    * Department_of_Electrical_Engineering
+    * You wouldn't expect, but they have a Red_Square here (live view)
+    * Metacrawler_Searching
+    * Altavista_Searching
+    * Who?_Where?
+    * Deutsche_Welle_on_RealAudio,_live!
+    * CS_Stuff
+    * Other_cool_links
+===============================================================================
+***** And a quote: *****
+Consider the lilies of the field, how they grow: they toil not, neither do they
+spin; and yet I say unto you, that even Solomon in all his glory was not
+arrayed like one of these.
+Matthew 6:28
+===============================================================================
+[http://www.cs.washington.edu/homes/mock/carta.gif]
+This page has been accessed [http://counter.digits.com/wc/-d/4/-z/mmcountme]
+times since 3/28/96.
+     Last updated Tue Sep 17 11:34:14 PDT 1996
+     mock@cs.washington.edu

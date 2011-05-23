@@ -1,0 +1,70 @@
+****** Jacob Kornerup ******
+[Blue_ribbon_campaign]
+Welcome to my home page !
+I am a Ph.D. student in candidacy in the Department_of_Computer_Sciences at The
+University_of_Texas_at_Austin.
+****** Research ******
+My dissertation is on Powerlists, a functional notation for describing
+synchronous parallel algorithms. In this work I study how the notation can be
+mapped efficiently onto different parallel architectures, including hypercubes
+and meshes. My advisor is Jayadev_Misra, who invented the powerlist notation
+and heads the PSP_group here at UT. For more information about my research see
+my list_of_papers.
+****** Teaching ******
+[Faculty]In the spring and fall semesters of 1995 I taught CS_105_C++
+Programming in the Department_of_Computer_Sciences at The_University_of_Texas
+at_Austin.
+****** Contact Information ******
+  Office:
+      UA-9 4.116G, 2609 University Ave., 471-9766.
+  Email address:
+      kornerup@cs.utexas.edu
+  Finger_information
+  Postal address:
+      [mail]The University of Texas at Austin
+      Department of Computer Sciences, TAY 2.124
+      Austin, TX 78712-1188
+  My resume is available in Postscript or Ascii along with my vitae_(html).
+  [New]
+  You can find my neighborhood from a map of the US.
+***** My Hotlist *****
+Some frequently-used or interesting WWW nodes I've run across:
+    * PSP group: To make our work available the PSP group (Dr. Misra, Will
+      Adams, Al Carruth, Markus Kaltenbach and me) has created a home_page. PSP
+      stands for Programs, Specifications and Proofs
+    * Formal Methods One of my professional goals is to promote the use of
+      formal methods by introducing them early on in the undergraduate
+      curriculum. A good place to learn more about this is the Formal_Methods
+      home page at Oxford.
+      Some very good arguments for using formal methods can be made after
+      reading the ARIANE_5_Flight_501_Failure_Report or looking at my_page_of
+      quotes_that_support_the_use_of_formal_methods.
+    * The Computer Science Departments Home Page Our department has a home_page
+      with access to web pages for students, staff and faculty. It also has
+      access to The_University's_web_server.
+    * CS Tech Reports & Bibliographies:  For access to a collection of
+      technical reports have a look at The_New_Zealand_Digital_Library.
+      The_Collection_of_Computer_Science_Bibliographies is a comprehensive
+      collection of bibliographies in computer science. Hey, I even have
+      entries there :-)
+    * Volleyball info: Look at Volleyball_WorldWide for useful info about a
+      great sport. You used to be able go over to Gregory Gym, here on the UT
+      campus, where you could find pictures of the mostly CS Grad/Law/faculty/
+      staff intermural champs of 91, 92 and 95, and runners-up of 93 and 94
+      High Voltage Spikes and Last Minute.
+****** A Great Day for the First Amendment ******
+News flash (June 11 1996): The indecency provision in the newly passed
+Telecommunication Bill has been ruled unconstitutional by a three member panel
+of federal judges. For details see the EFF's blue_ribbon_campaign.
+On February 8, 1996 the Telecommunication Bill was signed into law, making it
+criminal to transmit indecent material over the net. This means that our
+freedom of speech was limited to what does not offend anyone in Round Rock, TX
+or Salt Lake City, UT.
+Please support the Electronic_Frontier_Foundation_(EFF) and other organizations
+in their fight against this law. You can support this effort by including the
+blue_ribbon on your page.
+===============================================================================
+This page was created on April 19, 1994 and has been accessed [http://
+www.cs.utexas.edu/pub/cgi/Count.cgi?ft=3&dd=B&frgb=0;0;255|df=kornerup1.dat]
+times since March 13 1996
+     Jacob_Kornerup

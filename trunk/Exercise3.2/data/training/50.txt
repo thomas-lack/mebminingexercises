@@ -1,0 +1,44 @@
+****** Dean's Points of Interest ******
+===============================================================================
+  ***** Cornell Servers: *****
+      [http://www.cs.cornell.edu/Icons/redball.gif] Cornell_CS_home_page
+      [http://www.cs.cornell.edu/Icons/redball.gif] CUINFO_Web_Server
+      [http://www.cs.cornell.edu/Icons/redball.gif] Engineering_Library_page
+      [http://www.cs.cornell.edu/Icons/redball.gif] Cornell_Legal_Information
+      Institute
+      [http://www.cs.cornell.edu/Icons/redball.gif] Cornell_Directories
+  ***** CS-TR Project: *****
+      [http://www.cs.cornell.edu/Icons/redball.gif] CS-TR_public_server_page
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] DIMUND_Document_Image
+      Understanding_and_Character_Recognition_WWW_Server
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] SIAM_gopher_server
+      [http://www.cs.cornell.edu/Icons/redball.gif] CS_737_-_Information
+      Capture_and_Access_Course
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] Illinois_Digital_Library
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] Stanford_Digital_Library
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] Michigan_Digital_Library
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] Berkeley_Digital_Library
+  ***** Search Tools: *****
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] The_Lycos WWW Search
+      Engine
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] Veronica: a GOPHER
+      Search Tool
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] The_Archie_Gateway:
+      search Anonymous FTP sites
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] The CMU_CS_Department
+      has put together an_excellent_collection_of_search_tools.
+  ***** Network Information: *****
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] Scout_Report at
+      Internic.
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] Planet_Earth and the
+      Whole_Internet_Catalog, which is part of the Global_Network_Navigator.
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] CERN_WWW_Reference_Page
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] All_the_FAQs
+  ***** Various Stuff: *****
+      [http://www.cs.cornell.edu/Icons/greenball.gif] DAT-heads_Mailing_List
+      [http://www.cs.cornell.edu/Icons/greenball.gif] Pro_Audio_Gear
+      [http://www.cs.cornell.edu/Icons/greenball.gif] FolkBook
+      [http://www.cs.cornell.edu/Icons/greenball.gif] Folk_Music_Home_Page
+      [http://www.cs.cornell.edu/Icons/greenball.gif] Ithaca_Weather_Forecast
+      and the weather_elsewhere
+      [http://www.cs.cornell.edu/Icons/yellowball.gif] Security_Reference_Index

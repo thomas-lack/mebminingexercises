@@ -1,0 +1,33 @@
+***************************************************************************>
+***************************************************************************>
+***************************************************************************>
+[http://www.cs.cornell.edu/ ****** Christoph Kreitz [http://www.cs.cornell.edu/
+Info/People/kreitz/bitmaps/ ******                  Info/People/kreitz/bitmaps/
+wizard.xbm]                                         dsklogo2.xbm]
+
+My own picture soon                                 Research Associate
+[http://              Department_of_Computer   Office:    4159_Upson_Hall
+www.cs.cornell.edu/   Science                  Phone:
+Info/People/kreitz/   Cornell_University       Fax:       ++ 1 (607) 255 1068
+bitmaps/mail.xbm]     Ithaca, NY 14853         Email:     ++ 1 (607) 255 4428
+                      USA                                 kreitz@cs.cornell.edu
+===============================================================================
+**** [http://www.cs.cornell.edu/Info/ **** Teaching and Learning (German):
+People/kreitz/bitmaps/research.gif]   [http://www.cs.cornell.edu/Info/People/
+Research Topics: ****                 kreitz/bitmaps/scroll.xbm] ****
+    * Program_Synthesis                   * Lehre_und_Lernen
+    * Automated_Deduction_and_Type        * Vorlesungsskripte
+      Theory                              * Medienunterstütztes_Lehren
+    * Theory_of_Computation
+
+===============================================================================
+
+
+ [http://www.cs.cornell.edu/Info/People/kreitz/bitmaps/garfield.xbm] [http://
+    www.cs.cornell.edu/Info/People/kreitz/bitmaps/hourglass.xbm] This is my
+     personal home page. More information will be available soon. [http://
+     www.cs.cornell.edu/Info/People/kreitz/bitmaps/under-construction.gif]
+Last modified: November 6, 1996
+                                     Christoph_Kreitz / t>kreitz@cs.cornell.edu
+SOME_LINKS
+***************************************************************************>

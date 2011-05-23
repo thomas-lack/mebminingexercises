@@ -1,0 +1,76 @@
+                           ****** Jeff Moore ******
+===============================================================================
+ __________________________________________________________
+|[http://www.cs.cornell.edu/Info/People/jmm/images/jmm.jpg]|
+[Java Applet GradClock.class]
+===============================================================================
+[http://www.cs.cornell.edu/Info/People/jmm/images/cornell.gif] [http://
+www.cs.cornell.edu/Info/People/jmm/images/purdue.gif] Well, currently I am a
+graduate student at Cornell. I am working on a Masters of Engineering in
+Computer Science. I received my BS in Computer_Science from Purdue_University
+in West Lafayette, Indiana. I went to high school at Hillsboro_High_School in
+Hillsboro, Oregon (a suburb of Portland).
+
+===============================================================================
+***** Employment *****
+My resume is here for anyone who is interested. I will be working at Intel in
+the Internet Products Division creating cool software.
+===============================================================================
+***** Spring 1996 Classes *****
+    * NBA610_-_Thriving_on_the_Information_Revolution in the Entertainment
+      Sector
+    * CS514_-_Practical_Distributed_Systems
+    * CS515_-_Practicum_in_Distributed_Systems and the CORNELLopoly game.
+    * CS516_-_High_Performance_Computer_Architecture and the $500_Network
+      Computer.
+    * CS790_-_Optimal_Parallel_MPEG_Encoding_Research
+***** Fall 1995 Classes *****
+    * CS501_-_Software_Engineering:_Technology/Technique
+    * CS513 - Formal Methods
+    * CS631_-_Multimedia_Systems and the Research_Paper
+    * CS709 - Computer Science Colloquium
+    * CS717_-_Cool_Software_Tools_Seminar and presented OLE,_OpenDoc,_and_MFC
+    * Optimal_Parallel_MPEG_Encoding_Research
+===============================================================================
+[http://www.cs.cornell.edu/Info/People/jmm/images/java-100.gif] [http://
+www.cs.cornell.edu/Info/People/jmm/images/inktomi.jpg]
+===============================================================================
+                         **** Software Companies ****
+ ___________________________
+|Microsoft|Netscape___|Lotus|
+|Novell___|WordPerfect|Corel|
+|Oracle___|Apple______|IBM__|
+                         **** Hardware Companies ****
+ __________________________
+|Intel|Silicon_Graphics|IBM|
+|Sun__|Apple___________|
+                              **** Magazines ****
+ _______________________________________________________
+|PC_Magazine_____|PC_Week______________|PC_Computing____|
+|Computer_Shopper|Windows_Sources______|Computer_Life___|
+|MacUser_________|MacWeek______________|Interactive_Week|
+|Family_PC_______|Computer_Gaming_World|
+===============================================================================
+                        **** Electronic Newspapers ****
+ ___________________________________________________________________________
+|USA_Today______________|Wall_Street_Journal________|New_York_Times_________|
+|Philadelphia_Online    |The_Daily_News_Worldwide   |The_Dallas_Morning_News|
+|_______________________|___________________________|Opinions_______________|
+|The_Detroit_Free_Press |The_Knoxville_News-Sentinel|The_Leader_OnLine      |
+|Gopher_________________|___________________________|_______________________|
+|LAT-WP_News_Service    |The_Nugget_Newspaper_for   |RWorld_From_The_Orange |
+|_______________________|Sisters,_Oregon____________|County_Register________|
+|The_San_Francisco      |San_Jose_Mercury           |The_Seattle_Times      |
+|Chronicle_&_Examiner___|___________________________|_______________________|
+|NandO.net______________|USA_Today__________________|Boston_Globe___________|
+|Portland_Press_Herald_-|
+|Maine_Sunday_Telegram__|
+===============================================================================
+Visitors since 30 January 1996: [http://counter.digits.com/wc?-d&6&jmmCornell]
+===============================================================================
+     Campus Address:
+     201 Maple Ave. Apt #F08D
+     Ithaca, New York 14850
+     (607) 272-8827
+     Last Updated: 03 April 1996
+     jmm@cs.cornell.edu

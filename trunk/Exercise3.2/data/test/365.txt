@@ -1,0 +1,26 @@
+****** Sunghee Choi ******
+===============================================================================
+Welcome to my home page. This page is under construction.
+***** Hi! *****
+I am in Master's program in the Department_of_Computer_Sciences at the
+University_of_Texas_at_Austin.
+Education:
+    * B.S. in Computer_Engineering, Seoul_National_University, Seoul, Korea,
+      August, 1995.
+Work Experiences:
+    * 1996.6 - present : System Administrator for the Department_of_Chemical
+      Engineering at the University_of_Texas_at_Austin.
+    * 1995.9 - 1996.5 : Graduate Research Assistant for Prof._Aloysius_Mok in
+      UTCS_Real-time_Systems_Research_Group.
+**** Contact Information: ****
+    * Work: (512) 471-1024 (CPE 5.440)
+    * Home: 1700 Nueces #102 Austin, TX 78701 (512) 472-9128
+===============================================================================
+Click here to see the list of machines I'm currently logged in.
+Click here to finger me.
+===============================================================================
+     Author:Sunghee_Choi
+     Email:sunghee@cs.utexas.edu
+     Last Updated:September 24, 1996
+===============================================================================
+**** |UTCS_home| UT_home| ****

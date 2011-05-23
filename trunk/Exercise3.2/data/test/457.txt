@@ -1,0 +1,40 @@
+****** Ed's home page ******
+[http://www.cs.washington.edu/homes/edhong/space_tr.gif]
+Did you know that I'm a second year graduate computer science student at the
+University of Washington? Well I am. And that's all I have to say about that.
+For those business type people with little time on their hands, I had to
+include my resume link at the top, in postcript and in plain text form.
+My office: room 233 Seig Hall; (206)543-7798.
+My current home: (206) 244-1261
+Currently, I'm working with Anna Karlin and Craig Chambers on a theoretical
+model for dynamic compilation. More specifically, I'm working on developing an
+on-line algorithm that will work well for dynamic compilation. I plan this to
+be my quals project.
+[http://www.cs.washington.edu/homes/edhong/space_tr.gif]
+[http://www.cs.washington.edu/htbin-post/speed/
+nph-count?width=5&link=http://www.cs.washington.edu/homes/edhong/home.html]
+ accesses since 26 August 1996.
+    * Historical_facts_about_me.
+    * Free_time_activites.
+    * vine_and_branches
+My Sister wanted a home page, so I helped her create one. I also have a list of
+various people that I know, on another_web_page.
+One of my interests includes keeping up on the computer industry. These sites
+give insightful commentary on what's happening. If you know of any other such
+places, please mail me.
+    * c|net
+    * davenet
+I own a Power Macintosh, so I guess that makes me biased towards liking macs.
+However, I think better computers that are even easier to use have yet to
+come....
+[http://www.cs.washington.edu/homes/edhong/chain.gif] Here are places that are
+I sometimes visit:
+    * CNN
+    * Apple_Computer
+    * check_the_Seattle_freeway_traffic
+    * look_for_advice_in_the_most_important_book_in_the_world
+Here's some useful information that I always wanted to know but just found...
+    * find_an_address_in_the_U._S.
+    * domain_names - find out what country your e-mail friends are in. What
+      does .se stand for?
+     edhong@cs.washington.edu

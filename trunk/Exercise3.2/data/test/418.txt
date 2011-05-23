@@ -1,0 +1,42 @@
+"document.mailme.submit()">
+                            ****** Zhu Qing ******
+                                  [________]
+
+Hi, friend! Welcome to my homepage. As you know, I am a graduate student in the
+Department_of_Computer_Scinces, the_University_of_Texas_at_Austin.
+I was born in Beijing, the capital city of China. I got my Bachelor degree in
+Peking_University. You will meet a lot of my_friends_and_former_classmates_in
+Peking_University. Here you can find more people in the Peking_University
+Alumni_Home_Page_(Overseas).
+   Now I enjoy living in Austin, Texas.
+Peeking through the following sites, you will know what I am doing, what I
+like, and what I am, as well as find lots of valuable information and fun!
+                                 [0=0 -------]
+***** Professional *****
+    * Internet
+    * PC-related
+    * Mac-related
+***** After Work *****
+    * Netscape_Dynamic_Document_Test
+    * Twins-Elder
+    * Twins-Younger
+    * Netscape_Dynamic_Document_Test2
+    * Animation_2
+    * Dancing_Title
+    * Dancing_Title_Test2
+    * Another_Netscape_Dynamic_Document_Test
+    * Yet_Another_Netscape_Dynamic_Document_Test
+***** Friends *****
+This is a China_Travel_Site maintained by my former classmate Xue, Xiaohai.
+Here is one of my best friend in China -- Shan,_Shinan. Clike here to see.
+Clike there, student.
+You are visitor number [Sorry,_No_Image_Rendering_Capability], since October 5,
+1995.
+                                  [________]
+[AT-WORK:]This site is under construction!
+Last modified: Oct 9, 1995
+     Zhu, Qing
+     University of Texas at Austin
+     Department of Computer Sciences
+     Austin, TX 78712
+     zhuqing@cs.utexas.edu

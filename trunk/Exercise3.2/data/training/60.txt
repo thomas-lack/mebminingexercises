@@ -1,0 +1,32 @@
+[http://www.cs.cornell.edu/Info/People/fms/fms.gif]
+****** Frederick Smith(Grad Student) ******
+     fms@cs.cornell.edu
+5154 Upson Hall
+Department of Computer Science
+Cornell University
+Ithaca, NY 14853
+(607) 254-5075
+===============================================================================
+***** Papers: *****
+    * Ernie_Cohen,_Dexter_Kozen,_and_Frederick_Smith._The_complexity_of_Kleene
+      algebra_with_tests._Technical_Report_TR96-1598,_Cornell_University,_July
+      1996.
+    * Dexter_Kozen_and_Frederick_Smith._Kleene_algebra_with_tests:_completeness
+      and_decidability._Technical_Report_TR96-1582,_Cornell_University,_April
+      1996.
+===============================================================================
+***** Personally Useful Links: *****
+    * Dexter_Kozen's_Homepage
+    * Greg_Morrisett's_Homepage
+    * Programming_Language_Research_Page
+    * Classes I am taking:
+          o CS 601:Systems
+          o CS_631:_Multimedia
+          o CS_611:_Semantics_of_Programming_Languages
+          o Math 413: Introduction to Analysis
+===============================================================================
+***** Fun Links: *****
+    * Epicurious: A Food-zine
+    * CarTalk: Home of Click and Clack. Catch them on NPR, Sundays at 13:00
+===============================================================================
+     Last updated August 28, 1996

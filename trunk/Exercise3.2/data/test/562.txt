@@ -1,0 +1,13 @@
+**** Who ****
+I am a graduate student at the University of Washington in Seattle.
+**** What ****
+I did my Master's thesis in wireless mobile computing designing and building a
+system called Mobisaic. Currently I'm avoiding settling on a thesis topic.
+**** Where ****
+Chateau 109D (Guggenheim Annex)
+University of Washington
+Seattle, Washington 98195
+===============================================================================
+Looking for Emacs_for_Windows_NT_and_Windows_95?
+===============================================================================
+     Geoff_Voelker_(voelker@cs.washington.edu)

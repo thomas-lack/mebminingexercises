@@ -1,0 +1,47 @@
+****** Diane Law ******
+PhD Student
+Department of Computer Sciences
+The University of Texas at Austin
+===============================================================================
+***** Research Interests *****
+The symbol grounding problem Navigation for robotic agents using neural
+networks evolved through the use of genetic algorithms.
+***** Education *****
+    * [http://www.cs.utexas.edu/users/dianelaw/red-ball.gif] M.S. in Computer
+      Science, The University of Texas at Austin, 1994.
+      [http://www.cs.utexas.edu/users/dianelaw/red-ball.gif] B.A. in Computer
+      Science, The University of Texas at Austin, 1991.
+      [http://www.cs.utexas.edu/users/dianelaw/red-ball.gif] B.A. in Spanish
+      Literature, Washington State University, 1978.
+      [http://www.cs.utexas.edu/users/dianelaw/red-ball.gif] B.A. in Fine Arts,
+      Washington State University, 1976.
+***** Contact Information *****
+  Office:
+      Taylor Hall 5.145
+      Phone: (512) 471-9730
+  Email address:
+      dianelaw@cs.utexas.edu
+  Postal address:
+      The University of Texas at Austin
+      Department of Computer Sciences, TAY 2.124
+      Austin, TX 78712-1188
+===============================================================================
+***** Local Links *****
+    * [http://www.cs.utexas.edu/users/dianelaw/red-ball.gif] UTCS_Neural
+      Networks_home_page
+      [http://www.cs.utexas.edu/users/dianelaw/red-ball.gif] AI_lab_home_page
+      [http://www.cs.utexas.edu/users/dianelaw/red-ball.gif] UTCS_home_page
+      [http://www.cs.utexas.edu/users/dianelaw/red-ball.gif] UT_Austin_home
+      page
+***** Genetic Algorithm Links *****
+    * [http://www.cs.utexas.edu/users/dianelaw/orange-ball.gif] GANN - Genetic
+      Algorithms and Neural Networks
+      [http://www.cs.utexas.edu/users/dianelaw/orange-ball.gif] IlliGAL_Home
+      Page
+      [http://www.cs.utexas.edu/users/dianelaw/orange-ball.gif] Santa_Fe
+      Institute
+      [http://www.cs.utexas.edu/users/dianelaw/orange-ball.gif] GA_Digest
+      Archive
+      [http://www.cs.utexas.edu/users/dianelaw/orange-ball.gif] University_of
+      Michigan_GA_Research_Group
+===============================================================================

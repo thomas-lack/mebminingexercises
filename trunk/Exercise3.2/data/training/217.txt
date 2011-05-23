@@ -1,0 +1,59 @@
+***** Home Page of Robert Stephen Boyer *****
+Professor, Computer Sciences, Mathematics, and Philosophy Departments,
+University of Texas at Austin
+**** How to reach me ****
+    * Paper mail: Bob Boyer, Computer Sciences Dept., Univ. of Texas, Austin,
+      TX 78712, USA
+    * Email: boyer@cs.utexas.edu
+    * FAX: +1 512 471 8885
+    * Physical_locations
+**** Classes ****
+**** Curriculum Vitae ****
+    * Personal_data
+    * Education
+    * Publications
+    * Honors
+    * Jobs
+    * Graduated_Ph._D._students
+    * The_Boyer-Moore_Prover,_also_known_as_Nqthm
+    * 1981_photo
+**** Recommended reading ****
+    * Project_Vote_Smart_Web
+    * The_QED_project
+    * My_views_on_undergraduate_education_in_computer_science
+    * John_McCarthy's_web_page
+    * The_Moffett_building_controversy
+    * NY_Times_Article_About_McCune's_Robbins_Algebra_Result and some technical
+      details.
+Verification_of_the_floating_point_division_algorithm_for_AMD's_new_K5
+microprocessor
+UT's_new_and_wonderful_software_licensing_policy, which permits the use of the
+Gnu Public License with close to zero administrative overhead. A_short_course
+on_how_this_works. And much_more_about_intellectual_property_at_UT.
+The_great_books,_various_enumerations_thereof. Ok, I confess to being a canon
+thumper.
+The_possible_ending_of_tenure_at_some_U._S._universities
+**** Standard disclaimer ****
+Naturally, nothing on my web pages should be taken as representing the official
+position of the University of Texas at Austin or any other part of the
+government of the State of Texas. (Furthermore, to steal a joke from Peter
+Deutsch, my having a web page on a government-owned computer should not be
+taken as an indication that I endorse everything that the government does.)
+**** Formal methods have always been risky to use ****
+``Peano was one of the first to use what we now call symbolic logic. He
+introduced, for instance, the use of the symbols `(E x)' to mean `there is an x
+such that'; and he habitually wrote out all of his lecture notes in his new
+symbolism. He was teaching at a military academy at the time, and his students
+were so incensed by his formalistic approach to mathematics that they rebelled
+(despite his promises to pass them all) and got him fired. Subsequently he
+found a more congenial setting at the University of Turin.'' -- Gödel's
+Incompleteness Theorems, Rudy Rucker, p. 289.
+**** The Death of Fundamental Science? ****
+"`Fundamental science is on the verge of extinction.' said Harold W. Kroto of
+Britain's Sussex University, who shared the 1996 chemistry prize with Robert F.
+Curl and Richard E. Smalley of Rice University in Houston, for their discovery
+of carbon atoms bound in the shape of a soccer ball." -- From the article
+"Scientists lament loss of funding," Associated Press, December 10, 1996, Daily
+Texan.
+**** Up ****
+Up to the University of Texas at Austin Computer Sciences Department.

@@ -1,0 +1,53 @@
+                           ***** Emery Berger *****
+===============================================================================
+**** personal ****  **** work **** **** academics ****
+*** contact info    *** systems    *** functional programming ***
+***                 analyst ***    FP+OOP=Haskell, Emery_Berger (UT TR 92-30).
+Mailing address:    Parallel       Abstract: The programming language Haskell
+Dept._of_Computer   Programming    adds object-oriented functionality (using a
+Sciences            Group          concept known as type classes) to a pure
+Taylor_Hall         I am a systems functional programming framework. This paper
+University_of_Texas analyst in the describes these extensions and analyzes its
+at_Austin           parallel       accomplishments as well as some problems.
+Austin, TX 78712    programming    dvi, compressed_PostScript, or HTML.
+Phone:              research group
+(512) 471-9734      at UT-Austin,  ============================================
+(work)              working on the **** other ****
+(512) 454-6126      CODE visual    My youngest brother Doug has an Aspiring
+(home)              parallel       Artist page (the CODE graphic is Doug's
+Fax:                programming    handiwork).
+(512) 471-8885      system. For
+E-mail:             more
+emery@cs.utexas.edu information
+                    about CODE,
+                    see the CODE
+                    home_page.
+                    TICAM,
+                    Composite
+                    Materials
+                    Group
+                    I am also
+                    affiliated
+                    with TICAM,
+                    working in the
+                    Composite
+                    Materials
+                    group (for
+                    more
+                    information on
+                    the project,
+                    click on the
+                    group name).
+                              **** web links ****
+    _______________________________________________________________________
+   |[[CODE]]    The_CODE_Visual_Parallel_Programming_System                |
+   |[[TEXbook]] TEXbook, the UT Textbook Exchange                          |
+   |[[GRACS]]   GRACS                                                      |
+   |____________(Graduate_Representative_Association_for_Computer_Sciences)|
+===============================================================================
+[http://www.cs.utexas.edu/users/emery/emery-signature.gif] emery@cs.utexas.edu
+                        / Last updated October 1, 1996
+                              [[Made_with_a_Mac]]
+         Do you believe in Macintosh? Check out [[EvangeList]]http://
+                         www.evangelist.macaddict.com/
+               and join the &quot;EvangeList&quot; mailing list.

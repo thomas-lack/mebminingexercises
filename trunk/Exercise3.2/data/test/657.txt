@@ -1,0 +1,65 @@
+
+                                 Gid homepage
+===============================================================================
+              [http://www.cs.wisc.edu/~gid/images/qt-small.gif]
+                             (this is not me) ize>
+===============================================================================
+This is my continually-tweaked homepage. Thanks for stopping by.
+I collect images that I find on the web and deposit them into a directory.
+(Samples below.)
+Sample: here's a picture of some guys who were once claimed to be cooler_than
+you_are (according to Onion). Did you see this movie? (It's The Usual
+Suspects.) If not, run, don't walk, to the nearest Blockbuster and get it.
+Note: I recently moved, and none of my new roommates have a VCR. Being Dutch,
+I'm so cheap that I don't have one either. Given this predicament, and the
+dismal prospects of improvement (with no outside influence, that is), please
+consider making a small donation to help defray the cost of a VCR purchase.
+Checks and money orders can be sent to the following address. Please, send no
+cash.
+	Gideon Glass
+	1633 Monroe, 3rd Floor
+	Madison, WI  53711  USA
+Thank you for your support.
+Being a grad student, I sometimes find myself reading papers, even though I
+have two shelf-feet of unread books waiting to be read. Anyhow, if you're
+looking for something, here's Alf-Christian Achilles's huge_index. You might
+also try the Unified_CS_techreports index.  [http://www.cs.wisc.edu/~gid/
+images/slorc.gif] Class project reports_and_other_stuff by me are available.
+If you run the following program, your machine's load average will grow big
+fast:
+main()_{_while_(1)_fork();_}
+[http://www.cs.wisc.edu/~gid/images/calvin-small.gif] Some doofus actually did
+this on a big time-sharing machine back when I was at Calvin.
+A great time-killer: see what Zippy_the_Pinhead has to say. Try reloading it
+several times (or just try_this).
+===============================================================================
+[http://www.cs.wisc.edu/~gid/images/msiexpld.jpg]
+Last fall (1995) we killed time by tweaking_netscape, but nothing (I think) we
+did works on Mozilla 2.0 or higher. Oh well. Before that I dabbled in object-
+oriented programming in_C, mostly as an exercise. I suppose I should have a
+Netscape button here, but that MS-thing over to the right will have to suffice.
+===============================================================================
+In case you're here because I told you about something in my bookmarks, there
+they are.
+===============================================================================
+Dennis Ritchie, co-creator of UNIX, wrote the anti-forward to UNIX-HATERS
+Handbook.
+          [http://www.cs.wisc.edu/~gid/images/dmr-cartoon-small.gif]
+===============================================================================
+ [http://www.cs.wisc.edu/~gid/images/coffee.gif] [http://www.cs.wisc.edu/~gid/
+ images/sphinx-small.gif]  [http://www.cs.wisc.edu/~gid/images/usual_tr.jpg]
+ [http://www.cs.wisc.edu/~gid/images/cabnet.gif] [http://www.cs.wisc.edu/~gid/
+                             images/resdogs.gif]
+[http://www.cs.wisc.edu/~gid/images/dubedog-small.gif] [http://www.cs.wisc.edu/
+     ~gid/images/north.gif] [http://www.cs.wisc.edu/~gid/images/mine.jpg]
+===============================================================================
+                                   Send me
+                                     mail
+       [http://www.cs.wisc.edu/~gid/images/pulp-fiction/pf-shoot-u.jpg]
+                                and maybe win
+            [http://www.cs.wisc.edu/~gid/images/prizes-small.gif]
+                               (or maybe this.)
+                                But please, no
+                [http://www.cs.wisc.edu/~gid/images/spam.gif]
+===============================================================================
+           [http://www.cs.wisc.edu/~gid/images/powered-by-hate.gif]

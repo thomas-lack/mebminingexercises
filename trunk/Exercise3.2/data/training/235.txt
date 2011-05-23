@@ -1,0 +1,55 @@
+****** Carlos Puchol ******
+===============================================================================
+***** Research Interests *****
+          o Responsive/Real-time/Reactive_Systems in General
+          o Formal_Methods
+          o Specification and Implementation of Real-Time Systems
+          o Distributed Control
+          o Robotics
+          o Esterel, a synchronous programming language.
+          o Mawl, a language for web applications development.
+Check out the UTCS Real-Time_Systems_Group home page.
+===============================================================================
+***** Publications *****
+I have a list of publications available for browsing.
+===============================================================================
+***** Software *****
+The_TempEst_Toolset: a package for verifying safety properties of programs
+written in the Esterel programming language.
+I once wrote one and a half Linux device drivers, one for the QuantaVision
+frame_grabber and part of the joystick device driver.
+===============================================================================
+***** Contact Information *****
+  Office:
+      UA9 4.108d
+
+  Real-time Systems Lab:
+      Taylor Hall 3.140
+
+  [Phone:]
+      (512) 471-9543 (Lab)
+      (512) 471-9756 (Office)
+
+  Office-[Mail]
+      The University of Texas at Austin
+      Department of Computer Sciences
+      Austin, TX 78712-1188
+
+
+
+  E-[Mail]
+      cpg@cs.utexas.edu
+
+  Home-[Mail]
+      P.O. Box 7817
+      Austin, TX 78713-7817
+===============================================================================
+***** Lots-of-Phun Interests *****
+Member of the The_Robot_Group. Check the group's Web_page.
+
+Latest interest is the Be box.
+***** Originally from Gandia, in the province of Valencia, in
+www.cs.utexas.edu/users/cpg/>Spain *****
+[Valencia,_Spain]
+===============================================================================
+.

@@ -1,0 +1,27 @@
+
+                    ****** Guangtian Liu's Homepage ******
+
+===============================================================================
+***** Hi *****
+     Welcome to my home page. I am currently constructing this page and
+     will add more contents as time permits. For now I apologize for any
+     incompleteness and resulting inconvenience.
+
+===============================================================================
+***** Who am I *****
+     I am currently a graduate student in the Department_of_Computer
+     Sciences at the University_of_Texas_at_Austin.
+
+===============================================================================
+***** Research *****
+     I am a member of Professor Mok's Real-Time_System_Research_Group.
+     My research interests include real-time scheduling algorithms,
+     operating systems, network performance and distributed systems. I
+     also did some work in data replications and knowledge mining during
+     my last two summers' internship in GTE_Lab and MCC.
+
+===============================================================================
+***** Contact Information *****
+===============================================================================
+This page was last updated on Fri Jan 26 00:00:45 CST 1996.
+Please send your comments to liugt@cs.utexas.edu.

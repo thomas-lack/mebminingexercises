@@ -1,0 +1,57 @@
+[http://www.cs.utexas.edu/users/rvdg/vandegeijn.gif]
+****** Robert A. van de Geijn ******
+[http://www.cs.utexas.edu/users/sammy/cgi/spy?/users/rvdg/access] Associate
+Professor
+  Department_of_Computer_Sciences
+  and
+  Texas_Institute_for_Computational_and_Applied_Mathematics
+  The_University_of_Texas_at_Austin
+  Austin, TX 78712
+  Phone: (512) 471-9720
+  Fax: (512) 471-8885
+  e-mail: rvdg@cs.utexas.edu
+  www: http://www.cs.utexas.edu/users/rvdg
+B.S. in Mathematics and Computer Science (1981)
+University of Wisconsin-Madison
+Ph.D. in Applied_Mathematics (1987)
+University of Maryland College Park
+***** Areas of Interest *****
+Numerical analysis, parallel supercomputing, scientific computing
+***** Summary of Research *****
+The introduction of parallel computers has forced a re-evaluation of
+traditional numerical methods that were developed for sequential machines. In
+some cases, the techniques continue to be useful; in other cases, new methods
+may prove to perform better. My research concentrates on the development of
+parallel techniques for implementing numerical methods as well as an
+environment that allows such methods to be easily implemented on various
+parallel processors.
+===============================================================================
+***** More Information about our Graduate Programs *****
+    * Computer_Sciences
+    * Computational_and_Applied_Mathematics
+===============================================================================
+***** Workshops *****
+    * Parallel_Infrastructures_for_Applications, April 22-23, 1996, UT-Austin.
+===============================================================================
+***** Current Projects *****
+    * The_InterCom_Project
+    * The_PLAPACK_Project
+    * The_SL_library
+===============================================================================
+***** Publications *****
+    * Books
+    * Journal_Publications
+    * Conference_Publications
+    * Technical_Reports
+    * Tutorials
+===============================================================================
+***** Major_Software_Efforts *****
+===============================================================================
+***** Classes *****
+    * Fall_1996:_CS_367
+*****_Schedule_*****
+
+===============================================================================
+*****_Current_and_Former_Students_*****
+===============================================================================
+*****_Meet_the_Family_*****

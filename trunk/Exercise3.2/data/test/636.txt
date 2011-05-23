@@ -1,0 +1,68 @@
+                                          ****** Curt Ellmann ******
+
+                                          Paradise_Database_Project
+ [http://www.cs.wisc.edu/~curt/pfish.gif] Department_of_Computer_Sciences
+                                          University_of_Wisconsin_-_Madison
+                                          curt@cs.wisc.edu
+                                          608-263-7132
+
+===============================================================================
+***** Items of Focus *****
+    * Java_Related_Items
+    * Paradise_Home_Page
+    * Paradise_Developers_Page
+    * WebGnats_Defect_Tracking_for_Paradise
+    * Prototype_index_of_SHORE_man_pages
+    * My_previous_life_in_DoIT
+**** GIS & EOSDIS Related ****
+    * The_OpenGIS_Consortium
+    * The_Global_Positioning_System_(GPS)
+    * CALMIT,_University_of_Nebraska-Lincoln
+    * Federated_Approach_to_EOSDIS
+**** Database Related ****
+    * Object_Database_Management_Group_Home_Page
+    * Free_Database_List
+    * SQL_Standards_Home_Page
+    * Transaction_Processing_Performance_Council
+    * Illustra_White_Papers
+===============================================================================
+***** Miscellaneous Sites *****
+**** Campus Sites ****
+    *  href=http://wyrm.adp.wisc.edu>Bob's WYRM Hoard
+Computer_Sciences
+WiscInfo
+    * WiscINFO_gopher
+    * WiscINFO_Web_Site
+UW_Madison_Library
+nic.wiscnet.net
+**** Corporate Web ****
+      Apple         IBM                                              Microsoft
+      AT&T_Research  href=http://www.landsend.com>Lands' End         PAWWS
+      Commerce_Net   href=http://gdbwww.gdb.org/cite/djw/>Metrowerks Taligent
+**** Searching the Web ****
+    * Savvy_Search
+    * WebCrawler
+    * Open_Text
+    * The_WWW_Worm
+    * Network_Information_(MIT)
+**** Other Sites ****
+    * Internic
+    * International_Organization_for_Standardization
+    * Internet_Drafts_FTP_Site
+    * Dilbert
+    * Sun_World_Online
+    *  href=http:/c++faq.html>C++FAQ
+Winsock_Applications_FAQ
+Current_Weather_Maps
+Dienst
+Dienst_Implementation
+US_Geologic_Survey
+Government_Information_Locator_(GILS)
+Oakridge_National_Lab_Center_for_Computing_Sciences
+Stock_Market_Data
+===============================================================================
+     Curt Ellmann
+     curt@cs.wisc.edu
+     Paradise Database Project
+     Department of Computer Sciences
+     University of Wisconsin, Madison

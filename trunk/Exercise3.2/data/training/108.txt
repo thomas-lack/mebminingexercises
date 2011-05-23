@@ -1,0 +1,65 @@
+[http://www.cs.cornell.edu/Info/People/lagoze/lucy_t~1.jpg]
+****** Carl Lagoze ******
+***** Project Leader: Digital Library Research Group *****
+Department of Computer Science
+4158 Upson Hall
+Cornell University
+Ithaca, NY 14850-7501
+Phone: +1-607-255-6046
+Fax: +1-607-255-4428
+Internet: lagoze@cs.cornell.edu
+I lead the Digital_Library_Research_Group in the Computer_Science_Department at
+Cornell_University. Our group manages the operation and technical development
+of the Networked_Computer_Science_Technical_Reports_Library (NCSTRL). This is
+an international consortium that maintains a distributed digital library of
+computer science research and collaborates on a number of digital library
+research issues.
+I am co-developer, with Jim_Davis, of the Dienst software, a protocol and
+reference implementation that provides distributed digital library servers
+accessible over the World Wide Web. Dienst is the current enabling technology
+for NCSTRL. I have authored or co-authored a number of papers on Dienst:
+    * &quot;Drop-in&quot;_publishing_with_the_World_Wide_Web. 2nd Int'l WWW
+      Conference 1994.
+    * Dienst_-_An_Architecture_for_Distributed_Document_Libraries.
+      Communications of the ACM, April 1995, Vol 38 No 4 page 47.
+    * A_protocol_and_server_for_a_distributed_technical_report_library. Cornell
+      Computer Science Technical Report.
+    * Dienst:_implementation_reference_manual. Cornell Computer Science
+      Technical Report.
+    * Dienst:_Building_a_Production_Technical_Report_Server. Chapter 15 in
+      Advances in Digital Libraries, Springer Verlag 1995.
+My primary research involves defining the services and protocols for an
+interoperable digital library infrastructure. In this area, I have collaborated
+with the Corporation_for_National_Research_Initiatives to extend and implement
+a digital_object_frameworkdeveloped as part of the DARPA-funded Computer
+Science_Technical_Report_Project. I have authored or co-authored a number of
+papers in this area:
+    * Implementation_Issues_in_an_Open_Architectural_Framework_for_Digital
+      Object_Services. Cornell Computer Science Technical Report.
+    * A_Design_for_Interoperable_Secure_Object_Stores_(ISOS). Cornell Computer
+      Science Technical Report.
+    * A_Secure_Repository_Design_for_Digital_Libraries. Dlib Magazine,
+      December, 1995.
+As part of this work, I am also a member of the Dlib working group on
+repository_interfaces and co-author of the yet-to-be-released final report of
+the Metadata_Workshop_II in Warwick, U.K. Finally, and also as part of this
+work, I am very interested in extending the World Wide Web using distributed
+object technology. You can read my position_paper for the Joint_W3C/OMG
+Workshop_on_Distributed_Objects_and_Mobile_Code workshop.
+===============================================================================
+There is more to me than this research. Who knows, you may meet me at a
+conference, workshop, or meeting and find that out. As a poor substitute for
+personal contact, let me say a little more about me.
+That character on my lap in the picture at the top of this page is Lucy, my
+daughter. She rules the majority of my life, outside of my work time. Toddlers
+are a constant challenge and joy. Lucy gives meaning to my life that will never
+be provided by my work.
+I am also an avid outdoor person. Put me in site of fast moving water or a
+quiet lakeand I will itch to get out on it in a canoe. Give me a beautiful day
+and I will think only about bike riding along a quiet road or a backwoods
+trail. Tell me I have a spare hour in my day and I will put on my running shoes
+and breath deeply the fresh air. I may spend much of my time in the digital
+world, but it will never be a substitute for the joys of the physical nor
+should it ever interfere with our desire to fight for its preservation.
+Hope to meet you sometime,
+Carl

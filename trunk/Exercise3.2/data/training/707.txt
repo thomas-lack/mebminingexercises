@@ -1,0 +1,47 @@
+[[mds]]
+Marc Shapiro believes, "'A tautology is a tautology' is a tautology."
+I am currently obsessively fond of disappear fear, repulsed by C++, pondering
+fast pointer analyses, watching lots of Jackie Chan movies, thinking about
+programming language design, not reading much, trying to teach elementary
+school students to think in terms of recursion, and hoping to be interrupted.
+This is what C. A. R. Hoare wrote about pointers in 1973: "Their introduction
+into high-level languages has been a step backward from which we may never
+recover."
+    * My_home_page_(with_my_schedule)
+    * Todd's_automatic_accident_generator
+    * Elaine_DiMasi's_twisty_little_web_page
+    * Amanda_Peet's_web_retreat
+===============================================================================
+Here's my hyper-mode for emacs, with the pull-down menus and all. Doesn't have
+all the cool html3 tags yet.
+===============================================================================
+This is the web_submissions_software I cobbled together for PLDI. You may be
+able to get it to work. It now includes the previously mostly missing file
+submit.html!
+===============================================================================
+This is my POPL_'97_paper.
+"Fast and Accurate Flow-Insensitive Points-To Analysis." Marc Shapiro and Susan
+Horwitz. To appear in ACM Symposium on Principles of Programming Languages,
+1997.
+===============================================================================
+My various addresses are:
+    * Marc Shapiro, CS Dept
+      1210 W. Dayton St
+      Madison, WI 53706-1685
+    * 5385 CS
+      (608)262-1079
+    * mail_mds@cs.wisc.edu
+      talk mds@house.cs.wisc.edu
+      finger_mds@house.cs.wisc.edu
+    * 212 Marion St, Apt. 305
+      Madison, WI 53703-1953
+      (608)257-6286
+===============================================================================
+Here's a list of people I don't know. (Really.)
+    * Marc_Shapiro (I did meet him once.)
+    * Jonathan_Goldstein
+    * Paul_Ferguson
+    * Lawrence_Brown
+===============================================================================
+Last modified: Thu Oct 24 16:45:11 1996 by Marc Shapiro
+     mds@cs.wisc.edu

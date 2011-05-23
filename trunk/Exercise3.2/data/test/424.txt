@@ -1,0 +1,41 @@
+****** A.J. Bernheim ******
+     ajb@cs.washington.edu
+===============================================================================
+ I've just started computer science graduate school at the University_of
+Washington, so this page is still under construction. [http://
+www.cs.washington.edu/homes/ajb/smallWilliams_Logo.xbm]
+I just graduated from Williams_College with a BA in computer_science and math.
+When I'm not in front of a computer I'm playing ultimate_frisbee.
+===============================================================================
+Autumn Quarter Classes
+    * 505 Programming_Languages
+    * 531 Automata
+    * 567 Principles_of_Digital_Systems_Design
+    * 590B Computer_Graphics_Seminar
+    * 590O Parallel_Programming_Environments
+
+===============================================================================
+[http://www.cs.washington.edu/homes/ajb/penguinhike.gif]
+Outdoor Related Links
+    * The National_Parks
+    * the_WOC_Home_Page
+    * GORP a guide to outdoor recreation
+===============================================================================
+Fun Links
+    * Christian's and Scott's Interactive_Top_Ten_List
+    * Dr._Fun
+    * a_big_ole_pile_of_Cool_Links
+    * A blast from the past with Scooby-Doo
+===============================================================================
+Educational Links
+    * A great reference for Women_Undergrads_in_Computer_Science
+    * Peterson's_Education_Center, a source of information about graduate
+      schools and other educational opportunities!
+    * Information about theCRA_Distributed_Mentorship_Project. The CRA
+      Mentorship Project allows women undergraduates to spend a summer working
+      on research with a female mentor. I had a great experience and highly
+      recommend this program!
+===============================================================================
+Back_to_the_UW_CS_Home_Page
+===============================================================================
+Last modified 9/27/96

@@ -1,0 +1,76 @@
+****** Jack L. Lo ******
+jlo@cs.washington.edu_
+Department_of_Computer_Science_and_Engineering,_
+University_of_Washington,_Box_352350
+Seattle,_WA 98195-2350
+===============================================================================
+[http://www.cs.washington.edu/homes/jlo/construction.jpg]
+This home page is currently under construction.
+===============================================================================
+***** Research *****
+**** Papers ****
+    * Converting Thread-Level Parallelism Into Instruction-Level Parallelism
+      via Simultaneous Multithreading (Abstract, Postscript)
+      Jack_L._Lo, Susan_J._Eggers, Joel S. Emer, Henry_M._Levy, Rebecca L.
+      Stamm, and Dean_M._Tullsen
+      Submitted for publication, July 1996.
+
+    * Exploiting Choice: Instruction Fetch and Issue on an Implementable
+      Simultaneous Multithreading Processor (Abstract, Postscript)
+       Dean_M._Tullsen, Susan_J._Eggers, Joel S. Emer, Henry_M._Levy, Jack L.
+                              Lo, and Rebecca L. Stamm
+        In Proceedings of the 23rd Annual International Symposium on Computer
+                      Architecture, Philadelphia, PA, May 1996.
+
+    * Compilation Issues for a Simultaneous Multithreading Processor
+      (Postscript)
+          Jack L. Lo, Susan_J._Eggers, Henry_M._Levy, and Dean_M._Tullsen
+      In Proceedings of the First SUIF Compiler Workshop, Stanford, CA, January
+                                   1996, p. 146-7.
+
+    * Improving balanced scheduling with compiler optimizations that increase
+      instruction-level parallelism (Abstract, Postscript)
+                           Jack L. Lo and Susan_J._Eggers
+      In Proceedings of the ACM SIGPLAN '95 Conference on Programming Language
+       Design and Implementation, La Jolla, California, June 1995, pages 151-
+                                        162.
+
+    * Comparing_static_and_dynamic_scheduling_on_superscalar_processors
+                                    Jack L. Lo.
+                  General Examination Written Report, May 31, 1995
+
+    * Examining_the_interaction_between_balanced_scheduling_and_other_compiler
+      optimizations
+                                     Jack L. Lo
+              Ph.D. Qualifying Examination Written Report, May 6, 1994
+
+I'm currently working on architectural and compiler support for Simultaneous
+Multithreading_(SMT). My research interests also include static and dynamic
+scheduling for superscalar and VLIW processors, instruction-level parallelism
+issues, as well as compilation for multithreaded architectures. In particular,
+I am investigating compilation issues for
+www.cs.washington.edu/homes/jlo/lodown.html">Jack's Lo-down on WWW pages
+
+
+Where to find me:
+2371 Franklin Ave. E
+Seattle, WA 98102
+(206) 328-4648
+
+or
+
+Sieg Hall, Room 223
+Phone: (206) 685-4087
+FAX: (206) 543-2969
+
+A couple pictures from our recent paintball experience
+    * Picture_1
+    * Picture_2
+===============================================================================
+[http://www.cs.washington.edu/homes/jlo/gif/house1.gif] [http://
+www.cs.washington.edu/homes/jlo/gif/computer.gif] [http://
+www.cs.washington.edu/homes/jlo/gif/movie2.gif] [http://www.cs.washington.edu/
+homes/jlo/gif/compose.gif] [http://www.cs.washington.edu/homes/jlo/gif/
+baseball1.gif] [http://www.cs.washington.edu/homes/jlo/gif/manifest.gif] Yahoo
+===============================================================================
+     jlo@cs.washington.edu

@@ -1,0 +1,26 @@
+[___________________________________________________________________]
+****** Patty Hough ******
+Sandia_National_Laboratories
+P.O. Box 969
+MS 9214
+Livermore, CA 94551
+ph@cam.cornell.edu
+ [___________________________________________________________________]
+****** Who am I? ******
+I was a Ph.D. student (1991-1996) in the Center_for_Applied_Mathematics, which
+is housed in Frank_H.T._Rhodes_Hall at Cornell_University. My thesis advisor
+was Steve_Vavasis. Other members of my committee were Nick_Trefethen and Al
+Schatz. My research interests fall in the areas of
+    * [o] numerical linear algebra
+    * [o] scientific computing
+    * [o] optimization
+I am currently working as a postdoc with Juan_Meza in the Scientific_Computing
+Department at Sandia_National_Laboratories in Livermore, CA.
+Here is my resume and a statement_of_research_goals.
+ [___________________________________________________________________]
+****** Tech Reports ******
+[o] "Complete_orthogonal_decomposition_for_weighted_least_squares", with S.A.
+Vavasis, to appear in SIAM J. Matrix Anal. App.
+[o] "Stable_and_efficient_solution_of_weighted_least-squares_problems_with
+applications_in_interior_point_methods", Ph.D. Thesis.
+ [___________________________________________________________________]
