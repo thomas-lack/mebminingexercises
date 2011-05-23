@@ -1,0 +1,25 @@
+                           ****** Joe Sherman ******
+***** joebob@cs.washington.edu *****
+[http://www.cs.washington.edu/homes/joebob/joebob3c.gif]
+     Department_of_Computer_Science_and_Engineering
+     University_of_Washington
+     Box 352350
+     Seattle,_WA 98195-2350 USA
+
+===============================================================================
+**** My research interests are: ****
+    * User Interface design
+    * Information navigation and visualization
+**** Projects and Activities: ****
+    * User_Interfaces_for_._._.
+    * An_informal,_local_survey_of_Web_use
+    * Class_project_for_CSE_590H
+    * Creating an impressive Home Page
+    * Quality time with Pam, Tim and Sarah
+    * Softball
+**** Stuff I might want to see: ****
+    * Automatic_suggestions via SEW page
+    * Links_to_User_Interface_Research_and_related_topics
+    * Directory of useful Web Pages
+===============================================================================
+If your browser supports it, you can send mail to joebob@cs.washington.edu.

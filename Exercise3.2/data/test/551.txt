@@ -1,0 +1,4 @@
+
+****** Your web browser is a rusty yellow turkey. ******
+Not that frames are even part of the html standard, but click here for my non-
+frames homepage.

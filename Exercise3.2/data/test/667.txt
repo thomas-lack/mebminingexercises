@@ -1,0 +1,54 @@
+ _____________________________________________________________________________
+|*****_Susan_E._Herthert@cs.wisc.edu_*****____________________________________|
+|           Research Assistant             |    * Curriculum Vita (postscript)|
+|     Department_of_Computer_Sciences      |    * Research_Interests          |
+|     University_of_Wisconsin-Madison      |    * Publications                |
+|           1210 W. Dayton St.             |    * Software                    |
+|         Madison, WI 53706-1685           |    * Other_Interesting_Links     |
+|________Telephone:_(608)_262-5105_________|__________________________________|
+===============================================================================
+**** Research Interests ****
+    * Applied and Experimental Computational Geometry
+    * Analysis of Algorithms
+    * Design of Motion Planning Algorithms
+    * Computer Graphics for Geometric Algorithms
+Advisor: V_ladimir_Lumelsky
+Currently, I work in the UW_Robotics_Lab developing motion planning alogirthms
+for multiple robots in a common environment.
+===============================================================================
+**** Selected Publications ****
+    * Susan Hert, Vladimir Lumelsky,
+      "Deforming_Curves_in_the_Plane_for_Tethered-Robot_Motion_Planning". (An
+      extended_abstract of this paper appeared in Proceedings of 1996 Canadian
+      Conference on Computational Geometry, August 1996.)
+    * Susan Hert, Vladimir Lumelsky,
+      "Planar_Curve_Routing_for_Tethered-Robot_Motion_Planning" to appear in
+      International Journal of Computational Geometry & Applications.
+    * Susan Hert, Vladimir Lumelsky,
+      "The_Ties_that_Bind:_Motion_Planning_for_Multiple_Tethered_Robots",
+      Robotics and Autonomous Systems 17 (1996) 187-215. (A version of this
+      paper was published in Proc. 1994 IEEE International Conference on
+      Robotics and Automation, May 1994.)
+    * Susan Hert, Sanjay Tiwari, and Vladimir Lumelsky,
+      "A_Terrain-Covering_Algorithm_for_an_AUV", to appear in Journal of
+      Autonomous Robots Special Issue on Autonomous Underwater Robots.
+    * Susan Hert, Vladimir Lumelsky,
+      "Moving_Multiple_Tethered_Robots_between_Arbitrary_Configurations", Proc.
+      1995 International Conference on Intelligent Robots and Systems, August
+      1995.
+    * Susan Hert, Dan Reznik,
+      "The_Simulation_Library:_A_Basis_for_Animation_Programs_(Version_2.0)",
+      Technical Report RL-95002, University of Wisconsin-Madison, Robotics
+      Laboratory, July 1995.
+===============================================================================
+**** Interesting Links ****
+    * Computational_Geometry_Pages
+    * Computer_Science_Education_Links
+    * Books on the Web
+          o Reference_Shelf
+          o The_Library_of_Congress
+          o The_On-line_Books_Page
+          o Travels_with_Samantha
+    * Cooking on the Web
+          o Epicurious
+          o Veggies_Unite!

@@ -1,0 +1,76 @@
+****** DEVise: an Environment for Data Exploration and Visualization ******
+[http://www.cs.wisc.edu/~devise/devise/control.gif]
+***** Table of Contents: *****
+    * Features
+    * Examples
+    * In_Depth
+    * Publications
+    * Related_Work
+    * Release
+    * Contacts
+***** Features *****
+These features distinguish DEVise from other visualization environments:
+    * Visual query interface: Visualizations constructed with one set of data
+      may be saved and applied to other input data.
+    * Data larger than memory are efficiently handled.
+    * Mapping from data to graphics at record level. (e.g., you can control the
+      color or shape of individual records.)
+    * Ability to query data records used to represent graphics.
+    * Flexible layout mechanisms within windows. It helps user group data
+      together for comparison, or put the aside when not needed.
+    * Linked X, Y, or X and Y axes.
+    * Cursor helps compare the relationship between different views of the
+      data.
+    * Record based input data.
+    * Direct input of ASCII files.
+    * Integer, float, date, and string data types.
+***** Examples *****
+Check out the following examples for some cool pictures, and a quick
+introduction to what DEVise can do.
+    * R-Tree_Validation
+    * Molecular_Biology_(Cell_Images)
+    * Soil_Science/BIRCH_Clustering
+    * Financial_Data_Exploration
+    * Family_Medicine/National_Climate_Data_Center
+    * Geographical_Information_System
+    * Soil_Science
+    * File_server
+    * Program_Traces
+    * Clinical_Sciences
+    * Many_more_examples_at_the_Data_Viewer_for_Family_Medicine.
+***** In Depth *****
+ For a detailed description of DEVise:
+    * Model_of_Visualization
+    * Visual_Query_Interface
+    * Performance_Issues
+***** Publications *****
+Miron Livny, Raghu Ramakrishnan, and Jussi Myllymaki. ``Visual_Exploration_of
+Large_Data_Sets.'' In Proceedings of the IS&T/SPIE Conference on Visual Data
+Exploration and Analysis, January, 1996.
+Michael Cheng, Miron Livny, and Raghu Ramakrishnan. ``Visual_Analysis_of_Stream
+Data.'' In Proceedings of the IS&T/SPIE Conference on Visual Data Exploration
+and Analysis, February, 1995.
+Raghu Ramakrishnan, Michael Cheng, Miron Livny, and Praveen Seshadri, ``What's
+next?_Sequence_queries.'' In Proceedings of the International Conference on the
+Management of Data (COMAD), December, 1994.
+***** Related Work *****
+ The SEQ project is complementary to DEVise in that it is designed to query
+record based sequenced data. The output of the queries may be visualized with
+DEVise.
+***** Release Information *****
+ We are currently releasing version 1.1.8 of DEVise. The executables for the
+Solaris platforms are dynamically linked so you need to set your
+LD_LIBRARY_PATH environment variable appropriately to run DEVise. On all other
+supported architectures, the executables are statically linked and require no
+shareable libraries at run time.
+
+To_download_DEVise_click_here.
+***** Contacts *****
+ For more information on this research project, contact Miron_Livny, Raghu
+Ramakrishnan, Jussi_Myllymaki, Guangshun_Chen, or Kent_Wenger.
+***** User Support Hotline *****
+ Send_mail_to_the_DEVise_User_Support_Hotline.
+===============================================================================
+
+This page has been accessed [http://cgi.cs.wisc.edu/scripts/jussi/counter/nph-
+count?width=4&link=devise] times since October 1, 1996.

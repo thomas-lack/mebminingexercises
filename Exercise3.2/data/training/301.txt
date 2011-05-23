@@ -1,0 +1,50 @@
+****** [*] Xue Lu's Home Page ******
+***** Graduate Student *****
+           [http://www.cs.utexas.edu/users/luxue/image/blueline.gif]
+
+**** Current Work ****
+  [*] TA Work: CS_356_Computer_Networks
+  [*] Other_Classes
+**** About Myself ****
+[http://www.cs.utexas.edu/users/luxue/image/p8.small.gif]
+  [*] Tsinghua_University
+      --My undergraduate institute
+  [*] China
+      --Where I am from
+  [*] Department_of_Computer_Science
+      --Where I study
+  [*] UT_Austin
+      --My university
+  [*] Austin,_Texas
+      --Where I live
+                                  [________]
+**** Academic Links ****
+  [*] Internet_and_WWW
+  [*] Computer_Science_Areas
+  [*] Computer_Languages_and_Systems
+  [*] IEEE
+  [*] ACM : [ SIGCOMM | SIGMOD | SIGLINK | SIGGRAPH | SIGMM95 | SIGIR ]
+  [*] Computer_Companies
+                                  [________]
+**** Other Links ****
+  [*] Online_Shopping
+      -- A Cool Site to Buy Chinese Music
+  [*] Current_News
+  [*] Job_Hunt
+  [*] Weather_Forcast
+  [*] Dictionary
+                                  [________]
+**** [http://www.cs.utexas.edu/users/luxue/image/mailIcon.gif] Contact
+Information ****
+ __________________________________________________
+|On Campus:                 |Current addr:         |
+|Dept of CS                 |Microsoft Corporation |
+|Univ. of Texas at Austin   |Tel: (206)936-6485(O) |
+|Austin,_TX_78712___________|(206)558-4127(H)______|
+|E-mail:_luxue@cs.utexas.edu|xuelu@microsoft.com___|
+
+           [http://www.cs.utexas.edu/users/luxue/image/lookline.gif]
+**** [*] Thanks for coming! ****
+===============================================================================
+Last Modified: Jan 14, 1996
+luxue@cs.utexas.edu

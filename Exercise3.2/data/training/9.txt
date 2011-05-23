@@ -1,0 +1,80 @@
+[http://
+simon.cs.cornell.edu/
+Info/Projects/HORUS/
+images/ud8.jpg]             [http://simon.cs.cornell.edu/Info/Projects/HORUS/images/ud5.jpg]
+                           The Company of the Gods rejoiced, rejoiced, at the coming of Horus,
+[http://                   the son of Osiris, whose heart was firm, the triumphant, the son of
+simon.cs.cornell.edu/                          Isis, the heir of Osiris. ¹
+Info/Projects/HORUS/
+images/button-
+home.jpg][http://     =============================================================================
+simon.cs.cornell.edu/  **** The Horus project has developed a modular and extensible process-group
+Info/Projects/HORUS/  communication system, addressing the requirements of a wide variety of robust
+images/button-                               distributed applications. ****
+indicator2.jpg]       =============================================================================
+[http://
+simon.cs.cornell.edu/                            Horus, the son of Isis and of Osiris, was a god
+Info/Projects/HORUS/  [http://                   whose attributes appealed strongly to the
+images/button-        simon.cs.cornell.edu/Info/ Egyptians from one end of Egypt to the other,
+overview.jpg]         Projects/HORUS/images/     because in him every man and woman saw the type
+[http://              postcard.jpg]              of what he or she wished to possess, that is to
+simon.cs.cornell.edu/                            say, renewed life, and life as opposed to death,
+Info/Projects/HORUS/                             and movement as opposed to inactivity. ²
+images/button-
+people.jpg]            Horus provides a framework for the development of distributed applications
+[http://              based on group communications, a style of computing that can arise in fault-
+simon.cs.cornell.edu/ tolerant systems, managed distributed systems, applications that exploit data
+Info/Projects/HORUS/  replication or coherent caching, and groupware. Within the overall Horus
+images/button-        framework a large collection of system and application protocols have been
+papers.jpg]           developed that allow the application designer to construct a communication
+[http://              module that exactly meets the application requirements at minimal cost.
+simon.cs.cornell.edu/ The Horus project was originally launched as an effort to redesign the Isis
+Info/Projects/HORUS/  group communication system, but has evolved into a general purpose
+images/button-        communication architecture with advanced support for the development of
+software.jpg]         robust distributed systems in settings for which Isis was unsuitable, such as
+[http://              applications that have special security or real-time requirements. Besides
+simon.cs.cornell.edu/ the practical uses of our software, the project has contributed towards the
+Info/Projects/HORUS/  theory of virtually synchrony, a runtime model used for our implementation of
+images/button-        data replication and fault-tolerance. At the same time, our software is much
+links.jpg]            faster and lighter weight than the Isis system.
+                      Horus exists as two systems: an initial version coded in C, which can be used
+[http://              for research purposes at no fee but has restricted commerical rights, and a
+simon.cs.cornell.edu/ new version called Ensemble, written in ML but usable from many other
+Info/Projects/HORUS/  languages, which is available for all classes of users at no fee. Ensemble is
+images/ens5.jpg]      actively under development and we will do series of releases over the fall of
+[http://              1996 and spring of 1997. By early in 1997, Ensemble will be an outstanding
+simon.cs.cornell.edu/ environment for building Java-based groupware applications that do multimedia
+Info/Projects/HORUS/  conferencing on the Web.
+images/button-ens-    Horus and Ensemble are designed to be platform independent, and are available
+intro.jpg]            for different classes of workstations, personal computers, parallel
+[http://              processors and on next-generation cluster environments using standard high-
+simon.cs.cornell.edu/ speed communications networks.
+Info/Projects/HORUS/  The Horus effort collaborates closely with many other distributed systems
+images/button-ens-    projects, including Transis, NavTech, and the StormCast and TACOMA projects.
+downl.jpg]            Links to these and other projects can be found elsewhere in these pages.
+[http://              =============================================================================
+simon.cs.cornell.edu/ ***** Introductions to Horus *****
+Info/Projects/HORUS/  Visit the papers and abstract pages for an
+images/button-ens-    overview of all publications and reports
+home.jpg]             related to the Horus project. The
+                      following are recent articles that present
+[http://              a high-level introduction to Horus:
+simon.cs.cornell.edu/     * Kenneth P. Birman and Robbert van
+Info/Projects/HORUS/        Renesse, Software_for_Reliable
+images/recent2.jpg]         Networks, in Scientific_American,
+[http://                    May, 1996.
+simon.cs.cornell.edu/     * Robbert van Renesse, Kenneth P.
+Info/Projects/HORUS/        Birman and Silvano Maffeis, Horus,_a
+images/sciam2.jpg]          flexible_Group_Communication_System,
+[http://                    Communications of the ACM, April     [http://simon.cs.cornell.edu/Info/
+simon.cs.cornell.edu/       1996.                                Projects/HORUS/images/horush.gif]
+Info/Projects/HORUS/  =============================================================================
+images/sigcomm.jpg]    ¹ Final sentence in the Hyme_to_Osiris from the Papyrus of Ani, better know
+[http://              as the Book_of_the_Dead.
+simon.cs.cornell.edu/   ²  E.A. Wallis Budge, The Gods of the Egyptians or Studies in Egyptian
+Info/Projects/HORUS/  Mythology, Volume 1, pages 486-487, The Open Court Publishing Company,
+images/cacm2.jpg]     London, 1904.
+[http://              Comments to Werner_Vogels
+simon.cs.cornell.edu/
+Info/Projects/HORUS/
+images/tina.jpg]

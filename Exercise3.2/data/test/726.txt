@@ -1,0 +1,130 @@
+****** [http://www.cs.wisc.edu/~pubs/faculty-info/mangasarian.gif] Olvi L.
+Mangasarian ******
+     John von Neumann Professor of Mathematics and Computer Sciences, and
+     member of the Center for the Mathematical Sciences
+
+     Computer Sciences Department
+     University of Wisconsin
+     1210 W. Dayton St.
+     Madison, WI 53706-1685
+
+     Telephone: (608) 262-1204
+     Fax: (608) 262-9777
+     Email: olvi@cs.wisc.edu
+Ph.D., Harvard University, 1959
+Interests: Mathematical programming, machine learning, and parallel computing
+===============================================================================
+***** Research Summary *****
+Optimization theory is rich mathematically while being very effective
+computationally in solving many real-life problems. My interests in this topic
+have ranged over a broad spectrum that encompasses theoretical aspects, such as
+error bounds for mathematical programs and variational inequalities,
+convergence proofs for parallel gradient and variable distribution algorithms
+for optimization, smoothing techniques for solving constrained optimization
+problems as differentiable nonlinear equations, as well as applications to
+machine learning, both in general and specific contexts. An important aspect of
+my research is the use of mathematical programming techniques in diagnosing
+breast cancer, that has resulted in a highly accurate computerized diagnostic
+system in current use at University of Wisconsin Hospitals.
+===============================================================================
+***** Current PhD Students *****
+  Paul_Bradley
+===============================================================================
+***** Recent Publications *****
+  O. L. Mangasarian and M. V. Solodov
+      A_Linearly_Convergent_Descent_Method_for_Strongly_Monotone
+      Complementarity_Problems.
+      Mathematical Programming Technical Report 96-07, October 1996.
+  O. L. Mangasarian and Jong-Shi Pang
+      Exact_Penalty_Functions_for_Mathematical_Programs_with_Linear
+      Complementarity_Constraints.
+      Mathematical Programming Technical Report 96-06, August 1996.
+  O. L. Mangasarian
+      Mathematical_Programming_in_Data_Mining
+      Mathematical Programming Technical Report 96-05, August 1996.
+  O. L. Mangasarian
+      Error_Bounds_for_Nondifferentiable_Convex_Inequalities_under_a_Strong_S
+      later_Constraint_Qualification.
+      Mathematical Programming Technical Report 96-04, July 1996.
+  P. S. Bradley, O. L. Mangasarian and W. N. Street
+      Clustering_via_Concave_Minimization.
+      Mathematical Programming Technical Report 96-03, May 1996. Submitted to
+      Neural Information Processing Systems 1996.
+  W. N. Street, O. L. Mangasarian and W. H. Wolberg
+      Individual_and_Collective_Prognostic_Prediction.
+      Mathematical Programming Technical Report 96-01, January 1996.
+  P. S. Bradley, O. L. Mangasarian and W. N. Street
+      Feature_Selection_via_Mathematical_Programming.
+      Mathematical Programming Technical Report 95-21, December 1995. Submitted
+      to INFORMS Journal on Computing.
+  O. L. Mangasarian
+      Machine_Learning_via_Polyhedral_Concave_Minimization.
+      Mathematical Programming Technical Report 95-20, November 1995. "Applied
+      Mathematics and Parallel Computing -- Festschrift for Klaus Ritter", H.
+      Fischer, B. Riedmueller, S. Schaeffler, editors, Physica-Verlag, Germany
+      1996, 175-188.
+  O. L. Mangasarian
+      The_Ill-Posed_Linear_Complementarity_Problem.
+      Mathematical Programming Technical Report 95-15, August 1995. Submitted
+      to SIAM Proceedings of the International Symposium on Complementarity
+      Problems, Baltimore, MD, November 1-4, 1995. Revised November 1995.
+  W. Nick Street and O. L. Mangasarian
+      Improved_Generalization_via_Tolerant_Training.
+      Mathematical Programming Technical Report 95-11, July 1995.
+  O. L. Mangasarian
+      Mathematical_Programming_in_Machine_Learning.
+      Mathematical Programming Technical Report 95-06, April 1995, Revised July
+      1995. To appear in Proceedings of Nonlinear Optimization and Applications
+      Workshop, Erice June 1995, Plenum Press.
+  Chunhui Chen and O. L. Mangasarian
+      Hybrid_Misclassification_Minimization.
+      Mathematical Programming Technical Report 95-05, February 1995, Revised
+      July 1995 and August 1995. To appear in Advances in Computational
+      Mathematics.
+  O. L. Mangasarian
+      Optimization_in_Machine_Learning.
+      Mathematical Programming Technical Report 95-01, January 1995. SIAG/OPT
+      Views-and-News 6, 1995, 3-7.
+  Chunhui Chen and O. L. Mangasarian
+      A_Class_of_Smoothing_Functions_for_Nonlinear_and_Mixed_Complementarity
+      Problems.
+      Mathematical Programming Technical Report 94-11, August 1994. Revised
+      October 1994, February 1995 and September 1995. Computational
+      Optimization and Applications 5, 1996, 97-138.
+  O. L. Mangasarian, W. Nick Street and W. H. Wolberg
+      Breast_Cancer_Diagnosis_and_Prognosis_via_Linear_Programming.
+      Mathematical Programming Technical Report 94-10, August 1994. Revised
+      December 1994. Operations Research 43(4), July-August 1995, 570-577.
+  O. L. Mangasarian
+      The_Linear_Complementarity_Problem_as_a_Separable_Bilinear_Program.
+      Mathematical Programming Technical Report 94-09, July 1994. Journal of
+      Global Optimization 6, 1995, 153-161.
+  O. L. Mangasarian and M. V. Solodov
+      Backpropagation_Convergence_via_Deterministic_Nonmonotone_Perturbed
+      Minimization.
+      Mathematical Programming Technical Report 94-06, June 1994. Advances in
+      Neural Information Processing Systems 6, (J. D. Cowan, G. Tesauro and J.
+      Alspector, editors) 383-390, Morgan Kaufmann Publishers, San Francisco,
+      California 1994.
+  Chunhui Chen and O. L. Mangasarian
+      Smoothing_Methods_for_Convex_Inequalities_and_Linear_Complementarity
+      Problems.
+      Computer Sciences Technical Report 1191r, November 1993. Revised November
+      1994. Mathematical Programming 71, 1995, 51-69.
+  O. L. Mangasarian
+      Misclassification_Minimization.
+      Computer Sciences Technical Report 1186, October 1993. Revised September
+      1994. Journal of Global Optimization 5(4), December 1994, 309-323.
+  O. L. Mangasarian and M. V. Solodov
+      Serial_and_Parallel_Backpropagation_for_Neural_Nets_via_Nonmonotone
+      Perturbed_Minimnization.
+      Computer Sciences Technical Report 1149r, April 1993. Revised December
+      1993. Optimization Methods and Software 4, 1994, 103-116.
+Chronological_cancer_bibliography
+***** WWW Page of Other Publications of MP Group at Wisconsin *****
+ftp_papers_and_reports
+View_and_download_papers_and_reports_of_MP_Group
+View_home_page_of_MP_Group.
+===============================================================================
+     periodically updated by olvi@cs.wisc.edu
+===============================================================================

@@ -1,0 +1,36 @@
+****** [http://www.cs.washington.edu/homes/rrogers/they.gif] Richard Rogers
+******
+rrogers@cs.washington.edu
+Computer_Science_&amp;_Engineering_Department
+University_of_Washington, FR-35
+Seattle, WA 98195 USA
+Office: Chateau_Sieg 104; Phone: (206) 616-1843
+Lab: Intelligent_Systems_Laboratry; Phone: (206) 685-7629
+**** Research: ****
+
+I have developed system software for the Systolic Cellular Array Machine
+(SCAM), a massively parallel image processing computer. The software includes a
+compiler, basic image processing and morphology libraries, and a simulator. You
+can obtain the software and papers about SCAM here.
+
+I currently work on document layout extraction at the Intelligent_Systems_Lab.
+I am also helping to produce a document groundtruth database for the optical
+character recognition community.
+
+**** [http://www.cs.washington.edu/homes/rrogers/smlogo.gif] Science Camps:
+****
+
+I am the Director of Computer Facilities at the Northwest_Center_For
+Environmental_Education. NCEE offers a summer science camp for students of all
+ages in Washington's beautiful San_Juan_Islands.
+
+I also work with the Science_Splash! program at Seattle_University. Splash! is
+a year-long National_Science_Foundation funded science program for 8th grade
+minority girls in the Seattle area.
+
+**** Other Interests: ****
+    * Corn snakes (Jessica, Ana, and Squishy, in order of increasing length)
+      KUOW, UW's National_Public_Radio station I bake the best pecan pie in
+      Seattle
+===============================================================================
+** Last Modified: 08:53pm , February 20, 1996 **

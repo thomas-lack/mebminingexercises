@@ -1,0 +1,43 @@
+****** Ioi Lam's Home Page ******
+src=img/smallface.gif> [http://www.cs.cornell.edu/Info/People/ioi/votea.gif]
+Ioi K Lam
+ioi@cs.cornell.edu
+I am currently a research assistant to Prof._Brian_Smith at the Computer
+Science_Department of Cornell_University.
+****** Interests ******
+    * Multi-media.
+    * Parallel Programming.
+    * Tcl/Tk.
+****** Using Software in the System Lab ******
+Instructions_about_setting_your_environment_to_use_the_system_lab_software.
+****** Tcl/Tk ******
+    * Tcl/Tk_Knowledge_Base.
+    * Tcl/Tk_Engineering_Manual_(PDF): Guidelines for writing good Tcl/Tk
+      extensions in C code. It doesn't cover much of writing Tcl scripts per-
+      se, but it has a section about writing test suites that is valuable to
+      both C and Tcl programmers. You can get the PostScript_Version and
+      complete_Tcl/Tk_Engineering_Manual_package that includes template C
+      source files.
+****** CVS Documentation ******
+    * A_short_introduction_to_using_CVS_in_the_system_lab.
+      =========================================================================
+    * A_short_description_of_CVS (87K, PS).
+    * CVS_User_Manual. (543K, PS).
+    * Using_CVS_on_remote_machines (93K, PS).
+      =========================================================================
+    * CVS_FAQ.
+    * Index_of_CVS_Information.
+    * CVS_Tutorial.
+****** What am I doing right now (Week of Sep 23) ******
+    * Putting together the Tcl/tk knowledgebase.
+    * CVS repository for DP has been set up (see dp-cvs.txt).
+    * Trying to package up SPAM and do a site test on it in the ~multimed home
+      directory.
+    * Getting started with VRC -- virtual reality conferencing. More details to
+      come ..
+    * Working on a prototype of a mpeg video file server based on the HTTP
+      protocol. More details to come ..
+****** CS417 (Spring '96) ******
+    * CS_417_homework_solutions
+SRC="http://counter.digits.com/wc/-d/6/-r/-z/ioi1" ALIGN=middle WIDTH=60
+HEIGHT=20 BORDER=0 HSPACE=4>

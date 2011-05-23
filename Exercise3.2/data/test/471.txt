@@ -1,0 +1,80 @@
+****** Greg J. Badros ******
+[http://www.cs.washington.edu/homes/gjb/gif/face_g.gif]
+***** Welcome to my Home Page!!! *****
+
+(Last updated 1-Oct-96)
+[---------------------------------------------------]
+Email: gjb@cs.washington.edu
+Address:
+8816 Nesbit Ave. N., Apt 303
+Seattle, WA 98103-4067
+[---------------------------------------------------]
+[http://www.cs.washington.edu/homes/gjb/images/construction.gif] Hello, and
+welcome to my WWW homepage. Please feel free to send feedback to the above
+email address. This page is (and always will be, I suppose) under construction
+so keep checking back for new and exciting features.
+I'm a recent graduate of Duke_University. I completed my B.S. degree as a
+double major in computer science and mathematics in the spring of 1995. I am
+currently employed part-time as a senior research scientist for Transworld
+Numerics, Inc., a small company originally located in Durham, NC, with its
+headquarters in Bermuda. I now work from my apartment in Seattle, Washington. I
+am also a full time graduate student in the computer science and engineering
+department at the University_of_Washington.
+[---------------------------------------------------]
+***** Fall 1996 Courses *****
+  CSE_505_Home_Page
+  CSE_531_Home_Page
+  CSE_567_Home_Page
+  CSE_590N,_Software_Engineering_Seminar
+  CSE_590k,_Compiler_Seminar
+***** [http://www.cs.washington.edu/homes/gjb/images/new.gif] Newer Stuff *****
+Philosophy_of_Mathematics_Course_Notes
+Misc._Patches_(Zsh,_Fvwm)
+My_First-Place_(Best_of_Show)_RedHat_Desktop_Configuration_Competition_Entry
+Emacs_Configuration_README file
+Emacs_Configuration_Archive file
+ZShell_Configuration_README file
+ZShell_Configuration_Archive file
+A_Chronicle_(Duke_University_Newspaper)_Article_about_Transworld_Numerics,_Inc.
+
+Spring_95_IEEE_National_programming_competition_victory.
+Vertices_Winter_95_Issue (A Duke Magazine which contains my recent article on
+Genetic Algorithms.)
+[---------------------------------------------------]
+***** Personal Links *****
+      [*] Résumé.
+      [*] Data_Date, my first business
+      [*] Some sample art that I drew by computer.
+      [*] And some very simple 3-D_(Magic_Eye)_art that I created.
+      [*] Canterbury's 1993 Progressive Map
+      [*] Various random Pictures
+[---------------------------------------------------]
+But life is definitely not all work! I have many hobbies, including:
+      [*] Tennis
+      [*] Skiing, Especially at Jackson_Hole, in Jackson, WY.
+      [*] Volleyball
+      [*] Juggling
+      [*] Piano_Playing
+      [*] Mathematical games (e.g. Rubik's_Cube )
+      [*] Linux (Freeware Unix)
+      [*] Music, especially:
+            R.E.M.
+      [*] Parliamentary_Procedure
+      [*] NCAA_Basketball
+[---------------------------------------------------]
+And here are some other interesting links:
+      [*] Global_Network_Navigator_Home_Page
+      [*] PERL -- Practical Extraction and Report Language
+      [*] The_C++_Virtual_Library
+      [*] Inter-Language_Unification_--_ILU
+      [*] Interesting_Devices_Connected_to_the_Net
+      [*] Writing_HTML,_SGML,_TEI,_etc.
+      [*] The_Seinfeld_Index_Page
+      [*] Friends_Sitcom
+* Parts of this material are based upon work supported under a National Science
+Foundation Graduate Fellowship. Any opinions, findings, conclusions, or
+recommendations expressed in this publication are those of the author, and do
+not necessarily reflect the views of the National Science Foundation *
+[---------------------------------------------------]
+     Greg J. Badros / U Washington Computer Science and Engineering /
+     gjb@cs.washington.edu

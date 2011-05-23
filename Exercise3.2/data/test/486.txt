@@ -1,0 +1,18 @@
+                   ****** Home page for Joshua Seims ******
+        [http://www.cs.washington.edu/homes/josh/images/josh_face.jpg]
+
+===============================================================================
+                            ****** ABSTRACT ******
+Joshua Seims is a biologically-based neural network system, currently being
+tested at the University of Washington's Department of Computer Science. Having
+begun in 1974 as a Lockean blank slate, Josh has learned to emulate observed
+behavior and has successfully accomplished several tasks such as graduating
+from college, traveling of his own volition, and has recently started to
+demonstrate the potential for independent creative thought. The current task we
+have presented Josh is to earn a Ph.D. in computer science, and we expect this
+to take several more years. This document provides an overview of Josh's
+cognitive and ambulatory achievements, organized into Personal and Academic
+hierarchies. Additionally, future work is discussed within each of the above
+contexts.
+ 
+                      [Personal] [Academics] [Academics]

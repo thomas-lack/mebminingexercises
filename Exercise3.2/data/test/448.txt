@@ -1,0 +1,51 @@
+****** W. Derrick Weathersby ******
+[Java Applet ticker.class]
+
+
+
+
+ [http://www.cs.washington.edu/homes/derrick/bulls.gif] da'_bulls [http://
+www.cs.washington.edu/homes/derrick/fderrick.gif] [http://
+www.cs.washington.edu/homes/derrick/sonics.gif] superSonics
+[http://www.cs.washington.edu/homes/derrick/ruleflags.gif]
+I'm pursuing a PhD in Computer_Science here at the University_of_Washington,
+Seattle. The beautiful campus of the University lies in the heart of Seattle,
+offering many diversions which graduate students often fall prey, thereby
+extending the time of the average graduate student career.
+***** Practical Experience and Interests *****
+**** Significant Projects and Skills ****
+    * my_data_sheet
+    * shared_X-server_project
+    * data_parallel_array_language_and_compiler
+    * host-to-pc,_LU6.2_(token-ring)_communication_protocol_development
+    * data_base_design_and_administration
+    * system_administration
+    * network_administration_and_tools
+    * security
+***** Research Experience and Interests *****
+My research centers around parallel and distributed computing. The challenges
+presented by the fields are ones of performance, portability and convenience.
+Performance is typically the foremost goal in running in a parallel or
+distributed environment, however, portability suffers. Finally, these
+environments offer extra challenges due to asynchronous, independent events. It
+is a daunting task to develop systems for parallel and distributed
+environments. These are the issues I address.
+    * Group_Project
+    * My_UW_Research_Page
+    * SPAA_'94_paper_on_Collective_Communications
+    * Generals_topic_(Collective_Comm)
+    * Dissertation_Topic
+    * tool integration software engineering project
+***** Academic Achievements *****
+    * Instructor: UW extension college, Advanced C summer 1993
+    * Curriculum design for Advanced C++ course for new certificate program at
+      UW extension college
+    * Instructor: UW extension college, Advanced C++ Fall 1993
+    * Teaching Assistant: Started undergraduate tutoring for women and minority
+      students, Department of Computer Science and Engineering
+    * Outstanding Teaching Assistant Award for College of Engineering, 1994
+***** Personal Interests *****
+    * CNN_Interactive OR CNN_Financial
+      **** A Newslet would be here if you had Java ****
+     W. Derrick Weathersby derrick@cs.washington.edu
+     Tue May 3 9:47:00 PDT 1994

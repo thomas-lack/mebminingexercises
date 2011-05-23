@@ -1,0 +1,43 @@
+
+****** Robbert van Renesse ******
+***** Senior Research Associate *****
+***** Cornell University *****
+**** [@] rvr@cs.cornell.edu ****
+===============================================================================
+I am a senior research associate in the Department_of_Computer_Science at
+Cornell_University in Ithaca,_NY. I am working with Ken_Birman in the area of
+distributed systems. My Ph.D. advisor was Andy_Tanenbaum.
+***** Interests *****
+    * My_brand_new_baby_girl!.
+    * Our_brand_new_house.
+    * The_Horus_system.
+    * The_TACOMA_project.
+    * CAML/MMM_Applets.
+    * NYNET
+    * The_Ithaca_Ageless_Jazz_Band.
+    * The_Ithaca_Swing_Dance_Network.
+    * Jazz.
+    * www.cs.cmu.edu/afs/cs/user/phoebe/mosaic/accordion.html">Accordion
+.
+Shareware.
+***** Dutch Stuff *****
+    * Cornell_Dutch_Club (contains many other links).
+    * The_USA_and_the_Netherlands.
+    * Dutch_Jazz.
+***** Ithaca *****
+    * IthacaNet.
+    * The_Spinners_Ithaca_Market_Place.
+***** Papers *****
+    * Software_for_Reliable_Networks_(Scientific_American)
+    * Design_and_Performance_of_Horus:_A_Lightweight_Group_Communications
+      System_(html_version).
+    * Design_and_Performance_of_Horus:_A_Lightweight_Group_Communications
+      System_(GIF_version).
+    * A_Framework_for_Protocol_Composition_in_Horus.
+    * Protocol_Composition_in_Horus.
+    * Incorporating_System_Resource_Information_into_Flow_Control.
+    * Strong_and_Weak_Virtual_Synchrony_in_Horus.
+    * Horus:_A_Flexible_Group_Communications_System.
+    * A_Security_Architecture_for_Fault-Tolerant_Systems.
+    * Support_for_Complex_Multi-Media_Applications_using_the_Horus_system.
+    * Operating_Support_for_Mobile_Agents.

@@ -1,0 +1,40 @@
+
+[[Italiano]] Questa pagina è anche in italiano
+========================================== [http://www.cs.washington.edu/homes/
+        ****** Keith Golden ******         kgolden/biking.jpg]
+==========================================
+***** Research *****   ***** Random
+    * Softbots         Hacking *****
+    * Planning             * Wordbot
+    * KR                   * Collaborative
+    * Selected               Dictionaries
+      publications
+    * Curriculum_Vitae
+          o Also in
+            postscript
+***** Likes *****      ***** Dislikes
+    * Bicycle_Touring  *****
+    * Languages            * Suits
+    * Painting_and         * Lawyers
+      photography          * Cars
+    * Nature               * TV
+    * Coffee
+    * "Godless_pinko
+      stuff"
+***** Friends* *****   ***** Advisors
+    * Ellen            *****
+    * Marc                 * Oren_Etzioni
+    * Ruben &amp;          * Dan_Weld
+      Lauren
+    * Nick
+    * Rich &amp;
+      Joanna
+    * Vivek
+==========================================
+     Keith_Golden, Department_of
+     Computer_Science_&amp
+     Engineering,_University_of
+     Washington, Seattle USA
+
+     kgolden@cs.washington.edu
+* Not a complete list!

@@ -1,0 +1,60 @@
+****** Kenneth Kunen ******
+     Professor
+     Math and Computer Sciences
+     University of Wisconsin
+     1210 W. Dayton St.
+     Madison, WI 53706-1685
+
+     E-mail: kunen@cs.wisc.edu
+     Telephone: (608) 263-2874
+Ph.D., Stanford University, 1968
+Interests: automated deduction, logic programing, set theory, topology
+===============================================================================
+***** Research Summary *****
+Most of my research work involves logic and its applications.
+Typical applications are automated deduction and logic programming. In
+automated deduction, we use tools like resolution to prove new mathematical
+theorems. In logic programming, we study the semantics of languages like
+Prolog. Specific topics I am considering are the Prolog use of negation-as-
+failure, and the semantic incompatibilities between least-fixed-point
+computations and the Prolog-style backtracking computation.
+In mathematical logic, I work on axiomatic set theory. Besides being of
+interest in its own right, this subject relates to various abstract areas of
+mathematics, such as set-theoretic topology and measure theory, where many
+basic questions turn out to be independent of the usual axioms of set theory.
+***** Selected Recent Publications *****
+The following are all postscript files.
+    * Kunen, K., The_Shortest_Single_Axioms_for_Groups_of_Exponent_4, Computers
+      and Mathematics and Applications, 29 (1995) 1-12.
+    * Hart, J. &amp Kunen, K., Single_Axioms_for_Odd_Exponent_Groups, J.
+      Automated Reasoning 14 (1995) 383-412.
+    * Kunen, K., A_Ramsey_Theorem_in_Boyer-Moore_Logic, to appear, J. Automated
+      Reasoning.
+    * Kunen, K. &amp van Mill, J., Measures_on_Corson_Compact_Spaces Fundamenta
+      Mathematica 147 (1995) 61-72.
+    * Hart, J. &amp Kunen, K., Locally_Constant_Functions, Fundamenta
+      Mathematica 150 (1996) 67-96.
+    * Kunen, K., The_Semantics_of_Answer_Literals, Technical Report TR-95-1282,
+      University of Wisconsin, 1995, to appear, J. Automated Reasoning.
+    * Kunen, K., Non-Constructive_Computational_Mathematics, Technical Report
+      TR-95-1287, University of Wisconsin, 1995, to appear, J. Automated
+      Reasoning.
+    * Kunen, K., Moufang_Quasigroups, J. Algebra 83 (1996) 231-234.
+    * Kunen, K., Quasigroups,_Loops,_and_Associative_Laws, preprint to appear,
+      J. Algebra.
+    * Kunen, K., The_Structure_of_Conjugacy_Closed_Loops, preprint
+    * Kunen, K., A_Completeness_Result_for_Linked_Resolution, to appear, MIT
+      Press.
+    * Hart,_J. &amp Kunen, K., Weak_Measure_Extension_Axioms, ROUGH DRAFT!!
+Book Review:
+    * Hart,_J. &amp Kunen, K., Review_of_"Notes_on_Set_Theory"_by_Moschovakis,
+      American Mathematical Monthly 103 (1996) 87-91.
+***** Courses Taught *****
+For fall, 1996:
+    * Math 131: Geometrical Inference and Reasoning.
+    * Math 770: Foundations of Mathematics.
+For spring, 1997:
+    * Comp_Sci_540:_Artificial_Intelligence.
+===============================================================================
+     Last Changed: October 4, 1996 by kunen@cs.wisc.edu
+===============================================================================

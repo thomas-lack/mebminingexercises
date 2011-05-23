@@ -1,0 +1,50 @@
+[http://www.cs.cornell.edu/Info/People/lnt/lnt.gif]
+
+
+**** Lloyd N. Trefethen
+Professor ****
+
+**** LNT@cs.cornell.edu ****
+My appointment at Cornell is in the Computer_Science_Department. I am also
+affiliated with the Center_for_Applied_Mathematics, the Department_of
+Mathematics, and the Cornell_Theory_Center.
+My field is numerical analysis / scientific computing; I have a personal_view
+of what this means. Specific interests include numerical linear algebra,
+numerical solution of PDE, numerical conformal mapping, approximation theory,
+and fluid mechanics. In recent years much of my work has been related to non-
+normal matrices and operators, that is, matrices and operators whose
+eigenvectors are not orthogonal, and applications.
+**** Textbooks ****
+    * Finite_Difference_and_Spectral_Methods (ODE/PDE textbook)
+    * Numerical_Linear_Algebra (textbook by Trefethen and Bau, SIAM, 1997)
+**** Recent papers ****
+    * MultiMATLAB:_MATLAB_on_multiple_processors
+    * Matrix_iterations:_the_six_gaps_between_potential_theory_and_convergence
+    * Pseudospectra_of_linear_operators
+    * Some_other_recent_papers
+**** Other items ****
+    * Classic_papers_of_numerical_analysis
+    * Curriculum_vitae
+    * Pseudospectra_bibliography
+    * $100_bet_with_Peter_Alfeld
+**** Current PhD students (at Cornell) ****
+    * Vicki_Howle
+    * Guðbjörn_Jónsson
+    * Yohan Kim
+    * Divakar_Viswanath
+**** Previous PhD students (at MIT and Cornell) ****
+    * Jeff_Baggett
+    * Toby_Driscoll
+    * Alan_Edelman
+    * Louis Howell
+    * Walter Mascarenhas
+    * Noel_Nachtigal
+    * Satish_Reddy
+    * Kim-chuan Toh
+**** Some other colleagues ****
+    * Jim_Demmel
+    * Anne_Greenbaum
+    * Martin_Gutknecht
+    * Des and Nick_Higham
+    * Anne_Trefethen
+    * Andre_Weideman

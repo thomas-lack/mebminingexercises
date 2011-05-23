@@ -1,0 +1,68 @@
+           [Friend] [Weather] [Library] [News] [Tutorial] [Research]
+***** Welcome to Lidong_Zhou's Homepage *****
+    [Cornell_University] [Department_of_Computer_Science] [Ithaca] [Tocoma]
+
+Department_of_Computer_Science
+Cornell_University
+Ithaca, NY 14853-7501
+Tel: (607) 254-5075 (o)
+
+===============================================================================
+
+    * **** Fall 96 Courses ****
+          o CS_601 -- System Concepts
+ (only locally accessible)
+CS_631 -- Multimedia System
+**** Research Related Materials ****
+    * SIGOPS_96_Papers
+    * OASIS_from_Cambridge
+    * DEC_SRC_Research_Reports
+    * Adage_--_Authorization_for_Distributed_Applications_and_Groups
+    * The_ARA_Project
+    * Low_Level_Security_in_Java
+    * Safe_Internet_Programming
+    * Legion
+    * Project_Sirac
+    * The_Kerberos_Network_Authentication_Service
+    * Massively_Distributed_Systems_from_IBM
+    * Ocaml_Homepage
+    * Advanced_materials_on_Internet_and_WWW
+    * A_Standard_for_Robot_Exclusion
+    * Computer_and_Network_Security
+**** Career WWW Documents ****
+    * Cornell_Career_Opportunities
+    * JobTrak
+    * College_Grad_Job_Hunter
+    * Job_opening_in_CS(For_Ph.D.'s)
+    * Career_Center_Online/Job_Services
+    * CareerMosaic_Page
+    * JobWeb_Home_Page
+    * Career_Mag
+    * XJOBS_Page
+**** My Friends' Homepages ****
+    * Yingjun_Yu
+    * Fudan_8924_classmates
+    * Friends_at_Cornell
+**** Information Resourses ****
+    * Tutorials_on_Computer_languages_and_Tools
+    * Big_Yellow_Book
+    * Cornell_ISSO_Homepage
+    * CND
+    * SUNRISE
+    * Chinese_Soccer_World
+    * Edmund's_Automobile_Buyer's_Guides
+    * AutoSite---_The_Ultimate_Auto_Buyers_Guide
+    * Auto_insurance_Basics
+    * Legal_Survival_Guide
+**** Other Links ****
+    * Travel_Agencies
+    * Rank_of_CS_departments
+    * How_to_Succeed_in_Graduate_School
+    * Fudan_Homepage
+ Back_to_Index
+
+
+===============================================================================
+
+     Last updated on Nov. 4, 1996
+     This homepage is under construction.

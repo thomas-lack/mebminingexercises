@@ -1,0 +1,40 @@
+[Real-Time Systems Group
+Department of Computer Sciences
+The University of Texas at Austin]
+The Real-Time Systems research group is headed by Prof._Aloysius_Mok. In the
+past few years, we have worked towards laying the groundwork for establishing a
+firm theoretical foundation for real-time systems and also to build design
+tools based on this foundation. Our work can be categorized into three areas as
+follows:
+    * Specification and Modeling: precise formulation of real-time properties
+      of systems.
+    * Analysis and Verification: reasoning about real-time properties.
+    * Synthesis: enforcing stringent timing constraints and other real-time
+      properties.
+****** Projects ******
+    * RTL (Real-Time Logic)
+    * Modechart Toolset
+          o Modechart Editor
+          o Modechart Verifier
+          o Modechart Simulator
+          o Modechart Compiler
+    * Timetool
+    * Ged
+    * Scenario Language
+****** Publications ******
+Abstracts of some of the group's papers are available online in PostScript.
+****** Current Members ******
+    * Deji_Chen
+    * Carlos_Puchol
+    * Doug_Stuart
+    * Duu-chung_Tsou
+    * Guangtian_Liu
+    * Rwo-Hsi_Wang
+    * Jin_Yang
+****** Alumni ******
+    * Tei-Wei_Kuo
+    * Paul Clements
+    * Chih-kan_Wang
+    * Farn_Wang
+    * Supoj Suthandavibul
+    * Farnam_Jahanian

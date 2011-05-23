@@ -1,0 +1,25 @@
+
+***** General Information *****
+    * Faculty_Recruiting_1996-97 [new]
+    * Department_Overview
+    * Research_Groups
+    * Related_Programs
+    * Academic_Information
+      (Admission Requirements, Course Descriptions, Catalogs)
+    * Department_Publications
+    * Computing_Facilities
+***** Upcoming Events *****
+    * Public_calendar
+    * Seminars_(utcs.talks)
+    * Visitor_Schedules
+***** Pages and People *****
+    * Classes
+    * Personal_Pages
+    * Student_Organizations
+    * Alumni_Links
+    * Finding_People
+    * Faculty/Staff_Directory
+***** The_University *****
+***** WWW_Information *****
+===============================================================================
+gripe@cs.utexas.edu

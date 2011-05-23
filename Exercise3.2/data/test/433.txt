@@ -1,0 +1,63 @@
+****** Bob Doorenbos' Home Page ******
+===============================================================================
+Department_of_Computer_Science_and_Engineering
+University_of_Washington
+Box 352350
+Seattle, WA 98195
+Office: 423 Sieg Hall; (206) 543-3368; bobd@cs.washington.edu; FAX (206) 543-
+2969
+===============================================================================
+Currently working at:
+Netbot_Inc.
+4530 Union Bay Place NE, Suite 208
+Seattle, WA 98105
+Voice (206) 522-7800 ext. 109; FAX (206) 522-7800 ext. 114
+===============================================================================
+***** Daily web pages: *****
+  Comedy: Dilbert_Strips, Mr._Boffo, David_Letterman's_Top_Ten_List
+  Geeky news: News.com, ZDNet_Anchordesk, ZD_Magazines
+  Other good stuff: Shortcut to today's Cool_Tool
+***** Research: *****
+  Current: Postdoc working with Oren_Etzioni, Steve_Hanks, and Dan_Weld on the
+  Softbot_project (see also AI_at_U-W)
+  In particular: ShopBot, an internet shopping agent.
+  Previous: The_Soar_project
+  My_Thesis (1.7 meg)
+***** AI, CS, and science web sites: *****
+  AI Collections: U-W_AI_Pointers, CMU_AI_Repository, Canada_NRC_KSL_AI
+  Pointers, ML&amp_CBR_Home_Pages
+  Organizations: ACM, SIGART, AAAI, Computing_Research_Association
+  Journals and Conferences: JAIR, Computational_Intelligence, Machine_Learning,
+  IJCAI
+  SPEC data: SPEC_Organization, current_spectable
+  Java links: Sun, Gamelan, The_Java_Developer, JavaNotes, UW_jump_page, UW_CSE
+  590S, Local_copy_of_Sun's_java_tutorial
+  Perl links: Adam_Rifkin's_Perl_links, Perl5_manual, www.perl.com
+  Miscellaneous: On-line_CS_tech_reports, CS_Dept._Front_Doors_&amp;_Gophers
+  Science: Scientific_American, Sigma_Xi/American_Scientist
+***** Miscellaneous other links: *****
+  Web Meta-Searching: MetaCrawler, SavvySearch
+  Web Searching: Alta_Vista, Lycos, Inktomi, Open_Text, InfoSeek, Excite, Web
+  Crawler, HotBot
+  Web Directories (hierarchical or more selective): Yahoo, Magellan, a2z,
+  PointCom, Top_of_the_Web
+  Lists of Search Engines: Guide_to_Searching_the_Net
+  Other Online Searches: FTP_search
+  Telephone Directories: World_Yellow_Pages_Network, Big_Yellow, 555-1212.com,
+  Switchboard_White_Pages, List_of_Other_Directories
+  News: CNN, CNNfn, NewsHour, Washington_Post, USA_Today, Reuters_Headlines
+  (from Yahoo), News_Page (from The_Social_Cafe), US_News_and_World_Report,
+  Boston_Globe, C-SPAN, Seattle_Times
+  Views: Slate, Feed, Salon, Atlantic_Monthly, Harper's
+  Sports: ESPN_Sports_Zone
+  U.S. Government: FedWorld_Index, White_House, Congress, IRS, NSF, ARPA
+  The Federal Budget Deficit: U.S._National_Debt_Clock, The_Concord_Coalition,
+  Try_Your_Hand_at_Balancing_the_Budget, Bipartisan_Commission_on_Entitlement
+  and_Tax_Reform, The_Budget
+  American_Universities
+  Web_Museums
+***** Links from my past life in Pittsburgh at CMU: *****
+  Upcoming birthdays
+  CMU-SCS home_page, personal_home_pages, and fun_page
+===============================================================================
+     bobd@cs.washington.edu

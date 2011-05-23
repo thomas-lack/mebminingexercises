@@ -1,0 +1,42 @@
+***** Xiaohan Qin [http://www.cs.washington.edu/homes/xqin/photo.gif] *****
+     xqin@cs.washington.edu
+     Computer_Science_&_Engineering_Department
+     University_of_Washington, Box 352350
+     Seattle,_WA 98195
+     Office: Sieg 223
+     Phone: (206)685-4087
+     Fax: (206)543-2969
+I am a 5th year graduate student working with Jean-Loup_Baer. My research
+interests include computer architectures, parallel and distributed systems,
+performance evaluation methods such as modeling and simulation. My short term
+goal is to get out of school as soon as possible.
+***** Papers: *****
+A_Performance_Evaluation_of_Cluster-based_Architectures, Qin and Baer,
+submitted to a conference.
+
+On_the_Use_and_Performance_of_Explicit_Communication_Primitives_in_Cache-
+coherent_Multiprocessor_Systems, Qin and Baer, To appear in the Proceedings of
+HPCA-3.
+
+A_Comparative_Study_of_Conservative_and_Optimistic_Trace-driven_Simulations,
+Qin and Baer, An award paper in 1995 Simulation Symposium, page 42-50.
+
+Optimistic_Trace-driven_Simulation, Qin and Baer, Tech Report 94-10-03, Dept of
+Computer Science and Engineering, Univ. of Washington.
+
+A_Parallel_Trace-driven_Simulator:_Implementation_and_Performance, Qin and
+Baer, in Proceedings of 1994 International Conference of Parallel Processing,
+page 314-318.
+
+MIN-Graph:_A_tool_for_Monitoring_and_Visualizing_MIN-based_Multiprocessor
+Performance, Zhang, Nalluri, and Qin, in Journal of Parallel and Distributed
+Computing, June 93, page 231-241.
+
+Performance_Prediction_and_Evaluation_of_Parallel_Processing_on_a_NUMA
+Multiprocessor, Zhang and Qin, in IEEE Trans. on Software Engineering, Oct 91,
+page 1059-68.
+
+***** Other interesting stuff: *****
+Photos_from_China
+Readings_in_Chinese
+Search_Engine

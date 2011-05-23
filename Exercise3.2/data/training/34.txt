@@ -1,0 +1,27 @@
+[http://www.cs.cornell.edu/Info/People/aswin/Pictures/aswin.gif]
+ [http://www.cs.cornell.edu/Info/People/aswin/Pictures/poster9.gif]
+****** Aswin van den Berg ******
+***** Graduate Student *****
+aswin@cs.cornell.edu
+Office: 4153, Upson Hall
+        phone: (607) 255-1372
+Home:
+	_19_Skyacre_Drive.
+	Ithaca, NY 14850
+	phone: (607) 257-2694
+===============================================================================
+I am interested in:
+    * Programming languages
+    * Program Transformation
+          o The FUN transformation system
+      My personal life.
+    * Family_Album
+    * Anneke's_WWW_Page
+    * Swing_Dancing
+          o The_Swing_Dance_Server
+          o The_Jean_&_Aswin_Swing_Dance_Page
+          o DeeJayer's_Guide_for_ISDN_Record_Hops
+          o My_Personal_Swing_Pictures
+    * De_Nederlandse_Club_van_Cornell or
+      The_Cornell_Dutch_Club
+I am a graduate student at Cornell

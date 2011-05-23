@@ -1,0 +1,18 @@
+[http://www.cs.utexas.edu/users/UTCS/report/1994/profiles/adale.gif]
+****** Alfred G. Dale ******
+No personal page.
+Trammel Crow Regents Professor Emeritus in Computer Sciences
+B.A. (1951)
+Exeter College, Oxford, England
+M.B.A. (1953), Ph.D. (1961)
+University of Texas at Austin
+***** Areas of Interest *****
+Database management systems and database architecture
+***** Summary of Research *****
+My area of interest involves applications of a parallel multi-stage I/
+O architecture to database management. Problems being studied include data
+distribution strategies, distributed indexing, and mapping of relational
+algebraic operations to the architecture.
+Additional information can be obtained from individual_faculty_members'_home
+pages.
+[http://www.cs.utexas.edu/icons/UTCS/up.gif]Back_to_List_of_Faculty_Profiles

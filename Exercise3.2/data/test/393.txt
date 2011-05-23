@@ -1,0 +1,14 @@
+****** Vijaya Ramachandran ******
+Blakemore Regents Professor of Computer_Sciences
+The_University_of_Texas_at_Austin.
+    * Ph.D., 1983, Princeton University.
+***** Research Interests *****
+My research interests are in algorithms_and_computational_theory, primarily in
+the area of parallel computation and algorithm design. They include:
+    * the design and analysis of efficient parallel and sequential algorithms;
+    * the design and evaluation of models for parallel machines; and
+    * the experimental evaluation of algorithms.
+You can access copies of recent_papers of mine.
+A complete listing of my publications is available in my vita.
+Here is my official faculty_profile.
+***** Contact Information *****

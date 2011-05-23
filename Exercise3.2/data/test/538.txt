@@ -1,0 +1,82 @@
+****** Stefan Savage
+savage@cs.washington.edu ******
+[http://www.cs.washington.edu/homes/savage/pictures/medome.gif]
+  Work:
+      Computer_Science_&_Engineering_Department,
+      University_of_Washington, FR-35,
+      Seattle,_WA 98195 USA
+  Home:
+      4223 5th Ave NE
+      Seattle,_WA 98105 USA
+===============================================================================
+After sampling the rich post-industrial culture of modern Pittsburgh for six
+years, I caught a ride with the 1993 Bershad migration and I'm now a gradual
+student of the first rank here at UW. My strong background in 19th and 20th
+century American History provides me with a firm, yet irrelevant, platform from
+which to "trash talk" my peers:
+      "Any fool can see that de Tocqeuville's statement, '[Americans] find it a
+      tiresome inconvenience to exercise political rights which distract them
+      from industry' is quite similar to current microprocessor architectural
+      trends favoring the needs of application code over operating systems"
+I work with Brian_Bershad and the rest of the
+ merry_band on an operating system project called SPIN.
+***** Projects *****
+  SPIN
+      SPIN is an extensible operating system omnifemtokernel which supports the
+      dynamic adaptation of system interfaces and implementations through
+      direct application control, while still maintaining system integrity and
+      inter-application isolation.
+***** Things in Writing *****
+SPIN papers
+    * Extensibility,_Safety_and_Performance_in_the_SPIN_Operating_System
+          o in "Proceedings of the 15th ACM Symposium on Operating System
+            Principles (SOSP-15)", pp. 267-284, Copper Mountain, CO, December
+            1995.
+          o Slides from the talk.
+    * Language_Support_for_Extensible_Operating_Systems
+          o in "Proceedings of the First Workshop on Compiler Support for
+            System Software (WCSSS)", Tucson, AZ, Feb 1996.
+    * Writing_an_Operating_System_with_Modula-3
+          o in "Proceedings of the First Workshop on Compiler Support for
+            System Software (WCSSS)", Tucson, AZ, Feb 1996.
+    * Protection_is_a_Software_Issue
+          o in "Proceedings of the Fifth Workshop on Hot Topics in Operating
+            Systems (HotOS-V)", pp. 62-65, Orcas Island, WA, May 1995.
+    * Some_Issues_in_the_Design_of_an_Extensible_Operating_System
+          o in "Proceedings of the First USENIX Symposium on Operating System
+            Design and Implementation (OSDI-1)", p. 196, Monterey, CA, November
+            1994. (panel abstract)
+          o A longer (unpublished) version of the above paper.
+    * SPIN_-_An_Extensible_Microkernel_for_Application-specific_Operating
+      System_Services
+          o in "Proceedings of the Sixth SIGOPS European Workshop on Matching
+            Operating Systems to Application Needs".
+          o A version appeared in Operating_Systems_Review, pp. 74-77, January
+            1995, v 29, no 1.
+    * SPIN_-_An_Extensible_Microkernel_for_Application-specific_Operating
+      System_Services
+          o University of Washington Tech Report UW-CSE-94-03-03, March 1994.
+AFRAID paper
+    * AFRAID_--_A_Frequently_Redundant_Array_of_Independent_Disks
+          o in "Proceedings of the 1996 Winter USENIX Technical Conference",
+            pp. 27--39, San Diego, CA, January 1996. (best student paper)
+          o Slides from the talk.
+Reservation papers
+    * Processor_Capacity_Reserves:_Operating_System_Support_for_Multimedia
+      Applications
+          o in "Proceedings of the First IEEE International Conference on
+            Multimedia Computing and Systems", Boston, MA, May 1994.
+    * Processor_Capacity_Reserves:_An_Abstraction_for_Managing_Processor_Usage
+          o in "Proceedings of the Fourth Workshop on Workstation Operating
+            Systems (WWOS-IV)", pp. 129-134, Napa, CA, October 1993.
+    * Processor_Capacity_Reserves_for_Multimedia_Operating_Systems
+          o Carnegie-Mellon Tech Report CMU-CS-93-157, May 1993.
+Ye Old Real-Time Mach paper
+    * Real-Time_Mach_Timers:_Exporting_Time_to_the_User
+          o in "Proceedings of the Third USENIX Mach Symposium", pp. 111-118,
+            Santa Fe, April 1993.
+          o Slides from the talk.
+***** Interests *****
+    * Music
+    * Hiking
+This web is under construction...

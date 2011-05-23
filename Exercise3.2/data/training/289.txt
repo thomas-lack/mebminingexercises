@@ -1,0 +1,36 @@
+                    ****** Mike Kistler's Home Page ******
+===============================================================================
+This page is under construction! [http://www.cs.utexas.edu/users/kistler/gifs/
+under-construct.gif]
+===============================================================================
+I am a first year PhD student at the University_of_Texas at Austin in the
+Department_of_Computer_Sciences. I am also currently employed by IBM in the
+Personal_Software_Products division.
+===============================================================================
+**** My Academic Background ****
+BA in Mathematics and Computer Science, 1982
+Susquehanna_University, Selinsgrove, PA.
+MS in Computer Information Science, 1990
+Syracuse_University, Syracuse, NY.
+Masters of Business Administration, 1991
+Stern_School_of_Business New York University, New York, NY.
+===============================================================================
+**** My Academic Interests ****
+I am interested in parallelism and parallel algorithms, particularly in how
+these can be used for commercial data processing.
+Press here for a random collection of links to information about parallel
+computing.
+===============================================================================
+**** My Courses ****
+*** Fall, 1996 ***
+    * CS380D:_Distributed_Computing_I with Prof._Jayadev_Misra.
+    * CS383C:_Numerical_Analysis:_Linear_Algebra with Prof._Alan_Cline.
+===============================================================================
+ You are visitor number: [http://www.cs.utexas.edu/pub/cgi/number.xbm/www/
+users/kistler/index.val]
+===============================================================================
+**** To contact me ****
+[http://www.cs.utexas.edu/users/kistler/gifs/mailbox.gif] 1309 Julies Walk,
+Pflugerville, TX 78660
+[http://www.cs.utexas.edu/users/kistler/gifs/phone.gif] (512) 251-5455
+email: kistler@cs.utexas.edu.

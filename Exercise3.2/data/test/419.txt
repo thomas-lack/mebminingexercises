@@ -1,0 +1,42 @@
+
+  [[steam_computing]] [UW Computer Science and Engineering]
+Steam_Powered_Parallel_Computing mural, circa 1986.
+===============================================================================
+   GENERAL    Including an overview of the department, visitor_schedule,
+ INFORMATION  colloquia, televised_talks, what's_new in our web, construction
+              progress of our new building, department_newsletter, and more.
+              Including a time_schedule of classes, course list and webs,
+              information about the full-time_graduate_program, the
+   EDUCATION  professional_masters_program, and the undergraduate computer
+              science and computer_engineering programs, final_exam_schedules,
+              and more.
+   RESEARCH   Including research_project_web_pages, technical_reports and
+              abstracts, Computing_Research_Association, and more.
+PEOPLE_&amp;  Including faculty, staff, students, visitors, organizations, our
+ORGANIZATIONS Affiliates_Program, our graduating_Ph.D._students, and more.
+  THE_REGION  Including local information, desktop_references, links_to
+              elsewhere, and more.
+   SPOTLIGHT  UW_wins_Pacific_Regionals_of_ACM_International_Student
+              Programming_Contest
+              Two_videos_highlighting_educational_initiatives
+              Our_colloquia_are_now_live_on_the_MBONE
+              Major_donation_from_Intel_Corporation
+              Dick_Karp_receives_National_Medal_of_Science
+              Professional_Masters_Program
+              Department_Overview
+              "The_Impact_of_a_Research_University:_An_IT_Perspective"
+              Faculty/Staff_Positions_Available
+              "A_Half_Century_of_Exponential_Progress_in_Information
+              Technology"
+ [Search] CSE for [query               ] in [One of: All pages/People/The
+Region/Courses/CS Laboratory/Research/News]     [[free_speech]]
+                        Can't handle tables? Click here.
+
+===============================================================================
+               Department of Computer Science &amp; Engineering
+                           University_of_Washington
+                                  Box 352350
+                            Seattle, WA 98195-2350
+                   (206) 543-1695 voice, (206) 543-2969 FAX
+     Comments to webmaster@cs.washington.edu
+

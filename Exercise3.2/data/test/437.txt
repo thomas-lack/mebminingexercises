@@ -1,0 +1,38 @@
+****** Lauren Bricker ******
+     Computer_Science_&_Engineering_Department,
+     University_of_Washington, FR-35,
+     Seattle,_WA 98195 USA
+===============================================================================
+Click here if you need a clue.
+***** Research Info *****
+My research interest is primarly graphical user_interfaces, although I am a
+self-proclaimed graphics groupie. I'm I'm currently working with Steve_Tanimoto
+on the Mathematics_Experiences_Through_Image_Processing_(METIP) project. The
+goal of this project is interest junior high school kids in mathematics using
+exploratory rather than rote learning methods. In particular, I'm interested in
+developing Computer_Supported_Collaborative_Learning_(CSCL) user interfaces
+that can be used in this, as well as other, projects.
+***** Workin' lawk a dawg *****
+    * Ark_Interface
+    * A fairly extensive resume
+***** School daze *****
+    * This quarter
+          o 590D
+    * Other quarters
+          o Human-Computer_Interaction_course from Spring quarter 1995
+          o And writeups for hw1, hw2, and the final project writeup
+          o What am I doing in a www.cs.washington.edu/education/courses/590s/
+            w96/index.html>systems
+ course?
+A very interesting course in Computers_in_Society
+***** Oh so exciting hobbies I used to enjoy in a not-so-busy life *****
+    * Sports
+    * Cooking
+    * Pottery (I even have my own studio in the garage, not that it's been used
+      in 5 years...)
+    * Other_fun_stuff
+***** Because Ron asked for it *****
+    * Addresses
+===============================================================================
+     bricker@cs.washington.edu
+     Last modified: Monday 5 June 1995

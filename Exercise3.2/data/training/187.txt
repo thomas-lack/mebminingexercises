@@ -1,0 +1,35 @@
+
+****** Deriving Incremental Programs ******
+===============================================================================
+A general systematic transformational approach to improving the efficiency of
+computation.
+***** Theme *****
+Program analysis and transformations for incrementalization.
+***** Cachet *****
+An incremental-attribution-based interactive system that uses systematic
+program analysis and transformation techniques to derive incremental programs
+written in a functional language.
+***** Selected Publications *****
+Y. A. Liu and T. Teitelbaum. Systematic_derivation_of_incremental_programs.
+Science of Computer Programming, 24(1):1-39, February, 1995.
+Y. A. Liu and T. Teitelbaum. Caching_intermediate_results_for_program
+improvement. In Proceedings of the ACM SIGPLAN Symposium on Partial Evaluation
+and Semantics-Based Program Manipulation, pages 190-201, La Jolla, California,
+June 1995.
+Y. A. Liu, S. D. Stoller, and T. Teitelbaum. Discovering_auxiliary_information
+for_incremental_computation. In Proceedings of the 23rd Annual ACM SIGPLAN-
+SIGACT Symposium on Principles of Programming Languages, St. Petersburg Beach,
+Florida, January 1996.
+Y. A. Liu. CACHET:_An_interactive,_incremental-attribution-based_program
+transformation_system_for_deriving_incremental_programs. In Proceedings of the
+10th Knowledge-Based Software Engineering Conference, Boston, Massachusetts,
+November 1995. IEEE Computer Society Press.
+Y. A. Liu. Principled_strength_reduction. July 1996.
+***** People *****
+Y._Annie_Liu
+Tim_Teitelbaum
+***** Keywords *****
+incremental computation, incremental programs, efficiency improvement,
+optimization, program analysis, program transformation, Cachet
+===============================================================================
+     Y._Annie_Liu yanhong@cs.cornell.edu Last updated 7/14/96

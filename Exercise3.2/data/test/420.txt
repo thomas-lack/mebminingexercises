@@ -1,0 +1,24 @@
+                               Andrew P. Berman
+     aberman@cs.washington.edu
+     Computer_Science_&_Engineering_Department,
+     University_of_Washington, FR-35,
+     Seattle,_WA 98195 USA
+[http://www.cs.washington.edu/homes/aberman/mrblebar.gif]
+**** Papers ****
+    * Berman, Andrew; Bourassa, Virgil; Selberg, Erik. TRON: Process-Specific
+      File Protection for the UNIX Operating System in both postscript and
+      HTML. Proceedings of the 1995 Winter USENIX Conference.
+    * Berman, Andrew. A New Data Structure for Fast Approximate Matching in
+      postscript_format.
+    * Berman, Andrew; Shapiro, Linda: Efficient Image Retrieval with Multiple
+      Distance Measures. Available in Postscript_format. To appear in SPIE 97.
+[http://www.cs.washington.edu/homes/aberman/mrblebar.gif]
+**** Special Links ****
+    * My wife, Debbie.
+    * Debbie and I have a beautiful daughter, Melanie. [http://
+      www.cs.washington.edu/homes/aberman/mrblebar.gif]
+      **** Miscellaneous ****
+    * Don't eat the Poison_Donuts!
+    * How_Stupid_Is_Stupid
+    * my_bookmarks
+[http://www.cs.washington.edu/homes/aberman/mrblebar.gif]

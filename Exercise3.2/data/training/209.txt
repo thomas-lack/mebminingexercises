@@ -1,0 +1,57 @@
+
+
+Vicki_L._Almstrum
+[-----]
+***** About Me *****
+I am an educator and a computer scientist. I am very interested in
+understanding how people learn what they learn. I am particularly interested in
+the learning of mathematical logic and formal methods. My doctoral research was
+on the topic of Limitations_in_the_Understanding_of_Mathematical_Logic_by
+Novice_Computer_Science_Students.
+I am a lecturer at the University of Texas at Austin. In addition, I spent the
+fall semester of 1995 teaching in Uppsala Sweden. My home_page there is a link
+into that university.
+Other interests include encouraging others to excel in mathematics and computer
+science, gardening, travel, crafts such as sewing and woodworking, etc. Here's
+a_picture_of_me_with_my_hubby,_Torgny_Stadler.
+[-----]
+***** Check these sites out!!: *****
+    * ITICSE_'97:_Conference_on_Integrating_Technology_into_Computer_Science
+      Education
+       June 2-4, 1997 (Working groups June 1-5)
+      Uppsala, Sweden
+[-----]
+***** Other pages that I maintain: *****
+    * Classes_I_teach_at_UT_Austin
+    * The_field_of_Computer_Science_Education
+      (includes research methods, evaluation ...)
+    * Mentoring_Issues
+    * Some_interesting_jumping-off_points
+[This area suffers from spurts of construction frenzy!!]
+***** Home pages for organizations to which I belong: *****
+SIGCSE ACM's Special Interest Group on Computer Science Education
+SIGSoft ACM's Special Interest Group on Software Engineering
+ACM The Association for Computing Machinery
+IEEE The Institute of Electrical and Electronics Engineers
+CPSR Computer Professionals for Social Responsibility
+***** Connections to other home pages: *****
+UT_Austin_Computer_Sciences    UT_Austin    Web_Texas    Elsewhere
+[-----]
+***** To Contact Me *****
+Office:
+Department of Computer Sciences C0500
+TAY 2.124, University of Texas at Austin
+Austin, TX 78712 USA
++1 512.471.7316 (CS main office)
++1 512.471.9730 (direct, but seldom there)
+fax: +1 512.471.8885
+Home:
++1 512.459.8678
+fax: +1 512.459.6068 (not always connected; need to forewarn me and leave
+plenty of time!)
+
+Email address:
+almstrum@cs.utexas.edu
+
+[-----]
+     almstrum@cs.utexas.edu

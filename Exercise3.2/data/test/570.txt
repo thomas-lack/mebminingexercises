@@ -1,0 +1,28 @@
+Yasushi Saito(ºØÆ£Ì÷/¤µ¤¤¤È¤¦¤ä¤¹¤·)
+I am a second year graduate student at Department_of_Computer_Science_and
+Engineering at University_of_Washington Seattle,_WA 98105.
+I'm currently working with Brian_Bershad on the SPIN project.
+See my_address, pgp_key, and personal_info[http://www.cs.washington.edu/homes/
+yasushi/new.gif].
+**** Meta Links ****
+ ______________________________________________________
+|MetaCrawler|Yahoo|CSE_Desktop_Reference|RFC_Index_____|
+|Alta_Vista_|Lycos|Archie_______________|Tech_Rep_Index|
+**** Research Links ****
+    * SPIN_Internal_Documentation
+    * Modula_3_info.
+    * CSE_time_Schedule.
+    * I'm_surveying_hot_operating_systems.
+    * Transaction_Service_a_la_SPIN,_aka_The_Qual_Project.[http://
+      www.cs.washington.edu/homes/yasushi/new.gif]
+**** Sightseeing ****
+**** Japanese_Links ****
+**** Random Info ****
+    * Javascript_apprentice_page
+    * Using_Linux_to_connect_CS_PPP_gateway.
+    * Japanized_perl5.002_patch5
+    * Touch_type_trainer(with_Dvorak_lesson_texts)
+===============================================================================
+yasushi@cs.washington.edu
+If you want to finger or talk me, try canvas.cs.washington.edu. It's my desktop
+box.

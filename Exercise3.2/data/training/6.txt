@@ -1,0 +1,47 @@
+[http://robios8.me.wisc.edu/images/ **** UW-Madison Robotics Lab ****
+robots.gif]                         302 Mechanical Engineering
+                                    1513 University Avenue
+                                    Madison, WI 53706
+                                    Vladimir_Lumelsky, Director
+===============================================================================
+**** About the Lab ****
+    * Brief_Review_of_the_Lab's_Research_Activities
+    * People_in_the_Lab
+    * Lab_Technical_Reports (compressed postscript available)
+    * The_Simulation_Library,_v2.0
+    * Related_Courses
+    * Robotics_Seminar
+===============================================================================
+**** Recent_Projects_and_Selected_Publication_Abstracts ****
+    * Maze-searching_algorithms
+    * Effect_of_kinematics_in_sensor-based_motion_planning
+    * Dynamics_and_sensor-based_control:_the_Jogger's_Model
+    * Sensing_and_planning
+    * Decentralized_intelligence:_groups_of_robots
+    * Special_topics_in_sensor-based_motion_planning:_Tethered_robots;
+      Underwater_robots;_Kinematic_redundancy
+    * Sensitive_skin_project
+    * Human-centered_systems
+    * Computational_Geometry
+===============================================================================
+**** Related Research at UW--Madison ****
+    * Neil_A._Duffie -- Manufacturing Systems
+    * Chuck_Dyer -- Computer Vision
+    * Robert_Lorenz -- Sensors and Actuators
+    * Jude_Shavlik -- Machine Learning
+===============================================================================
+**** Robotics links ****
+    * IEEE_Society_of_Robotics_and_Automation_(IEEE_RAS)
+    * IEEE_RAS_Tech._Committee_on_Robot_Motion_&_Path_Planning
+    * Robotics_Internet_Resources_Page
+    * Robotics_Web_Servers
+    * ROBOTICS
+    * NASA_Telerobotics_Research_Program
+    * Robotics_Frequently_Asked_Questions_List
+===============================================================================
+**** Local links ****
+    * UW-Madison_CS_Dept
+    * UW-Madison_AI_Group
+    * UW-Madison_College_of_Engineering
+===============================================================================
+     Comments/suggestions/errata: hert@cs.wisc.edu

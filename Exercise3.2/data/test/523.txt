@@ -1,0 +1,56 @@
+****** Don_Pardo ******
+Department_of_Computer_Science_&amp;_Engineering
+University_of_Washington
+Box_352350
+Seattle,_Washington 98195 USA
+pardo@cs.washington.edu
+===============================================================================
+===============================================================================
+Note: if you show a blue ribbon , such as <IMG SRC="http://www.eff.org/pub/
+Graphics/Icons/BlueRibbon/rib_trn_plain_sm.gif" ALT="">, it is a way of showing
+quiet opposition to the free speech prohibition in the U.S. National
+telecommunications bill. (lIkewise, white letters on a black background.)
+Beth: ``Everybody needs a Pardo around sometimes.''
+Pardo: ``Sometimes?''
+Beth: ``There's only one, so we have to share him.''
+***** Academic *****
+    * Some papers I've worked on or find particularly interesting.
+    * Runtime_Code_Generation (RTCG).
+    * Instruction-set_simulation_and_tracing_tools.
+    * UW home pages on computer_architecture and compilers.
+    * Quick links to some other people_working_with_computers.
+    * Classes.
+    * UW_thesis_style
+===============================================================================
+===============================================================================
+***** Non-Academic *****
+**** Featured Items ****
+    * Featured_item_of_the_month.
+    * Weak_Site_of_the_Week (NOW: doesn't blink anymore!)
+**** Regular Items ****
+    * Bicycles
+    * Businesses
+    * Computers
+    * Food
+    * Humor
+    * I'm_famous! (Things related to me.)
+    * Legal_and_Ethical_Weirdness
+    * Linux_Journal
+    * Music
+    * Goofy_Politics
+    * Science
+    * Thinking (and more, and yet_more, though unrelated stuff, about
+      thinking).
+    * Transportation
+    * Seattle_movie_listings. And now -- The_Seattle_Film_Festival! (Dante sez:
+      search_it!)
+    * A truly gross story about trepanation.
+    * No_privacy_on_the_Web -- sites may be logging your e-mail address (or
+      worse,_taking_data_from_your_disks!) every time you use them (consider
+      this).
+    * Weather_courtesey_of_MIT, and Seattle in particular. Also, weather
+      courtesey_of_??_(Newhouse_Newspapers?). Also, weather courtesy of USA
+      Yesterday
+    * WWW_stuff
+===============================================================================
+     pardo@cs.washington.edu

@@ -1,0 +1,17 @@
+===============================================================================
+****** James R. Goodman (goodman@cs.wisc.edu) ******
+
+ [http://www.cs.wisc.edu/~goodman/goodman.gif]
+
+Professor of Computer Sciences
+Department of Computer Sciences
+University of Wisconsin - Madison
+1210 West Dayton Street
+Madison, WI 53706 USA
+**** Research Interests: ****
+    * Lots of good stuff
+***** Current Projects: *****
+    * Galileo_and_SCI_at_Wisconsin
+===============================================================================
+     Last Updated: May 2, 1994
+===============================================================================

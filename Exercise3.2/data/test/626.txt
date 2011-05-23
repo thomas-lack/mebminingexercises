@@ -1,0 +1,32 @@
+color == rrggbb >
+BODY BGCOLOR=#color : for background TEXT =#color : for text LINK =#color : for
+normal links VLINK =#color : for recently followed links ALINK =#color : for ?
+>
+BODY BGCOLOR="#333377" TEXT="00FF00" LINK="FFCC33" VLINK="FFCCCC"
+ALINK="FF0000" >
+===============================================================================
+****** Satish Chandra (chandra@cs.wisc.edu) ******
+
+IMG SRC="teapot.gif">
+[http://www.cs.wisc.edu/~chandra/pic.gif] Research Assistant
+Department of Computer Sciences
+University of Wisconsin - Madison
+1210 West Dayton Street
+Madison, WI 53706 USA
+Phone: (608)262-4196
+***** Research *****
+    * Research_Interests_and_Summary
+    * Publications
+    * C.V. (coming soon, real soon)
+***** ...and stuff *****
+    * P.G.Wodehouse
+    * Books
+    * The_Internet_Movie_Database
+    * Nostalgia
+    * The_New_York_Times
+    * Altavista
+    * Italian_Language_and_Culture
+    * Miscellaneous_Links
+===============================================================================
+Click here to see if I am logged on.
+===============================================================================

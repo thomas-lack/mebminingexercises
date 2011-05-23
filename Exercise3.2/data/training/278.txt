@@ -1,0 +1,29 @@
+[ ]
+****** Isaac A. Sheldon ******
+===============================================================================
+***** Contact Information *****
+Phone: (512) 912-0056
+e-mail: isheldon@cs.utexas.edu
+Information: http://www.cs.utexas.edu/users/isheldon
+===============================================================================
+***** Professional Information *****
+I am currently a graduate student at The_Univeristy_of_Texas_at_Austin in the
+Department_of_Computer_Science and will recive my Masters of Science in
+December '96 with my coursework concentrating on Computer Graphics.
+I recieved my undergraduate degree in Computer Science at The_Univesity_of_Mass
+at_Lowell.
+I have a summer intern job at Scientific_and_Engineering_Software_Inc., a small
+Austin company creating Schlaeor-Mellor CASE tools.
+===============================================================================
+***** Projects *****
+[Under Construction]
+Constructive Solid Geometry Using BSPTrees
+Modular_Ray_Tracing_Framework
+Butte
+===============================================================================
+***** Personal Information *****
+[Under Constructions]
+Baby_Page
+===============================================================================
+     Isaac A. Sheldon isheldon@cs.utexas.edu
+Last Update: Aug. 4, 1996

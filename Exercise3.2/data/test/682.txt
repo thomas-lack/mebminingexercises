@@ -1,0 +1,38 @@
+****** Johannes Gehrke ******
+Welcome! I am an international [http://www.cs.wisc.edu/~johannes/pictures/
+de.gif] graduate_student at the Computer_Sciences_Department at the University
+of_Wisconsin-Madison. My area of interest is database_management_systems. I am
+working in the area of data mining under Professor Raghu_Ramakrishnan.
+This page is under construction. [http://www.cs.wisc.edu/~johannes/pictures/
+under_construction.gif]
+    * Contact_Information
+    * Publications
+    * Interesting_Links
+           [http://www.cs.wisc.edu/~johannes/pictures/rainline.gif]
+***** Contact Information *****
+  Email:
+      johannes@cs.utexas.edu
+  Office
+      University_of_Wisconsin-Madison
+      Computer_Sciences_Department
+      1210 West Dayton Street, room 3379
+      Madison, Wisconsin 53706-1685
+      (608) 263-2150
+  Home
+      706-D Eagle Heights
+      Madison, WI 53705
+      (608) 233-0937
+           [http://www.cs.wisc.edu/~johannes/pictures/rainline.gif]
+***** Publications *****
+    * I._Stoica, H._Abdel-Wahab, K._Jeffay, S.K._Baruah, J.E._Gehrke, and C.G.
+      Plaxton. A_Proportional_Share_Resource_Allocation_Algorithm_For_Real-
+      Time,_Time-Shared_Systems. In Proceedings of the 17th IEEE Real-Time
+      Systems Symposium, Washington, DC, December 1996 (to appear). Here is an
+      expanded_version.
+    * S.K._Baruah, J.E._Gehrke, and C.G._Plaxton. Fast_Scheduling_of_Periodic
+      Tasks_on_Multiple_Resources. In Proceedings of the 9th IEEE International
+      Parallel Processing Symposium, April 1995. Expanded version available as
+      Technical_Report_TR-95-02, Department of Computer Sciences, The
+      University of Texas at Austin, February 1995
+           [http://www.cs.wisc.edu/~johannes/pictures/rainline.gif]
+     Johannes Gehrke

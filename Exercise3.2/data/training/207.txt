@@ -1,0 +1,37 @@
+****** UT Artificial Intelligence Laboratory ******
+The Artificial Intelligence Laboratory at The_University_of_Texas_at_Austin has
+a distinguished history and a large number of excellent faculty and graduate
+students.
+U.S. News and World Report (3/18/96) ranked our AI program 5th in the nation.
+The AI Lab is closely linked with the UT_Computer_Science_Department.
+***** Faculty *****
+    * Bob_Boyer --- Automated Theorem Proving
+    * Robert_L._Causey --- Logic and philosophical foundations
+    * Benjamin_Kuipers --- Qualitative_Reasoning
+    * Vladimir_Lifschitz --- Reasoning about Action
+    * Risto_Miikkulainen --- Neural_Networks
+    * Dan Miranker --- Rule-Based Systems
+    * Ray_Mooney --- Machine_Learning
+    * Gordon_Novak --- Automatic_Programming, Physics_Problem-Solving.
+    * Bruce_Porter --- Multi-Functional_Knowledge_Bases
+***** Emeritus Faculty *****
+    * Woody Bledsoe (deceased Oct. 4, 1995) --- Automated_Theorem_Proving
+      I_had_a_Dream (1984 AAAI Presidential Address).
+    * Robert F. Simmons --- In_Memoriam
+***** Postdocs *****
+    * Peter_Clark
+    * Art_Souther
+***** Technical Reports and Software *****
+FTP directories are currently available for:
+    * AI_Lab_Technical_Reports
+    * Automated_Theorem_Proving_Technical_Reports
+    * Kuipers
+    * Miikkulainen
+    * Mooney
+    * Novak
+    * Porter
+Pointers_to_Other_AI_Labs_and_AI_Funding_Agencies
+===============================================================================
+Contact:
+     novak@cs.utexas.edu
+===============================================================================

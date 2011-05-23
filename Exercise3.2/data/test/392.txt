@@ -1,0 +1,58 @@
+When feeling burdened or downcast,... the human mind will gladly turn to the
+realms of Mathematics, where a lucid and precise grasp of objectivities is
+obtained and insight is gained so pleasantly through appropriate concept
+formation. Here the human spirit feels at home. -- Paul Bernays, 1955
+[http://www.cs.utexas.edu/users/vl/lifschitz.jpeg]
+****** Vladimir Lifschitz ******
+Gottesman Family Centennial Professor in Computer_Sciences at The_University_of
+Texas_at_Austin
+Fellow of the American_Association_for_Artificial_Intelligence
+B.S. in Mathematics (1968), St._Petersburg_University, Russia
+Ph.D. in Mathematics (1971), St._Petersburg_Branch_of_the_Steklov_Mathematical
+Institute, Russia
+***** Areas of Interest *****
+    * Temporal_reasoning and reasoning_about_actions
+    * Logic_programming_and_nonmonotonic_reasoning
+***** Teaching *****
+***** Other_Professional_Activities *****
+***** Papers on line *****
+    * Lecture_notes_and_surveys
+    * Research_papers_by_Lifschitz
+    * Research_papers_and_dissertations_by_Lifschitz's_students
+***** Recommended Reading: Edsger_Dijkstra's_convocation_speech *****
+***** Good news *****
+    * Madeleine_Albright_is_nominated_for_Secretary_of_State
+    * Germany_became_a_better_place_to_live
+    * Germany_regained_books_taken_by_the_Soviet_Army
+    * Daniel_Ortega_lost_again
+    * There_is_no_need_to_recycle_paper
+    * Helms-Burton_Act
+***** Bad news *****
+    * Wang_Dan_is_sentenced_to_11_years_in_prison
+    * Torture_is_used_by_police_in_a_democratic_country
+    * A_law_sequesters_important_archeological_evidence
+    * World's_most_closed_society
+***** Notes on the race problem in America *****
+    * Blacks_win_re-election_in_recently_redrawn_districts
+    * California_Civil_Rights_Initiative
+    * The_same_ratio_of_whites_and_blacks_finish_high_school
+    * UT_will_admit_students_on_a_race-neutral_basis
+***** Other notes *****
+    * From_Amnesty_International
+    * On_scientists_and_science
+    * My_favorite_stories
+    * Three_silly_jokes
+    * Quote_of_the_month
+===============================================================================
+***** Contact Information *****
+  Office:
+      Taylor Hall 3.150B
+  Phone Numbers:
+      (512) 471-9564 (Office)
+      (512) 471-8885 (Fax)
+  Postal address:
+      Department of Computer Sciences
+      University of Texas at Austin
+      Austin, TX 78712-1188
+      USA
+     vl@cs.utexas.edu

@@ -1,0 +1,9 @@
+****** Cilk ******
+Cilk (pronounced &quot;silk&quot;) is a parallel multithreaded C-based language
+and runtime system. Until I find time to put useful information in this page,
+you can check out the Cilk_page_at_MIT.
+
+===============================================================================
+     Last modified: August 8, 1996
+     Robert_Blumofe
+     rdb@cs.utexas.edu

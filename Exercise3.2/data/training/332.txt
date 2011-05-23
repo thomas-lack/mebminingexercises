@@ -1,0 +1,31 @@
+                        ****** Paul H. McQuesten ******
+PhD Student
+Department_of_Computer_Science
+The_University_of_Texas_at_Austin
+I'm interested in the interaction of learning and evolution. Further, I think
+there are mechanisms in natural evolution that might be practical additions to
+our current computer techniques: for example, death is not usually studied
+explicitly.
+===============================================================================
+  Email: paulmcq@cs.utexas.edu
+  Office: Taylor Hall 5.142
+  Phone: (512) 471-9585
+  Postal address:
+      The University of Texas at Austin
+      Department of Computer Sciences, TAY 2.124
+      Austin, TX 78712-1188
+===============================================================================
+    * Spring '96: I'm the Head TA for CS304P: Introduction to Pascal
+      Programming
+    * More neuro-evolution in Moriarty's_Research_Links
+    * Learning and evolution at CNR,_Rome
+    * Neural_Networks_research_group
+    * Artificial_Intelligence_lab
+    * Course schedules: Computer_Science_department
+    * Handy access to UT_Library_Online
+    * University_of_Texas_at_Austin
+    * Serious reflection at Dave_Winer's_Website
+    * If you need a pointer to how to waste hours web-surfing, check out
+      Cynbe's_Humongous_Hotlist:_Mixed_Net_Knowledge,_Knick-Knacks_&_Nuts
+===============================================================================
+Last updated 1/10/96

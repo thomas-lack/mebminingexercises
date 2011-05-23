@@ -1,0 +1,36 @@
+                      [University_of_Wisconsin_-_Madison]
+                  ****** Computer Sciences Department ******
+===============================================================================
+**** About the Computer Sciences Department ****
+Our department was formed in 1963 and is consistently ranked as one of the top
+ten computer science departments in the country. Faculty members have received
+fourteen Presidential Young Investigator awards, two Packard Fellowships, an
+NSF Faculty Award for Women Scientists and Engineers, a DEC Incentives for
+Excellence Award, three ACM doctoral dissertation awards, and three IBM Faculty
+Development Awards.
+===============================================================================
+    * The_Computer_Sciences_Department_by_area
+    * Research_projects_and_information
+    * People_in_the_Computer_Sciences_Department
+    * Courses_offered
+    * Fall_1996_classes and future_timetables
+    * Technical_reports
+    * Computer_Systems_Lab_(CSL)
+    * CSL's_answers_to_frequently_asked_questions
+    * Computer_Sciences_alumni_information
+    * Graduate_Guidebook
+    * Undergraduate_Guidebook
+    * The_department's_annual_report
+    * CS_online_utilities
+    * UW-Madison_local_services
+    * CS-related_organizations
+    * Colophon_and_statistics_for_this_server
+    * Useful_info
+===============================================================================
+*** Computer Sciences Department
+University of Wisconsin - Madison
+5355a Computer Sciences and Statistics
+1210 West Dayton Street
+Madison, WI 53706
+cs@cs.wisc.edu / voice: 608-262-1204 / fax: 608-262-9777 ***
+     www@cs.wisc.edu

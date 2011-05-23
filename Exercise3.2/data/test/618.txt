@@ -1,0 +1,16 @@
+       **** Office Hours: In CS 3310 **** **** My Schedule ****
+       (Where_is_3310,_Anyway?)               * Distributed_Systems
+           * Monday                             1:00 pm - 2:15 pm
+             10:00 am - 11:00 am                MWF in CS 1263
+           * Wednesday                        * Simulation_and_Modeling
+             10:00 am - 11:00 am                2:25 pm - 3:40 pm
+                                                MWF in CS 1325
+                   ***** SUPPORT FREE SPEECH ONLINE!!! *****
+            [http://www.cs.wisc.edu/~bockrath/gifs/rib_bar_wh.gif]
+                        For_more_Info_go_to_this_Site.
+
+===============================================================================
+                     Other_Neat_Stuff                 The_Condor_Project
+The_Internet_Oracle
+===============================================================================
+Send Comments To: bockrath@cs.wisc.edu

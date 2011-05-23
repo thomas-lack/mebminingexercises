@@ -1,0 +1,50 @@
+****** AnHai Doan ******
+ This page is being reconstructed. Please revisit soon.
+===============================================================================
+Hi, I was born and brought up in Vietnam. After finishing high school in 1987,
+I went to Hungary to study Computer Science. I graduated from Kossuth_Lajos
+University_of_Arts_and_Sciences, Debrecen, Hungary, with a B.S. in 1993, and
+received a M.S. -- also in Computer Science -- from the University_of
+Wisconsin-Milwaukee in 1995. Starting Fall 1996, I am in the Ph.D. program at
+the Department_of_Computer_Science_and_Engineering, University_of_Washington-
+Seattle.
+My research interests are mostly in Artificial Intelligence. I am currently
+investigating decision making under uncertainty, decision-theoretic planning,
+Markov decision processes, and qualitative decision theory. Non-academic
+interests include reading, traveling, and listening to music (mostly jazz and
+blues).
+An interesting thing about my first name, AnHai (meaning "calm sea" in
+Vietnamese): It is made by combining the last syllable of the name of my
+mother's birthplace, NgheAn, and the first syllable of the name of my father's
+birthplace, HaiPhong. This shows how creative my folks were. Or so I thought up
+to the birth of my younger brother, when they simply switched the two syllables
+and gave him the name HaiAn. Hmm...
+===============================================================================
+***** Contents *****
+    * Research_Interests
+          o Probabilistic_Planning
+          o Knowledge_Representation
+          o Recent_Papers
+    * Research_Library
+    * Curriculum_Vitae
+          o Research_Interests
+          o Education
+          o Employment_History
+          o Awards_and_Honors
+          o Publications
+    * Teaching
+          o CSE_373_Data_Structures_and_Algorithms If you are taking this
+            course, you should check out TA_Information (TA's office hours,
+            locations, etc).
+    * Personal_Interests
+          o Comtemporary_Vietnamese_Affairs
+          o Literature
+          o Writing
+          o Music
+          o Paintings
+          o Foreign_Languages
+          o Traveling
+    * General_Purpose_Library
+    * Life_Snapshots
+===============================================================================
+     anhai@cs.washington.edu

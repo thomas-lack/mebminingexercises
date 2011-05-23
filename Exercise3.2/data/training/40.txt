@@ -1,0 +1,160 @@
+
+****** [ftp://ftp.cs.cornell.edu/pub/brd/images/brd.gif]Bruce Randall Donald
+Associate Professor
+brd@cs.cornell.edu ******
+Ph.D. MIT, 1987
+Weather_in_Palo_Alto.
+My_Official_Departmental_Home_Page.
+***** Cornell Robotics and Vision Laboratory *****
+Dan_Huttenlocher and I founded the Cornell_Robotics_and_Vision_Laboratory in
+1991.
+***** Research *****
+My interests include robotics, microelectromechanical_systems, geometric
+algorithms, and artificial intelligence. Robotics_is_the_science_that_seeks_to
+forge_an_intelligent,_computational_connection_between_perception_and_action.
+Working with graduate student Jim Jennings, research associate Daniela_Rus,
+graduate student Russell_Brown, and lab alumnus Jonathan_Rees (now at MIT), we
+developed a team_of_autonomous_mobile_robots that can perform sophisticated
+distributed_manipulation_tasks (such as moving_furniture). The robots run
+robust SPMD protocols that are completely asynchronous and require no
+communication. With grad student Karl_Böhringer and EE Professor Noel
+MacDonald, we are building a massively_parallel_array_of_microactuators in the
+Cornell National Nanofabrication Laboratory. The_array_is_a_SCREAM_chip
+containing_over_11,000_actuators_in_1_square_centemeter, and can orient small
+parts without sensory feedback. Our microfabricated actuator arrays could be
+used to construct programmable parts-feeders (at any scale), or to build self-
+propelled IC's (walking VLSI chips.) Graduate student Amy_Briggs worked with
+Dan Huttenlocher's vision group to develop a_sensor_planning_and_surveillance
+system_for_a_team_of_mobile_robots. The robots use on-board vision to detect
+and intercept targets in the lab.
+***** Demos *****
+Massively_parallel_micro-fabricated_actuator_arrays.
+MPEG_video_of_Tommy_chasing_Lily. Tommy and Lily are mobile_robots_we_built.
+Using algorithms developed by the vision_group in our_lab, Lily can track Tommy
+and follow him, using visual information alone. This video shows Lily's view of
+the `chase.'
+Face_Morphing.
+***** Selected Recent Publications *****
+[ftp://ftp.cs.cornell.edu/pub/brd/images/karl-small.gif] [ftp://
+ftp.cs.cornell.edu/pub/brd/images/brd-small.gif] K.-F. Böhringer, B. R. Donald,
+and N. C. MacDonald, Upper_and_Lower_Bounds_for_Programmable_Vector_Fields_with
+Applications_to_MEMS_and_Vibratory_Parts_Feeders,International Workshop on the
+Algorithmic Foundations of Robotics, Toulouse, France (1996).
+[ftp://ftp.cs.cornell.edu/pub/brd/images/briggs-small.gif]
+ [ftp://ftp.cs.cornell.edu/pub/brd/images/brd-small.gif] A.J. Briggs and B. R.
+Donald, Robust_Geometric_Algorithms_for_Sensor_Planning,International Workshop
+on the Algorithmic Foundations of Robotics, Toulouse, France (1996).
+[ftp://ftp.cs.cornell.edu/pub/brd/images/karl-small.gif] [ftp://
+ftp.cs.cornell.edu/pub/brd/images/brd-small.gif] K.-F. Böhringer, B. R. Donald,
+and N. C. MacDonald, Single-Crystal_Silicon_Actuator_Arrays_for_Micro
+Manipulation_Tasks,IEEE Workshop on Micro Electro Mechanical Systems (MEMS),
+San Diego, California (February 1996).
+[ftp://ftp.cs.cornell.edu/pub/brd/images/karl-small.gif] [ftp://
+ftp.cs.cornell.edu/pub/brd/images/brd-small.gif] K.-F. Böhringer, B. R. Donald,
+and N. C. MacDonald,  Classification and Lower Bounds for MEMS Arrays and
+Vibratory Parts Feeders: What Programmable Vector Fields Can (and Cannot) Do -
+Part I, IEEE International Conference on Robotics and Automation (ICRA),
+Minneapolis, Minnesota (April 1996).
+[ftp://ftp.cs.cornell.edu/pub/brd/images/karl-small.gif] [ftp://
+ftp.cs.cornell.edu/pub/brd/images/brd-small.gif] K.-F. Böhringer, B. R. Donald,
+and N. C. MacDonald,  New and Improved Manipulation Algorithms for MEMS Arrays
+and Vibratory Parts Feeders: What Programmable Vector Fields Can (and Cannot)
+Do - Part II, IEEE International Conference on Robotics and Automation (ICRA),
+Minneapolis, Minnesota (April 1996).
+Provably_Good_Approximation_Algorithms_for_Optimal_Kinodynamic_Planning:_Robots
+with_Decoupled_Dynamics_Bounds (with P. Xavier) Algorithmica (Vol 14, no 6)
+(1995). pp. 443-479.
+Provably_Good_Approximation_Algorithms_for_Optimal_Kinodynamic_Planning_for
+Cartesian_Robots_and_Open_Chain_Manipulators (with P. Xavier) Algorithmica (Vol
+14, no 6) (1995). pp. 480-530.
+. Kinodynamic_Motion_Planning (with P. Xavier, J. Canny, and J. Reif) Journal
+of the ACM, Vol. 40, No. 5, Nov., 1993. pp. 1048-1066.
+[ftp://ftp.cs.cornell.edu/pub/brd/images/BruceJimDaniela3-small.gif]
+Information_Invariants_for_Distributed_Manipulation (with J. Jennings and D.
+Rus) in International Journal of Robotics Research, (in press) (1996).
+[ftp://ftp.cs.cornell.edu/pub/brd/images/BruceJimDaniela3-small.gif] B. R.
+Donald, J. Jennings, and D. Rus, Minimalism_+_Distribution_=
+Supermodularity,Journal of Experimental and Theoretical Artificial Intelligence
+(JETAI), (in press) 1996.
+. I am writing a book entitled Information Invariants in Robotics. A draft of
+the first quarter of this book appeared as a paper in Artificial Intelligence.
+Here it is: Information_Invariants_in_Robotics._Revised_MS_based_on_the_paper
+"On_Information_Invariants_in_Robotics,"_Artificial_Intelligence_Vol._72_(Jan,
+1995)_pp._217-304.
+[ftp://ftp.cs.cornell.edu/pub/brd/images/BruceJimDaniela3-small.gif] [ftp://
+ftp.cs.cornell.edu/pub/brd/images/karl-small.gif] [ftp://ftp.cs.cornell.edu/
+pub/brd/images/rbrown-small.gif]
+ Distributed_Robotic_Manipulation:_Experiments_in_Minimalism, in International
+Symposium on Experimental Robotics, (ISER) Stanford, CA (1995).
+[ftp://ftp.cs.cornell.edu/pub/brd/images/BruceJimDaniela3-small.gif] Moving
+Furniture_with_Teams_of_Automonous_Mobile_Robots, (with J. Jennings and D._Rus)
+in Proc.~IEEE/Robotics Society of Japan International Workshop on Intelligent
+Robots and Systems, (IROS) Pittsburgh, PA (1995).
+[ftp://ftp.cs.cornell.edu/pub/brd/images/karl-small.gif] [ftp://
+ftp.cs.cornell.edu/pub/brd/images/brd-small.gif]Sensorless_Manipulation_Using
+Massively_Parallel_Micro-fabricated_Actuator_Arrays (with K.-F._Böhringer, R.
+Mihailovich, and Noel C. MacDonald), Proc. IEEE International Conference on
+Robotics and Automation, San Diego, CA (May, 1994).
+A demo_and_more_detailed_explanation.
+. Program_Mobile_Robots_in_Scheme(with J._Rees) Proc. IEEE International
+Conference on Robotics and Automation Nice, France (May, 1992), pp. 2681-2688.
+[ftp://ftp.cs.cornell.edu/pub/brd/images/BruceJimDaniela3-small.gif]
+Information_Invariants_for_Distributed_Manipulation (with J. Jennings and D.
+Rus) in The First Workshop on the Algorithmic Foundations of Robotics, A. K.
+Peters, Boston, MA. ed. R. Wilson and J.-C.Latombe (1994).
+[ftp://ftp.cs.cornell.edu/pub/brd/images/briggs-small.gif] [ftp://
+ftp.cs.cornell.edu/pub/brd/images/brd-small.gif]
+ Automatic_Sensor_Configuration_for_Task-Directed_Planning (with Amy_Briggs),
+Proceedings 1994 IEEE International Conference on Robotics and Automation, San
+Diego, CA (May 1994).
+***** Other_Publications. *****
+***** Recent Theses and Papers of PhD Students *****
+Patrick_Xavier, PhD 1992. Except for the thesis, these TR's are mostly
+superseded by three, more recent journal papers listed starting_here.
+Amy_Briggs, PhD 1994. (Her_Papers_and_Thesis).
+Russell_Brown, PhD 1995. (His_Papers_and_Thesis).
+Jim_Jennings.
+Karl-F._Böhringer.
+***** Post-Docs Trained in Our_Lab *****
+Daniela_Rus.
+Jonathan_Rees.
+Dinesh_Pai.
+===============================================================================
+  Cornell_Library_Catalog
+  CS_TR_index
+***** Obtaining Copies of Papers *****
+Copies of our papers are available via anonymous_FTP.
+***** Pictures *****
+  We have developed a team_of_small_autonomous_mobile_robots_that_can_move
+  furniture_around_in_our_lab.
+  [ftp://ftp.cs.cornell.edu/pub/brd/images/group2-small.gif]_<---_Click_here
+  for a group portrait of our robots.
+  Click_here to see a picture of Tommy_and_Lily_mobot_pushing_a_couch.
+  Click_here to see a picture of Tommy_and_Lily_rotating_a_couch.
+  Click_here to see a picture of Tommy_the_mobile_robot, drawn by Loretta
+  Pompilio.
+  ****** Click_here to see pictures of people and robots working in the lab.
+  ******
+===============================================================================
+Our lab was on The_Discovery_Channel_("Beyond_2000")_and_you_can_find_out_more
+about_it_here.
+===============================================================================
+***** Fun *****
+A_Poem_by_Alfred,_the_Mail_Agent.
+Family_Pictures.
+    * I play in [ftp://ftp.cs.cornell.edu/pub/brd/images/swallow0.gif]_Harmful
+      If_Swallowed. in Ithaca.
+    * I sometimes play with [ftp://flamingo.stanford.edu/pub/brd/std.gif] in
+      California.
+***** More *****
+    * Other_people_and_robots_in_the_Cornell_Robotics_and_Vision_Laboratory.
+    * Cornell_Robotics_and_Vision_Laboratory_home_page.
+    * Other_people_in_the_Cornell_CS_department
+    * Click_here for search tools and information access stuff.
+    * Return_to_Cornell_CS_Top-Level
+      =========================================================================
+Why I say click_here.
+===============================================================================
+"You will have the tallest, darkest leading man in Hollywood."
+--- Merian C. Cooper to Fay Wray
+

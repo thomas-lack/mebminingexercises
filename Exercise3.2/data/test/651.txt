@@ -1,0 +1,52 @@
+ [http://www.cs.wisc.edu/~falsafi/pics/me-and-cm5.gif]
+***** Babak Falsafi *****
+     Research Assistant
+     Department_of_Computer_Sciences
+     University_of_Wisconsin_-_Madison
+     1210 West Dayton Street
+     Madison, WI 53706 USA
+     Tel: (608) 262-6618 FAX: 262-9777
+     email: falsafi@cs.wisc.edu
+[http://www.cs.wisc.edu/~falsafi/pics/line_eyes.gif]
+***** My work here *****
+**** People ****
+    * [http://www.cs.wisc.edu/~falsafi/pics/devil.small.jpg] Mentor
+      [http://www.cs.wisc.edu/~falsafi/pics/wwt_logo.gif] Cult
+**** Research Interests ****
+    * Computer_Architecture
+    * Performance Evaluation and Measurement of Computer Systems
+    * Parallel Programming Models
+**** Education ****
+    * MS Computer_Sciences, University_of_Wisconsin,_Madison, December 1991.
+    * BSComputer_Sciences, SUNY_at_Buffalo, June 1990.
+    * BSElectrical_and_Computer_Engineering, SUNY_at_Buffalo, June 1990.
+[http://www.cs.wisc.edu/~falsafi/pics/line_owl.gif]
+***** Miscellaneous *****
+    * Publications
+    * I_would_rather_be_drinking_this
+    * I_would_rather_be_doing_this
+    * I_would_rather_be_reading_this
+    * I_would_rather_be_listening_to_this
+    * What_I_used_to_do_when_I_was_in_high_school
+    * When_ideas_you_like_fail?
+    * When_you_morf_Shubu_with_Dionosi?
+    * Hillarious_and_profane_phone_conversations
+[http://www.cs.wisc.edu/~falsafi/pics/line_ghost.gif]
+***** Check out the American/French queen! *****
+[http://www.cs.wisc.edu/~falsafi/pics/mylene.small.jpg]
+[http://www.cs.wisc.edu/~falsafi/pics/line_logo.gif]
+***** What do computer architects look like? *****
+[http://www.cs.wisc.edu/~falsafi/pics/alain.gif] [http://www.cs.wisc.edu/
+~falsafi/pics/doug.gif] [http://www.cs.wisc.edu/~falsafi/pics/scott.jpg] [http:
+//www.cs.wisc.edu/~falsafi/pics/vijay.gif] [http://www.cs.wisc.edu/~falsafi/
+pics/rob.small.gif]
+===============================================================================
+***** Hacking partners in crime *****
+[http://www.cs.wisc.edu/~falsafi/pics/stever.gif] [http://www.cs.wisc.edu/
+~falsafi/pics/schoinas.gif] [http://www.cs.wisc.edu/~falsafi/pics/larus.gif]
+===============================================================================
+***** A next generation parallel computer *****
+[http://www.cs.wisc.edu/~falsafi/pics/cow.small.gif]
+===============================================================================
+     Last updated by babak@cs.wisc.edu
+===============================================================================

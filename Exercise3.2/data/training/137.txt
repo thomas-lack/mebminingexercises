@@ -1,0 +1,34 @@
+BODY>
+**** S Ravi Kumar ****
+Department_of_Computer_Science
+Cornell_University
+Ithaca, NY 14832-7501.
+(607) 255-1158
+ ravi@cs.cornell.edu
+===============================================================================
+  Program Checking:
+      * Approximate_checking_of_polynomials_and_functional_equations, 37th IEEE
+        Foundations of Computer Science, October, 1996.
+        [Funda_Erg&uumln, Ronitt_Rubinfeld]
+      * Efficient_self-testing/self-correction_of_linear_recurrences, 37th IEEE
+        Foundations of Computer Science, October, 1996.
+        [D._Sivakumar]
+      * On_self-testing_without_the_generator_bottleneck, 15th Foundations of
+        Software Technology and Theoretical Computer Science, LNCS 1026, pp.
+        248-262, December, 1995.
+        [D._Sivakumar]
+  Learning Theory:
+      * On_learning_bounded-width_branching_programs, 8th ACM Conference on
+        Computational Learning Theory, pp. 361-368, July, 1995.
+        [Funda_Erg&uumln, Ronitt_Rubinfeld]
+  Combinatorics:
+      * Approximating_latin_square_extensions, 2nd Conference on Computation
+        and Combinatorics, LNCS 1090, pp. 280-289, June, 1996.
+        [Alexander_Russell, Ravi Sundaram]
+  Parallel Processing:
+      * Scalability_study_of_the_KSR-1, 22nd International Conference on
+        Parallel Processing, pp. I:237-240, August, 1993.
+        [Jeyakumar_Muthukumarasamy, Umakishore_Ramachandran, Gautam_Shah]
+===============================================================================
+** [http://www.ling.uu.se/cgi-bin/nph-
+count?link=www.cs.cornell.edu.Info.People.ravi/home.html & width=4] **

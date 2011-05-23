@@ -1,0 +1,37 @@
+****** Raymond J. Mooney ******
+[http://www.cs.utexas.edu/users/mooney/pic.gif]
+Associate Professor of Computer_Sciences, The_University_of_Texas_at_Austin.
+    * B.S. in Computer_Engineering, University_of_Illinois_at_Urbana/Champaign,
+      1983
+    * M.S. in Computer_Science, University_of_Illinois_at_Urbana/Champaign,
+      1985
+    * Ph.D. in Computer_Science, University_of_Illinois_at_Urbana/Champaign,
+      1988
+***** Research Interests *****
+My current research interests in artificial intelligence are primarily in the
+area of machine learning. They include:
+    * Natural Language Acquisition: Learning parsers, lexicons, information
+      extraction, and word sense disambiguation from examples.
+    * Inductive Logic Programming: Learning Prolog programs from examples.
+    * Knowledge-Base and Theory Refinement: Automatically modifying rule bases
+      and Bayesian networks to fit empirical data.
+    * Search-Control Acquisition: Learning to improve planning efficiency and
+      quality.
+    * Comparing and combining neural-network and symbolic learning.
+For more information and publications, see the machine_learning_home_page.
+Here's my vita and my finger_information.
+***** Course Information *****
+**** Fall 1996 ****
+    * CS_351:_LISP_and_Symbolic_Programming
+    * CS_395T:_Machine_Learning
+**** Spring 1997 ****
+    * CS_395T:_Artificial_Intelligence_II
+***** Personal History *****
+I grew up in the 60's and 70's in the small town of O'Fallon_Illinois where
+starting in 1975 I attended O'Fallon_Township_Highschool. Starting in the fall
+of 1979, I went to the University_of_Illinois in Champaign-Urbana to obtain all
+of the degrees listed above. In December 1987, I completed my Ph.D. thesis in
+the Explanation-Based_Learning_Group under the direction of Prof._Gerald_Dejong
+and then began my position here in The_Department_of_Computer_Sciences at the
+The_University_of_Texas_at_Austin.
+***** Contact Information *****

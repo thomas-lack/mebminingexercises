@@ -1,0 +1,105 @@
+[http://www.cs.cornell.edu/Info/People/barber/sepbar-6.gif]
+        [http://www.cs.cornell.edu/Info/People/barber/bullet_green.gif]
+       Pooooooooooooooch! [http://www.cs.cornell.edu/Info/People/barber/
+                               bullet_green.gif]
+           [http://www.cs.cornell.edu/Info/People/barber/barber.gif]
+     [http://www.cs.cornell.edu/Info/People/barber/smiley.gif] That's me.
+ _________________________________________________________________________________________________________________________
+|Jonathan|[http://               |[http://              |[http://             |[http://           |[http://               |
+|Barber  |www.cs.cornell.edu/    |www.cs.cornell.edu/   |www.cs.cornell.edu/  |www.cs.cornell.edu/|www.cs.cornell.edu/    |
+| 5133   |Info/People/barber/    |Info/People/barber/   |Info/People/barber/  |Info/People/barber/|Info/People/barber/    |
+|Upson   |bullet_orange.gif]About|bullet_purple.gif]What|bullet_red.gif]Course|bullet_white.gif]My|bullet_yellow.gif]"Some|
+|Hall    |Me                     |I'm_doing_Now         |and_Research         |Future             |Cool_Dudes"            |
+|255-9189|_______________________|______________________|Interests____________|___________________|_______________________|
+[http://www.cs.cornell.edu/Info/People/barber/sepbar-6.gif]
+[http://www.cs.cornell.edu/Info/People/barber/bullet_orange.gif]
+About Me!!!
+This page has been up for a while now, so I've felt inclined to change the
+first sentence. My birth name is Jonathan Barber, but people usually just call
+me Jon (not J-O-H-N!!). People also call me Ponch or Pooch. People used to call
+me Lake, Fork, Guppie, Skin Mama, Phin,and the list goes on and on. I am
+finishing up my degree as a graduate student in the Masters of Engineering
+Program in Computer_Science at Cornell_University. I was also an undergrad at
+Cornell, where I got a BA in Computer Science as well.
+I grew up in a couple of towns in New Jersey, and attended Montgomery High
+School. I'm currently living in Collegetown which is adjacent to the Cornell
+Campus. I'm in a cheap summer sublet on College Ave, which is ultra-convenient,
+since I can work and play in the same half-mile radius.
+While a student at Cornell, I went Greek, and spent a lot of time at Tau
+Epsilon_Phi, a fraternity on the borders of Cayuga Heights. Its kind of hard to
+believe that those days are over, but on the other hand, its about time.
+[http://www.cs.cornell.edu/Info/People/barber/line_look.gif]
+[http://www.cs.cornell.edu/Info/People/barber/bullet_purple.gif]
+What I'm doing Now
+I have finished my Masters of Engineering Project with Prof._Thorsten_von
+Eicken, where we developed the U-Net_Packet_Filter. The filter works with U-
+Net, which is a high-bandwidth network protocol that can bring parallel
+computing home to personal computers.
+I also taught the 6-week summer session of CS099:_Fundamental_Programming
+Concepts, an introductory course to computers and programming. This past year,
+I was a teaching assistant for CS314: An Introduction to Digital Systems and
+Computer Organization. during Fall-95 and Spring-96.
+[http://www.cs.cornell.edu/Info/People/barber/line_wave.gif]
+[http://www.cs.cornell.edu/Info/People/barber/bullet_red.gif]
+Course and Research Interests
+This past semester, I worked a lot on RivL (A Resolution Independent Video
+Language), which is one of the products from the Multimedia Research group at
+Cornell. The final product of my labor is two project reports.
+    * Two_Parallel_Implementations_of_Continuous_Media_RivL
+    * An_Improved-Implementation_of_an_Object_Tracker_in_RivL
+I have also taken an interest in high performance compilers. My good friend
+Sugata_Mukhopadhyay and I are still finishing up a class project, in which we
+implemented a SMPD code generator for High-Performance Fortran based on a
+linear algebra framework (paper coming soon).
+In the previous semester,my other good friend, Greg Weber and I, developed
+WeBar Encryption
+, a smart encryption protocol for frame-dependent video streams (e.g. MPEG).
+Unfortunately, I don't have the paper in electronic form, so you'll have to
+trust me on this.
+[http://www.cs.cornell.edu/Info/People/barber/line_look.gif]
+[http://www.cs.cornell.edu/Info/People/barber/bullet_white.gif]The Future Looks
+Bright, and Wet!
+
+At the end of this summer, I'm packing up my gear, and taking a permanent road-
+trip to Oregon (hopefully with some buddies). If any of you web-surfers are
+from Oregon, and have some information you'd like to share (good or bad),
+please write me.
+Once there, I'll be working for Intel_Corp, so go ahead and buy a PC.
+                 [ftp://ftp.tek.com/pub/pdx-picts/picture.gif]
+
+A live picture taken from my future home in Portland!
+Clarification: Actually its not the location of my *house* (as some people have
+thought). I would indeed be pretty resourcefull if I set up a camera against my
+living room window, and piped it out to this page. No, by *home*, I mean the
+general location of where I'll living, not the house.
+[http://www.cs.cornell.edu/Info/People/barber/line_wave.gif]
+[http://www.cs.cornell.edu/Info/People/barber/bullet_yellow.gif]
+My Favorite People (who are on-line)
+My comrade-in-Upson, George Bush, has a really nice page, and in it he keeps a
+listing of his favorite people. If you can be found on this page, you are
+indeed one of the lucky. I was also considering keeping a list of my least-
+favorite people (you know who your are), but have decided otherwise.
+Ok, here goes:
+    * George_Bush
+      , or as I like to call him,
+      Captain Swirl
+      . He's nefarious with a toilet.
+    * Sugata_Mukhopadyay
+    * Boney_Magoo
+    * Fletop
+    * Bigro
+    * Dave_Koster,
+      the bot of all bots.
+[http://www.cs.cornell.edu/Info/People/barber/sepbar-6.gif]
+Ponch's_official_TFFL_Bullie's_Home_Page
+uuencoded_Graphics_needed_for_Bullie's_Page
+tar_and_zipped_Graphics_needed_for_Bullie's_Page
+If you're browsing, and feeling the urge to write, send me some mail.
+Downloads
+    * graphics
+    * barber.gif
+    * ponch.html
+    * res_html
+    * res_cur
+    * emmitt1
+    * emmitt12

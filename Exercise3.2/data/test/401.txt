@@ -1,0 +1,24 @@
+****** Paul R. Wilson ******
+***** Contact Information *****
+  Office:
+      Taylor Hall 3.134
+  Postal Address:
+      The University of Texas at Austin
+      Department of Computer Sciences
+      Taylor Hall 2.124
+      Austin, TX 78712-1188
+The best way to reach me is via email at &ltwilson@cs.utexas.edu&gt.
+Here's the usual headshot. (For novelty, I thought I'd use a cross-section.
+Yes, it is me.)
+[http://www.cs.utexas.edu/users/wilson/brainmed.gif]
+***** Research Information *****
+I lead the OOPS_Research_Group in the Department_of_Computer_Sciences at The
+University_of_Texas_at_Austin.
+The OOPS (Object-Oriented Programming Systems) Research Group works on memory
+management and programming language design and implementation.
+***** Teaching *****
+In Fall 1996, I'm teaching
+CS_345,_Programming_Languages.
+ Department_of_Computer_Sciences
+===============================================================================
+Note: This page is under construction!!

@@ -1,0 +1,44 @@
+****** Greg Sharp Home Page ******
+Name:Greg_Sharp
+Email:greg@cs.wisc.edu
+Office:CS&St 1307
+Office Phone:(608)262-6602
+Office Hours: 6:00pm-8:00pm Mon and 12:00pm-1:00pm Wed (or by appt.)
+TGIF:Every Friday, from 4:30-5:15 in CS 2310.
+===============================================================================
+***** CS_Dept CS_302 Section_6_&_9 *****
+    * CS_302_Instructors
+    * Fall_1995_Lecture_Notes | Spring_1996_Lecture_Notes
+***** Classes Fall 1996 *****
+    * CS 764 Topics in Database Management Systems
+    * CS_838-2 Finding Out About
+***** Search Engines *****
+    * Altavista | DejaNews | Excite | Infoseek | Lycos | MetaCrawler | Yahoo |
+***** Usenet FAQ's *****
+    * FTP Mirrors: MIT | AOL | GWU
+    * HTML format: Ohio
+***** C and C++ *****
+    * Programming_in_C
+    * Learn_C/C++_Today
+    * The_C++_Library
+    * C++ Draft Standard (April 1995). Mirrors: Stanford | Cygnus
+    * G++_FAQ
+    * LIB_G++_Info
+    * STL_Reference
+    * Mumit's_STL_Newbie_guide
+***** Platform Independant GUI Libraries in C++ *****
+    * Portable_GUI_Development_Kits_FAQ
+    * Amulet (OK)
+    * DCLAP (strings attached/requires Motif)
+    * SUIT (strings attached)
+    * V (OK)
+    * wxWindows (OK)
+    * YACL (OK)
+***** Classes Spring 1996 *****
+    * CS 558 Introduction to Computational Geometry
+    * CS_752 Computer Architecture I
+    * CS_752:_My_Computer_Architecture_Project
+    * CS_760 Machine Learning
+    * CS_760:_My_Machine_Learning_Project
+***** Classes Fall 1995 *****
+    * CS_513 Numerical Linear Algebra

@@ -1,0 +1,41 @@
+****** Philip_Hardin ****** [[BattleBall Snapshot]]
+[[Philip Hardin]]
+===============================================================================
+***** About Me *****
+         *************************************************************
+         *                                                           *
+         * I plan to eliminate all bugs in all software, everywhere. *
+         *                                                           *
+         *************************************************************
+But failing that, my fallback plan is to write a few games.
+BattleBall(223k) is now accessible through this page! The binary executable
+file is for the AIX 3.2 operating system, and unfortunately that's the only OS
+for which it's available (I want to port it to SunOS/Solaris, but I'm working
+and going to school...who has the time?)
+BattleBall is a 3-D multiplayer game I wrote which runs under X Windows. It's
+about 7000 lines of C++ code that uses the C++ Standard_Template_Library and A.
+T._Campbell's Binary Space Partition (BSP) tree library. The image at the top
+of this page is a screenshot from BattleBall.
+I'm a student here at the University_of_Texas at Austin in the (you guessed it)
+Computer_Sciences_department. I'm interested in two research areas:
+**** Geometric modeling/graphics ****
+    * the_BSP_tree - a really cool geometric model, and my main research
+      interest
+    * CS_384G_Computer_Graphics
+**** Software reuse/engineering ****
+    * Software_Systems_Generator_Research_Group
+    * CS_395T_Automatic_Programming
+***** To Contact Me *****
+EMAIL   pahardin@cs.utexas.edu
+
+POSTAL  Computer Sciences C0500
+        TAY 2.124, U.T. Austin
+        Austin TX 78712 USA
+
+NETREK  servers:  pita.nms.unt.edu, curly.cc.utexas.edu
+        handle:   DigitalDisaster
+                  (just look for the guy getting plastered, that's me)
+
+===============================================================================
+Congradulations! You are the [http://counter.digits.com/wc/-d/1/pahardin]th
+smartest person in the universe.

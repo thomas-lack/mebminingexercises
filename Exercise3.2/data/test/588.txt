@@ -1,0 +1,25 @@
+                   [GRAIL: Graphics and Imaging Laboratory]
+===============================================================================
+ Welcome to the home page of GRAIL, the Graphics and Imaging Laboratory of the
+  University of Washington's Department of Computer Science and Engineering.
+===============================================================================
+                 Information                     People
+===============================================  Courses
+                                                 Research_Projects
+                                                 Publications
+                                                 Theses
+                                                 Software_and_Data
+                                                 Cool_Images
+===============================================================================
+              Our Neighborhood      �Department_of_Computer_Science
+===============================================  and_Engineering
+                                                 University_of_Washington
+                                                 Seattle
+===============================================================================
+                Local Interest                   GRAIL_disk_usage_policy
+===============================================
+
+                                        
+                                        
+===============================================================================
+               Comments to mtwong@cs.washington.edu 23 July 1996

@@ -1,0 +1,33 @@
+
+******  SRC="photo.gif" ALIGN=bottom ALT=>  Dionisis_Papadopoulos ******
+===============================================================================
+***** About Me *****
+I am a graduate student in the Department_of_Computer_Sciences at UT. I was an
+undergraduate student in the Department_of_Computer_Engineering_and_Informatics
+at the University of Patras in Greece. I have also worked for the Computer
+Technology_Institute_of_Patras in Greece. I was a member of the Software
+Engineering And Applications Reasearch Unit (RU2).
+
+s the first item.>
+s another.>
+this is a third.>
+UL>
+===============================================================================
+***** To Contact Me *****
+ Dionisis Papadopoulos
+University of Texas at Austin
+Computer Sciences Department
+TAY 2.124
+Austin, TX 78712
+E-mail: dionisis@cs.utexas.edu
+===============================================================================
+***** Links to ... [http://www.cs.utexas.edu/users/dionisis/icons/earth.GIF]
+ *****
+    * Mining_and_Monitoring_Databases_Homework
+    * The_Panhellenic_Students_Association
+    * Panathinaikos_Athletic_Club
+    * Greek_News
+    * Hellenic_Resources_Network
+    * Everything_You_Always_Wanted_to_Know_About_Sex...
+[http://www.cs.utexas.edu/users/dionisis/images/whtmarb.jpg]
+cs.utexas.edu/ADDRESS>

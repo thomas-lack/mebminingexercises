@@ -1,0 +1,20 @@
+[http://www.cs.utexas.edu/users/UTCS/report/1994/profiles/martin.gif]
+****** Norman M. Martin ******
+Professor Emeritus of Computer Sciences; Professor Emeritus of Philosophy
+M.A. in Philosophy (1947)
+University of Chicago
+Ph.D. in Philosophy (1952)
+University of California, Los Angeles
+***** Areas of Interest *****
+Mathematical logic and computer architecture
+***** Summary of Research *****
+My current activity concentrates on abstract structures as interpretations of
+logical theory, centering on closure spaces, which exploits the notion of
+deductive closure; on logical operations; and on intensional models of
+classical mathematics. My most significant earlier research was on computer
+architecture and logical design, especially for missile and space vehicle
+applications, tracking algorithms for track-while-scan radars, functional
+completeness in many-valued and delay logic and logical metatheory.
+Additional information can be obtained from individual_faculty_members'_home
+pages.
+[http://www.cs.utexas.edu/icons/UTCS/up.gif]Back_to_List_of_Faculty_Profiles

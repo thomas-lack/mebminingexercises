@@ -1,0 +1,40 @@
+****** Ulf Hermjakob ******
+[http://www.cs.utexas.edu/users/ulf/gifs/ulf6-5.jpeg]
+Hello and welcome! I am a graduate_student at the Dept._of_Computer_Sciences at
+the University_of_Texas_at_Austin and working on my dissertation about Example
+Based_Decision_Making_in_Context_Oriented_Parsing_and_Machine_Translation under
+the supervision of Prof. Raymond_Mooney.
+Active in the UTCS_Natural_Language_Acquisition_Group and the UTCS_Machine
+Learning_Research_Group.
+**** Places of Interest ****
+    * Association_for_Computational_Linguistics_(ACL)
+    * SIGNLL_(ACL_Special_Interest_Group_on_Natural_Language_Learning)
+    * The_Computation_and_Language_E-Print_Archive
+    * European_Student_Association_(ESA)
+
+[http://www.cs.utexas.edu/users/ulf/gifs/hline.gif]
+[http://www.cs.utexas.edu/users/ulf/gifs/dilbert.gif] Search engines:
+AltaVista, EINet_Galaxy, infoseek, Lycos, Yahoo,
+News: ABC, All_Things_Considered, CNN, Dernières_Nouvelles_d'Alsace, Deutsche
+Welle, FOCUS, New_York_Times, País, Spiegel, Svenska_Dagbladet, Tagesspiegel,
+Vanguardia, Welt, Zeit
+plus ACM, Austin_weather, CS_resources, Deep_Thoughts, dictionaries, Dilbert,
+Earth_&_Sky, GI, GRACS, Java, LCM, linguistics, MCC, MT, Quantum_Infopool
+(Postleitzahlen), Rechtschreibreform, Skat rules, student_organizations_at_UT,
+Switchboard, US_Postal_Service (Zip_Codes), WWW (Latin-1) and more_links
+[http://www.cs.utexas.edu/users/ulf/gifs/hline.gif]
+***** Contact Information *****
+  E-mail: ulf@cs.utexas.edu             Home address:
+  WWW locator: http://                      600 W 26th St #A308
+  www.cs.utexas.edu/users/ulf/              Austin, TX 78705
+  Office location: Taylor Hall 150B         U.S.A.
+  Office address:                       Phone: +1 (512) 320-0650 (voice &amp;
+      University_of_Texas_at_Austin     fax)
+      Department_of_Computer_Sciences   Permanent address:
+      Campus Mail Code C0500                Moltkestr. 40a
+      Austin, TX 78712                      32257 Bünde
+      U.S.A.                                Germany
+  Phone: +1 (512) 471-9777              Phone: +49 (5223) 2663 (voice &amp;
+                                        fax)
+[http://www.cs.utexas.edu/users/ulf/gifs/hline.gif]
+     Last updated: January 3, 1997

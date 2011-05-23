@@ -1,0 +1,83 @@
+[http://www.cs.cornell.edu/Info/People/avinash/avinash-small.gif] [http://
+www.cs.cornell.edu/Info/People/avinash/cornell.gif]
+                            **** Avinash Gupta ****
+                                M.Engg (95/96)
+                        Department of Computer Science
+                              Cornell University
+                               Ithaca, NY 14850
+
+
+
+Home Address:
+Apt.601, 10 Magazine Street
+Cambridge, MA 02139
+(617) 492 9238
+E-Mail: avinash@thecia.net [http://www.cs.cornell.edu/Info/People/avinash/
+lineRainbow.gif]
+===============================================================================
+***** Resume *****
+===============================================================================
+[http://www.cs.cornell.edu/Info/People/avinash/lineRainbow.gif]
+My main areas of interest lie in Computer Graphics, Multimedia and Distributed
+systems.
+***** Courses *****
+[http://www.cs.cornell.edu/Info/People/avinash/redball.gif] Operating Systems :
+CS415
+[http://www.cs.cornell.edu/Info/People/avinash/redball.gif] Multimedia : CS631
+[http://www.cs.cornell.edu/Info/People/avinash/redball.gif] Software
+Engineering : CS501
+[http://www.cs.cornell.edu/Info/People/avinash/blueball.gif] Distributed
+Systems : CS514
+[http://www.cs.cornell.edu/Info/People/avinash/blueball.gif] High Performance
+Systems : CS516
+[http://www.cs.cornell.edu/Info/People/avinash/lineRainbow.gif]
+***** Projects *****
+**** HOCA - An Operating system for CHIP ****
+HOCA (pronounced hodja) is a full-fledged operating system for CHIP (Cornell
+Hypothetical Instructional Processor) which supports features like Multiple
+users, Multitasking and Virtual Memory.
+===============================================================================
+**** Scene Transition Effects for Rivl ****
+Presentation
+===============================================================================
+**** Pente - A networked game of skill ****
+Pente (meaning five) is a board game of skill requiring 2 players. The
+objective of the game is to get five points or get five of your own pieces in a
+row (horizontally, vertically or diagonally). Points can be earned by trapping
+the opponents pieces between your pieces. Only an even number of pieces can be
+trapped, i.e. either 2 or 4. For each pair of pieces trapped, you get 1 point.
+The player reaching five points first wins.
+Requirements:
+1._Tcl_7.4,_Tk_4.0_
+2._Tcl-Dp_3.2_
+ 3. X-Windows
+Screenshot_of_the_game
+Download the game NOW.
+===============================================================================
+**** IPng with v6 ****
+A user space implementation of the next generation IP, IPv6
+Implement IPng, the next generation Internet Protocol, using an interface that
+makes it able to run over user space network interfaces like U-Net or Jet-
+stream.
+**** Proposal ****
+
+**** Progress_Report ****
+
+[http://www.cs.cornell.edu/Info/People/avinash/lineRainbow.gif]
+Same caveat applies to my home page as to almost every other page on the Web -
+this is still under construction.
+****** Browsing the Internet ******
+Hytelnet
+The_WWW_Library:_Subject_Catalog
+EINet_Galaxy
+Planet_Earth_Home_Page
+Joel's_Hierarchical_Subject_Index
+Yahoo:_A_Guide_to_WWW
+Webcrawler
+Lycos
+
+****** My_Friends... ******
+****** A_-_Z_Links. ******
+****** Sign_my_Guestbook! ******
+This page has been accessed [http://www.iaehv.nl/cgi/IAEcount/width=4/tr=http:/
+/www.cs.cornell.edu/Info/People/avinash/avinash.html] times since Jan.22 1996.

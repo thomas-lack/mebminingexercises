@@ -1,0 +1,21 @@
+****** David B. Johnson ******
+  [http://www.cs.washington.edu/homes/dbj/taz.gif]
+     dbj@cs.washington.edu
+     Computer_Science_&_Engineering_Department,
+     University_of_Washington,
+     Box 352350
+     Seattle,_WA 98195 USA
+===============================================================================
+**** Research Interests ****
+    * Navigational assistance for hypertext readers
+**** Projects and Activities ****
+    * Racquetball
+    * Golf
+    * Basketball
+    * Softball
+    * WWW_Tutorials
+    * WWW_Scripts
+To see how this all fits together, take the Racquetball_Quiz. To see how the
+quiz was created, take a look at the Create_an_Assessment_Page form. Give it a
+try.
+===============================================================================

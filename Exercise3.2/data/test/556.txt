@@ -1,0 +1,23 @@
+****** Travis Craig ******
+[http://www.cs.washington.edu/homes/travis/tsc02.gif]
+     travis@cs.washington.edu
+     Computer_Science_&_Engineering_Department,
+     University_of_Washington, FR-35,
+     Seattle,_WA 98195 USA
+===============================================================================
+**** Research interests: ****
+    * mechanisms for predictability in real-time systems
+    * cache restoration
+    * queuing spin locks
+    * Arctic submarine currents
+**** Courses I'm taking this quarter: ****
+    * CSE_800:_Dissertation, where I'm working on real-time systems.
+**** Time consuming side projects are: ****
+    * working half-time at ESCA Corporation
+    * helping keep the Volvo 1800ESs (5055 and 7135) running
+    * Press_Here_for_Latest_Motor_Pool_Status
+**** How to understand Computer Science: ****
+[http://www.cs.washington.edu/homes/travis/taxonomy.gif]
+===============================================================================
+     Travis_Craig
+     Last modified: Oct 9, 1995

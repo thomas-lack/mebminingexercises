@@ -1,0 +1,64 @@
+[http://www.cs.washington.edu/research/projects/lis/www/carl/carl.gif]
+****** Carl Ebeling ******
+===============================================================================
+Department_of_Computer_Science_and_Engineering
+University_of_Washington
+Seattle, Washington, 98195
+Voice: (206) 543-9342;
+FAX: (206) 543-2969;
+e-mail: ebeling@cs.washington.edu
+Office: Sieg Hall, Room 215
+===============================================================================
+Carl Ebeling, Associate Professor, has a B.S. in Physics, Wheaton College,
+1971; an M.S. in Computer Science, Southern Illinois University, 1976; and a
+Ph.D. in Computer Science, Carnegie-Mellon University in 1986. He joined the UW
+in 1986.
+Carl Ebeling's research interests fall into two categories: VLSI architectures
+and computer-aided design of digital systems. He has worked on a number of VLSI
+projects including the Hitech chess machine, the Apex graphics chip for drawing
+spline curves and surfaces, and the Triptych field-programmable gate array.
+Currently he is involved in the Chaos project building a multicomputer routing
+network. His CAD interests focus on methods for optimizing the performance of
+circuits using level-sensitive latches, and placement and routing algorithms
+for FPGAs, particularly Triptych.
+===============================================================================
+**** Teaching ****
+Spring 1996: CSE_467_-_Advanced_Logic_Design
+**** Office Hours ****
+    * Monday 2:30-3:20
+    * Thursday 4:30-5:20
+**** Travel: ****
+    * April 16-19: FCCM, Napa
+    * May 1-5: IBM, Burlington; Chicago
+    * June 4-7: DAC, Las Vegas
+===============================================================================
+**** Research Projects ****
+    * Northwest_Laboratory_for_Integrated_Systems
+    * Chaos_Router_Project
+    * Triptych:_A_New_High-Density_FPGA_Architecture
+===============================================================================
+***** Graduate Students *****
+    * Soha_Hassoun.
+    * Neil_McKenzie.
+    * Darren_Cronquist.
+    * Paul_Franklin.
+===============================================================================
+**** Amara's Gallery ****
+ ____________________________________________________________________________
+|       [http://       |         [http://         |         [http://         |
+|www.cs.washington.edu/|  www.cs.washington.edu/  |  www.cs.washington.edu/  |
+|research/projects/lis/|research/projects/lis/www/|research/projects/lis/www/|
+|www/carl/MissPert.gif]|__carl/TheDogPatch.gif]___|____carl/GrandMa.gif]_____|
+|       [http://       |         [http://         |         [http://         |
+|www.cs.washington.edu/|  www.cs.washington.edu/  |  www.cs.washington.edu/  |
+|research/projects/lis/|research/projects/lis/www/|research/projects/lis/www/|
+|www/carl/TheBaby.gif]_|___carl/MrComputer.gif]___|____carl/TheNerd.gif]_____|
+|       [http://       |         [http://         |         [http://         |
+|www.cs.washington.edu/|  www.cs.washington.edu/  |  www.cs.washington.edu/  |
+|research/projects/lis/|research/projects/lis/www/|research/projects/lis/www/|
+|      www/carl/       |    carl/TheClerk.gif]    | carl/TheTV-Watcher.gif]  |
+|_Themannextdoor.gif]__|__________________________|__________________________|
+===============================================================================
+**** Elan's Gallery ****
+===============================================================================
+ebeling@cs.washington.edu

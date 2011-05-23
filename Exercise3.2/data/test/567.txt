@@ -1,0 +1,23 @@
+****** Wilson C. Hsieh ******
+[photo from fall '95]
+===============================================================================
+I am a postdoc in the Department_of_Computer_Science_&_Engineering at the
+University_of_Washington (in Seattle, WA). I am a member of the SPIN_project.
+I received my PhD from the Department_of_Electrical_Engineering_and_Computer
+Science in the School_of_Engineering at MIT, where I worked in the Laboratory
+for_Computer_Science. My advisors were Frans_Kaashoek and Bill_Weihl.
+Most of my research has been in compilation and parallel systems. My research
+interests lie in the interactions among compilers, programming languages,
+runtime and operating systems, and architectures.
+    * selected_publications
+    * selected_links
+    * personal_interests
+===============================================================================
+
+Voice:
+206-616-9005
+Fax: 206-543-2969
+whsieh@cs.washington.edu
+PGP_public_key
+===============================================================================
+October 26, 1996
