@@ -1,0 +1,56 @@
+===============================================================================
+                  ****** Shubu Mukherjee (shubu@cs.wisc.edu)
+
+                                     ******
+            [http://www.cs.wisc.edu/~shubu/pictures/shubu.mimi.jpg]
+===============================================================================
+Above: With my fiancee Mimi. Below: my nephew Avirup when he was 7 months old.
+===============================================================================
+[http://www.cs.wisc.edu/~shubu/pictures/bugai.jpg] Graduate Research Assistant
+Computer_Sciences_Department
+University_of_Wisconsin_-_Madison.
+1210 West Dayton Street
+Madison, WI 53706-1685 USA
+
+Phone: 608 262 5083
+Fax: 608 262 9777
+
+[aka Shubhendu S. Mukherjee]
+
+
+===============================================================================
+[Click on button to jump to corresponding home page/article.]
+
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] Advisor: Mark D. Hill
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] Research Project: Wisconsin Wind
+Tunnel
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] Publications
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] Wisconsin Computer Architects
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] World-Wide Computer Architects
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] Badger Ballroom Dance Team
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] Other Personal Interests/Hobbies
+
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] Morph between Dionisios and
+myself (Courtesy: Steve_Seitz)
+[http://www.cs.wisc.edu/~shubu/orangeball.gif] Some random (but interesting)
+links
+***** Education *****
+Ph.D University_of_Wisconsin-Madison, Jan 1994 - Spring 1998 (expected)
+M.S. University_of_Wisconsin-Madison, Sep 1992 - Dec 1993
+B.Tech. Indian_Institute_of_Technology,_Kanpur, India, Aug 1987 - May 1991
+***** Research Summary *****
+Coherent Network Interfaces (PhD Dissertation)
+    * Cachable Queues & Design Space (ISCA96)
+    * More (In Progress)
+Distributed Shared Memory
+    * Mechanisms for Cooperative Shared Memory (ISCA93)
+    * On Commodity Workstations (Submitted for Publication)
+    * Cache Coherence Protocols
+          o Custom Protocols for Irregular Applications (PPoPP95)
+          o Gray-software (ICS94)
+          o Dir1SW+ (ISCA93)
+ Parallel Simulation (Wind_Tunnel_Tutorial)
+Cache Simulation (JSS94)
+===============================================================================
+Copyright © 1996 by Shubu Mukherjee. All rights reserved.
+===============================================================================

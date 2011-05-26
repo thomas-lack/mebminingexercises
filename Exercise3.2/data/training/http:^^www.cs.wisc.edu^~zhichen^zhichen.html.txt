@@ -1,0 +1,45 @@
+**** ZHICHEN XU ****
+[http://www.cs.wisc.edu/~zhichen/zxu1.GIF]
+      Department of Computer Sciences
+      1210 W. Dayton St. #5388
+      Madison, WI 53706
+      Office phone: (608) 262-2542
+Research Assistant
+Advisors:
+Professor James_R._Larus
+Professor Barton_P._Miller
+**** Award ****
+Best Paper Award 9th ACM International Conference on Supercomputing, ACM Press,
+July, 1995.
+My research interest is in the area of programming_languages and performance
+issues in parallel and distributed systems. Recently, I have been studying
+techniques to detect and eliminate performance bottlenecks in Distributed
+Shared-Memory Systems. I have combined the Paradyn_Performance_Tool with
+Blizzard of the Wisconsin_Wind_Tunnel on both the Thinking Machine CM-5 and the
+Cluster of Workstations (COW).
+*****_Recent_Publications_*****
+***** Fields of Interest *****
+Programming_languages.
+Environments_and_Tools_for_Parallel_and_Distributed_Computing.
+Network_Computing.
+Parallel_and_Distributed_Operating_System.
+Computer_Architecture
+Performance_Evaluation_and_Benchmarks
+===============================================================================
+***** Places where I have studied and worked: *****
+High_Performance_Computing_and_Software_Laboratory_at_the_University_of_Texas
+at_San_Antonio, where I have studied and published in the area of parallel
+performance predictions, modeling and simulations.
+Computer_Sciences_Department at Fudan_University, where I have participated in
+several National key projects of P.R. China, in the area of software
+development environment, very high-level programming languages, and object-
+oriented technologies, and imcremental compilation techniques.
+Click here for a postscript version of my cv, and here is a HTML version.
+**** Interesting links ****
+Asplos7_program
+Journals
+Conferences
+Compilers
+\_Programming_Language_Research
+Chinese_Novels
+Friends_from_Fudan Java_API
