@@ -1,0 +1,30 @@
+****** Viresh Ratnakar ******
+[(Picture too dirty)]
+Research Assistant
+Computer Sciences Department
+University of Wisconsin-Madison
+
+===============================================================================
+***** Research Area: Digital Image & Video Compression *****
+    * Advisor: Miron Livny
+    * Main interests:
+          o DCT-based compression
+          o Vector quantization
+          o Fractal compression
+          o Quality-control in lossy compression
+          o Production-mode compression
+    * Publications
+    * RD-OPT_home_page
+      [invoke_QclicAuthor_if_available]
+    * Qclic_images
+      [invoke_QclicBrowse_if_available]
+===============================================================================
+**** Some of the things that I revere,
+May get revealed by clicking here. ****
+===============================================================================
+***** Computer Sciences Department
+University of Wisconsin Madison
+1210 West Dayton Street
+Madison, WI 53706
+(608) 262-6627
+ratnakar@cs.wisc.edu *****

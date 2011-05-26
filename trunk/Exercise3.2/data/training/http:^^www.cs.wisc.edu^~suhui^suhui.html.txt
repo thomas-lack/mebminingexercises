@@ -1,0 +1,38 @@
+****** Su-Hui Chiang ******
+    * CS_Department, University_of_Wisconsin_-_Madison
+    * Office: 6384 CS&S
+    * Telephone: (608) 262-6619
+    * Fax: (608) 262-9777
+    * E-mail: suhui@cs.wisc.edu
+    * Click here to send me an email
+    * Office hours: 4-5pm Thurs
+This page still under construction......
+===============================================================================
+***** I'm TAing CS132 this fall *****
+===============================================================================
+***** Publications *****
+    * Use_of_Application_Characteristics_and_Limited_Preemption_for_Run-To-
+      Completion_Parallel_Processor_Scheduling_Policies, with Rajesh
+      Mansharamani and Mary Vernon.
+Proc. 1994 ACM SIGMETRICS Conf. on Measurement and Modeling of Computer
+Systems, Nashville, TN. May 1994, pp. 33-44.
+Dynamic_vs._Static_Quantum-Based_Parallel_Processor_Allocation, with Mary
+Vernon.
+The 2nd Workshop on Job Scheduling Strategies for Parallel Processing (in
+conjunction with IPPS'96), April 1996.
+===============================================================================
+***** Search Engines *****
+    * Yahoo!
+    * Sources_of_TR_on_the_net
+    * Resources:_Bibliographies
+    * The_World-Wide_Web_Virtual_Library:_Subject_Catalogue
+===============================================================================
+***** Links Related to Taiwan *****
+    * Taiwan_Network_Service
+    * SinaNet_(shopping,_magzines,_news,_jobs,_calendar,_etc)
+    * SeedNet
+    * Vistors'_Guide_to_Taiwan
+    * Academia_Sinica
+===============================================================================
+     Last Updated: Aug. 30, 1996
+===============================================================================

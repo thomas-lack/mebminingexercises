@@ -1,0 +1,52 @@
+****** Automated Theorem Proving Group ******
+The Automated Theorem Proving group is part of the Computer_Science and
+Mathematics departments at The_University_of_Texas_at_Austin.
+We produce methods and systems intended to prove theorems in first- and higher-
+order logic with the intention of applying these systems and methods to
+problems primarily in mathematics, but also in computer science and technology.
+*** Here_is_an_index of electronically-available tech-reports from our FTP
+site. ***
+The ATP tech report series is not being continued currently. New tech reports
+are being added to the AI_Lab tech report series.
+***** Who are we? *****
+**** Present group ****
+    * Larry Hines
+    * Marty_Mayberry
+    * Benjamin_Shults
+**** Alumni ****
+    * Previous_Students_of_Woody_Bledsoe.
+    * Previous_Students_of_Robert_Boyer.
+    * This is an incomplete list.
+**** Others related to the group ****
+    * The late Woody Bledsoe(His_computer_science_faculty_profile.)
+    * Robert_Boyer
+    * J_Strother_Moore
+    * This is an incomplete list.
+**** Past_visitors_and_collaborators ****
+***** What have we done? *****
+    * IMPLY
+          o The UT natural deduction prover
+    * STRIVE
+          o Larry Hines' First-order logic inequality prover.
+    * STRUVE
+          o Larry Hines' set theory prover.
+    * Chou's Geometry prover
+          o and various improvements thereto including McPhee's.
+    * SET-VAR
+          o Feng's prover for set theory
+          o Implementation_description
+          o Proof_of_Heine-Borel_theorem
+    * Precondition_Prover
+          o Bledsoe's prover for analogy
+          o Proof_of_the_Heine-Borel_theorem
+    * NQTHM
+          o Boyer and Moore's prover developed at CLInc.
+    * This is an incomplete list.
+***** What are we doing now? *****
+    * IPR
+          o Shults' knowledge-using prover for mathematics.
+    * This is an incomplete list.
+***** Related_Links *****
+===============================================================================
+Do you have feedback or want more information? ContactBenjamin_Shults.
+===============================================================================

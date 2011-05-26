@@ -1,0 +1,39 @@
+****** View Morphing ******
+**** Investigators: Steve_Seitz, Chuck_Dyer ****
+Related Publications:
+View_Morphing --- to appear in SIGGRAPH_96
+Toward_Image-Based_Scene_Representation_Using_View_Morphing --- to appear in
+ICPR_96
+Image morphing techniques can generate compelling 2D transitions between
+images. However, differences in object pose or viewpoint often cause unnatural
+distortions in image morphs that are difficult to correct manually. Using basic
+principles of projective geometry, this paper introduces a simple extension to
+image morphing that correctly handles 3D projective camera and scene
+transformations. The technique, called {\em view morphing}, works by prewarping
+two images prior to computing a morph and then postwarping the interpolated
+images. Because no knowledge of 3D shape is required, the technique may be
+applied to photographs and drawings, as well as rendered scenes. The ability to
+synthesize changes both in viewpoint and image structure affords a wide variety
+of interesting 3D effects via simple image transformations.
+                 [http://www.cs.wisc.edu/~seitz/interp/mfig1.gif],
+View morphing between two images of an object taken from two different
+viewpoints produces the illusion of physically moving a virtual camera.
+Click for an MPEG_movie (184K) of this interpolation.
+                     [http://www.cs.wisc.edu/~seitz/interp/mfig2.gif]
+Morph between views of different faces produces simultaneous interpolation of
+facial shape, color, and pose.
+Click for an MPEG_movie (143K) of this interpolation.
+===============================================================================
+****** More MPEG Movies of View Morphs ******
+ _____________________________________________________________________________
+|                                      |Two resolutions of Mona Lisa <--> Mona|
+|                                      |Lisa reflection:                      |
+|[http://www.cs.wisc.edu/~seitz/interp/|    * High_resolution_MPEG_movie      |
+|mona-icon.gif]                        |      (198K, 10 frames)               |
+|                                      |    * Low_resolution_MPEG_movie (64K, |
+|______________________________________|______20_frames)______________________|
+|[http://www.cs.wisc.edu/~seitz/interp/|   Click for MPEG_movie (84K) of Jude |
+|___________chude-icon.gif]____________|________Shavlik_<-->_Chuck_Dyer_______|
+===============================================================================
+     [o] Last Changed: September 8, 1996
+===============================================================================
