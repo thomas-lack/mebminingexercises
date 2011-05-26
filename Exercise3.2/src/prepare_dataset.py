@@ -80,16 +80,17 @@ def filterNFeaturesByFrequency(features, docFreqDict, N):
     
     return result    
 
-def writeSVMFile(featureVectors, file):
+def writeSVMFile(featureVectors, allowed, file):
     fd = open(file,"w")
     for fileKey in featureVectors.keys():
         counter = 0
         fd.write("+1 ")
         for featureKey in featureVectors[fileKey].keys():
-            value = featureVectors[fileKey][featureKey]
-            if 0.0 != value:
-                fd.write("%d:%f "%(counter, value))
-            counter += 1
+            if allowed.__contains__(featureKey):
+                value = featureVectors[fileKey][featureKey]
+                if 0.0 != value:
+                    fd.write("%d:%f "%(counter, value))
+                    counter += 1
         fd.write("# %s\n"%(fileKey))
     fd.close()
 
@@ -121,6 +122,7 @@ if __name__ == '__main__':
         if file[0] == ".":
             continue
         
+        print "transform %s ..."%(file)
         words = readWordsFromFile("../data/training/%s"%(file))
         writeListToFile(words, "../result/3.2.1/%s"%(file))
         words = filterStopWords(words, stopwords)
@@ -137,17 +139,21 @@ if __name__ == '__main__':
         
         fileFreqDict[file] = freq 
         
-    print time.time() - start
+    
+    print "Write document frequencies dictionary file..."
     writeDictionaryToFile(docFreqDict, "../result/documentfrequencies.txt")
     featVec = createFeatureVectors(fileFreqDict, docFreqDict)
     
+    print "Write TF-IDF-Vector files..."
     for key in featVec.keys():
         writeDictionaryToFile(featVec[key], "../result/3.2.3/%s"%(key))
         
-    N = 1000
+    N = 800
     topNWords = getTopNWords(docFreqDict, N)
-    writeListToFile(topNWords, "../result/top%dwords.txt"%(N))
+    #writeListToFile(topNWords, "../result/top%dwords.txt"%(N))
     
-
-    writeSVMFile(featVec, "../result/training.svm")
+    print "Write trainings file..."
+    writeSVMFile(featVec, topNWords, "../result/training.svm")
+    print "transfomation took %ds"%(time.time() - start)
+    
     
