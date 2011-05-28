@@ -1,0 +1,156 @@
+BODY BGCOLOR=#AFBFBF LINK=#A03365 VLINK=#802365>
+BODY BACKGROUND="http://www.cs.utexas.edu/users/ashk/backgrounds/stone.gif" >
+===============================================================================
+****** Important Announcements ******
+
+I am taking off today (12/11) for home. So I will be unable to maintain this
+page for these last couple of days. However, I am putting this link to Dr.
+Porter's page and all class related announcement (if any) will be available by
+following it. Good Luck for the Finals!
+
+Next week, there will be special classes for reviewing some of the important
+topics covered in class. All classes will be held in Painter hall. The exact
+location will depend on room availibity. However, notes will be posted on doors
+and the office and there will be someone in the office (PAI 3.06) to inform
+you. The timing are posted below. Moreover, there will be almost total coverage
+for next week by office hrs. of TAs and Dr. Porter, right upto the time of the
+final exam. So, if you need any help, feel free to come by and ask one of us;
+we will be glad to help. Good Luck for the Finals!
+
+Special REVIEW for next week:
+ Mon 11:00-12:00               AI (Resolutio + other topics) BRUCE PORTER
+                               COmplexity Theory             NIMAR ARORA
+
+ Tue 10:00-11:00               Parallel processing           DWIP BANERJEE
+                               Boolean Circuits              BRUCE PORTER
+
+
+Question #7 on the review sheet (the one on rotating bits) can be disregarded;
+it is somewhat beyond the scope of what we covered in class.
+
+The slides presented in lecture on December 5th (summarizing the contents of
+the whole semester) are available at the reserve desk at UGL. We hope to post
+them on the webpage soon, but we are experiencing some technical difficulties
+caused by the length of the file.
+
+Click here for the schedule_of_office_hrs._for_the_final_week.
+
+Also, please check the room assignment posted below.
+
+Click here for the addendumto review questions (AI questions) for the final.
+
+Here are the Review questions : (html_version) and the (postscript_version)for
+the final exam. Some more questions will be added to the set; so stay tuned.
+
+Last programming_assignment_(#11) is now available.
+
+You can download the tutorial_on_Prolog_programming here.
+
+Dr. Porter's Lecture for the week of Nov. 14 is now available.
+
+
+
+
+                      CS304P(Porter) : COMPUTER SCIENCE I
+                      IMG SRC="lines/coloured_line.gif">
+===============================================================================
+Instructor
+
+Bruce_Porter (porter@cs.utexas.edu)
+office hrs. Monday 1:00-2:00 p.m. & Wednesday 2:00-3:00 p.m.
+Taylor Hall, room 4.124
+phone: 471-9565; email: porter@cs.utexas.edu
+
+
+
+TAs
+    * Office_Hours
+    * Lab_and_Discussion_Section_Schedule
+
+[http://www.cs.utexas.edu/users/dwip/cs304p/rainbow.gif]
+
+                               CS 304P (Porter)
+
+                                 Final Exam:
+                            Thursday, December 12
+                                7:00 - 10:00pm
+
+                            ___Room_Assignments____
+                           |Exam_Room|Unique_Number|
+                           |         |     47365   |
+                           |         |             |
+                           |         |     47370   |
+                           |         |             |
+                           |  WELCH  |     47375   |
+                           |         |             |
+                           |   2.224 |     47380   |
+                           |         |             |
+                           |         |     47385   |
+                           |         |             |
+                           |_________|______47390__|
+                           |         |      47395  |
+                           |         |             |
+                           |  WELCH  |      47400  |
+                           |         |             |
+                           |   1.308 |     47405   |
+                           |         |             |
+                           |         |     47410   |
+                           |_________|_____________|
+                           |         |     47415   |
+                           |         |             |
+                           |  WELCH  |     47420   |
+                           |         |             |
+                           |   1.316 |     47425   |
+                           |         |             |
+                           |         |     47430   |
+                           |_________|_____________|
+===============================================================================
+
+
+                              Course_Description
+                                Class_Schedule
+                Class_Lectures_(notes_from_Dr._Porter's_class)
+           Discussion_Sessions_(includes_notes_from_lab/discussion)
+                            Important_News_Articles
+                                Class_Newsgroup
+                            Programming_Assignments
+                                 Midterm_Test_I
+                             Solution_to_Midterm_I
+             Midterm Test II : html_version and postscript_version
+                        Review_Questions_for_Midterm_II
+  Review questions : (html_version) and the (postscript_version)for the final
+                          exam and also the addendum.
+
+
+Some Useful Links :
+ Pascal
+    * A Pascal_Tutorial in text format.
+    * ANSI-ISO_Pascal_FAQ
+    * You can get some Sample_Pascal_Programs from here.
+    * TP_Programmers_page.
+    * Generic_Turbo_Pascal_programming_language_material.
+    * Frequently_asked_questions_about_Turbo_Pascal.
+    * TURBO_PASCAL_7.0.
+    * Get a ziped Turbo_Pascal(TP)_tutorial.
+    * Programming_Concepts_and_Structures_(Pascal_based).
+ Newsgroups (Pascal related newgroups you might be interested in)
+    * comp.lang.pascal.ansi-iso
+    * comp.lang.pascal.mac
+    * comp.lang.pascal.borland
+    * comp.lang.pascal.misc
+    * comp.lang.pascal.delphi.misc
+    * fj.lang.pascal
+ Remember: to access newsgroups from the Dell Lab, you need to set the News
+server to news.cc.utexas.edu in the Mail and News Preferences item of the
+Options menu.
+
+Take a look in the Important News Articles link. It will usually lead to impor
+tant stuff.
+===============================================================================
+
+===============================================================================
+   [ home| TAs| description| discussion_sessions| news_articles| newsgroup|
+                           programming_assignments|
+===============================================================================
+Send_comments,_criticisms,_suggestions,_additions,_useful_links_to Dwip
+(dwip@cs.utexas.edu )

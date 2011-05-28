@@ -1,0 +1,47 @@
+****** CS 537-2:
+Introduction to Operating Systems ******
+***** Fall 1996 *****
+**** Tuesdays and Thursdays, 1:00-2:15pm in CS 1325
+Discussion: Fridays, 1:00-2:15pm in CS 1221 ****
+===============================================================================
+***** Your Hosts: Mary_Vernon (Instructor) and Karuna_Muthiah (TA) *****
+===============================================================================
+Welcome to the home page for CS 537-2.
+NOTE: Thursday lecture and Friday discussion will be interchanged on the
+following dates:
+Oct 3-4, Oct 10-11, Nov 7-8, Dec 5-6.
+***** What's New: *****
+    * Solutions_to_Quiz_#3.
+    * Assignment_#4. (11/7/96)
+===============================================================================
+    * Office_hours_and_email
+    * Textbook_and_other_readings
+    * Grading,_Projects_and_Quizzes
+    * Mail_Archive
+===============================================================================
+**** Approximate Schedule of Topics ****
+ ____________________________________________________________________________
+|Week_of|Topics_____________________________________________|Reading_________|
+|Sep 3  |introduction; concurrency: threads, address spaces,|Chapter 1, 2.1  |
+|_______|processes__________________________________________|________________|
+|Sep_10_|thread_management;_cooperating_threads_____________|Chapter_2.2,_2.3|
+|Sep_17_|synchronization;_implementing_mutual_exclusion_____|cont'd._________|
+|Sep_24_|semaphores_________________________________________|cont'd._________|
+|Oct_1__|monitors;_concurrency:_summary_____________________|cont'd__________|
+|Oct_8__|deadlock;_process_scheduling_______________________|Chapter_6,_2.4__|
+|Oct 15 |memory management: protection, address translation;|Chapter 3       |
+|_______|caching_and_TLBs___________________________________|________________|
+|Oct_22_|demand_paged_virtual_memory________________________|cont'd._________|
+|Oct_29_|REVIEW;_survey_of_i/o_systems______________________|Chapter_4_______|
+|Nov 5  |file systems & disk management; naming and         |Chapters 4 & 5  |
+|_______|directories________________________________________|________________|
+|Nov 12 |the hardware, os, compiler, language interface;    |TBA             |
+|_______|protection_&_security______________________________|________________|
+|Nov_19_|Java_overview,_language;_Java_objects,_core_methods|TBA_____________|
+|Nov_26_|Java_threads,_security;_Thanksgiving_(no_class)____|--______________|
+|Dec 3  |networks and distributed systems; remote procedure |Chapter 9       |
+|_______|call_(RPC)_________________________________________|________________|
+|Dec 10 |distributed file systems; global memory systems;   |Chapter 13      |
+|_______|REVIEW_____________________________________________|________________|
+===============================================================================
+     vernon@cs.wisc.edu

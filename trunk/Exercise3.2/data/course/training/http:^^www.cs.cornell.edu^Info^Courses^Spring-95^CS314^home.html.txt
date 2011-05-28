@@ -1,0 +1,21 @@
+****** CS 314 Home Page ******
+  Brian_Smith: Your Tour Guide
+  Course_Information
+***** Homework Assignments *****
+    * Assignment_1
+    * Assignment_2
+    * Assignment_3
+    * Assignment_4
+***** Projects *****
+    * Project_1
+    * Project_2
+    * PS314_Spec
+***** Lectures *****
+Table_of_Contents_(postscript_of_slides_are_here)
+   1. Introduction_to_Computer_Systems
+   2. CPU_Organization
+   3. 68000_Programming
+   4. Procedures,_Recursion,_and_Stacks
+   5. Assemblers,_Linkers,_and_Loaders
+   6. Interrupts_and_I/O
+   7. Introduction_to_Logic_Design

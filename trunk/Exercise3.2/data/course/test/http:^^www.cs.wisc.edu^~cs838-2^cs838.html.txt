@@ -1,0 +1,33 @@
+                       ****** Finding Out About: ******
+              ***** Information Retrieval and other technologies
+                          for seeking knowledge *****
+                         ***** Richard_K._Belew *****
+                              Visiting Professor
+                          **** CS838 (Lecture 2) ****
+                 Univ. Wisconsin - Computer Science Department
+                                  Fall, 1996
+                             Tue, Thurs 8:30-9:45a
+                                  Call #20616
+                                Room: 3345 Engr
+===============================================================================
+This course is designed for students interested in understanding more about the
+information retrieval and AI (esp. knowledge representation and machine
+learning) techniques underlying much of the exciting new activity occurring on
+the World Wide Web. For a more complete description of the courese, you can
+see:
+    * an abstract;
+    * a syllabus of the major topics to be considered;
+    * a graphical &quot;map&quot;of how these are related; and
+    * a (tentative) schedule of how the semester will proceed.
+***** Course Resources *****
+    * Readings
+          o Overview_-_Part_1_(Postscript,_56k)
+          o Overview_-_Part_2_(Postscript,_64k)
+                # Political_Infidelity_image (Postscript, 463k)
+    * Assignments
+    * Class_Email (Digested by HyperMai)
+    * Suggestions_for_composing_your_Email_for_this_class
+    * Related_WWW_resources
+    * Class_Minutes (Taken by students, for students)
+===============================================================================
+     Last modified by: belew@cs.wisc.edu 17 Sept 96

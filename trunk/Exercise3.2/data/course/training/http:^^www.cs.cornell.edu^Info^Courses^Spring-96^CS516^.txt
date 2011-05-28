@@ -1,0 +1,45 @@
+****** High-Performance Computer Systems ******
+***** Thorsten von Eicken *****
+**** Spring, 1996 ****
+===============================================================================
+****** Projects ******
+**** Project_reports ****
+**** Project_proposals ****
+**** Initial_project_ideas ****
+****** Course Materials ******
+    * **** Homework_1[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** Homework_2[http://www.cs.cornell.edu/Icons/ps.gif] ****
+Please check out the CUCS_SP-2_page before starting to use Split-C on the
+machine.
+You might also check out a sample_program.
+**** Homework_3[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** Homework_4[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-01_intro[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-02_now_case[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-03_technology[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-04_caches[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-05_mpp_nets[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-06_sp2[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-07_split-c[http://www.cs.cornell.edu/Icons/ps.gif] ****
+You can find more information on Split-C in the paper ``Parallel_Programming_in
+Split-C''.
+**** cs516-08_em3d[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-09_sorting[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-10_sp2am[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-11_msgpass[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-12_mpi[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-13_cachecoh[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-14_locks[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-15_threads[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-16_atm[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-17_u-net[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-2%[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-20_r4000[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-21_scoreboard[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-22_tomasulo[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-23_br_pred[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-24_superscalar[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-25_io_buses[http://www.cs.cornell.edu/Icons/ps.gif] ****
+**** cs516-26_pentium[http://www.cs.cornell.edu/Icons/ps.gif] ****
+===============================================================================
+Maintained by Thorsten_von_Eicken

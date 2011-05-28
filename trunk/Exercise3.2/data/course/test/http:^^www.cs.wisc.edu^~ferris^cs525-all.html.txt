@@ -1,0 +1,17 @@
+[http://www.cs.wisc.edu/~ferris//pics/uwlogo.half.gif]
+****** CS 525 - Linear Programming Methods ******
+***** General Course Information *****
+This course is offered each Fall and Spring semester.
+[http://www.cs.wisc.edu/~ferris//~shavlik/images/rainline.gif]
+***** CS 525 Pages of the Various Instructors *****
+    * Michael_C._Ferris (Spring '97)
+    * O.L._Mangasarian (Fall '96)
+***** Graduate MP Courses at Wisconsin *****
+    * CS_719_Network_Flows
+    * CS_720_Integer_Programming
+    * CS_726_Nonlinear_Programming_Theory
+    * CS_730_Nonlinear_Programming_Algorithms
+    * CS_733_Computational_Large_Sparse_Systems
+===============================================================================
+     Last modified: January 25, 1996
+===============================================================================

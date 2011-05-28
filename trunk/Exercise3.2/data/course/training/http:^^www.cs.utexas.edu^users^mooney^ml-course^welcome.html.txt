@@ -1,0 +1,32 @@
+[http://www.cs.utexas.edu/users/mooney/ml-course/ml-logo.gif]
+***** Instructor *****
+Raymond_J._Mooney
+***** Time and Place *****
+Tu-Th 2:00-3:30, PAI 5.60
+***** Course Information *****
+Click here for the course_information_sheet and the course_syllabus.
+***** Text *****
+Machine_Learning
+***** Lecture Slides *****
+    * Introduction_to_Machine_Learning
+    * Concept_Learning_and_Generality_Ordering
+    * Decision-Tree_Learning
+    * Experimental_Evaluation
+    * Computational_Learning_Theory
+    * Rule Learning and Inductive Logic Programming
+    * Neural Network Learning
+    * Clustering and Unsupervised Learning
+    * Bayesian_Learning
+    * Instance-Based_Learning
+    * Explanation-Based_Learning
+***** Assignments *****
+See the files in /u/mooney/ml-code on the department network for code and
+traces.
+    * Homework_1
+    * Homework_2
+    * Homework_3
+    * Homework_4
+    * Homework_5
+***** Final Project *****
+    * Project_Suggestions_(from_Spring_95)
+    * Paper_Format_Outline (Talk_Version)

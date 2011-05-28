@@ -1,0 +1,43 @@
+****** CS 664: Machine Vision ******
+Course Staff:
+Instructor: Ramin_Zabih
+Teaching Assistant: Justin_Miller
+Class Time and Place
+MWF, 3:35-4:35, Phillips_219
+Project_Suggestions
+Problem Sets
+Problem_Set_1
+Problem_Set_2
+Course Class Notes
+How_to_Scribe
+Week_1
+29_January_-_Regularization
+31_January_-_Simulated_Annealing
+5_February_-_Computing_Motion_via_Regularization
+7_February_-_Calculus_of_Variations
+12_February_-_Maximum_Likelihood_Estimation
+14_February_-_Markov_Random_Fields
+19_February_-_Snakes
+21_February_-_Stereo_and_Motion
+26_February_-_Introduction_to_Correlation
+28_February_-_Mestimation
+4_March_-_Non-parametric_Methods
+6 March - Guest Lecture
+6_March_-_Non-parametric_Transforms_(Cont.)
+13_March_-_Correlation_and_Census_Transform
+18 March - No lecture(Cont.)
+27_March_-_Stereo_Geometry_(Cont.)
+29_April_-_2D_Geometrical_Transforms
+1_April_-_Motion_Segmentation
+8_April_-_Tracking
+10_April_-_Motion_Tracking_(Cont.)
+15_April_-_Edge_Detection
+17_April_-_Continuation_of_Model_Based_Vision
+21_April_-_Hausdorff_Distance
+23 April - Guest Lecture - Eigenhausdorff.
+30_April_-_Face_Recognition
+Section Notes
+The_Optical_Flow_Constraint_Equation
+Other Sources
+Computer_Vision_Home_Page
+History_of_Object_Recognition

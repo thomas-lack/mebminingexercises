@@ -1,0 +1,33 @@
+
+with LaTeX2HTML 95 (Thu Jan 19 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk),
+CBLU, University of Leeds >
+
+
+
+****** CS378 Neural Networks ******
+ Fall 1996, TTh 5-6:30pm, WAG 208, Unique number 47755
+  Instructor:
+      Risto_Miikkulainen
+      risto@cs.utexas.edu, 471-9571
+      Office hrs: TTh 6:30-7:30pm, TAY 4.142A
+  TA:
+      Jim_Bednar
+      jbednar@cs.utexas.edu
+      Office hrs: TTh 2:15pm - 3:15pm TA station #4
+  Texts:
+      - Laurene Fausett (1994). Fundamentals_of_Neural_Networks:_Architectures,
+      Algorithms_and_Applications. Englewood Cliffs, NJ: Prentice_Hall
+      - Selected papers.
+      - Class notes (copies of slides used in the lectures).
+  Grading:
+      35% Homework
+      25% Midterm (10/10/96, 5-6:30pm)
+      40% Final (12/12/96, 7-10pm)
+  More details:
+      What_are_neural_networks?
+      Class_Schedule
+      Homework_assignments
+      Exams
+      Class_Resources
+      A_postscript_version_of_the_syllabus
+===============================================================================

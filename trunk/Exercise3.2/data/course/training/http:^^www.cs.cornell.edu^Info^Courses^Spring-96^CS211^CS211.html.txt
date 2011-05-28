@@ -1,0 +1,218 @@
+[http://www.cs.cornell.edu/Info/Courses/Spring-96/CS211/logos/b1.jpg]
+****** CS211, Computers and Programming ******
+**** Computer_Science_Department
+Cornell University
+Spring 1996
+ ****
+Question and problems will this page should be emailed to Jeff Foster,
+jfoster@cs.cornell.edu. You may have trouble viewing the tables if you're using
+an early version of NetScape.
+The CS211 contest.
+The first prelim will be on Thursday, March 7. We'll announce times and places
+soon. Topics_covered_in_the_prelim.
+The second prelim will be on Tuesday, April 23. The rooms were announced in
+lecture. Topics_covered_in_the_second_prelim.
+The final exam will be on Monday, May 13 at noon in Olin 155 (last names G-Z)
+and Olin 165 (last names A-F). The final exam will cover everything in the
+course. Additional_topics_convered_in_the_final.
+**** Office hours 5/6-5/13 ****
+ _______________________________________________
+|Day______|When_______|Where_____|Who___________|
+|Monday___|11:00-12:30|Upson_5148|Dave__________|
+|Tuesday__|11:30-1:00_|Upson_312_|Jeff__________|
+|Wednesday|11:00-12:30|Upson_5148|Dave__________|
+|Thursday_|1:30-3:00__|Upson_310_|Hal___________|
+|Friday___|1:30-3:00__|Upson_310_|Hal___________|
+|Saturday_|3:00_______|Upson_B17_|Review_session|
+Consulting on 8/12: 3-6pm (Chris); 8-10pm (Jose). Thanks to Chris and Jose for
+taking the time out of their studying to do this!
+Course_description
+Course_staff
+CS211_lecture_notes
+CS211_handouts
+CS211_code_samples
+Gofer
+Enhance
+Other_Web_Servers
+===============================================================================
+***** Course description *****
+     COM S 211 Computers and Programming (also ENGRD 211)
+     Fall, spring, summer. 3 credits. Credit will not be granted for both
+     COM S 211 and 212. Prerequisite: COM S 100 or equivalent programming
+     experience.
+     Intermediate programming in a high-level language and introduction to
+     computer science. Topics include program development, proofs of
+     program correctness, program structure, recursion, abstract data
+     types, object-oriented programming, data structures, and analysis of
+     algorithms. C++ is the principal programming language.
+===============================================================================
+***** Course staff and office hours *****
+**** Instructor: ****
+Hal Perkins, 310 Upson, 255-2352.
+Office hours: Thursday 1:30-3:00 and by appointment.
+Email hal@cs.cornell.edu.
+**** Teaching assistants: ****
+Correction: Office hours will be held in the TA's office
+Jeff Foster, 312/314 Upson, 255-1099.
+Office hours: Tuesday 11:30-1:00.
+Email jfoster@cs.cornell.edu.
+Alan Kwan, 4161 Upson, 255-6835.
+Email kwan@cs.cornell.edu.
+David Walker, 5148 Upson, 255-7416.
+Office hours: Monday 11:30-1:00pm.
+Email walker@cs.cornell.edu.
+**** Sections: ****
+ __________CS211_Spring_1996_Sections___________
+|Day______|Time______|Room_________|Instructor__|
+|Tuesday__|2:30-3:20_|Upson_111A___|Hal_Perkins_|
+|Tuesday__|3:35-4:25_|Upson_111A___|Hal_Perkins_|
+|Wednesday|12:20-1:10|Hollister_372|David_Walker|
+|Wednesday|1:25-2:15_|Hollister_372|David_Walker|
+|Wednesday|3:35-4:25_|Upson_207____|David_Walker|
+|Thursday_|2:30-3:20_|Upson_211____|Jeff_Foster_|
+|Friday___|3:35-4:25_|Hollister_372|Jeff_Foster_|
+**** Consulting: ****
+Consulting hours are in Upson 305.
+The regular consulting schedule, in effect until the last day of classes, is
+
+Sunday-Thursday, 1:25-6:00pm and 7:00-11:00pm
+Friday, 1:25-4:40pm
+ ________________CS211_Spring_1996_Consulting_________________
+|___________|Sunday|Monday|Tuesday|Wednesday|Thursday|Friday__|
+|1:25_______|Steve_|Eric__|Kyle___|Chris____|JP______|Kyle____|
+|2:30_______|Steve_|Eric__|Kyle___|Chris____|JP______|Vasantha|
+|3:35_______|Jose__|Jose__|Kay____|Jose_____|JP______|Vasantha|
+|4:40-6:00__|Jose__|Jose__|Kay____|Jose_____|JP______|(None)__|
+|7:00_______|Kay___|Kyle__|Steve__|Eric_____|Vasantha|(None)__|
+|8:00_______|Kay___|Kyle__|Steve__|Eric_____|Vasantha|(None)__|
+|9:00_______|Dan___|Eric__|Kay____|Chris____|Dan_____|(None)__|
+|10:00-11:00|Dan___|Eric__|Kay____|Chris____|Dan_____|(None)__|
+===============================================================================
+***** CS211 lecture notes *****
+Lecture notes are available in three formats:
+Binhqx'ed MacBinary files that contain Microsoft Word files
+Rich text format files (parseable by Microsoft Word and others)
+Plain text
+The date listed next to the lecture is the date the lecture was posted, not the
+date the lecture was given.
+**** Macintosh BINHQX ****
+1/23/96 Lectures_1&2:_Preliminaries,_C++
+2/2/96 Lectures_3&4:_Basic_C++_Classes
+2/12/96 Lecture_5:_More_Classes
+2/12/96 Lecture_6:_Pointers_and_Arrays
+2/12/96 Lecture_7:_Dynamic_Storage_Allocation
+2/19/96 Lectures_8&9:_Classes_with_Dynamic_Data
+2/19/96 Lecture_10:_Fine_Points_of_Classes
+3/3/96 Lecture_11:_Introduction_to_OOP
+3/3/96 Lecture_12:_Derived_Classes
+3/14/96 Lecture_13:_Program_Correctness,_Algorithmic_Notation
+3/14/96 Lecture_14:_Triples_and_Assignments
+3/14/96 Lecture_15:_Assignments,_Conditionals,_and_Loops
+3/14/96 Lecture_16:_Proving_a_Loop_Correct
+4/4/96 Lecture_17:_Functional_Programming
+4/4/96 Lecture_18:_Types_in_Gofer
+4/4/96 Lecture_19:_Currying,_Map,_and_Filter
+4/4/96 Lecture_20:_Recursion_vs._Iteration
+5/3/96 Lecture_21:_Application_Architectures_and_Frameworks
+5/3/96 Lecture_22:_Linked_Lists
+5/3/96 Lecture_23:_Algorithmic_Analysis
+5/3/96 Lecture_24:_More_Linked_Lists
+5/3/96 Lecture_25:_Binary_Trees
+5/3/96 Lecture_26:_Classes_and_Linked_Data_Structures
+5/3/96 Lecture_27:_Industrial_Strength_C++
+5/3/96 Lecture_28:_Java
+BINHQX files can be processed by Stuffit_Expander. If you have a PC, see the
+http address for Aladdin Systems, Inc. to find a Windows version. (Thanks to
+Armando Nunez for the tip.)
+**** Rich text ****
+1/23/96 Lectures_1&2:_Preliminaries,_C++
+2/2/96 Lectures_3&4:_Basic_C++_Classes
+2/12/96 Lecture_5:_More_Classes
+2/12/96 Lecture_6:_Pointers_and_Arrays
+2/12/96 Lecture_7:_Dynamic_Storage_Allocation
+2/19/96 Lectures_8&9:_Classes_with_Dynamic_Data
+2/19/96 Lecture_10:_Fine_Points_of_Classes
+3/3/96 Lecture_11:_Introduction_to_OOP
+3/3/96 Lecture_12:_Derived_Classes
+3/14/96 Lecture_13:_Program_Correctness,_Algorithmic_Notation
+3/14/96 Lecture_14:_Triples_and_Assignments
+3/14/96 Lecture_15:_Assignments,_Conditionals,_and_Loops
+3/14/96 Lecture_16:_Proving_a_Loop_Correct
+4/4/96 Lecture_17:_Functional_Programming
+4/4/96 Lecture_18:_Types_in_Gofer
+4/4/96 Lecture_19:_Currying,_Map,_and_Filter
+4/4/96 Lecture_20:_Recursion_vs._Iteration
+5/3/96 Lecture_21:_Application_Architectures_and_Frameworks
+5/3/96 Lecture_22:_Linked_Lists
+5/3/96 Lecture_23:_Algorithmic_Analysis
+5/3/96 Lecture_24:_More_Linked_Lists
+5/3/96 Lecture_25:_Binary_Trees
+5/3/96 Lecture_26:_Classes_and_Linked_Data_Structures
+5/3/96 Lecture_27:_Industrial_Strength_C++
+5/3/96 Lecture_28:_Java
+**** Plain text ****
+1/23/96 Lectures_1&2:_Preliminaries,_C++
+2/2/96 Lectures_3&4:_Basic_C++_Classes
+2/12/96 Lecture_5:_More_Classes
+2/12/96 Lecture_6:_Pointers_and_Arrays
+2/12/96 Lecture_7:_Dynamic_Storage_Allocation
+2/19/96 Lectures_8&9:_Classes_with_Dynamic_Data
+2/19/96 Lecture_10:_Fine_Points_of_Classes
+3/3/96 Lecture_11:_Introduction_to_OOP
+3/3/96 Lecture_12:_Derived_Classes
+3/14/96 Lecture_13:_Program_Correctness,_Algorithmic_Notation
+3/14/96 Lecture_14:_Triples_and_Assignments
+3/14/96 Lecture_15:_Assignments,_Conditionals,_and_Loops
+3/14/96 Lecture_16:_Proving_a_Loop_Correct
+4/4/96 Lecture_17:_Functional_Programming
+4/4/96 Lecture_18:_Types_in_Gofer
+4/4/96 Lecture_19:_Currying,_Map,_and_Filter
+4/4/96 Lecture_20:_Recursion_vs._Iteration
+5/3/96 Lecture_21:_Application_Architectures_and_Frameworks
+5/3/96 Lecture_22:_Linked_Lists
+5/3/96 Lecture_23:_Algorithmic_Analysis
+5/3/96 Lecture_24:_More_Linked_Lists
+5/3/96 Lecture_25:_Binary_Trees
+5/3/96 Lecture_26:_Classes_and_Linked_Data_Structures
+5/3/96 Lecture_27:_Industrial_Strength_C++
+5/3/96 Lecture_28:_Java
+===============================================================================
+***** CS211 handouts *****
+Handouts are in postscript format. You can print them on almost any laser
+printer. If you want to view them, you need an application like Ghostview.
+1/23/96 Handout_1:_Preliminaries
+1/23/96 Handout_2:_Assignment_1
+1/26/96 Handout_3:_CodeWarrior_Intro_(section)
+2/23/96 Handout_4:_Assignment_2
+2/23/96 Handout_5:_Assignment_3
+3/4/96 Handout_6:_Assignment_4
+===============================================================================
+***** Code samples *****
+2/6/96Lecture_5:_Cell_class
+2/6/96Lecture_5:_Complex_class
+2/6/96Lecture_5:_Sets_of_characters
+2/19/96Lectures_8&9:_Simple_list_class
+5/3/96Lecture_26:_Dictionary_class
+===============================================================================
+***** Gofer *****
+There are there flavors of Gofer available. MacGofer is available in the public
+labs.
+MacGofer
+PC_Gofer
+UNIX_Gofer
+The FTP site for Gofer is haskell.systemsz.cs.yale.edu/pub/haskell/gofer and
+the FTP site for MacGofer is ftp.dcs.gla.ac.uk . Please do not ftp if you can
+help it. If you find a piece of Gofer you think is of general interest, let me
+know and I'll make it available from here. MacGofer sources and manuals are
+available on the CS department ftp server ftp.cs.cornell.edu/pub/jfoster .
+***** Other Web Servers *****
+The final project for CS211 is on-line, available on the CS department's ftp
+server.
+ftp.cs.cornell.edu/pub/cs211/Enhance_assignment.sea.bin
+***** Other Web Servers *****
+Computer_Science_Department
+CUINFO
+Metrowerks_(CodeWarrior)_homepage
+Aladdin_Systems,_Inc.,_makers_of_Stuffit_Expander
+===============================================================================
+     CS211 home page / Comments or suggestions? E-mail Jeff_Foster.

@@ -1,0 +1,41 @@
+                         CS 302 Fall 1996 - Section 2
+                     Algebraic Language Programming - C++
+Instructor:Dave_Zimmermann
+Email:dzimm@cs.wisc.edu
+Class Meeting Time/Place:9:55-10:45 MWF, 455 Noland
+Office:CS 1306
+Office Phone:262-6601
+Office Hours:2:30-3:30 T, 11:30-12:30 Th
+===============================================================================
+                                 ANNOUNCEMENTS
+Program 4 due on Wednesday, October 23
+Program 5 ready and due on Friday, November 1
+===============================================================================
+General Course Information
+CS_302_Home_Page
+Course_Objectives
+Vectra_Lab
+CS_302_Consultants
+Syllabus
+Working_from_Home
+Class Handouts
+Programs
+Exams_and_Quizzes
+Lecture_Notes
+Greg_Sharp's_Style_Guide
+Grades (Referenced by last 4 digits of your ID number)
+Quizzes
+Programs
+Exams
+Policy Information
+Email_Policy
+Grading_Policy
+Late_Policy
+Academic_Misconduct_Policy
+Text
+Problem_Solving_with_C++_-_The_Object_of_Programming_by_Walter_Savitch
+Addison-Wesley Publishing Company, 1996.
+List_of_known_errata
+===============================================================================
+Last modified: Sat Aug 31, 1996, Dave_Zimmermann (dzimm@cs.wisc.edu)
+Based on Greg Sharp's cs302 home page

@@ -1,0 +1,36 @@
+                                ****** CS395T:
+                    Parallel Languages and Compilers ******
+                             ***** Fall 1996 *****
+    * Lecture: Tuesday and Thursday 12:00 - 2:00, ENS 145.
+    * Instructor: Calvin_Lin
+          o Office: Taylor 4.138
+          o Phone: 471-9560
+          o Email: lin@cs.utexas.edu
+          o Office hours: Tuesday 4:00 - 5:00, Thursday 4:00 - 5:00.
+
+      =========================================================================
+
+      =========================================================================
+      ***** Handouts: *****
+         1. General_Information
+         2. The_Case_for_NOW
+         3. The_Tera_Computer_(Copyright_ACM)
+         4. Programming_Assignment_1
+         5. New_POSIX_Threads_Skeleton_Code
+         6. Programming_Assignment_2
+         7. MPI_Tutorial
+         8. MPI_Example:_"hello,_world"
+         9. MPI_Communication_example
+        10. Ironman_Communication_Interface
+        11. Online_MPI_Manual
+        12. MPI_Manual_in_PostScript
+        13. LogP_paper
+        14. Where_is_Time_Spent_in_Message-Passing_and_Shared_Memory_Programs?
+        15. Programming_Assignment_3
+        16. Foundations_of_Practical_Parallel_Programming_Languages
+        17. On_Partitioning_Dynamic_Adaptive_Grid_Hierarchies
+
+      =========================================================================
+     Last modified: December 3, 1996
+     Calvin_Lin
+     lin@cs.utexas.edu

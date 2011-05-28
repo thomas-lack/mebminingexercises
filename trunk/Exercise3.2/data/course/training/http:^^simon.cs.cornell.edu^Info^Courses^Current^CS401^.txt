@@ -1,0 +1,34 @@
+===============================================================================
+****** CS401/501 Home Page ******
+===============================================================================
+***** Looking for ... *****
+    * Admin_handouts_and_information (incl. TA_office_hours)
+    * Lecture_notes
+    * Assignment_information
+    * Recitation_information
+    * The_Ethics,_Professionalism,_and_Social_Responsibility_Page
+***** or maybe ... *****
+    * Electronic_Submission_Procedure
+    * Group_Performance_Evaluations
+    * Web_resources
+    * Quotes_and_other_fun_stuff.
+    * A collection of jokes has been started here. Submit your own!
+    * Sumedh's_office_hours
+===============================================================================
+***** Breaking News: *****
+    * [graphics/new.gif] No more recitations (after Nov 18).
+===============================================================================
+***** Misc. Stuff *****
+    * **** Converting raw text to Postscript ****
+      Some people have asked how to convert raw text to Postscript. The simple
+      way is to use the Unix program enscript. Here are two suggested ways of
+      doing this:  enscript -2r -G -pfile.ps file.txt enscript -G -pfile.ps
+      file.txt  The first prints the files 2-up (good for source code). The
+      second prints them 1-up. The -G gives a nice header. This generate a
+      Postscript file file.ps. If you leave out the "-pfile.ps", it should just
+      send the file to the printer.
+===============================================================================
+More to come!
+===============================================================================
+Last modification: Wed Nov 27 17:12:46 EST 1996
+===============================================================================

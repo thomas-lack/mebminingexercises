@@ -1,0 +1,52 @@
+  General Information
+          * Professor
+            Office Hours: Tuesday 10:30-12:00 /Thursday 10:30 - 11:30 Tay3.148
+          * Teaching_Assistant
+            Office Hours: Monday/Wensday 12:30 - 2:00
+            TA station#8
+          * Class_Description
+          * Texts_and_Background_Readings
+          * Newsgroup: utexas.class.cs378-net
+          * Prerequisites
+          * Grading
+  References
+          * RFC_draft_on_Multicast_Routing_Protocols
+          * New_IP_MIB
+          * Texas_Internet_Platform_(_NetSim_)
+          * corejava.tar.gz
+          * MD5_Class
+          * Mobility_Support_in_IPv6
+          * IPv6_Specification
+          * IPv6_Address_Allocation_Management
+          * IPv6_MIB
+          * TCP/IP_Tutorials
+          * Draft_of_Http1.1
+          * Http_Digest_Access_Authentication
+          * TCP/IP Newsgroup:comp.protocols.tcp-ip_FAQ
+          * Java
+  Schedule of Presentations
+          * Schedule
+          * Individual_Papers
+  Handouts
+          * Handout#0
+          * Handout#1
+          * Handout#2
+          * Handout#3
+          * Handout#6
+          * Handout#10
+          * Handout#18
+          * Handout#20
+          * Handout#23
+          * Handout#24
+          * Handout#25
+          * Handout#26 [http://www.cs.utexas.edu/users/yufeng/icons/new.gif]
+  Homeworks
+          * How_to_Turn_in_Homeworks
+          * Homework#1
+          * Sample_Solutions_of_Homework#1
+          * Homework#2
+          * Homework#3
+          * Group_Project_1
+          * Project_info
+          * Group_Project_2
+          * Configuration_Files_for_Group_Project_2

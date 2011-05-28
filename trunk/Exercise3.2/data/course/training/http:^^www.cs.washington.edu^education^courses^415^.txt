@@ -1,0 +1,37 @@
+****** CSE 415 Introduction to Artificial Intelligence - Spring 1996 ******
+===============================================================================
+**** Professor: ****
+Alistair_Holden, holden@cs
+    * Office: EEB 309, x3-2054
+    * Office hours: Tu noon - 1pm, Wed. 10:30 - noon
+===============================================================================
+**** TA: ****
+Joshua_Redstone, redstone@ms
+    * Office: Thompson 9
+    * Office hour: Monday 1:30 - 2:30
+    * Lab hours: Monday 2:30 - 3:25, Thursday 1:30 - 2:25
+===============================================================================
+**** Text: ****
+    * Rich and Knight,Artificial Intelligence, SecondEdition
+    * Touretzky,Common Lisp: A gentle introduction to symbolic computing
+===============================================================================
+General Information
+    * Basic_Computer_Information
+    * Course_Outline_and_information
+    * Turnin_Instructions_-_Project_3
+    * First_Programming_Assignment - due April 11
+    * Solution_to_1st_Programming_Project
+    * First_Homework_Assignment - due April 18
+    * Second_Homework_Assignment - due April 25
+    * Second_Programming_Assignment - due April 26
+    * Solution_to_Second_Programming_Assignment
+    * Third_Programming_Assignment - due May 17 at 5pm
+    * Sample_Solution_to_Third_Programming_Assignment
+    * Final_Programming_Assignment - due June 3 (at final exam)
+Other information:
+    * An introduction to using the allegro-emacs_interface (Postscript)
+    * Emacs_refcard (Postscript)
+    * Allegro_Emacs_interface_refcard (Postscript)
+    * Instructions for downloading standalone lisps for the PC or Macintosh
+Note: To check grades I have recorded, type: ~c415/grades
+     redstone@cs.washington.edu
