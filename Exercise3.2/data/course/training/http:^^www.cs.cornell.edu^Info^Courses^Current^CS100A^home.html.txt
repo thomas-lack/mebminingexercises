@@ -1,0 +1,17 @@
+    [http://www.cs.cornell.edu/Info/Courses/Current/CS100A/pics/header.gif]
+===============================================================================
+    * If_you_are_running_Netscape_2.0+_or_IE_2.0+_click_here
+===============================================================================
+Links to individual pages (no frames)
+    * Course_info-_general_stuff,_section_info,_Office_hours...MOTW
+    * Homeworks-_downloads_of_homeworks
+    * Handouts-_info_on_class_handouts
+    * Syllabus-_course_syllabus
+    * Exams-_info_on_when_exams_will_be
+    * Requirements_and_Grading-_criteria_for_grading_and_homework_schedule
+    * Other_Links-_C_references_on_the_web,_other_goofy_stuff
+===============================================================================
+Note: The preceding pages contain tables. If your browser is not able to handle
+tables then please email dwu@cs.cornell.edu
+Page last updated 9/30/96
+===============================================================================

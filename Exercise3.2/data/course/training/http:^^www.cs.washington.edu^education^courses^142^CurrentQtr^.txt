@@ -1,0 +1,46 @@
+          [http://www.cs.washington.edu/education/courses/142/icons/
+                           nameplate_small.old.gif]
+                                CSE/ENGR 142:
+                            Computer Programming I
+               Martin_Dickey &amp; Richard_Ladner, Autumn 1996
+
+                        Welcome to the 142 Home Page!
+This is the World Wide Web (&quot;the Web&quot; for short) hypermedia document
+for CSE/ENGR 142 and will contain a bounty of information about the class. You
+can click on any highlighted item for more information.
+===============================================================================
+    * Class_Messages - check frequently!
+    * Course_Syllabus
+    * All sorts of schedules
+    * The_week_at_a_glance
+    * Week-by-week activity_schedule
+    * Computing_labs(including lab hours). Watch for lab hour changes!
+    * The_Staff (including instructor and TA office hours)
+    * Lecture_slides
+    * Lecture_slides_with_audio from Summer 1996
+    * Homework.
+    * Examinations: Midterm and Final (not at originally scheduled place and
+      time!). Study guides, old tests, place and time, etc.
+    * All kinds of tips on using the compiler, for both PC and Macintosh users.
+    * Computing_at_Home
+    * Textbook_Code
+    * References
+    * Tutorials_and_special_demos
+===============================================================================
+Course webs from earlier quarters should be more or less intact and you are
+invited to browse them. (If you notice problems, for instance links that don't
+work, please send mail the Webmaster (see below). You might like to look at
+assignments, tests, and the like that were used previously.
+        _______________________________________________________________
+       |________Autumn_1995________|Winter_1996|Spring_1996|Summer_1996|
+===============================================================================
+**** Other information ****
+is available about
+    * the University_of_Washington,
+    * the Computer_Science_and_Engineering_Department,
+    * the Computer_Science_degree_program (College of Arts and Sciences),
+    * the Computer_Engineering_degree_program (College of Engineering), and
+    * related_courses, for both majors and nonmajors.
+                                 Comments to:
+                      cse142-webmaster@cs.washington.edu
+                           (Last Update: 11/19/96 )

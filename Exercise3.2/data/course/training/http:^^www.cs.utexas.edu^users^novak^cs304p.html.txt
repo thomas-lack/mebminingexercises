@@ -1,0 +1,37 @@
+****** CS 304P: Foundations of Computer Science ******
+===============================================================================
+CS 304P is an introduction to Computer Science and programming.
+This section of CS 304P is intended for CS majors who have had at least a
+semester of programming in high school; the course number will be changed to CS
+306 next year. If you have never taken a programming course before, you should
+take Porter's section of CS 304P instead. A strong math background, at least
+through precalculus, is required.
+We will use the programming language Scheme, a dialect of Lisp. The Scheme
+implementation we will use is called Gambit and runs on Macintosh computers.
+This course will move faster than the previous CS 304P courses and will
+emphasize CS concepts more than programming language syntax. We will do a lot
+of programming and work hard, while hopefully learning a lot and having fun.
+Syllabus
+FTP_Directory_for_Software_and_Scheme_Tutor
+Copying_Scheme_for_Your_PC
+Assignment_1:_Machine_Language_Simulation
+Assignment_2:_Surfing_the_Web
+Assignment_3:_Basic_Scheme
+Assignment_4:_Playing_Peano_and_Gambling
+Assignment_5:_Turtle_Graphics
+Assignment_6:_Snow_and_Trees
+Assignment_7:_List_Manipulation
+Study_Guide_for_Exam_1:_Oct._4
+Vocabulary_for_Exam_1:_Oct._4
+Assignment_8:_The_Plot_Thickens
+Assignment_9:_Treasure_Hunt
+Assignment_10:_Symbolic_Algebra
+Assignment_11:_Data_Abstraction_and_Matrices
+Study_Guide_for_Exam_2:_Nov._11
+Assignment_12:_Drawing_Trees
+Assignment_13:_Expression_Unparsing
+Assignment_14:_Language_Translation
+Study_Guide_for_Final_Exam:_Thurs.,_Dec._12,_9-12_in_TAY_2.106
+===============================================================================
+     Gordon_S._Novak_Jr.
+

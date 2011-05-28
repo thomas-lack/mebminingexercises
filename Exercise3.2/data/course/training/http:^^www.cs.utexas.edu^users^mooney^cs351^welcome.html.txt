@@ -1,0 +1,22 @@
+[http://www.cs.utexas.edu/users/mooney/cs351/lisp-logo.gif]
+***** Instructor *****
+Raymond_J._Mooney
+***** Teaching Assistant *****
+Sowmya_Ramachandran
+***** Time and Place *****
+Tu-Th 12:30-2:00, GEO 112
+***** Course Information *****
+Click here for the course_information_sheet ,the course_syllabus, and
+information on how_to_use_Lisp (see also UT_Allegro_info_page).
+***** Text *****
+Paradigms_of_Artificial_Intelligence_Programming:_Case_Studies_in_Common_Lisp
+***** Assignments *****
+See the files in /u/mooney/cs351-code on the department network for code and
+traces.
+    * Homework_1
+    * Homework_2
+    * Homework_3
+    * Homework_4
+***** Old Tests *****
+    * Test_1
+    * Test_2

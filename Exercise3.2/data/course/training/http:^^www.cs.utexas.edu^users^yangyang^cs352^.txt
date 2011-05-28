@@ -1,0 +1,23 @@
+                 ****** CS352: Computer Systems Architecture
+
+                               Fall 1996 ******
+===============================================================================
+    * Syllabus
+    * Assignments
+          o Assignment_1--- Solution--- Solution_in_PS_file_(for_print)--
+            - Statistics
+          o www.cs.utexas.edu/users/yangyang/cs352/> Program 1
+--- Solution--- Statistics
+Program_2--- Statistics
+Assignment_4--- Solution--- Solution_in_PS_file_(for_print)--- Statistics
+www.cs.utexas.edu/users/yangyang/cs352/> Program 3
+--- Asg1a.out---Statistics
+Assignment_6--- Solution---Statistics
+Your final gradeSection_3:00, Section_5:00
+MicroSPARC_I_Datasheet
+Online_Resources
+My_Classmates
+Email to Dr._Schwetman, Rui_Liu, Yang_Yang, or post message to cs352_news_group
+===============================================================================
+ This page is created on: August 30, 1996
+For comments, you are welcome to send email to:yangyang@cs.utexas.edu

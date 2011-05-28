@@ -1,0 +1,49 @@
+           [http://www.cs.washington.edu/education/courses/431/96s/
+                           nameplate_small.old.gif]
+                                ****** CSE 431
+               Introduction to the Theory of Computation ******
+                     ***** Larry Ruzzo, Spring 1996 *****
+***** General information *****
+  Instructor: Larry_Ruzzo
+  TA: Jayram_Thathachar
+  Meeting times: Mon, Wed, Fri 10:30-11:20 in EEB 108.
+  Instructor office hours (tentative): Wed 1-2, Fri 1-2 in Sieg 415.
+  TA office hours: Mon 1-2, Tue 12-1 in Sieg 326.
+===============================================================================
+***** Welcome to the CSE 431 home page *****
+If you have any problems with this document, send mail to
+jayram@cs.washington.edu.
+Class_E-mail: (Last update:  05/31/96 at 10PM.)
+A log of all messages sent out to the class e-mail list
+(cse431@cs.washington.edu).
+***** Textbook Errata. *****
+***** Handouts: *****
+ _______________________________________________________________________________
+|___________|Admin.__|Problems_______________|Solutions______________|Everything|
+|LaTeX      |Syllabus|1|2|3|4|5|Midterm|Final|1|2|3|4|5|Midterm|Final|Everything|
+|Source:____|________|_|_|_|_|_|_______|_____|_|_|_|_|_|_______|_____|__________|
+|[PDF]      |Syllabus|1|2|3|4|5|Midterm|Final|1|2|3|4|5|Midterm|Final|Everything|
+|Acrobat:___|________|_|_|_|_|_|_______|_____|_|_|_|_|_|_______|_____|__________|
+|PostScript:|Syllabus|1|2|3|4|5|Midterm|Final|1|2|3|4|5|Midterm|Final|Everything|
+===============================================================================
+About file formats:
+ Most of the course materials above are provided in three formats:
+   LaTeX:
+       Plain ASCII text including formating commands. Simple things (e.g.
+       assignments) are generally quite legible in this format. For figures and
+       complex math stuff, these are hard-to-impossible to read.
+   Adobe Acrobat [PDF] :
+       The latest &amp; greatest. Get a free viewer from Adobe's Acrobat_and
+       the_Web Page.
+   PostScript:
+       The Ghostscript_Home_Page has free viewers (Mac, Windows, OS/2, Linux,
+       ...)
+ At this time, Acrobat is supported on fewer systems, but is preferable if you
+ can use it -- files are smaller, rendering is faster and more legible, and it
+ can print (which Mac Ghostscript can't, for example).
+===============================================================================
+***** Old Course Webs: *****
+    * Spring_1994
+    * Spring_1995
+===============================================================================
+     jayram@cs.washington.edu

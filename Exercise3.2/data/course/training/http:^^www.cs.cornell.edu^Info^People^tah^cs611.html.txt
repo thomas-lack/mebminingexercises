@@ -1,0 +1,83 @@
+****** CS 611: Advanced Programming Languages ******
+Fall 1995
+MWF 10:10-11:00, Upson 211.
+*** Instructor: Tom_Henzinger ***
+    * Upson 4105C, 255-3009, tah@cs.cornell.edu.
+      Office hours: after class, and by appointment.
+*** Teaching assistant: Neal Glew ***
+    * Upson 5162, 255-7421, glew@cs.cornell.edu.
+      Office hours: Tu 9:00-10:00, Th 2:30-3:30, and by appointment.
+**** Handouts ****
+    * Handout_0 (September 1): Course Information
+    * Handout_1 (September 13): Getting Started with ML
+    * Handout_2 (October 2): Meta-Lambda
+**** Homeworks ****
+    * Homework_0 (due September 13) [solutions]
+    * Homework_1 (due September 22) [solutions]
+    * Homework_2 (due October 2) [solutions]
+    * Homework_3 (due October 16) [solutions]
+    * Homework_4 (due November 10) [solutions]
+    * Homeworks 5-6: Gries
+    * Homework_7 (due November 20) [solutions]
+    * Homework_8 (due December 1) [solutions]
+    * Homework_9 (due December 8) [solutions]
+**** Raw Notes ****
+    * Raw_notes_0 (September 1)
+    * Raw_notes_1 (September 4,6)
+    * Raw_notes_2 (September 8)
+    * Raw_notes_3 (September 11)
+    * Raw_notes_4 (September 13)
+    * Raw_notes_5 (September 20,22)
+    * Raw_notes_6 (September 25)
+    * Raw_notes_7 (September 27,29)
+    * Raw_notes_8 (October 2)
+    * Raw_notes_9 (October 4)
+    * Raw_notes_10 (October 6)
+    * Raw_notes_11 (October 11)
+    * Raw_notes_12 (October 13)
+    * Raw_notes_13 (October 16)
+    * Raw_notes_14 (October 20)
+    * Raw_notes_15 (November 8,10)
+    * Raw_notes_16 (November 13,15)
+    * Raw_notes_17 (November 17)
+    * Raw_notes_18 (November 20,22)
+    * Raw_notes_19 (November 27,29)
+    * Raw_notes_20 (December 1,4)
+    * Raw_notes_21 (December 6)
+**** Scribe Notes ****
+    * Lecture_0 (September 1)
+    * Lecture_1 (September 4)
+    * Lecture_2 (September 6)
+    * Lecture_3 (September 8)
+    * Lecture_4 (September 11)
+    * Lecture_5 (September 13)
+    * Lecture 6: Introduction to ML
+    * Lecture_7 (September 18)
+    * Lecture_8 (September 20)
+    * Lecture_9 (September 22)
+    * Lecture_10 (September 25)
+    * Lecture_11 (September 27)
+    * Lecture_12 (September 29)
+    * Lecture_13 (October 2)
+    * Lecture_14 (October 4)
+    * Lecture_15 (October 6)
+    * Lecture 16 (October 11)
+    * Lecture_17 (October 13)
+    * Lecture_18 (October 16)
+    * Midterm (October 18) [solutions]
+    * Lecture_19 (October 20)
+    * Lecture_20 (October 23)
+    * Lectures 21-26: Gries
+    * Lecture_27 (November 8)
+    * Lecture_28 (November 10)
+    * Lecture_29 (November 13)
+    * Lecture_30 (November 15)
+    * Lecture_31 (November 17)
+    * Lecture_32 (November 20)
+    * Lecture_33 (November 22)
+    * Lecture 34 (November 27)
+    * Lecture_35 (November 29)
+    * Lecture_36 (December 1)
+    * Lecture_37 (December 4)
+    * Lecture_38 (December 6)
+    * Lecture 39 (December 8)

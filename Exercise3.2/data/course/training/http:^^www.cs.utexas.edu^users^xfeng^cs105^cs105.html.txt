@@ -1,0 +1,91 @@
+===============================================================================
+****** CS 105 - Computer Programming: C++ ******
+***** Fall 1996 *****
+===============================================================================
+Welcome to the homepage for CS105 C++ at UT Austin.
+The class is taught by Will Adams and Ajit_George.
+===============================================================================
+Course Announcement
+    * The final is over now! If it's a surprise to you, contact Xun NOW for the
+      make up test. -- Most likely it will be on 12/7.
+    * Solution for all the homeworks
+    * Review sessions' slides
+    * The slides for the second half of the semester. Please view them online
+      if possible. Only print out those really need to be printed.
+    * Files for hw10 can be found on web now - UPDATED
+    * Homework 9 source file
+    * Midterm solution is on web
+===============================================================================
+TA Information & Weekly Timetable
+ _____________________________________________________________________________
+|_______TA___|____Section__|___Office_Hour_|____Location__|_________Contact___|
+|            |             |Tuesday 13:30- |              |                   |
+|Guana Kumar |   12 / 13   |     15:00     | TA Station 3 | ngk@cs.utexas.edu |
+| Natarajan  |47435 / 47440|Thursday 15:00-|              |                   |
+|____________|_____________|_____16:30_____|______________|___________________|
+|            |             |Tuesday 11:00- |              |                   |
+|  Xun Feng  |   14 / 15   |     12:30     | TA Station 1 |xfeng@cs.utexas.edu|
+|            |47445 / 47450|Thursday 10:00-|              |                   |
+|____________|_____________|_____11:30_____|______________|___________________|
+See a detailed weekly time_table of this course.
+===============================================================================
+Course Guide
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] A news group has
+  been set up for this class: news:utexas.class.cs105.c++
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Some notes for
+  class_on_8/30 and this is Homework_1 (due 9/6/96), also tips_for_HW1.
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Postscript file of
+  Homework_2 (due this Friday)
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Here are the two
+  files for Homework_3
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_3_PS_file
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Download files for
+  Homework_4
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_1_solution
+  and how_it_was_scored
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_2_solution
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_3_solution
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Model_solution
+  Homework_4 by Will
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] As required by some
+  of you, here is wordlist.o_on_linux, provided by Warren
+  Wang,wwang@cs.utexas.edu
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Notes_of_the
+  midterm_test
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Xun's_notes_of_the
+  review_session and answer_to_some_of_the_exercises
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Kumar's_notes_of
+  the_review_session
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Model_solution_of
+  hw5 by Xun (I made some modifications on it Monday afternoon.)
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Postscript_file_of
+  model_solution_of_hw6by Ajit
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Postscript_file_of
+  Hw7
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Postscript file of
+  Midterm_solution
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] hw9.cc for homework
+  9
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Files for HW 10
+  DecimalInteger.cc, DecimalInteger.hh, HexInteger.cc, HexInteger.hh,
+  OctalInteger.cc, OctalInteger.hh,
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] slides_for_section
+  12_and_13in postscript format
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] slides for section
+  14 and 15. Oct._18, Oct._25, Nov._01, Nov._08, Nov._15 in postscript format
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_10
+  assignmentin postscript format
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Kumar's_review
+  session and Xun's_review_session
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_7_solution
+  by Xun
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_8_solution
+  by Kumar
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_9_solution
+  [http://www.cs.utexas.edu/users/xfeng/icons/blueball.gif] Homework_10
+  solutionby Kumar, and Homework_11_solution by Xun
+===============================================================================
+     Maintained by Xun Feng, xfeng@cs.utexas.edu
+     Department of Computer Sciences
+     University of Texas at Austin
+===============================================================================

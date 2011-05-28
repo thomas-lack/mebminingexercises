@@ -1,0 +1,12 @@
+             ****** CS395T: Mining and Monitoring Databases ******
+                           Prof. Daniel P. Miranker
+===============================================================================
+New:
+    * Seminar_Schedule
+    * Term_Project_Material
+===============================================================================
+Old:
+    * Overview
+    * Tentative_Reading_List
+    * Homework
+    * Projects

@@ -1,0 +1,42 @@
+****** CS110M ******
+***** Instructor: Tony_D'Silva *****
+**** How to contact me: ****
+    * email:dsilva@cs.wisc.edu
+    * office: 1349, Computer Sciences and Statistics
+    * phone: 262-5340
+**** Office Hours: ****
+    * 12:00-1:00p MF or by appointment
+**** Textbook ****
+Problem solving with C++-- the object of programming by Walter Savitch
+**** Section Information: ****
+    * 8:00-9:15a, Sept 3 - Oct 24 , 1263 Comp. Sci. &amp; Stat., (First day in
+      226 Noland, as specified in Timetable)Lec.4
+    * 1:00-2:15p, Sept 3 - Oct 24, 2104 Chamberlin, Lec.12
+**** Computer Lab ****
+Rm. 1350, Computer Science and Statistics
+**** Course Information: ****
+    * Day_1_handout
+    * What_is_110_all_about
+    * Tentative_Syllabus_for_semester
+    * Late_Policy
+    * Grading_Criteria
+    * Academic_Misconduct
+    * Handouts
+**** Important software : ****
+Introduction_to_Microsoft_Windows
+Hints_for_Windows_Compilers
+The_Windows_operating_system
+Email
+Mosaic
+Netscape
+**** C++ information: ****
+    * Introduction_to_Borland_C++
+    * The_C++_language
+    * The_Savitch_Text
+**** Assignments: ****
+    * Program0due Tuesday, Nov 5th
+    * Program1due Tuesday, Nov 12
+**** Solution to quizzes ****
+===============================================================================
+Last modified: Tue Nov 5 06:53:33 1996 by Anthony D'Silva
+     dsilva@cs.wisc.edu

@@ -1,0 +1,48 @@
+[CSE 457]
+===============================================================================
+                     [Introduction to Computer Graphics]
+===============================================================================
+                              1996 Autumn Quarter
+
+Welcome to the World Wide Web hypermedia document for CSE/457, which contains a
+bounty of information about the class. Keep in mind that this document is by no
+means static, and that new information will be added frequently. If you have
+any problems with this document, send mail to pighin@cs. Click here for help.
+                      About the class  Personnel (Professor, TAs, Students)
+====================================== Course_syllabus
+                                       Course_calendar
+                                       TA_Office_Hours
+               Handouts & Assignments  Lecture_notes
+====================================== Reading_assignments
+                                       Homework_assignments
+                             Projects  Project_handouts
+====================================== Project_artifacts
+                                       Project_help_sessions
+                                       Project_grading_policy
+                                       Project_write-ups
+                                       libui_Documentation
+     Other course-related information  Getting_into_the_class
+====================================== Hearn_&_Baker_errata
+                                       The_SGI_Instructional_Lab
+                                       Using_the_Indys,_a_guide_to_228
+                                       OpenGL_Example_Programs
+                                       1996_Spring_quarter_home_page
+                                       1995_Autumn_quarter_home_page
+                                       1995_Spring_quarter_home_page
+                                       1995_Winter_quarter_home_page
+                       Graphics links  SGI_Silicon_Surf
+====================================== Grafica_Obscura
+                                       SIGGRAPH
+                                       GRAIL
+                                       Graphics_sites_index
+                   Other useful links  MVis_home_page_(visitor_and_room
+====================================== scheduling)
+                                       The_Computer_Science_and_Engineering
+                                       Department
+                                       The_Computer_Science_degree_program
+                                       The_Computer_Engineering_degree_program
+                             Web help  Basic_help
+====================================== Mosaic,_Netscape,_and_Lynx
+                                       Using_Netscape_on_the_Indys
+===============================================================================
+pighin@cs.washington.edu 29 September 1996

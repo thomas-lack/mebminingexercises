@@ -84,14 +84,15 @@ def writeSVMFile(featureVectors, allowed, file):
     fd = open(file,"w")
     for fileKey in featureVectors.keys():
         counter = 0
-        fd.write("+1 ")
+        fd.write("-1 ")
         for featureKey in featureVectors[fileKey].keys():
             if allowed.__contains__(featureKey):
                 value = featureVectors[fileKey][featureKey]
                 if 0.0 != value:
                     fd.write("%d:%f "%(counter, value))
                     counter += 1
-        fd.write("# %s\n"%(fileKey))
+        fd.write("\n")
+        #fd.write("# %s\n"%(fileKey))
     fd.close()
 
 def writeListToFile(list, file):
@@ -112,7 +113,7 @@ def writeDictionaryToFile(dict, file):
 
 if __name__ == '__main__':  
     stopwords = readStopwordsFile("../data/stopwords_english.txt")
-    trainingFiles = os.listdir("../data/training")
+    trainingFiles = os.listdir("../data/course/training")
     fileFreqDict = {}
     docFreqDict = {}
 
@@ -123,11 +124,12 @@ if __name__ == '__main__':
             continue
         
         print "transform %s ..."%(file)
-        words = readWordsFromFile("../data/training/%s"%(file))
-        writeListToFile(words, "../result/3.2.1/%s"%(file))
+        #words = readWordsFromFile("../data/training/%s"%(file))
+        words = readWordsFromFile("../data/course/training/%s"%(file))
+        #writeListToFile(words, "../result/3.2.1/%s"%(file))
         words = filterStopWords(words, stopwords)
         stemms = doStemming(words)
-        writeListToFile(stemms, "../result/3.2.2/%s"%(file))
+        #writeListToFile(stemms, "../result/3.2.2/%s"%(file))
         freq = getWordFrequencies(stemms)
         
         # create document frequency
@@ -141,19 +143,19 @@ if __name__ == '__main__':
         
     
     print "Write document frequencies dictionary file..."
-    writeDictionaryToFile(docFreqDict, "../result/documentfrequencies.txt")
+    #writeDictionaryToFile(docFreqDict, "../result/documentfrequencies.txt")
     featVec = createFeatureVectors(fileFreqDict, docFreqDict)
     
     print "Write TF-IDF-Vector files..."
-    for key in featVec.keys():
-        writeDictionaryToFile(featVec[key], "../result/3.2.3/%s"%(key))
+    #for key in featVec.keys():
+    #    writeDictionaryToFile(featVec[key], "../result/3.2.3/%s"%(key))
         
-    N = 800
+    N = 1000
     topNWords = getTopNWords(docFreqDict, N)
     #writeListToFile(topNWords, "../result/top%dwords.txt"%(N))
     
     print "Write trainings file..."
-    writeSVMFile(featVec, topNWords, "../result/training.svm")
+    writeSVMFile(featVec, topNWords, "../result/training_negative_N%d.svm"%(N))
     print "transfomation took %ds"%(time.time() - start)
     
     

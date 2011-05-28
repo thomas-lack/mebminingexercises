@@ -1,0 +1,32 @@
+***** CS414:_Systems_Programming_and_Operating_Systems *****
+
+===============================================================================
+***** CS415: Practicum in Operating Systems *****
+Selections that display this symbol [http://cs.cornell.edu/Info/Courses/Spring-
+95/CS314/Icons/ps.gif] correspond to postcript documents.
+**** How_to_hand_in_phase_3_of_HOCA html"> Course Information ****
+**** Course_Schedule (Last Changed: 9/14/95) ****
+**** Groups ****
+**** Handouts ****
+    * Handout 1
+          o GIF_Format
+          o Postcript_Format_[http://cs.cornell.edu/Info/Courses/Spring-95/
+            CS314/Icons/ps.gif]
+    * Penne_ai_Broccoli_--_9/4/95
+**** Questions_and_Answers (Last Changed: 10/23/95) ****
+===============================================================================
+**** [http://cs.cornell.edu/Info/Courses/Fall-95/CS415/titolo.gif]The CHIP
+Computer System ****
+    * Console_Window_Example
+    * Using_CHIP_[http://cs.cornell.edu/Info/Courses/Spring-95/CS314/Icons/
+      ps.gif]
+    * Chip_Console_Tutorial_[http://cs.cornell.edu/Info/Courses/Spring-95/
+      CS314/Icons/ps.gif]
+    * Principles_of_Operation_[http://cs.cornell.edu/Info/Courses/Spring-95/
+      CS314/Icons/ps.gif]
+    * Configuration_File
+**** The HOCA Operating System ****
+    * The_HOCA_Operating_System_Specifications_[http://cs.cornell.edu/Info/
+      Courses/Spring-95/CS314/Icons/ps.gif]
+===============================================================================
+*** This page is maintained byLorenzo_Alvisi ***

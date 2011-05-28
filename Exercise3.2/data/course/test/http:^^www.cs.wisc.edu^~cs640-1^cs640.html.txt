@@ -1,0 +1,81 @@
+                ****** UW CS Computer Networking Courses ******
+    * CS_640_-_Introduction_to_Computer_Networks
+    * CS_740_-_Advanced_Computer_Networks
+===============================================================================
+            ***** Introduction to Computer Networks - CS 640 *****
+**** Table of Contents ****
+    * International_Connectivity_Map
+    * About_UW_Networking_Courses_Offered
+    * Course_Information
+    * Instructor
+    * Teaching_Assistants
+    * Course_Syllabus
+    * Mail_Archives
+    * Assignments
+    * Programming_References
+    * Selected_Readings
+===============================================================================
+[Internet_Connectivity_Map]
+Click here to get the latest text version.
+===============================================================================
+**** [-- ]Networking_courses_at_UW-Madison ****
+===============================================================================
+***** Course Information *****
+**** Lecture ****
+Time:		8:00 - 9:15 MWF
+Place:		1221 Comp Sci & Stat
+Class email:	cs640-1list
+**** Instructor: Lawrence_H._Landweber ****
+Office:		7397 Comp Sci & Stat
+Phone:		263-7442
+Email:		lhl@cs.wisc.edu
+Office hours:   M,W,F 9:30-11:00
+**** Teaching Assistant: Srinivasa_Narayanan ****
+Office: 3360
+Phone: 262-9275
+Email: nsp@cs.wisc.edu
+Office hours:
+	Monday      2:00p  -  4:00p
+	Wednesday   3:00p  -  5:00p
+
+	If these times are not convenient, feel free to email me at
+	nsp@cs.wisc.edu for an appointment.
+**** Teaching Assistant: Ben_Teitelbaum ****
+Office: 3310
+Phone: NA
+Email: ben@cs.wisc.edu
+Office hours:
+	Tuesday  1:00p  -  3:00p
+	Thursday 2:00p  -  4:00p
+
+	If these times are not convenient, feel free to email me at
+	ben@cs.wisc.edu for an appointment.
+===============================================================================
+**** [-- ]Fall_1996_Course_Syllabus ****
+**** [-- ]Fall_1996_Mail_Archive_(moderated) ****
+**** [-- ]CSL_Mail_Archive_(complete) ****
+**** [-- ] Assignments - Fall 1996 ****
+   1. Programming_Assignment_1 (Error/Warning_Codes)
+   2. Class Project - Implementation of ATM Network Layer and Reliable ATM
+      Adaptation Layer
+          o Handout (PostScript)
+          o Project overview slides (PostScript) (Powerpoint)
+          o "Software Engineering 101" slides (PostScript) (Powerpoint)
+          o Design Document Evaluation Form (PostScript)
+===============================================================================
+**** [-- ] Grading ****
+Midterm Exam: 25%
+Final Exam: 25%
+Assignment 1: 5%
+Term Project: 45%
+**** [-- ] Prior Midterms ****
+   1. Fall_'92_Midterm
+   2. Fall_'94_Midterm
+**** [-- ]Optional Reference Book for Project ****
+     UNIX Network Programming
+     Stevens, W. Richard
+     Prentice Hall
+     ISBN 0-13-949876-1
+**** [-- ] Programming References ****
+    * BSD_Socket_Interface
+    * Socket_Interface_Lecture

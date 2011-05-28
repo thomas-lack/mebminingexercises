@@ -1,0 +1,7 @@
+***** CS Courses *****
+    * Fall_96
+    * Spring_97
+===============================================================================
+Additional course information may be maintained by the individual faculty
+members. Consult the CS_class_web_pages. For additional information contact
+gloria@cs.utexas.edu

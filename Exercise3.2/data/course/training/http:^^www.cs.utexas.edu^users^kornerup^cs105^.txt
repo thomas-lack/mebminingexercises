@@ -1,0 +1,20 @@
+****** CS 105 C++ Fall 1995 ******
+Note that this page reflects CS 105 C++ as it was taught in the Fall of 1995.
+The current version of the class may differ in content and in scope.
+Welcome to the homepage for CS105 C++ at UT Austin. The class is taught by Will
+Adams and Jacob_Kornerup. For practical information about the course look at
+the syllabus.
+***** Available on-line *****
+    * A technical_note on how to compile programs and turn in homeworks
+      electronically.
+    * Homeworks_and_solutions_(in_due_time)
+    * A crude interface to the newsgroup_utexas.class.cs105.c++ where most
+      correspondence out off class takes place.
+    * Most examples from the textbook "C++ for Pascal Programmers", organized
+      by chapter.
+    * Further_readings_on_C++ and a link_to_a_C++_home_page (not required
+      reading).
+    * Jacob_Kornerup's_overheads are available for viewing
+    * Information about the class_project
+    * How to find Jacob_Kornerup's_office.
+    * To study for the midterm here is an old_midterm_exam and the_answer_key.

@@ -1,0 +1,251 @@
+[http://www.cs.wisc.edu/~dyer/images/eye6-trans.gif]
+===============================================================================
+
+***** CS 766 - Computer Vision
+Fall 1995 *****
+===============================================================================
+
+**** Instructor: Chuck_Dyer ****
+Office:       6397 CSS
+Telephone:    262-1965
+Email:        dyer@cs.wisc.edu
+Office Hours: 2:30 - 3:30 Mondays and Thursdays, and by appointment
+
+**** Teaching Assistant: Bryan_So ****
+Office:       5364 CSS
+Telephone:    262-5105
+Email:        so@cs.wisc.edu
+Office Hours: 1:00 - 2:00 Wednesdays and Fridays, and by appointment
+
+**** Students ****
+===============================================================================
+
+**** [http://www.cs.wisc.edu/~dyer/images/hot40.gif]_What's_New? ****
+**** [http://www.cs.wisc.edu/~dyer/images/info40.gif] General Course
+Information ****
+Fundamentals of computer vision. First, an introduction to low-level image
+analysis methods, including image formation, edge detection, feature detection,
+and segmentation. Principles of defining modules for reconstructing three-
+dimensional scene information using techniques such as shape from shading and
+depth from stereo. Active methods for scene recovery such as depth from focus
+and occluding contour detection by viewpoint control. Motion detection and
+analysis including tracking. Model-based three-dimensional object recognition.
+    * Schedule
+      1:00 - 2:15 p.m. Tuesdays and Thursdays in 1325 CSS
+    * Prerequisites
+      CS 540, fundamentals of calculus, probability theory, linear algebra, and
+      C
+    * Grading
+          o Midterm Exam (Thursday, November 16): 35%
+          o Homework assignments: 35%
+          o Project: 25%
+          o Class participation: 5%
+    * Syllabus
+    * Required Readings
+          o Selected parts of Machine_Vision by R. Jain, R. Kasturi, and B. G.
+            Schunck, McGraw-Hill, New York, 1995
+          o A collection_of_readings from journals and conference proceedings;
+            to be sold at DOIT Documentation in small batches
+    * Supplementary_Reading_Sources
+    * Online Information
+      Most course information will be available online at WWW URL http://
+      www.cs.wisc.edu/~dyer/cs766.html
+===============================================================================
+**** [http://www.cs.wisc.edu/~dyer/images/book.gif] Reading Assignments to Date
+****
+    * 9/5: Chapters 1 and 8 of JKS, and Paper #1 (at DOIT)
+    * 9/14: Chapter 2
+    * 9/21: Chapter 3
+    * 9/28: Chapters 4 and 5
+    * 10/5: 4 papers at DOIT available as Handout #3
+    * 10/17: Chapter 6 except 6.6, 6.7, 6.8.3, and 6.9
+    * 10/19: Chapter 7.1 - 7.3, and 2 papers at DOIT available as Handout #4
+    * 11/2: 3 papers at DOIT available as Handout #5, and Chapters 9, 11.1 -
+      11.3
+    * 11/28: Chapter 14 (primarily 14.4)
+===============================================================================
+**** [http://www.cs.wisc.edu/~dyer/images/award.gif] Student_Scores_and_Grades
+****
+===============================================================================
+**** [http://www.cs.wisc.edu/~dyer/images/papers.gif] Homework Assignments ****
+    * Homework #0: Image Enhancement by Histogram Modification (Optional)
+      Make a copy of your portrait image in ~cs766-1/public/images/ and then
+      use xv to contrast enhance your face. Do this by first rotating the
+      image, then cropping a window around your head (say down to your
+      shoulders), and finally interactively adjusting the Intensity
+      modification function in the Color Editor window under the Windows
+      button. (You are also free to modify other things such as color if you
+      wish.) When you have found a good grayscale transformation save the
+      result as a color gif image and put it in the same directory where the
+      original image is. Send me email telling me qualitatively what intensity
+      transformation you applied and why it improves the quality of the image
+      overall. I'll then use this image in the "photo board" of students in the
+      class. Feel free to use this image in your own Web home page as well!
+    * Homework_#1:_Skeletons (Due: October 3)
+          o Learn about getting started with the Vista_vision_software
+          o Read theIntroduction to Vista Programmingmanual that is available
+            at DOIT Documentation
+          o Corrections to the Original Assignment
+                # In Method 1, change condition 1 to be "at least 3 ..."
+                  instead of "at least 2 ..."; this will prevent some types of
+                  shapes from disappearing altogether
+                # In Method 1, condition 2 should also count as a 0-
+                  1 transition the case where NW=0 and N=1
+                # In Method 2, the 3 x 3 matrix c for city-block distance
+                  should have infinity (i.e., some large constant), not 0, in
+                  the four corners
+                # In Method 2, the 3 x 3 matrix c for chessboard distance
+                  should have 0, not 1, in the center position
+          o TEST IMAGES to be used:
+                (1) /p/vision/images/hw1/DOIT.v
+                (2) /p/vision/images/hw1/hand.v
+          o To evaluate your thinning results, you might want to try the
+            following additional experiment using the output of at least one of
+            your tests: (1) Convert your skeleton image to ubyte format using
+            vconvert, (2) edit (you may need to use Emacs because vi is not "8-
+            bit clean") the header of the new image file so that it contains
+            the following lines right after the repn: ubyte line:
+            	component_interp: gradient
+            	low_threshold: 1
+            	high_threshold: 2
+            (3) run vlink on this file, and then (4) vsegedges. Try using the
+            results on the image hand.v, for example, to see how well this
+            approach might be used to determine the direction the index finger
+            is pointing (for a HCI application, say).
+          o Note: The thinning method may in fact delete entirely some shapes;
+            e.g., a 2 x 2 block of 1's surrounded by all 0's will disappear
+          o The thinning algorithm is based on the papers: (1) T. Zhang and C.
+            Suen, A fast parallel algorithm for thinning digital patterns,Comm.
+            ACM27(3), 1984, 236-239, and (2) H. Lu and P. Wang, A comment on "a
+            fast parallel algorithm for thinning digital patterns,"Comm. ACM29
+            (3), 1986, 239-242.
+          o Comparison_of_student_results_of_the_different_methods applied to
+            the pointing hand image and a rotated version of this test image
+    * Homework_#2:_Image_Splining_for_Mosaics (Due: October 24)
+          o Read the 3 papers:
+                # E. H. Adelson et al., Pyramid methods in image processing,RCA
+                  Engineer29-6, Nov/Dec 1984
+                # P. Burt and E. H. Adelson, The Laplacian pyramid as a compact
+                  image code,IEEE Trans. Comm.31, 1983, 532-540
+                # P. Burt and E. H. Adelson, A multiresolution spline with
+                  application to image mosaics,ACM Trans. Graphics2, 1983, 217-
+                  236
+          o Hints_and_FAQs
+          o Some_splined_images produced by students in the class
+    * Homework_#3:_Segmentation_by_Snakes (Due: November 9)
+          o Read the 2 papers:
+                # M. Kass, A. Witkin and D. Terzopoulos, Snakes: Active contour
+                  models, Int. J. Computer Vision 1, 1988, 321-331
+                # D. Williams and M. Shah, A fast algorithm for active contours
+                  and curvature estimation, Computer Vision, Graphics, and
+                  Image Processing: Image Understanding 55, 1992, 14-26
+          o Hints_and_FAQs
+    * Homework_#4:_Your_Own_Project (Due: December 18)
+          o Student_Project_Titles_and_Abstracts
+          o See Supplementary_Readings for some additional papers that might
+            help you select a topic.
+          o Student_projects_done_in_Stanford_vision_course
+===============================================================================
+**** [http://www.cs.wisc.edu/~dyer/images/flow.gif] Computer Accounts ****
+    * Accounts
+      Course accounts are on the Sun Sparcstations called sun1 - sun36 in rooms
+      1358, 1363 and 1368. Each account has a large disk space quota of 50MB so
+      you can store images for homeworks and your project. Be sure to delete
+      old images and compress others (see gzip(1)), however, in order to save
+      space.
+    * Email
+      Email sent to cs766-1list goes to everyone in the class including the
+      instructor and TA
+    * Printers
+      To print images you should use one of the laserprinters, laser1 - laser4,
+      which are located in room 1359. Alternatively, the generic printer name
+      laser will send output to one of the four printers with the shortest
+      queue. Caution: Before sending images to the printer, be sure to check
+      the queue; if there are a lot of jobs being printed it is bad manners to
+      send images to be printed because they take so long to print. Be
+      considerate!
+    * Vision Software
+          o Vista
+            The Vista programming environment will be used in the homework
+            assignments. The code is located in the directory /p/vision/ip-
+            tools/vista/ Man pages are in /p/vision/ip-tools/vista/man/ and
+            executables are in /p/vision/ip-tools/vista/bin/
+          o Xv
+            xv(1) is an interactive image display program for the X window
+            system that is very useful for displaying images in a variety of
+            formats.
+          o ImgStar
+            70 basic image processing operations invoked using Unix-like
+            command lines. Code, executables and manual are in /p/vision/ip-
+            tools/imgstar/
+          o Khoros
+            The Khoros image processing software development environment
+            provides a set of basic image processing modules and a graphical
+            programming language interface for rapid prototyping of simple
+            image processing algorithms. The code is located in the directory /
+            p/vision/ip-tools/khoros /p/vision/ip-tools/khoros/bin/cantata is
+            the executable that starts up the interactive environment.
+          o Netpbm
+            A toolkit for conversion of images between a large variety of
+            different formats. Based on the Pbmplus package. Man pages are in /
+            p/vision/ip-tools/man/ and executables are in /p/vision/ip-tools/
+            bin/
+          o Matlab
+            Matlab(1) is a numeric computation and visualization environment.
+            Signal processing and image processing toolboxes are especially
+            relevant.
+    * Test Images
+      Most test images will be put in the directory /p/vision/images/ although
+      they may require format conversion to be used. Some other images may be
+      put in ~cs766-1/public/images/ Numerous image databases are also
+      accessible via the WWW; for example, see the collection_of_test_images_at
+      CMU
+===============================================================================
+**** [http://www.cs.wisc.edu/~dyer/images/afraid.gif] Examination ****
+    * Examination
+    * Solution
+    * The Exam will be held on Thursday, November 16 from 12:45 pm to 2:15 pm
+      in the regular classroom, 1325 CS. Note the early starting time! The exam
+      will cover topics up through shape-from-shading, including readings in
+      the textbook, papers sold through DOIT, and homework assignments. You may
+      bring into the exam one (1) 8.5" x 11" sheet of paper with any notes you
+      want on both sides. The exam will focus on main ideas and algorithms, not
+      proofs. See old exams below for the types of questions that will be
+      asked.
+    * Old Exams
+          o Exam_1_-_Spring_1994
+          o Exam_2_-_Spring_1994
+          o Exam_1_-_Spring_1992
+          o Exam_2_-_Spring_1992
+===============================================================================
+**** [http://www.cs.wisc.edu/~dyer/images/www.gif] Links of Interest ****
+    * Computer_Vision_Home_Page (highly recommended!)
+    * Chuck_Dyer's_Links_of_Interest
+    * B._Wandell's_List_of_Useful_Numbers_in_Vision_Science
+    * HDTV
+          o Grand_Alliance_HDTV_System_Specification
+          o Advanced_Television_Systems_Committee_(ATSC)
+          o ATSC_Documents_in_postscript
+    * SPIE_Optical_Science_and_Engineering_Library
+===============================================================================
+**** [http://www.cs.wisc.edu/~dyer/images/bug40.gif] Vision Demos and Projects
+****
+    * Apple's_Quicktime_VR_image_mosaicing_product
+    * IBM's_PanoramIX_image_mosaicing
+    * An_Example_of_Panoramic_Image_Mosaicing
+    * DECface_talking_synthetic_face
+    * CMU_Video-Rate_Stereo_Machine
+    * CMU_Virtualized_Reality_Project
+    * IBM's_QBIC_Image_Database_Project
+    * Miscellaneous_Computer_Vision_Demos
+===============================================================================
+**** [http://www.cs.wisc.edu/~dyer/images/eye.gif] Other Computer Vision and
+Related Courses ****
+    * CS_585 and CS_835 at Boston University
+    * Cardiff_University_(UK)
+    * Khoros_Digital_Image_Processing_Online_Course
+    * Royal_Institute_of_Sweden
+    * Stanford_University
+    * University_of_Virginia
+    * University_of_Washington
+===============================================================================

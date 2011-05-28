@@ -1,0 +1,18 @@
+****** CSE 590D: Special Topics ******
+***** Steven Tanimoto, instructor *****
+===============================================================================
+***** CSE_590D_(Autumn_1995):_Transcript-Based_Education/WWW. *****
+***** CSE_590D_(Winter_1996):_Mathematics_Experiences_Through_Image_Processing.
+*****
+***** CSE_590D_(Spring_1996):_Mathematics_Experiences_Through_Image_Processing.
+*****
+***** CSE_590D_(Autumn_1996):_Technology_for_Collaborative_Learning. *****
+===============================================================================
+Copyright Notice: The material in this course web is subject to copyright.
+While it may be viewed by the public, it should not be installed at any web
+site other than the one at the University of Washington.
+===============================================================================
+This graduate seminar explores a variety of topics related to the use of
+computers in education. Specific topics and activities vary from quarter to
+quarter.
+     (Last Update: 30 September 1996) tanimoto@cs.washington.edu

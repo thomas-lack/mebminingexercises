@@ -1,0 +1,23 @@
+****** Advanced Programming Languages - Fall 1994 ******
+===============================================================================
+
+Faculty : Prof._Robert_Constable, rc@cs, 4147 Upson.
+Office Hours : Monday 4.00-5.00.
+
+Teaching Assistant : S Ravi Kumar, ravi@cs, 4138 Upson.
+Office Hours : Thurs 2.00-4.00.
+
+===============================================================================
+
+[*_] Fall 94 Notes [*_] Fall 94 Assignments
+
+[*_] Fall 93 Notes [*_] Fall 92 Notes [*_] Fall 91 Notes
+
+[*_] Nuprl
+
+[*_] Classic ML
+
+===============================================================================
+     Comments, Questions, Suggestions on CS611 Web page? Please e-mail
+     pavel@cs.cornell.edu
+===============================================================================

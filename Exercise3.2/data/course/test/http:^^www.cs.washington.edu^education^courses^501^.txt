@@ -1,0 +1,46 @@
+****** CSE 501: Implementation of Programming Languages ******
+**** Winter Quarter, 1996 ****
+***** Important Course Information *****
+  Meeting times
+      M, W, F from 1:30 to 2:20 in MEB 235
+  Instructor
+      Craig_Chambers (chambers@cs), office hours: T, Th 11-12 (starting second
+      week), Sieg 309.
+  TA
+      Vass Litvinov (vass@cs), office hours: We 11:00-12:00, Fr 11:30-12:30,
+      Sieg 423 / a cubicle on the 4th floor.
+***** Archives *****
+    * Slides from lecture are available here.
+    * Handouts are available here.
+    * Reading assignments are available here.
+      The full reading list for the class is available here.
+    * Homework assignments are available here.
+    * Messages sent to the cs501@cs mailing list are archived here.
+    * Last year's midterm exam &amp; answers are available here.
+    * Last year's final exam &amp; answers are available here. (Note that this
+      test was closed book &amp; 2 hrs, which affected the kind of questions
+      that were asked.)
+    * This year's midterm exam is available here.
+      Sample solutions are here.
+    * This year's final exam &amp; answers are available here.
+***** Cecil and Vortex Information *****
+*** Handouts from tutorials ***
+    * the_Cecil_language_tutorial
+    * the_Vortex_compiler_tutorial
+    * How_to_Use_the_Vortex_C/C++_Front-end
+    * a_list_of_compiler_files_of_interest
+    * dead-assign-elim.cecil -- a simple example of an IDFA
+    * cfg-traversal-interface.cecil -- the CFG traversal framework
+    * Vortex_RTL_Textual_Description_Grammar
+*** Cecil reference documentation ***
+Documentation is available both in HTML and PostScript formats:
+    * The_Cecil_language_reference_manual (postscript version)
+    * How_to_Use_the_Vortex_Compiler (postscript version)
+    * The_Cecil_Standard_Library_reference_manual (postscript version)
+***** Other Resources *****
+The previous quarter's Web page, including all the old slides, etc., is
+available here.
+More information about compiler and language research can be found on Mark
+Leone's programming_language_research_page.
+===============================================================================
+     chambers@cs.washington.edu

@@ -1,0 +1,38 @@
+           [http://www.cs.washington.edu/education/courses/421/96w/
+                           nameplate_small.old.gif]
+                     ****** CSE 421: Intro. To Algorithms
+                              Winter 1996 ******
+                  ***** Larry Ruzzo &amp; Martin Tompa *****
+Class_Messages: (Check this or your email frequently. Last update:  03/15/96 at
+02PM.)
+Text_Book_Errata_Lists.
+***** Handouts: *****
+ LaTeX:          Syllabus Midtem_Solution
+ Acrobat [PDF] : Syllabus Midtem_Solution
+ PostScript:     Syllabus Midtem_Solution
+***** Homework: *****
+ LaTeX:          1, 2, 3, 4, 5, 6, 7,
+ Acrobat [PDF] : 1, 2, 3, 4, 5, 6, 7,
+ PostScript:     1, 2, 3, 4, 5, 6, 7,
+***** 421 Webs From Previous Quarters *****
+                             ____________________
+                            |Winter_1995_(Karlin)|
+===============================================================================
+About file formats:
+ Most of the course materials above are provided in three formats:
+   LaTeX:
+       Plain ASCII text including formating commands. Simple things (e.g.
+       assignments) are generally quite legible in this format. For figures and
+       complex math stuff, these are hard-to-impossible to read.
+   Adobe Acrobat [PDF] :
+       The latest &amp; greatest. Get a free viewer from Adobe's Acrobat_and
+       the_Web Page.
+   PostScript:
+       The Ghostscript_Home_Page has free viewers (Mac, Windows, OS/2, Linux,
+       ...)
+ At this time, Acrobat is supported on fewer systems, but is preferable if you
+ can use it -- files are smaller, rendering is faster and more legible, and it
+ can print (which Mac Ghostscript can't, for example).
+===============================================================================
+     { ruzzo | tompa | aberman } @cs.washington.edu (Last Update:  02/28/
+     96 )

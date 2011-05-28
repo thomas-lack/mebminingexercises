@@ -1,0 +1,204 @@
+     ***** CS 302 Algebraic Language ProgrammingSection 70 (FORTRAN) *****
+This section is taught entirely in the FORTRAN programming language and is
+intended primarily for engineering students and non-computer science majors.
+Click here for a course description.
+***** Menu *****
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_IMPORTANT_ANNOUNCEMENTS
+  -_READ_NOW!
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Lectures
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Instructor
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Grading_Policy
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Syllabus
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Text_and_Lecture_Notes
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Exams_and_Programming
+  Assignments
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Problem_Solving
+  Exercises
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Computer_Lab
+  [http://www.cs.wisc.edu/~bestor/icons/arrowright.gif]_Other_Pointers_of
+  Interest
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Lectures *****
+    * Section 70: 103 Psychology, 9:55 am MWF
+
+      Please be punctual to lectures to avoid disturbing the class.
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Instructor - Gareth
+Bestor *****
+  Office:
+      Rm. 1306 Computer Science & Statistics, 1210 W. Dayton St.
+  Office Hours:
+      Wed 7:45 - 8:45 am, Fri 11:00 - 1:00 pm or by appointment
+  Phone:
+      (608) 262-6601 [office]
+      (608) 251-5193 [home, emergencies only]
+  E-mail:
+      bestor@cs.wisc.edu (click here for finger)
+  World-Wide-Web:
+      http://www.cs.wisc.edu/~bestor/bestor.html
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Grading Policy *****
+Your final grade is based on seven programming assignments each worth 5% (not
+including Program #0) and three exams. Your highest two exam scores will each
+contribute 25% to your final grade; your lowest exam score will contribute 15%.
+You must complete and hand in all the assignments to be eligible to receive a
+passing grade for the course. Final grades for all CS 302 sections are graded
+on a curve with a mean in the range of 2.8 - 3.0, where A = 4.0; the curve is
+computed after the final exam is completed.
+  Exam 1
+      Thur February 29, 7:15 - 9:15 pm
+  Exam 2
+      Wed April 10, 7:15 - 9:15 pm, Rm. 1207 Computer Science
+  Final
+      Mon May 13, 7:55 - 9:45 am
+Click here to see a list of the current class grades (identifed by student ID
+only).
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Syllabus (tentative)
+*****
+The following topics and sections of the text will be approximately covered
+each week during the semester. You will only get the most out of this class if
+you read the relevant sections of the text before coming to class. This way you
+will be able to ask questions in class about anything that you are unsure of,
+instead of waiting until you're in the lab trying to work on an assignment to
+discover you didn't really understand something.
+   1. Weeks_1-6 (Mid-Term Exam #1)
+   2. Weeks_7-11 (Mid-Term Exam #2)
+   3. Weeks_12-15 (Final Exam)
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Text and Lecture
+Notes *****
+**** Text: ****
+Fortran with Engineering Applications, 5th. edition, by E. Koffman and F.
+Friedman, 1993.
+**** Lecture Notes: ****
+Copies of the lecture notes will be available on-line at the end of each week
+of class. IMPORTANT - the on-line lecture notes are not a substitute for coming
+to class and only cover what I show on the overhead projector. They do not
+include any examples or additional notes that I put on the board. You are
+responsible for all the material covered in class.
+   1. Week_1
+   2. Week_2
+   3. Week_3
+   4. Week_4
+   5. Week_5
+   6. Week_6
+   7. Week_7
+   8. Week_8
+   9. Week_9
+  10. Week_10
+  11. Week_11
+  12. Week_12
+  13. Week_13
+  14. Week_14
+  15. Week_15
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Exams and
+Programming Assignments *****
+There are three exams: two mid-term exams and one final exam. Exams constitute
+65% of your final grade so it is very important to do well on them to ensure a
+good grade, regardless of your performance on the assignments. All exams are
+approximately two hours long (though you may stay a bit longer if you need
+extra time) and are closed-book. You only need to bring a pen or pencil to
+exams - calculators are not necessary or even useful.
+**** Exam Solutions: ****
+    * Mid-Term_Exam_#1
+    * Mid-Term_Exam_#2
+There are seven programming assignments (not including Program #0) each
+contributing 5% to your final grade. All the assignments must be completed and
+handed in to be eligible to receive a passing grade for the course. You must
+attempt to complete every programming assignment. If you hand in a program that
+does not run or will not even compile without errors then it will not be graded
+and will automatically receive a zero grade and you risk failing the course.
+    * Gradesheets
+    * Handin_Directory (how to hand in assignments online)
+    * Late_Policy
+    * Policy_on_Academic_Misconduct (i.e. cheating)
+**** Assignment Specifications: ****
+    * Program_#1, due Monday 2/12/15/96, 9:55 am
+    * Program_#2, due Friday 2/23/96, 9:55 am
+    * Program_#3, due Wednesday 3/6/96, 9:55 am
+    * Program_#4, due Wednesday 3/27/96, 9:55 am
+    * Program_#5, due Friday 4/12/96, 9:55 am
+    * Program_#6, due Monday 4/29/96, 9:55 am
+    * Program_#7, due Friday 5/10/96, 1:00 pm
+**** How to Get Help with Your Assignments: ****
+  Consultants:
+      The consultants in the computer lab can help you with most problems. They
+      wear name tags and are on duty from approximately 8:00 am to 11:00 pm.
+      Consultants can answer short questions about compiler error messages and
+      program syntax, as well as how to login, use the printers, send E-mail,
+      run Netscape, etc.
+          * Click here for more information about the consultants.
+  Instructor:
+      General questions about an assignment or questions that may require a
+      long explanation are best answered by myself. Please see me during office
+      hours or send me E-mail. I am not normally in my office except during
+      office hours because I do my dissertation research from home via a modem.
+      Therefore, if you want to see me outside of office hours please make an
+      appointment first. You can most easily contact me by E-mail because I
+      regularly login and read my E-mail from home.
+          * Click here to send me E-mail.
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Problem Solving
+Exercises *****
+One of the most important skills you will learn in this class is problem
+solving. Good problem solving skills distinguish a "good" computer programmer
+from a "bad" one - it doesn't matter how familiar or skilled you are in a
+particular programming language, if you do not understand how to solve the
+problem then you will not be able to write a computer program for it in any
+language.
+To help you learn problem solving skills and techniques I will assign weekly
+problem solving exercises. These will be small but non-trivial problems which I
+will give out each Monday. You should look at the problem and think about it
+during the week and right down the steps you would go through to solve the
+problem; i.e. the overall structure of your program. This is primarily an
+exercise in general problem solving so you do not have to write any FORTRAN
+code (though you may if you want to and have time) and your solution/algorithm
+should not even be dependent on a particular programming language such as
+FORTRAN. Each Friday we will go over the solution in class.
+**** Exercises: ****
+   1. Week 3: Question 16, Pg. 89. Click here for the solution.
+   2. Week 4: Question 4, Pg. 147. Click here for the solution.
+   3. Week 5: Question 13, Pg. 218. Click here for the solution.
+   4. Week 6: Question 6, Pg. 269. Click here for the solution.
+   5. Week 7: Question 10, Pg. 329 (subroutines) - click here for the solution;
+      Question 11, Pg. 330 (functions) - click here for the solution.
+   6. Week 8: Question 5, Pg. 559. Click here for the solution.
+   7. Week 9: Question 8, Pg. 401. Click here for the solution.
+   8. Week 10: Question 6, Pg. 467. Click here for the solution.
+   9. Week 11: Question 5, Pg. 467. Click here for the solution.
+  10. Week 12: Question 3, Pg. 466. Click here for the solution.
+  11. Week 13: Question 5, Pg. 655.
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Computer Lab *****
+You will be using the Vectra_lab in Rm. 1350 Computer Science & Statistics
+containing Hewlett-Packard Vectra's running Microsoft Windows and Microsoft
+FORTRAN. This lab is open from 7:00 am to 1:00 am seven days a week except
+certain holidays. The printer room is located across the hall in Rm. 1359.
+You may also use your home or dorm computers to write your programs, however
+you will probably have to purchase your own copy of Microsoft FORTRAN or Lahey
+Personal FORTRAN (see the inside cover of the textbook). You may also work in
+any of the other computer labs on campus, however most do not have FORTRAN
+compilers (please see me first before using the CAE_lab).
+The software you will be using in the lab includes:
+    * Microsoft_Windows and MS-DOS
+    * www.cs.wisc.edu/~cs302/Software/Email/Email.html">E-mail
+Netscape
+===============================================================================
+***** [http://www.cs.wisc.edu/~bestor/icons/arrowleft.gif] Other Pointers of
+Interest *****
+    * [http://www.cs.wisc.edu/~bestor/icons/URL.gif]_CS_302_Home_Page
+    * [http://www.cs.wisc.edu/~bestor/icons/URL.gif]_Gareth_Bestor's_Home_Page
+    * [http://www.cs.wisc.edu/~bestor/icons/URL.gif]_Computer_Sciences
+      Department_Home_Page
+    * [http://www.cs.wisc.edu/~bestor/icons/URL.gif]_Starting_Points_for
+      Internet_Exploration
+    * [http://www.cs.wisc.edu/~bestor/icons/URL.gif]_Lycos (search the World-
+      Wide-Web by keyword)
+
+    * [http://www.cs.wisc.edu/~bestor/icons/URL.gif]_Dilbert (comic relief for
+      those long nights before an assignment is due)
+===============================================================================
+** Copyright © 1996 Gareth_S._Bestor (bestor@cs.wisc.edu). Last modified April
+24, 1996. **

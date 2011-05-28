@@ -1,0 +1,25 @@
+[http://www.cs.washington.edu/general/sptm_s.gif] [http://
+www.cs.washington.edu/homes/lazowska/qsp.gif]
+****** CSE 543:
+Computer System
+Performance Modeling ******
+***** Spring 1996 *****
+===============================================================================
+***** Your Hosts: Ed_Lazowska and Mary_Vernon *****
+===============================================================================
+Welcome to the home page for CSE 543, Computer System Performance Modeling.
+CSE 543 meets Mondays, Wednesdays and Fridays from 1:30-2:20 in Loew Hall 115.
+Office_hours
+Tentative_topic_schedule
+Comings_and_goings
+Assignments
+Project_information
+MAP_(queueing_network_solution_package)
+Email
+===============================================================================
+Other information is available about:
+The May_1996_ACM_SIGMETRICS_Conference_on_Measurement_and_Modeling_of_Computer
+Systems
+UW_Department_of_Computer_Science_&amp;_Engineering
+===============================================================================
+     lazowska@cs.washington.edu

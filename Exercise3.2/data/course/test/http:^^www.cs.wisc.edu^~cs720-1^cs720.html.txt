@@ -1,0 +1,12 @@
+****** CS720 (Fall 1996) ******
+Instructor: Robert R. Meyer (rrm@cs.wisc.edu)
+Time: 2:30 - 3:45 TR
+ Place: 1257 Comp. Sci.
+Office hours: MW230-330, 6395 CS, 262-7870
+Course_Description
+Homework_1_(.ps)
+Homework_1_solution_notes_(.ps)
+Homework_2_(.ps)
+Homework_2_solution_notes_(.ps)
+Computing_project,_part_1_(.ps)
+Computing_project,_part_2_(optional)_(.ps)
