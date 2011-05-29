@@ -75,15 +75,25 @@ def filterTopNFeaturesByDocumentFrequency(features, docFreqDict, N):
     
     return result    
 
-def writeSVMFile(featureVectors, target, file):
+def createFeatureIndex(docFreqDict):
+    result = {}
+    index = 1
+    for key in docFreqDict.keys():
+        result[key] = index
+        index += 1
+    
+    return result
+
+def writeSVMFile(featureVectors, featureIndex, target, file):
     fd = open(file,"w")
     for fileKey in featureVectors.keys():
         counter = 1
         fd.write("%s "%(target))
-        for featureKey in featureVectors[fileKey].keys():
+        keys = sorted(featureVectors[fileKey].keys(), lambda x,y: cmp(featureIndex[x],featureIndex[y]))
+        for featureKey in keys:
             value = featureVectors[fileKey][featureKey]
             if 0.0 != value:
-                fd.write("%d:%.13f "%(counter, value))
+                fd.write("%d:%.13f "%(featureIndex[featureKey], value))
                 counter += 1
         fd.write("\n")
         #fd.write("# %s\n"%(fileKey))
@@ -107,9 +117,9 @@ if __name__ == '__main__':
             words = readWordsFromFile("%s/%s"%(folderPaths[i],file))
             stWo = filterStopWords(words, stopwords)
             stemms = doStemming(stWo)
-            freq = getWordFrequencies(stemms)
+            #freq = getWordFrequencies(stemms)
             #freq = getWordFrequencies(stWo)
-            #freq = getWordFrequencies(words)
+            freq = getWordFrequencies(words)
              
             # create document frequency
             for key in freq.keys():
@@ -127,5 +137,5 @@ if __name__ == '__main__':
             
             featureVector = createFeatureVectors(filteredTopN, docFreqDict)
             print "Write %s" % (svmPatters[i]%(N))
-            writeSVMFile(featureVector, targets[i], svmPatters[i]%(N))
+            writeSVMFile(featureVector, createFeatureIndex(docFreqDict), targets[i], svmPatters[i]%(N))
     
