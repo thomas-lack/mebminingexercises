@@ -1,9 +1,0 @@
-****** Nancy Hall ******
-Computer Sciences Department
-University of Wisconsin -- Madison
-1210 West Dayton Street
-Madison, WI 53706-1685
-
-608/262-5945
-
-Project:_SHORE:_a_Scalable_Heterogeneous_Object_REpository
