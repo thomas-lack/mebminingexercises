@@ -1,7 +1,0 @@
-****** Ashish Thusoo ******
-I'm a graduate student in the Department_of_Computer_Science at the University
-of_Wisconsin,_Madison. I come from India, and had my undergraduate education at
-the Indian_Institute_of_Technology,_Delhi. The Department_of_CS_at_IITD is a
-fantastic place and worth visiting.
-If you'd like to contact me, you can finger_me to find my whereabouts.
-Alternatively, you can send email to me at ashisht@cs.wisc.edu.

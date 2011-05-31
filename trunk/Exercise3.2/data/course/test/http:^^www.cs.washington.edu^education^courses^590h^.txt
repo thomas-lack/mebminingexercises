@@ -1,4 +1,0 @@
-****** CSE 590h Home Page ******
-The_Spring_1995_offering_of_CSE_590h. An experimental graduate course on human-
-computer interaction.
-     borning@cs.washington.edu

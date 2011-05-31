@@ -1,5 +1,0 @@
--------------------------------------> last change: 29 apr 96
-****** MA887 - Approximation Theory ******
-This page contains information for the Spring 1995 version of this math course.
-Notes for the course.
-===============================================================================

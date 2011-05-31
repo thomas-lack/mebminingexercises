@@ -1,8 +1,0 @@
-background="legalpad.gif">
-                     Computer Organization and Programming
-
-                               CS310 (Fall 1996)
-===============================================================================
- This page is constantly under construction: Last Update on Mon Dec 9 14:22:23
-                                   CST 1996
-===============================================================================
