@@ -7,19 +7,14 @@ Created on 11.06.2011
 import os
 
 class FeatureClass(object):
-    '''
-    classdocs
-    '''
-    
     termSet = {}
     totalTermCount = 0
 
     def __init__(self, folder):
         files = os.listdir(folder) 
         for file in files:
-            fd = open(file,"r")
+            fd = open(("%s/%s") % (folder,file),"r")
             for line in fd:
-                line = line.strip()
                 split = line.split(",")
                 term = str(split[0])
                 freq = int(split[1])
@@ -29,7 +24,7 @@ class FeatureClass(object):
                 else:
                     self.termSet[term] = freq
                 
-                self.totalTermCount = freq
+                self.totalTermCount += freq
                 
     def getTermSet(self):
         return self.termSet
