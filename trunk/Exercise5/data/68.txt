@@ -1,0 +1,194 @@
+
+****** Web mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article may require cleanup to meet Wikipedia's quality_standards. Please
+ improve_this_article if you can. The talk_page may contain suggestions. (June
+ 2009)
+Web mining - is the application of data_mining techniques to discover patterns
+from the Web. According to analysis targets, web mining can be divided into
+three different types, which are Web usage mining, Web content mining and Web
+structure mining.
+***** Contents *****
+    * 1_Web_usage_mining
+    * 2_Web_content_mining
+    * 3_Web_structure_mining
+    * 4_Web_mining_Pros_and_Cons
+          o 4.1_Pros
+          o 4.2_Cons
+    * 5_Resources
+    * 6_External_links
+          o 6.1_Books
+          o 6.2_Bibliographic_references
+    * 7_References
+***** [edit] Web usage mining *****
+Web usage mining is a process of extracting useful information from server logs
+i.e users history. Web usage mining is the process of finding out what users
+are looking for on the Internet. Some users might be looking at only textual
+data, whereas some others might be interested in multimedia data.
+***** [edit] Web content mining *****
+Web content mining is the process to discover useful information from text,
+image, audio or video data in the web. Web content mining sometimes is called
+web text_mining, because the text content is the most widely researched area.
+The technologies that are normally used in web content mining are NLP (Natural
+language_processing) and IR (Information_retrieval). Although data mining is a
+relatively new term, the technology is not. Companies have used powerful
+computers to sift through volumes of supermarket scanner data and analyze
+market research reports for years. However, continuous innovations in computer
+processing power, disk storage, and statistical software are dramatically
+increasing the accuracy of analysis while driving down the cost.
+***** [edit] Web structure mining *****
+Web structure mining is the process of using graph theory to analyze the node
+and connection structure of a web site. According to the type of web structural
+data, web structure mining can be divided into two kinds:
+1. Extracting patterns from hyperlinks in the web: a hyperlink is a structural
+component that connects the web page to a different location.
+2. Mining the document structure: analysis of the tree-like structure of page
+structures to describe HTML or XML tag usage.
+***** [edit] Web mining Pros and Cons *****
+**** [edit] Pros ****
+Web mining essentially has many advantages which makes this technology
+attractive to corporations including the government agencies. This technology
+has enabled ecommerce to do personalized marketing, which eventually results in
+higher trade volumes. The government agencies are using this technology to
+classify threats and fight against terrorism. The predicting capability of the
+mining application can benefits the society by identifying criminal activities.
+The companies can establish better customer relationship by giving them exactly
+what they need. Companies can understand the needs of the customer better and
+they can react to customer needs faster. The companies can find, attract and
+retain customers; they can save on production costs by utilizing the acquired
+insight of customer requirements. They can increase profitability by target
+pricing based on the profiles created. They can even find the customer who
+might default to a competitor the company will try to retain the customer by
+providing promotional offers to the specific customer, thus reducing the risk
+of losing a customer or customers.
+**** [edit] Cons ****
+Web mining, itself, doesnât create issues, but this technology when used on
+data of personal nature might cause concerns. The most criticized ethical issue
+involving web mining is the invasion of privacy. Privacy is considered lost
+when information concerning an individual is obtained, used, or disseminated,
+especially if this occurs without their knowledge or consent.[1] The obtained
+data will be analyzed, and clustered to form profiles; the data will be made
+anonymous before clustering so that there are no personal profiles.[1] Thus
+these applications de-individualize the users by judging them by their mouse
+clicks. De-individualization, can be defined as a tendency of judging and
+treating people on the basis of group characteristics instead of on their own
+individual characteristics and merits.[1]
+Another important concern is that the companies collecting the data for a
+specific purpose might use the data for a totally different purpose, and this
+essentially violates the userâs interests. The growing trend of selling
+personal data as a commodity encourages website owners to trade personal data
+obtained from their site. This trend has increased the amount of data being
+captured and traded increasing the likeliness of oneâs privacy being invaded.
+The companies which buy the data are obliged make it anonymous and these
+companies are considered authors of any specific release of mining patterns.
+They are legally responsible for the contents of the release; any inaccuracies
+in the release will result in serious lawsuits, but there is no law preventing
+them from trading the data.
+Some mining algorithms might use controversial attributes like sex, race,
+religion, or sexual orientation to categorize individuals. These practices
+might be against the anti-discrimination legislation.[2] The applications make
+it hard to identify the use of such controversial attributes, and there is no
+strong rule against the usage of such algorithms with such attributes. This
+process could result in denial of service or a privilege to an individual based
+on his race, religion or sexual orientation, right now this situation can be
+avoided by the high ethical standards maintained by the data mining company.
+The collected data is being made anonymous so that, the obtained data and the
+obtained patterns cannot be traced back to an individual. It might look as if
+this poses no threat to oneâs privacy, actually many extra information can be
+inferred by the application by combining two separate unscrupulous data from
+the user.
+***** [edit] Resources *****
+                                 This article includes a list_of
+                                 references, but its sources remain unclear
+[Text_document_with_red_question because it has insufficient inline
+mark.svg]                        citations.
+                                 Please help to improve this article by
+                                 introducing more precise citations where
+                                 appropriate. (September 2009)
+***** [edit] External links *****
+    * The_Future_of_Web_Sites_=_Web_Services â (with a section on web
+      scraping)
+    * Open_Social_Software_Directory â Compare and review web mining programs
+**** [edit] Books ****
+    * Jesus Mena, "Data Mining Your Website", Digital Press, 1999
+    * Soumen Chakrabarti, "Mining the Web: Analysis of Hypertext and Semi
+      Structured Data", Morgan Kaufmann, 2002
+    * Bing Liu, "Web_Data_Mining:_Exploring_Hyperlinks,_Contents_and_Usage
+      Data", Springer, 2007
+    * Advances in Web Mining and Web Usage Analysis 2005 - revised papers from
+      7 th workshop on Knowledge Discovery on the Web, Olfa Nasraoui, Osmar
+      Zaiane, Myra Spiliopoulou, Bamshad Mobasher, Philip Yu, Brij Masand,
+      Eds., Springer Lecture Notes in Artificial Intelligence, LNAI 4198, 2006
+    * Web Mining and Web Usage Analysis 2004 - revised papers from 6 th
+      workshop on Knowledge Discovery on the Web, Bamshad Mobasher, Olfa
+      Nasraoui, Bing Liu, Brij Masand, Eds., Springer Lecture Notes in
+      Artificial Intelligence, 2006
+    * Mike Thelwall, "Link_Analysis:_An_Information_Science_Approach", 2004,
+      Academic Press
+**** [edit] Bibliographic references ****
+    * Baraglia, R. Silvestri, F. (2007) "Dynamic_personalization_of_web_sites
+      without_user_intervention", In Communication of the ACM 50(2): 63-67
+    * Cooley, R. Mobasher, B. and Srivastave, J. (1997) âWeb Mining:
+      Information and Pattern Discovery on the World Wide Webâ In Proceedings
+      of the 9th IEEE International Conference on Tool with Artificial
+      Intelligence
+    * Cooley, R., Mobasher, B. and Srivastava, J. âData Preparation for
+      Mining World Wide Web Browsing Patternsâ, Journal of Knowledge and
+      Information System, Vol.1, Issue. 1, pp. 5â32, 1999
+    * Kohavi, R., Mason, L. and Zheng, Z. (2004) âLessons and Challenges from
+      Mining Retail E-commerce Dataâ Machine Learning, Vol 57, pp. 83â113
+    * Lillian Clark, I-Hsien Ting, Chris_Kimble, Peter Wright, Daniel Kudenko
+      (2006)"Combining_ethnographic_and_clickstream_data_to_identify_user_Web
+      browsing_strategies" Journal of Information Research, Vol. 11 No. 2,
+      January 2006
+    * Eirinaki, M., Vazirgiannis, M. (2003) "Web Mining for Web
+      Personalization", ACM Transactions on Internet Technology, Vol.3, No.1,
+      February 2003
+    * Mobasher, B., Cooley, R. and Srivastava, J. (2000) âAutomatic
+      Personalization based on web usage Miningâ Communications of the ACM,
+      Vol. 43, No.8, pp. 142â151
+    * Mobasher, B., Dai, H., Kuo, T. and Nakagawa, M. (2001) âEffective
+      Personalization Based on Association Rule Discover from Web Usage Dataâ
+      In Proceedings of WIDM 2001, Atlanta, GA, USA, pp. 9â15
+    * Nasraoui O., Petenes C., "Combining_Web_Usage_Mining_and_Fuzzy_Inference
+      for_Website_Personalization", in Proc. of WebKDD 2003 â KDD Workshop on
+      Web mining as a Premise to Effective and Intelligent Web Applications,
+      Washington DC, August 2003, p. 37
+    * Nasraoui O., Frigui H., Joshi A., and Krishnapuram R., âMining_Web
+      Access_Logs_Using_Relational_Competitive_Fuzzy_Clusteringâ, Proceedings
+      of the Eighth International Fuzzy Systems Association Congress, Hsinchu,
+      Taiwan, August 1999
+    * Nasraoui O., âWorld_Wide_Web_Personalization,â Invited chapter in
+      âEncyclopedia of Data Mining and Data Warehousingâ, J. Wang, Ed, Idea
+      Group, 2005
+    * Pierrakos, D., Paliouras, G., Papatheodorou, C., Spyropoulos C. D. (2003)
+      âWeb usage mining as a tool for personalization: a surveyâ, User
+      modelling and user adapted interaction journal, Vol.13, Issue 4,
+      pp. 311â372
+    * I-Hsien Ting, Chris_Kimble, Daniel Kudenko (2005)"A Pattern Restore
+      Method for Restoring Missing Patterns in Server Side Clickstream Data"
+    * I-Hsien Ting, Chris_Kimble, Daniel Kudenko (2006)"UBB_Mining:_Finding
+      Unexpected_Browsing_Behaviour_in_Clickstream_Data_to_improve_a_Web
+      Siteâs_Design"
+***** [edit] References *****
+   1. ^ a b c Lita van Wel and Lamb`er Royakkers (2004). "Ethical_issues_in_web
+      data_mining)". Ethical issues in web data mining. http://
+      alexandria.tue.nl/repository/freearticles/612259.pdf. .
+   2. ^ Kirsten Wahlstrom, John F. Roddick, Vladimir Estivill-Castro, Denise de
+      Vries (2007). "Legal_and_Technical_Issues_of_Privacy_Preservation_in_Data
+      Mining". Legal and Technical Issues of Privacy Preservation in Data
+      Mining. http://www.cis.unisa.edu.au/~ciskw/
+      WahlstromRoddickSarreEstivillCastro&amp;DeVries2007.pdf. .
+
+Retrieved from "http://en.wikipedia.org/wiki/Web_mining"
+
+Categories: Data_collection | Data_mining
+Hidden categories: Wikipedia_articles_needing_cleanup_from_June_2009 | All
+articles_needing_cleanup | Articles_lacking_in-text_citations_from_September
+2009 | All_articles_lacking_in-text_citations
+

@@ -1,0 +1,80 @@
+
+****** Software mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Software mining is an application of knowledge_discovery in the area of
+software_modernization which involves understanding existing software
+artifacts. This process is related to a concept of reverse_engineering. Usually
+the knowledge obtained from existing software is presented in the form of
+models to which specific queries can be made when necessary. An entity
+relationship is a frequent format of representing knowledge obtained from
+existing software. Object_Management_Group (OMG) developed specification
+Knowledge_Discovery_Metamodel (KDM) which defines an ontology for software
+assets and their relationships for the purpose of performing knowledge
+discovery of existing code.
+***** Contents *****
+    * 1_Software_mining_and_data_mining
+    * 2_Text-Mining_Software_Tools
+    * 3_Levels_of_software_mining
+    * 4_Forms_of_representing_the_results_of_Software_Mining
+    * 5_References
+***** [edit] Software mining and data mining *****
+Software mining is closely related to data_mining, since existing software
+artifacts contain enormous business value, key for the evolution of software
+systems. Knowledge discovery from software systems addresses structure,
+behavior as well as the data processed by the software system. Instead of
+mining individual data_sets, software mining focuses on metadata, such as
+database schemas. OMG Knowledge_Discovery_Metamodel provides an integrated
+representation to capturing application metadata as part of a holistic existing
+system metamodel. Another OMG specification, the Common_Warehouse_Metamodel
+focuses entirely on mining enterprise metadata.
+***** [edit] Text-Mining Software Tools *****
+Text-Mining Software Tools enable easy handling of text documents for the
+purpose of data analysis including automatic model generation and document
+classification, document clustering, document visualization, dealing with Web
+documents, crawling the Web and many other. The code is written in C++ and
+originally runs on Windows platform and using Wine or similar utility can be
+run on Linux/Unix. The code was developed through our own research needs guided
+by our research projects and refined/polished as the time permitted. The top
+level components build on the core of the software are contributed through the
+time by several people from our group including Janez Brank, Blaz Fortuna, Miha
+Grcar, Jure Leskovec, Blaz Novak.
+***** [edit] Levels of software mining *****
+Knowledge discovery in software is related to a concept of reverse_engineering.
+Software mining addresses structure, behavior as well as the data processed by
+the software system.
+Mining software systems may happen at various levels:
+    * program level (individual statements and variables)
+    * design pattern level
+    * call graph level (individual procedures and their relationships)
+    * architectural level (subsystems and their interfaces)
+    * data level (individual columns and attributes of data stores)
+    * application level (key data items and their flow through the
+      applications)
+    * business level (domain concepts, business rules and their implementation
+      in code)
+***** [edit] Forms of representing the results of Software Mining *****
+    * data_model
+    * metadata
+    * metamodels
+    * ontology
+    * Knowledge_representation
+    * business_rule
+    * Knowledge_Discovery_Metamodel (KDM)
+    * Business_Process_Modeling_Notation (BPMN)
+    * intermediate_representation
+    * Resource_Description_Framework (RDF)
+    * abstract_syntax_tree (AST)
+    * software_metrics
+    * graphical_user_interfaces[1]
+***** [edit] References *****
+   1. ^ Interview with the creators of Metawidget
+
+Retrieved from "http://en.wikipedia.org/wiki/Software_mining"
+
+Categories: Static_program_analysis_tools | Data_mining
+

@@ -1,0 +1,706 @@
+
+****** Able Danger ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Able Danger was a classified military planning effort led by the U.S._Special
+Operations_Command (SOCOM) and the Defense_Intelligence_Agency (DIA). It was
+created as a result of a directive from the Joint_Chiefs_of_Staff in early
+October 1999 by Chairman_of_the_Joint_Chiefs_of_Staff Hugh_Shelton, to develop
+an information_operations campaign_plan against transnational terrorism.
+In December 2006, a sixteen-month investigation by the US Senate Intelligence
+Committee concluded "Able Danger did not identify Mohamed_Atta or any other 9/
+11 hijacker at any time prior to September 11, 2001," and dismissed other
+assertions that have fueled 9/11_conspiracy_theories. The Senate Judiciary
+Committee first attempted to investigate the matter for the Senate in
+September, 2005. The Pentagon "ordered five key witnesses not to testify",
+according to Senate Judiciary Committee Chairman Arlen Specter. "That looks to
+me as if it may be obstruction of the committee's activities," Specter, R-
+Pennsylvania, said at the start of his committee's hearing into the unit.[1]
+Attorney Mark Zaid, representing Lt. Colonel Anthony Shaffer and the other four
+Able Danger employees at the Senate Judiciary Committee hearing in September,
+2005, pointed out to the Committee that his clients had been forbidden by the
+Pentagon to testify to the Committee. He also discussed the Defense
+Intelligence Agency's decision to suspend Lt. Colonel Shaffer's security
+clearance shortly after it became known that he had provided information to the
+9/11 Commission on Able Danger. "Based on years of experience I can say
+categorically that the basis for the revocation was questionable at best."[2]
+[3]
+An investigation by the Defense Department Inspector General's office in
+September 2006 concluded that "the evidence did not support assertions that
+Able Danger identified the September 11, 2001, terrorists nearly a year before
+the attack, that Able Danger team members were prohibited from sharing
+information with law enforcement authorities, or that DoD officials reprised
+against LTC Shaffer for his disclosures regarding Able Danger."
+The Senate panel of investigators said there was no evidence DoD lawyers
+stopped analysts from sharing findings with the FBI before the attacks.
+Analysts had created charts that included pictures of then-known Al Qaeda
+operatives, but none including Atta. A follow-up chart made after the attacks
+did show Atta. The Senate Committee said its findings were consistent with
+those of the DoD inspector general, released in September 2006. [4] [5]
+Some people have alleged regarding the events of 9/11 that Pentagon obstructed
+the Senate Judiciary Committee's investigation and that there was a cover up.
+[6]
+***** Contents *****
+    * 1_Overview
+    * 2_Assertion_that_Able_Danger_identified_9/11_hijackers
+          o 2.1_Able_Danger_and_the_9/11_Commission
+          o 2.2_Able_Danger_data_destroyed
+    * 3_Weldon_changes_his_story
+    * 4_Comments_by_members_of_the_Able_Danger_team
+          o 4.1_Lt._Col._Anthony_Shaffer
+          o 4.2_Navy_Captain_Scott_Phillpott
+          o 4.3_James_D._Smith
+          o 4.4_Major_Eric_Kleinsmith
+          o 4.5_Other_witnesses
+    * 5_The_wall
+    * 6_Skepticism
+          o 6.1_Two_Attas_theory
+          o 6.2_Timing
+          o 6.3_Documentation
+    * 7_Congressional_hearings
+    * 8_Subsequent_investigations
+          o 8.1_Inspector_General's_report
+                # 8.1.1_Evidence_of_IG_cover-up
+    * 9_Movie
+    * 10_Book
+    * 11_See_also
+    * 12_References
+***** [edit] Overview *****
+The program used data_mining techniques to associate open source information
+with classified information in an attempt to make associations between
+individual members of terrorist groups as part of its original "intelligence
+preparation of the battlespace". The objective of this particular project was
+to ascertain whether the data mining techniques and open source material were
+effective tools in determining terrorist activities, and if the resultant data
+could be used to create operational plans that could be executed in a timely
+fashion to interrupt, capture and/or destroy terrorists or their cells.[7][8]
+According to statements by Lt._Col. Anthony_Shaffer and those of four others,
+Able Danger had identified the September_11,_2001,_attacks leader Mohamed_Atta,
+and three of the 9/11 plot's other 19 hijackers, as possible members of an al
+Qaeda cell linked to the 1993 World_Trade_Center_bombing. This theory was
+heavily investigated and researched by Republican Representative Curt_Weldon,
+vice chairman of the House_Armed_Services and House Homeland_Security
+committees. In December 2006, an investigation by the US Senate Intelligence
+Committee concluded that those assertions could not be confirmed. It stated
+that they were unable to find supporting evidence regarding "one of the most
+disturbing claims about the Sept. 11 terrorist strikes."[4] This report
+released by the Senate Intelligence Committee copied, nearly verbatim, the
+United_States_Department_of_Defense Inspector_General's September 2006 report
+on Able Danger.
+***** [edit] Assertion that Able Danger identified 9/11 hijackers *****
+The existence of Able Danger, and its purported early identification of the 9/
+11 terrorists, was first disclosed publicly on June 19, 2005, in an article[9]
+by Keith_Phucas, a reporter for The Times Herald, a Norristown,_Pennsylvania,
+daily newspaper. Eight days later, on June 27, 2005, Representative Curt
+Weldon, vice chairman of the House_Armed_Services and House Homeland_Security
+committees, and the principal source for the Phucas article gave a special
+orders speech on the House floor detailing Able Danger:
+     Mr. Speaker, I rise because information has come to my attention over
+     the past several months that is very disturbing. I have learned that,
+     in fact, one of our Federal agencies had, in fact, identified the
+     major New York cell of Mohamed_Atta prior to 9/11; and I have
+     learned, Mr. Speaker, that in September 2000, that Federal agency
+     actually was prepared to bring the FBI in and prepared to work with
+     the FBI to take down the cell that Mohamed Atta was involved in in
+     New_York_City, along with two of the other terrorists. I have also
+     learned, Mr. Speaker, that when that recommendation was discussed
+     within that Federal agency, the lawyers in the administration at that
+     time said, you cannot pursue contact with the FBI against that cell.
+     Mohamed Atta is in the U.S. on a green_card, and we are fearful of
+     the fallout from the Waco_incident. So we did not allow that Federal
+     agency to proceed.[10]
+Rep. Weldon later reiterated these concerns during news conferences on February
+14, 2006. He believed that Able Danger identified Mohamed Atta 13 separate
+times prior to 9/11 and that the unit also identified a potential situation in
+Yemen two weeks prior to the October 12, 2000 attack on the USS_Cole.[11] The
+Pentagon released a statement in response, stating that they wished to address
+these issues during a congressional hearing before a House Armed Services
+subcommittee scheduled for Wednesday, February 15, 2006.
+**** [edit] Able Danger and the 9/11 Commission ****
+Curt_Weldon's assertion that Able Danger identified the 9/11 hijackers was
+picked up by the national media in August 2005, after it was reported in the
+bimonthly Government_Security_News.[12] In addition to asserting that Able
+Danger identified the 9/11 hijackers and was prevented from passing that
+information onto the FBI, Weldon also alleged the intelligence concerning Able
+Danger was provided to the 9/11 Commission and ignored.[13] Two 9/11 Commission
+members, Timothy_J._Roemer and John_F._Lehman, both claimed not to have
+received any information on Able Danger.[12]
+Following the GSN report, members of the 9/11 Commission began commenting on
+the information they had on Able Danger and Atta. Lee_H._Hamilton, former Vice
+Chair of the 9/11 Commission, and Al_Felzenberg, a former spokesman for the 9/
+11 Commission,[14] both denied that the 9/11 Commission had any information on
+the identification of Mohamed Atta prior to the attacks.[15] Hamilton told the
+media, "The Sept. 11 commission did not learn of any U.S. government knowledge
+prior to 9/11 of surveillance of Mohamed Atta or of his cell.... Had we learned
+of it obviously it would've been a major focus of our investigation."[16]
+On August 12, 2005, Hamilton and former 9/11 Commission chairman Thomas_Kean
+issued a statement in response to media inquiries about the Commission's
+investigation of the Able Danger program.[17] It stated the Commission had been
+aware of the Able Danger program, and requested and obtained information about
+it from the Department of Defense, but none of the information provided had
+indicated the program had identified Atta or other 9/11 hijackers. They further
+stated that a claim about Atta having been identified prior to the attacks had
+been made to the 9/11 Commission on July 12, 2004 (just days before the
+Commission's report was released), by a United_States_Navy officer employed at
+DOD, but that
+     The interviewee had no documentary evidence and said he had only seen
+     the document briefly some years earlier. He could not describe what
+     information had led to this supposed Atta identification. Nor could
+     the interviewee recall, when questioned, any details about how he
+     thought a link to Atta could have been made by this DOD program in
+     2000 or any time before 9/11. The Department of Defense documents had
+     mentioned nothing about Atta, nor had anyone come forward between
+     September 2001 and July 2004 with any similar information. Weighing
+     this with the information about Atta's actual activities, the
+     negligible information available about Atta to other U.S. government
+     agencies and the German government before 9/11, and the interviewer's
+     assessment of the interviewee's knowledge and credibility, the
+     Commission staff concluded that the officer's account was not
+     sufficiently reliable to warrant revision of the report or further
+     investigation.[17]
+Congressman Curt_Weldon issued a response to the 9/11 Commission[18] clarifying
+the mission of Able Danger, expressing concern over the statements made by
+various members of the 9/11 Commission, and promising to push forward until it
+is understood why the DoD was unable to pass the information uncovered by Able
+Danger to the FBI, and why the 9/11 Commission failed to follow up on the
+information they were given on Able Danger.
+     The 9/11 Commission has released multiple statements over the past
+     week, each of which has significantly changed â from initially
+     denying ever being briefed to acknowledging being briefed on both
+     operation ABLE DANGER and Mohamed Atta. The information was omitted
+     primarily because they found it to be suspect despite having been
+     briefed on it two times by two different military officers on active
+     duty. Additionally, the 9/11 Commission also received documents from
+     the Department of Defense on ABLE DANGER.[18]
+Congressman Weldon reiterated these statements in testimony before the Senate
+Judiciary_Committee on September 21, 2005.[19]
+**** [edit] Able Danger data destroyed ****
+In his book Countdown to Terror Weldon asserted that an Able Danger chart
+produced in 1999 identifying 9/11 hijackers Mohamed_Atta, Marwan_al-Shehhi,
+Khalid_al-Mihdhar and Nawaf_al-Hazmi had been presented to then-Deputy National
+Security_Advisor Jim_Steinberg. Weldon went on to claim that he had personally
+presented the chart to then-Deputy National Security Advisor Stephen_Hadley in
+2001, days after the 9/11 attacks.[20]
+He later stated that he was no longer sure that Atta's name appeared on that
+document.[21]
+Congressman Peter_Hoekstra, who was then chairman of the House_Intelligence
+Committee, investigated the matter at Weldon's request, was reported to have
+cautioned against "hyperventilating" before the completion of a "thorough"
+probe. Pentagon officials said they were unaware that any Able Danger material
+named Atta. They declined to comment on the reports as they worked to clarify
+the matter.[21]
+On August 14, 2005, Mike_Kelly, a columnist for The_(Bergen)_Record (New
+Jersey), described a telephone interview, arranged by the staff of Rep. Curt
+Weldon, with a man who identified himself as a member of the Able Danger team,
+but asked that his name not be revealed. In the interview, the man claimed his
+team had identified Mohamed Atta and three other 9/11 hijackers as likely Al-
+Qaeda terrorists operating in the United States, but were prevented from
+passing this information on to the FBI by government lawyers. He also claimed
+he was ignored by the 9/11 Commission's staff when he approached them on two
+occasions to explain Able Danger's work.[22]
+On September 15, 2005, Weldon asserted that he had identified an employee who
+had been ordered to destroy the 2.5 terabytes (TB) of data collected by Able
+Danger two years before the 9/11 attack.[23]
+***** [edit] Weldon changes his story *****
+A Time magazine article dated August 14, 2005, reports that Weldon admitted he
+is no longer sure that Atta's name was on the chart he presented to Hadley and
+that he was unable to verify whether this was the case, having handed over his
+only copy, and that a reconstruction was used for post-9/11 presentations.[24]
+Weldon gave a talk at the Heritage_Foundation with a chart he described as the
+one handed over on May 23, 2002. However, a week later he referred reporters to
+a recently reconstructed version of the chart in his office where, among dozens
+of names and photos of terrorists from around the world, there was a color mug
+shot of Mohammad Atta, circled in black marker.
+***** [edit] Comments by members of the Able Danger team *****
+**** [edit] Lt. Col. Anthony Shaffer ****
+After Weldon's assertions were disputed, Lt._Col._Anthony_Shaffer, a member of
+the Able Danger team, identified himself as Weldon's source. Shaffer claimed
+that he alerted the FBI in September 2000 about the information uncovered by
+the secret military unit "Able Danger," but he alleges three meetings he set up
+with bureau officials were blocked by military lawyers. Shaffer, who at the
+time worked for the Defense_Intelligence_Agency, claims he communicated to
+members of the 9/11_Commission that Able Danger had identified two of the three
+cells responsible for 9/11 prior to the attacks, but the Commission did not
+include this information in their final report.[25]
+Shaffer's lawyer, Mark_Zaid, has revealed that Shaffer had been placed on paid
+administrative leave for what he called "petty and frivolous" reasons and had
+his security clearance suspended in March 2004, following a dispute over travel
+mileage expenses and personal use of a work cell phone.[26]
+As Lt. Col. Shaffer received a memorandum of OPCON status from Joint Task Force
+(JTF) 121, confirming his attachment to this element 1 November through 1
+December 2004, and participating in the 75th Ranger Regiment's nighttime air
+assault of 11 November 2003, the controversy of his wearing the 75th Ranger
+Regiment patch as his "combat patch" is closed in his favor. In the Army
+Reserve, LtCol Shaffer is now assigned as the G6 of the 94th Division (Prov),
+Ft. Lee, VA.
+Congressman Weldon asked for a new probe into the activities undertaken to
+silence Lt. Col Shaffer from publicly commenting on Able Danger and Able
+Danger's identification of the 9/11 hijackers. Weldon called the activities "a
+deliberate campaign of character_assassination."[27]
+Shaffer has also told the story of Central_Intelligence_Agency (CIA) opposition
+to Able Danger, prior to 9/11, based on the view Able Danger was encroaching on
+CIA turf. According to Shaffer, the CIA representative said, "I clearly
+understand. We're going after the leadership. You guys are going after the
+body. But, it doesn't matter. The bottom line is, CIA will never give you the
+best information from "Alex_Base" or anywhere else. CIA will never provide that
+to you because if you were successful in your effort to target Al Qaeda, you
+will steal our thunder. Therefore, we will not support this."[28]
+**** [edit] Navy Captain Scott Phillpott ****
+Capt. Scott_Phillpott confirmed Shaffer's claims. "I will not discuss this
+outside of my chain of command," Phillpott said in a statement to Fox News. "I
+have briefed the Department of the Army, the Special Operations Command and the
+office of (Undersecretary of Defense for Intelligence) Dr._Cambone as well as
+the 9/11 Commission.[29] My story has remained consistent. Atta was identified
+by Able Danger in January/February 2000," he was quoted as saying.[30]
+**** [edit] James D. Smith ****
+Shaffer's claims were also confirmed by James D. Smith, a civilian contractor
+who worked on Able Danger. In an interview with Fox News, Smith reported that
+the project had involved analysis of data from a large number of public sources
+and 20 to 30 individuals.[31]
+Smith stated that Atta's name had emerged during an examination of individuals
+known to have ties to Omar_Abdel_Rahman, a leading figure in the first World
+Trade Center bombing.
+**** [edit] Major Eric Kleinsmith ****
+Major Eric Kleinsmith, who was with the Army and chief of intelligence for LIWA
+until February 2001, testified that he was ordered to destroy Able Danger's
+information. "I deleted the data," he said. "There were two sets, classified
+and unclassified, and also an 'all sorts,'" which contained a blend of the two,
+"plus charts we'd produced." Kleinsmith deleted the 2.5 terabytes of data in
+May and June, 2000, on orders of Tony Gentry, general counsel of the Army
+Intelligence and Security Command.[32]
+**** [edit] Other witnesses ****
+The Defense Department announced its findings on September 1, 2005, after a
+three-week investigation into Able Danger. The statement announced the
+discovery of three other witnesses in addition to Shaffer and Phillpott who
+confirm Able Danger had produced a chart that "either mentioned Atta by name as
+an al-Qaeda operative [and/or] showed his photograph." Four of the five
+witnesses remember the photo on the chart. The fifth remembers only Atta being
+cited by name. The Pentagon describes the witnesses as "credible" but stated
+that the document which allegedly mentioned Atta could not be found.[33][34]
+***** [edit] The wall *****
+Former chief assistant U.S. attorney Andrew_McCarthy and others have asserted
+that the Able Danger intelligence was suppressed as a result of a policy of
+forbidding the CIA and FBI to share intelligence known as "the wall."[35]
+During the 9/11 Commission hearings, then-Attorney General John_Ashcroft
+testified the wall was strengthened under the Clinton administration by Jamie
+Gorelick to prohibit sharing of terrorist intelligence within the federal
+government.[36]
+This assertion was disputed by former senator Slade_Gorton (R-WA), a member of
+the 9-11_Commission, who said, "nothing Jamie Gorelick wrote had the slightest
+impact on the Department of Defense or its willingness or ability to share
+intelligence information with other intelligence agencies." Gorton also
+asserted that "the wall" was a long-standing policy that had resulted from the
+Church committee in the 1970s, and that the policy only prohibits transfer of
+certain information from prosecutors to the intelligence services and never
+prohibited information flowing in the opposite direction.
+***** [edit] Skepticism *****
+**** [edit] Two Attas theory ****
+Mickey_Kaus of Slate.com, referring to Tom Maguire's "Two Attas" theory,[37]
+speculates that "the 'Atta' fingered by Able Danger was really the first, 'Abu
+Nidal' Atta, and not the second, 9/11 'Al Qaeda' Atta," and that this may help
+explain this Able Danger issue.[38] Snopes.com clarified a widely circulated
+email that claimed the two Atta's were one and the same.[39]
+Another variation of the Two Attas theory reported by Kaus notes that Omar
+Abdel_Rahman also had an associate with the name Mohamed El-Amir (a name
+sometimes used by Atta) who was not the Mohamed Atta involved in the 9/11
+hijacking.[40]
+However, Shaffer clarified that. He told 9/11 Commission staffers Able Danger
+identified three of the individuals in the terrorist_cells that conducted the
+9/11 attacks, to include Atta - Shaffer did not mention the names of any other
+of the 9/11 hijackers in his disclosure to the 9/11 staff. A fourth 9/11
+terrorist came from the second cell.[41] Eric Umansky states the problem this
+way: "In fact, the two-Atta theory only leaves one major issue unexplained:
+What about the three other 9/11 hijackers that Able Danger purportedly
+fingered?[citation_needed]
+Broeckers/Hauss described in their last German book[42] the existence of two
+Attas, two Jarrahs,[43] two Hanjours and al-Shehhis.
+The Department of Defense released a report addressing the issue of two
+possible individuals with the last name of Atta and explaining that it was
+basically a clerical error.
+     When we reviewed INS records, they appeared to reflect two entries by
+     Atta into the United States on January 10, 2001, which initially
+     raised a question as to whether Atta had entered twice on the same
+     day or whether a second person posing as Atta also entered on January
+     10, 2001. The NIIS printout for the first entry reflects that Atta
+     entered with an admission period of January 10, 2001, to September 8,
+     2001 (admission number 68653985708). The second record reflects a
+     second entry on January 10, 2001, with an admission period from
+     January 10, 2001, to July 9, 2001 (admission number 10847166009).
+     However, this occurred because the inspector at the Miami District
+     Office who changed Atta's admission date failed to follow the proper
+     procedure to ensure that the previous entry would be corrected, and a
+     new entry was created in NIIS. The inspector sent the old I-94 and
+     the corrected I-94 to the contractor which data enters I-94s for the
+     INS. The May 2, 2001, transaction with Atta was data entered and then
+     uploaded to NIIS as if it were a new entry by Atta. This happened
+     because the inspector issued a new I-94 with a new admission number
+     on it. To prevent two entries from occurring in NIIS, the inspector
+     should have crossed out the admission number on the new I-94, made a
+     reference to the previous admission number and noted that it was not
+     a new entry.[44]
+It should be noted that IG report is disputed by Lt. Col. Shaffer and other
+Able Danger team members, some of whom were never interviewed by the IG's
+office nor the 9/11 commission. Congressman Weldon also claims the report was a
+hurried, botched up investigation that was intended to close the books on the
+subject rather than report on the actual facts.
+For example this lead was never followed: "Normen Pentolino, operations manager
+at the Hollywood store, said two cashiers told FBI agents they might have
+recognized Atta, but weren't certain. Sources inside the store said Atta may
+have held a BJ's membership card for more than two years."[45]
+**** [edit] Timing ****
+Kevin_Drum, writing for The_Washington_Monthly notes that reports of the
+precise date at which the information was allegedly passed to the FBI vary
+considerably. It is most unlikely that Able Danger would have identified a
+terrorist called "Mohamed Atta" before May 2000.
+     Since 9/11, of course, we have retrieved every scrap of information
+     ever known about Mohamed Atta, so we know what information would have
+     been available to the Able Danger data mining operation. And what we
+     know is that Mohamed Atta sent his first email to friends in the U.S.
+     in March 2000 and received his first U.S. visa on May 18, 2000.
+     Moreover, that was the first time he had ever gone by the name
+     "Mohamed Atta." His full name is "Mohamed Mohamed el-Amir Awad el-
+     Sayed Atta," and prior to 2000 he went by "Mohamed el-Amir."
+**** [edit] Documentation ****
+Although the Able Danger computer records were erased, to date, no electronic
+or paper document has showed that any connection was made to Atta before 9/11.
+No emails to or from the Able Danger team make any references to Atta, nor do
+any paper documents between the team and any other DoD teams or offices. No
+notes taken at any pre 9/11 meetings between the DoD and FBI, or interoffice
+DoD meetings, show any mention of Atta or a terrorist cell in New York.
+***** [edit] Congressional hearings *****
+Senate_Judiciary_Committee Chairman Arlen_Specter held a hearing on September
+21, 2005, looking into the facts about Able Danger. However, Lt. Col Shaffer
+and the other four members of Able Danger were ordered not to testify by the
+Department of Defense.[46] Senator Specter decided to go forward with the
+hearings anyway.
+Senator Specter wondered if the Posse_Comitatus_Act may have been the reason
+Defense Department attorneys would not allow Able Danger to turn over
+information to the FBI. The Posse Comitatus Act prevents the military from
+being engaged in law enforcement activities, including gathering information on
+U.S. persons, despite the aliens were not specifically United States citizens.
+Speaking on behalf of Lt. Col Shaffer, attorney Mark Zaid testified "Those
+within Able Danger were confident they weren't compiling information on US
+persons. They were potentially people connected to US persons."[47]
+Zaid also strongly asserted on behalf of his clients,
+     "Let me emphasize two specific items for clarification purposes
+     because they have been distorted and invited undue criticism from
+     some. At no time did Able Danger identify Mohamed Atta as being
+     physically present in the United States. No information obtained at
+     the time would have led anyone to believe criminal activity had taken
+     place or that any specific terrorist activities were being planned.
+     Again, the identification of the four 9/11 hijackers was simply
+     through associational activities. Those associations could have been
+     completely innocuous or nefarious. It was impossible to tell which,
+     and the unclassified work of Able Danger was not designed to address
+     that question."[46]
+He further added that
+     "unfortunately we are not aware of the continuing existence of any
+     chart containing Mohamed Atta's name or photograph. The copies that
+     would have been in the possession of the U.S. Army were apparently
+     destroyed by March 2001. The copies within Lt Col Shaffer's files
+     were destroyed by the DIA in approximately Spring 2004. The
+     destruction of these files is an important element to this story and
+     I encourage the Committee to investigate it further. It would appear,
+     particularly given the Defense Department's outright refusal to allow
+     those involved with Able Danger to testify today, that an
+     obstructionist attitude exists. The question for this Committee is to
+     investigate how far that position extends and why."[48]
+Former Army Major Erik Kleinsmith, former head of the Pentagon's Land Warfare
+Analysis Department, testified at the hearing that he had been instructed to
+destroy data and documents related to Able Danger in May and June 2000. When
+asked whether the information could have prevented the attack on September 11
+of 2001, he answered that he would not speculate to that, but that the
+information might have been useful.[49]
+***** [edit] Subsequent investigations *****
+On February 14, 2006, Congressmen Curt_Weldon charged that contrary to
+testimony, not all the data on Able Danger had been destroyed. Weldon claimed
+to be in contact with people in the government still able to do data-mining who
+got 13 hits on Mohamed Atta. Weldon also claimed that Able Danger information
+was found in Pentagon files as recently as two weeks prior to his statement and
+that a general was present when the files were taken from the cabinet.[50] The
+next day, there was a joint committee meeting with the Subcommittee on
+Terrorism, Unconventional Threats and Capabilities and the Subcommittee on
+Strategic Forces, to discuss the Able Danger program.[51]
+On September 21, 2006, The Washington Post reported that a Defense Department
+investigation into Able Danger found that Able Danger did not identify Mohamed
+Atta or any other hijacker before the September_11_attacks, and that a widely
+discussed chart was "a sample document passed to the military as an example of
+how to organize large amounts of data," and was created after 9/11.
+**** [edit] Inspector General's report ****
+On September 18, 2006, the Office of the Deputy Inspector General for
+Investigations released a report stating that Shaffer was put on leave, that
+the crew responsible for removing any classified documents from his office to
+prevent his taking them home with him found that he did not have any of the
+Able Danger-related documents trusted to him he claimed he had,[52] and that
+despite the fact that the Army cleared him of any wrongdoing in the allegations
+"DIA officials would have taken action to revoke LTC Shaffer's access and
+clearance regardless of his disclosures to the DIA IG, the 9/11 Commission
+staff members, Members of Congress, or the media.[53]
+The Department of Defense investigation concluded:
+    * The anti-terrorist program, Able Danger, did not identify Mohamed Atta or
+      any other 9/11 terrorists before the 9/11 attack.
+    * Able Danger members were not prohibited from sharing intelligence
+      information with law enforcement authorities or other agencies that could
+      have acted on that information. In fact, Able Danger produced no
+      actionable intelligence information.
+    * The destruction of Able Danger documentation at LIWA and Garland was
+      appropriate and complied with applicable DoD regulations.
+    * The Able Danger program was not terminated prematurely. It concluded
+      after it had achieved its objective and its work products were used in
+      follow-on intelligence gathering efforts at USSOCOM."[54]
+*** [edit] Evidence of IG cover-up ***
+Five witnesses who had worked on Able Danger and had been questioned by the
+Defense Department's Inspector General later told investigative journalists
+that their statements to the IG were distorted by investigators in the final
+IG's report, or the report omitted essential information that they had
+provided. The alleged distortions of the IG report centered around excluding
+any evidence that Able Danger had identified and tracked Atta years before 9/
+11. The witnesses reported to the journalists that the IG investigators got
+increasingly hostile in an effort to intimidate the witnesses into changing
+their testimony to drop any assertion that they had identified and tracked
+Atta, and this suggests a cover-up by the IG of Able Danger's findings.
+Witnesses reported telling Philip_Zelikow, executive director of the 9/11
+Commission, that Able Danger had identified Atta well before the 9/11 attacks,
+but Zelikow showed no interest in their testimony. Lt. Col Tony Shaffer also
+reported that the DOD has retaliated against him for speaking out publicly
+about the IG report's distortions.[55]
+***** [edit] Movie *****
+The independent_film, Able Danger was released in 2008. The screenplay written
+by Paul_Krik centers around a Brooklyn, New_York coffee_shop owner who receives
+a disk proving a tie between the CIA and the 9/11 attacks.[56]
+***** [edit] Book *****
+With a scheduled release of August 31, 2010, Operation Dark Heart, by Anthony
+A. Shaffer, was released. It includes memories of his time reporting to the 9/
+11 commission about Able Danger's findings. The 10,000 copies of the books have
+not been released yet. The DOD's Defense Intelligence Agency reviewers
+identified more than 200 passages suspected of containing classified
+information.[57] "Specifically, the DIA wanted references to a meeting between
+Lt. Col. Tony Shaffer, the book's author, and the executive director of the 9/
+11 Commission, Philip Zelikow, removed".[58] DOD took the highly unusual step
+of purchasing all available copies of Shaffer's book at a cost of $47,000 and
+destroying them to deny the public the ability to read the book.[55]
+***** [edit] See also *****
+    * 9/11_commission_report
+    * Criticisms_of_the_9/11_Commission_Report
+    * September_11,_2001_attacks
+    * Bin_Laden_Issue_Station (The CIA's bin Laden tracking unit, 1996â2005)
+    * War_games_in_progress_on_September_11,_2001
+    * Collapse_of_the_World_Trade_Center
+    * 9/11_conspiracy_theories
+***** [edit] References *****
+   1. ^ "Specter:_Pentagon_may_be_obstructing_committee". Washington: cnn.com.
+      21. http://edition.cnn.com/2005/POLITICS/09/21/abledanger.hearings/.
+      Retrieved April 26, 2010. "That looks to me as it may be obstruction of
+      the committee's activities." 
+   2. ^ zaid, mark (21). "prepared_statement_of_mark_s._zaid,_esq.,_before_the
+      committee_on_judiciary,_united_states_senate". washington, d.c.:
+      committee on judiciary, united states senate. http://
+      judiciary.senate.gov/hearings/testimony.cfm?id=1606&amp;wit_id=4668.
+      Retrieved april 26, 2010. "Based on years of experience I can say
+      categorically that the basis for the revocation was questionable at
+      best." 
+   3. ^ Senate Select Committee on Intelligence (22). "ssci_#2006-4735" (PDF).
+      washington, d.c.. p. 9. http://intelligence.senate.gov/abledanger.pdf.
+      Retrieved april 26, 2010. 
+   4. ^ a b Miller, Greg (2006-12-25). "Alarming_9/11_Claim_Is_Baseless,_Panel
+      Says". Los_Angeles_Times. http://articles.latimes.com/2006/dec/25/nation/
+      na-intel25. Retrieved 2010-01-10. 
+   5. ^ Anne Flaherty (2006-12-26). "Senators_Nix_Pre-9/11_Hijacker_ID_Theory".
+      The Washington Post. Associated Press. http://www.washingtonpost.com/wp-
+      dyn/content/article/2006/12/26/AR2006122600624.html. Retrieved 2008-11-
+      21. 
+   6. ^ Knight, Peter (2008). "Outrageous_Conspiracy_Theories:_Popular_and
+      Official_Responses_to_9/11_in_Germany_and_the_United_States". New_German
+      Critique 35 (1). Retrieved June 9, 2009.
+   7. ^ An example of a chart produced as output by the project's data mining
+      and visualization suite is called the 3.21.00_Chart. (DIAC Link Chart
+      declassified 3.21.00, produced on March 21, 2000, and reproduced on
+      author Peter Lance's website for his book Triple Cross Another barely
+      readable sample chart was published by the Defense Department's Inspector
+      General's Office on page 14 of the Able_Danger_Investigation_Report.
+   8. ^ Patience Wait has reported that a follow-on project appears to have
+      been funded and implemented by the Intelligence Community and was
+      originally named Able Providence. Data_Mining_Offensive_in_the_Works -
+      Patience Wait - GCN Magazine, 10/10/2005
+   9. ^ Phucas, Keith (19 June 2005). "Missed_chance_on_way_to_9/11". The Times
+      Herald (Shelley Meenan). http://www.timesherald.com/site/
+      index.cfm?newsid=14720231&amp;BRD=1672&amp;PAG=461&amp;dept_id=33380&amp;rfi=8.
+      Retrieved 2006-08-03. 
+  10. ^ United States Congress. "U.S._Intelligence.PDF" Congressional
+      RecordâHouse. Washington, D.C.: GPO, 27 June 2005. 109th_Cong., 1st
+      sess. HR H5244.
+  11. ^ Hefling, Kimberly (2006-02-14). "Weldon:_'Able_Danger'_ID'd_9/ll
+      Ringleader". Associated Press. Archived from the_original on 2007-11-10.
+      http://web.archive.org/web/20071110230401/http://www.breitbart.com/
+      article.php?id=D8FP5LOO0&amp;show_article=1. Retrieved 2010-01-11. 
+  12. ^ a b Goodwin, Jacob (August 2005). "Did_DoD_lawyers_blow_the_chance_to
+      nab_Atta?". GSN: Government Security News (Edward Tyler). Archived from
+      the_original on 2007-09-15. http://web.archive.org/web/20070915071813/
+      http://www.gsnmagazine.com/aug_05/dod_lawyers.html. Retrieved 2010-01-
+      10. 
+  13. ^ United States Congress. "U.S._Intelligence.PDF" Congressional
+      RecordâHouse. Washington, D.C.: GPO, 27 June 2005. 109th_Cong., 1st
+      sess. HR H5250. Retrieved on 2006-08-03.
+  14. ^ Andrews,_Wyatt; The_Associated_Press (9 August 2005). "New_Pre-9/11
+      Intel_Questions". Special Report: War on Terror (CBS_News). http://
+      www.cbsnews.com/stories/2005/08/09/terror/main769440_page2.shtml.
+      Retrieved 2006-08-03. 
+  15. ^ Douglas_Jehl; Philip_Shenon, Eric_Schmitt (8 August 2005, corrected 9
+      August). "Four_in_9/11_Plot_Are_Called_Tied_to_Qaeda_in_'00". New York
+      Times. http://www.nytimes.com/2005/08/09/politics/
+      09intel.html?ex=1281240000&amp;en=bc4d02afa0a46012&amp;ei=5090. Retrieved
+      2006-08-03. "More than a year before the Sept. 11 attacks, a small,
+      highly classified military intelligence unit identified Mohamed Atta and
+      three other future hijackers as likely members of a cell of Al Qaeda
+      operating in the United States, according to a former defense
+      intelligence official and a Republican member of Congress." 
+  16. ^ Herridge,_Catherine; Liza_Porteus, The_Associated_Press (11 August
+      2005). "Source:_9/11_Panel_Staffers_Probing_Documents_on_'Able_Danger'".
+      FOX News Politics (FOX_News_Network). http://www.foxnews.com/story/
+      0,2933,165268,00.html. Retrieved 2006-08-03. 
+  17. ^ a b "Kean-Hamilton_Statement_on_Able_Danger" (PDF). Press release.
+      2005-08-12. http://www.9-11pdp.org/press/2005-08-12_pr.pdf. 
+  18. ^ a b 9/11 Citizens Watch (2005-08-12). "Weldon_Responds_to_Omission_of
+      ABLE_DANGER_From_9/11_Report". Press release. http://
+      911citizenswatch.org/?p=643. 
+  19. ^ "Honorable_Curt_Weldon's_testimony_at_Able_Danger_and_Intelligence
+      Information_Sharing". Federation of American Scientists website. http://
+      www.fas.org/irp/congress/2005_hr/092105weldon.html. 
+  20. ^ Curt Weldon (2005-07-25). Countdown to Terror: The Top Secret
+      Information that Could Prevent the Next Terrorist Attack on America...And
+      How the CIA has Ignored it. Regnery Publishing. ISBN 978-0-89526-005-5. 
+  21. ^ a b Bennett, Brian; Timothy J. Burger and Douglas Waller (2005-08-14).
+      "Was_Mohamed_Atta_Overlooked?". Time (Time_Warner). http://www.time.com/
+      time/nation/article/0,8599,1093694,00.html. Retrieved 2006-08-17. 
+  22. ^ Kelly,_Mike (2005-08-14). "Deadly_tale_of_incompetence". The_Record
+      (Bergen Co., NJ) (North_Jersey_Media_Group). Archived from the_original
+      on June 13, 2006. http://web.archive.org/web/20060613224206/http://
+      www.northjersey.com/
+      page.php?qstr=eXJpcnk3ZjczN2Y3dnFlZUVFeXkyNjMmZmdiZWw3Zjd2cWVlRUV5eTY3NDQ2OTMmeXJpcnk3ZjcxN2Y3dnFlZUVFeXk5.
+      Retrieved 2006-08-17. 
+  23. ^ De, Donna (2005-09-16). "Weldon:_Atta_Papers_Destroyed_on_Orders".
+      Associated Press. Archived from the_original on 2005-09-22. http://
+      web.archive.org/web/20050922032625/http://abcnews.go.com/Politics/
+      print?id=1131137. Retrieved 2010-01-10. 
+  24. ^ Bennett, Brian; Burger, Timothy J.; Waller, Douglas (2005-08-14). "Was
+      Mohamed_Atta_Overlooked?". Time Magazine. http://www.time.com/time/
+      nation/article/0,8599,1093694,00.html. 
+  25. ^ "The Situation Room Transcript". CNN. 2005-08-17. 
+  26. ^ "Pentagon_Investigates_Able_Danger_Work". Fox News. 2005-08-18. http://
+      www.foxnews.com/story/0,2933,166084,00.html. 
+  27. ^ "Congressman_wants_new_Able_Danger_probe". United Press International.
+      2005-10-19. Archived from the_original on 2005-12-28. http://
+      web.archive.org/web/20051228213543/http://www.upi.com/SecurityTerrorism/
+      view.php?StoryID=20051019-040108-6365r. Retrieved 2010-01-10. 
+  28. ^ Goodwin, Jacob (September 2005). "Inside_Able_Danger_â_The_Secret
+      Birth,_Extraordinary_Life_and_Untimely_Death_of_a_U.S._Military
+      Intelligence_Program". GSN: Government Security News. World Business
+      Media, LLC.. Archived from the_original on 2005-09-24. http://
+      web.archive.org/web/20050924164439/http://www.gsnmagazine.com/sep_05/
+      shaffer_interview.html. Retrieved 2010-05-22. 
+  29. ^ Memorandum_of_Scott_Phillpott_statement_to_the_9-11_Commission,
+      Cryptome, 2004-07-13, http://cryptome.org/nara/phill-04-0713.pdf 
+  30. ^ "Navy_Captain_Backs_Able_Danger_Claims". Fox News. 2005-08-23. http://
+      www.foxnews.com/story/0,2933,166504,00.html. 
+  31. ^ "Third_Source_Backs_'Able_Danger'_Claims_About_Atta". Fox News. 2005-
+      08-28. http://www.foxnews.com/story/0,2933,167130,00.html. 
+  32. ^ Patience Wait (2005-10-07). "Data-mining_offensive_in_the_works".
+      Government Computer News. http://www.gcn.com/Articles/2005/10/07/
+      Datamining-offensive-in-the-works.aspx?Page=2. Retrieved 2010-01-11. 
+  33. ^ Shanker, Thom (September 2, 2005). "Terrorist_Known_Before_9/11,_More
+      Say". New York Times. http://www.nytimes.com/2005/09/02/politics/
+      02intel.html?_r=1. Retrieved 2010-05-22. 
+  34. ^ Wood, Sgt. Sara (September 1, 2005). "DoD_Discusses_Able_Danger
+      Findings". American Forces Press Service (United States Department of
+      Defense). http://www.defense.gov/news/newsarticle.aspx?id=17426.
+      Retrieved 2010-05-22. 
+  35. ^ Andrew C. McCarthy (2004-04-19). "The_Wall_Truth". National Review
+      Online. http://www.nationalreview.com/mccarthy/mccarthy200404190849.asp. 
+  36. ^ "Instructions_on_Separation_of_Certain_Foreign_CounterIntelligence_and
+      Criminal_Investigations" (PDF). US Department of Justice website. http://
+      www.usdoj.gov/ag/testimony/2004/1995_gorelick_memo.pdf. Retrieved 2008-
+      12-28. 
+  37. ^ "Able_Danger_-_Muddying_The_Waters". Just One Minute Blog. 2005-08-18.
+      http://justoneminute.typepad.com/main/2005/08/able_danger_mud.html. 
+  38. ^ Mickey Kaus (2005-08-21). "The_"Two_Atta"_Theory". Slate.com. http://
+      slate.msn.com/id/2124546/. 
+  39. ^ "Atta_Boy". Snopes.com. http://www.snopes.com/rumors/atta.htm. 
+  40. ^ Mickey Kaus (2005-08-29). "Able_Danger_Mystery_Solved?". Slate.com.
+      http://slate.msn.com/id/2124863/. 
+  41. ^ [1][dead_link]
+  42. ^ Startseite_von_medienanalyse-international.de
+  43. ^ alomari
+  44. ^ "The_Immigration_and_Naturalization_Service's_Contacts_With_Two
+      September_11_Terrorists:_A_Review_of_the_INS's_Admissions_of_Mohamed_Atta
+      and_Marwan_Alshehhi,_its_Processing_of_their_Change_of_Status
+      Applications,_and_its_Efforts_to_Track_Foreign_Students_in_the_United
+      States". Website of the United States Office of the Inspector General.
+      2002-05-20. http://www.usdoj.gov/oig/special/0205/chapter3.htm. 
+  45. ^ Babson, Jennifer; Lebowitz, Larry; Viglucci, Andres (2001-09-18).
+      "Broward_library_PCs_yield_clues". Miami Herald. http://web.archive.org/
+      web/20011021020512/www.miami.com/herald/special/news/worldtrade/digdocs/
+      032999.htm. 
+  46. ^ a b "Specter:_Pentagon_may_be_obstructing_committee". CNN. http://
+      www.cnn.com/2005/POLITICS/09/21/abledanger.hearings/index.html. 
+  47. ^ "Transcript_of_The_Able_Danger_Senate_Hearings". PBS. 2005-09-21. http:
+      //www.pbs.org/newshour/bb/terrorism/july-dec05/abledanger-9-21.html. 
+  48. ^ "Prepared_Statement_of_Mark_S._Zaid,_Esq._Before_the_Committee_on
+      Judiciary,_United_States_Senate" (PDF). Federation of American Scientists
+      Website. 2005-09-21. http://www.fas.org/irp/congress/2005_hr/
+      092105zaid.pdf. Retrieved 2008-12-28. 
+  49. ^ "'Able_Danger'_Will_Get_Second_Hearing". Fox News. 2005-09-24. http://
+      www.foxnews.com/story/0,2933,170267,00.html. 
+  50. ^ Gossett, Sherrie (2006-02-15). "'Able_Danger'_Identified_9/11_Hijacker
+      13_Times". Cybercast News Service. Archived from the_original on 2006-06-
+      15. http://web.archive.org/web/20060615070848/http://www.cnsnews.com/
+      ViewNation.asp?Page=%5cNation%5carchive%5c200602%5cNAT20060215d.html.
+      Retrieved 2010-01-10. 
+  51. ^ The Federation of American Scientists website (2006-02-15). "Joint
+      Hearing_on_the_Able_Danger_Program" (PDF). Press release. http://
+      www.fas.org/irp/congress/2006_hr/021506saxton.pdf. 
+  52. ^ Alleged_Misconduct_by_Senior_DOD_Officials_Concerning_the_Able_Danger
+      Program_and_Lieutenant_Colonel_Anthony_A._Shaffer,_US_Army_Reserve,
+      pp. 10. (Report). Retrieved 2008-12-28.
+  53. ^ Alleged_Misconduct_by_Senior_DOD_Officials_Concerning_the_Able_Danger
+      Program_and_Lieutenant_Colonel_Anthony_A._Shaffer,_US_Army_Reserve,
+      pp. 11. (Report). Retrieved 2008-12-28.
+  54. ^ Alleged_Misconduct_by_Senior_DOD_Officials_Concerning_the_Able_Danger
+      Program_and_Lieutenant_Colonel_Anthony_A._Shaffer,_US_Army_Reserve,
+      pp. 69. (Report). Retrieved 2008-12-28.
+  55. ^ a b Fox News, 2010 Oct. 4, "Exclusive: Witnesses in Defense Dept.
+      Report Suggest Cover-Up of 9/11 Findings," http://www.foxnews.com/
+      politics/2010/10/04/exclusive-witnesses-defense-department-report-
+      suggest-cover-findings/
+  56. ^ Review_by_the_Los_Angeles_Times_October_31,_2008
+  57. ^ NYT_September_10,_2010
+  58. ^ Fox_News_September_10,_2010
+ Wikinews has related news: U.S._Army_intelligence_had_detected_9/11_terrorists
+ year_before,_says_officer
+ Wikinews has related news: Update:_U.S._Army_intelligence_had_detected_9/11
+ terrorists_year_before,_says_officer
+v Â· d Â· eWar_on_Terror
+             Operational ISAF Â· Operation_Enduring_Freedom_participants Â· Afghanistan Â· Northern_Alliance Â· Iraq (Iraqi_Armed_Forces) Â· NATO Â· Pakistan Â· United_Kingdom Â· United_States Â· Philippines Â· Ethiopia
+Participants Targets     Al-Qaeda Â· Osama_bin_Laden Â· Al-Qaeda_in_the_Arabian_Peninsula Â· Abu_Sayyaf Â· Anwar_al-Awlaki Â· Hamas Â· Harkat-ul-Jihad_al-Islami Â· Hezbollah Â· Hizbul_Mujahideen Â· Islamic_Courts_Union Â·
+                         Jaish-e-Mohammed Â· Jemaah_Islamiyah Â· Lashkar-e-Taiba Â· Mujahideen Â· Taliban Â· Islamic_Movement_of_Uzbekistan
+             Operation
+             Enduring  War_in_Afghanistan Â· OEF_â_Philippines Â· Georgia_Train_and_Equip_Program Â· Georgia_Sustainment_and_Stability Â· OEF_â_Horn_of_Africa Â· OEF_â_Trans_Sahara Â· Drone_attacks_in_Pakistan
+Conflicts    Freedom
+             Other     Insurgency_in_the_Maghreb_(2002âpresent) Â· Insurgency_in_the_Philippines Â· Iraq_War Â· Iraqi_insurgency Â· South_Thailand_insurgency Â· Terrorism_in_Saudi_Arabia Â· War_in_North-West
+                       Pakistan Â· War_in_Somalia_(2006â2009) Â· 2007_Lebanon_conflict Â· Yemeni_al-Qaeda_crackdown
+             Abu_Ghraib_torture_and_prisoner_abuse Â· Animal_Enterprise_Terrorism_Act Â· Axis_of_evil Â· Black_sites Â· Bush_Doctrine Â· The_Clash_of_Civilizations Â· Combatant_Status_Review_Tribunal Â·
+See also     Criticism_of_the_War_on_Terror Â· Death_of_Osama_bin_Laden Â· Enhanced_interrogation_techniques Â· Torture_Memos Â· Extrajudicial_prisoners Â· Extraordinary_rendition Â· Guantanamo_Bay
+             detention_camp Â· Military_Commissions_Act_of_2006 Â· NSA_electronic_surveillance_program Â· Pakistan's_role Â· Luis_Posada_Carriles Â· President's_Surveillance_Program Â· Protect_America
+             Act_of_2007 Â· Targeted_killing Â· Targeted_Killing_in_International_Law Â· Unitary_executive_theory Â· Unlawful_combatant Â· USA_PATRIOT_Act
+[Portal] Terrorism Â· [Portal] War
+
+Retrieved from "http://en.wikipedia.org/wiki/Able_Danger"
+
+Categories: September_11_attacks | Data_mining | Defense_Intelligence_Agency
+Hidden categories: All_articles_with_dead_external_links | Articles_with_dead
+external_links_from_November_2008 | All_articles_with_unsourced_statements |
+Articles_with_unsourced_statements_from_November_2008
+

@@ -1,0 +1,116 @@
+
+****** Category:Information science ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+See also the related Category:Library_science.
+The main article for this category is Information_science.
+ Wikimedia Commons has media related to: Information_science
+
+***** Subcategories *****
+This category has the following 15 subcategories, out of 15 total.
+**** A ****                                    **** H ****                                              **** I cont. ****
+    * [+]  Accessible_information (6 C, 19 P)      * [+]  Health_informatics (6 C, 149 P)                   * [Ã]  Information_schools (41 P)
+    * [+]  Ambient_intelligence (1 C, 8 P)         * [+]  Humanâcomputer_interaction (20 C, 188 P)     * [+]  Information_storage (6 C, 3
+    * [Ã]  Information_science_awards (5 P)     * [+]  Humanâmachine_interaction (2 C, 13 P)          P)
+**** D ****                                    **** I ****                                              **** K ****
+    * [+]  Data_mining (2 C, 90 P)                 * [+]  Infographics (13 C, 95 P, 1 F)                    * [+]  Knowledge_engineering (1 C,
+**** E ****                                        * [+]  Information_retrieval (8 C, 142 P)                  28 P)
+    * [Ã]  Engineering_Informatics (1 P)                                                                 * [+]  Knowledge_representation (17
+                                                                                                              C, 186 P)
+                                                                                                        **** S ****
+                                                                                                            * [+]  Information_systems (13 C,
+                                                                                                              152 P)
+Pages in category "Information science"
+The following 120 pages are in this category, out of 120 total. This list may
+not reflect recent changes (learn_more).
+    * Information_science **** G cont. ****         **** L ****
+    * Template:               * Geomatics               * Legal_informatics
+      Information_science     * GOLD_(ontology)         * List_of_Universities
+**** A ****                   * Michael_Gorman_           offering_degrees_in
+    * Actionable                (librarian)               Business_informatics
+      information         **** H ****                   * Living_lab
+      logistics               * HL7_Services_Aware  **** M ****
+    * American_Society          Interoperability        * Materiality_(digital
+      for_Information           Framework                 text)
+      Science_and             * Human_Biocomputer       * Mathematical
+      Technology              * Human-centered            knowledge_management
+    * Archetype_                computing_              * Media_ecology
+      (information              (discipline)            * Mental_model
+      science)                * Humanities_Advanced     * Metamedia
+    * ArchiMate                 Technology_and          * MIKE2.0_Methodology
+    * ARMA_International        Information         **** N ****
+    * Augmentation              Institute               * National_Olympiad_in
+      Research_Center         * Hydroinformatics          Informatics
+**** B ****               **** I ****               **** O ****
+    * Basic_Formal            * Informatics_            * Observations_and
+      Ontology                  (academic_field)          Measurements
+    * BioCreative             * Informatics             * Ontology_
+    * Biodiversity              Corporation_of            (information
+      informatics               America                   science)
+    * Suzanne_Briet           * Information_access      * Ontology_alignment
+    * BRS/Search              * Information_and         * Ontology_engineering
+**** C ****                     Computer_Science        * Ontology_for
+    * CENDI                   * Information               Biomedical
+    * Computational             architecture              Investigations
+      informatics             * Information_audit   **** P ****
+    * Cyberworthiness         * Information_Element     * Pearl_growing
+**** D ****                   * Information_ethics      * POSC_Caesar
+    * Data_drilling           * Information_flow        * Praxeme
+    * Data_quality            * Information             * Predictive
+    * DataCleaner               logistics                 informatics
+    * Description_logic       * Information             * Primary_source
+    * Descriptor                pollution               * Process_Development
+    * Digital_artifact        * Information               Execution_System
+    * DIKW                      processing_theory       * Programming_the
+    * Document                * Information               Universe
+    * Document                  professional        **** R ****
+      classification          * Information_quality     * Recording_format
+    * Documentalist           * Information         **** S ****
+    * Documentation             scientist               * Selective
+**** E ****                   * Information_Search        dissemination_of
+    * E-Science                 Process                   information
+      librarianship           * Information_seeking     * Semantic
+    * Ecoinformatics          * Information               interoperability
+    * Education                 strategist              * Semantic_Sensor_Web
+      informatics             * Information:_The        * Sensemaking
+    * EJB_QL                    New_Language_of         * Sign_system
+    * Enterprise                Science                 * Social_Information
+      architecture            * Informationist            Architecture
+    * Environmental_niche     * Informative             * Sound_and_music
+      modelling                 modelling                 computing
+    * Ergodic_literature      * Informedia_Digital      * String_kernel
+    * Evolutionary              Library             **** T ****
+      informatics             * Informetrics            * Taxonomic_database
+    * Exploratory_search      * Integrated              * The_Royal_School_of
+**** F ****                     Operations_in_the         Library_and
+    * Jason_Farradane           High_North                Information_Science
+    * Findability             * Interactivity           * The_Social_Life_of
+**** G ****                   * Intergovermental          Information
+    * General_Formal            Bureau_For              * Top-down_and_bottom-
+      Ontology                  Informatics               up_design
+    * Geoinformatics          * International           * Toy_problem
+                                Conference_on       **** U ****
+                                Digital_Audio           * UKSG_E-Resources
+                                Effects                   Management_Handbook
+                              * Investigative_Data      * University_of_Rijeka
+                                Warehouse                 Department_of
+                              * ISO_15926                 Informatics
+                          **** J ****                   * Upper_ontology_
+                              * Journal_of_the            (information
+                                American_Society          science)
+                                for_Information     **** V ****
+                                Science_and             * Visual_Paradigm_for
+                                Technology                UML
+                          **** K ****
+                              * Knowledge
+                                organization
+                              * Knowledge_spillover
+Retrieved from "http://en.wikipedia.org/wiki/Category:Information_science"
+
+Categories: Science_studies | Information | Library_science | Interdisciplinary
+fields
+

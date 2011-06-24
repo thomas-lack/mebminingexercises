@@ -1,0 +1,92 @@
+
+****** Category:Data mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+The main article for this category is Data_mining.
+ Wikimedia Commons has media related to: Data_mining
+Data mining facilities are included in some of the Category:Data_analysis
+software and Category:Statistical_software products.
+
+***** Subcategories *****
+This category has the following 2 subcategories, out of 2 total.
+**** C ****
+    * [+]  Cluster_analysis (2 C, 11 P)
+**** D ****
+    * [Ã]  Data_miners (2 P)
+Pages in category "Data mining"
+The following 90 pages are in this category, out of 90 total. This list may not
+reflect recent changes (learn_more).
+**** A ****               **** D cont. ****         **** L ****
+    * Able_Danger             * Data_Mining_and         * Languageware
+    * Accuracy_paradox          Knowledge_Discovery     * Lattice_Miner
+    * Affinity_analysis       * Data_mining_in          * Lift_(data_mining)
+    * Alpha_algorithm           agriculture             * List_of_machine
+    * Anomaly_detection       * Data_mining_in            learning_algorithms
+    * Apatar                    meteorology             * Local_Outlier_Factor
+    * Apriori_algorithm       * Data_stream_mining  **** M ****
+    * Association_rule        * Data_visualization      * Molecule_mining
+      learning                * DataRush_Technology **** N ****
+    * Automatic               * Decision_tree           * Nearest_neighbor
+      distillation_of           learning                  search
+      structure               * Deep_Web                * Neural_network
+**** B ****                     Technologies            * Non-linear_iterative
+    * Ball_tree               * Document                  partial_least
+    * Biclustering              classification            squares
+    * Big_data                * Dynamic_itemset     **** O ****
+    * Biomedical_text           counting                * Open_source
+      mining              **** E ****                     intelligence
+    * Business_analytics      * Early_stopping          * Optimal_matching
+**** C ****                   * Educational_data        * Overfitting
+    * CANape                    mining              **** P ****
+    * Cluster_analysis        * Elastic_map             * Principal_component
+    * Clustering_high-        * Environment_for           analysis
+      dimensional_data          DeveLoping_KDD-         * Profiling_practices
+    * Co-occurrence             Applications        **** R ****
+      networks                  Supported_by_Index-     * RapidMiner
+    * Concept_drift             Structures              * Reactive_Business
+    * Concept_mining          * Evolutionary_data         Intelligence
+    * Consensus                 mining                  * Receiver_operating
+      clustering              * Extension_neural          characteristic
+    * Correlation               network                 * Ren-rou
+      clustering          **** F ****               **** S ****
+    * Cross_Industry          * Feature_Selection       * Sequence_mining
+      Standard_Process          Toolbox                 * Silhouette_
+      for_Data_Mining         * FLAME_clustering          (clustering)
+    * Cyber_spying            * Formal_concept          * Software_mining
+**** D ****                     analysis                * Structure_mining
+    * Data_Applied        **** G ****               **** T ****
+    * Data_classification     * General                 * Talx
+      (business                 Architecture_for        * Text_corpus
+      intelligence)             Text_Engineering        * Text_mining
+    * Data_dredging           * Group_method_of         * Transaction_(data
+    * Data_fusion               data_handling             mining)
+    * Data_mining             * GSP_Algorithm       **** W ****
+    * Data_mining_agent   **** I ****                   * Weather_Data_Mining
+                              * In-database             * Web_mining
+                                processing              * Weka_(machine
+                              * Inference_attack          learning)
+                              * Information         **** Z ****
+                                Harvesting              * Zementis_Inc
+                              * Institute_of
+                                Analytics
+                                Professionals_of
+                                Australia
+                          **** K ****
+                              * K-optimal_pattern
+                                discovery
+                              * Keel_(software)
+                              * Category_talk:
+                                Knowledge_discovery
+                                in_databases
+                              * KXEN_Inc.
+Retrieved from "http://en.wikipedia.org/wiki/Category:Data_mining"
+
+Categories: Data_analysis | Evaluation_methods | Computational_statistics |
+Information_technology_management | Natural_language_processing | Business
+intelligence | Knowledge_discovery_in_databases | Algorithms | Information
+science
+

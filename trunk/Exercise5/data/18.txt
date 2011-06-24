@@ -1,0 +1,77 @@
+
+****** Lift (data mining) ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                    This article is an orphan, as few or no other articles link
+[Wiki_letter_w.svg] to_it. Please introduce_links to this page from related
+                    articles; suggestions_may_be_available. (July 2010)
+In data_mining, lift is a measure of the performance of a model at predicting
+or classifying cases, measuring against a random choice model.
+For example, suppose a population has a predicted response rate of 5%, but a
+certain model has identified a segment with a predicted response rate of 20%.
+Then that segment would have a lift of 4.0 (20%/5%).
+Typically, the modeller seeks to divide the population into quantiles, and rank
+the quantiles by lift. Organizations can then consider each quantile, and by
+weighing the predicted response rate (and associated financial benefit) against
+the cost, they can decide whether to market to that quantile.
+***** [edit] Example *****
+Assume the data set being mined is:
+Antecedent Consequent
+A          0
+A          0
+A          1
+A          0
+B          1
+B          0
+B          1
+where the antecedent is the input variable that we can control, and the
+consequent is the variable we are trying to predict. Real mining problems would
+typically have more complex antecedents, but usually focus on single-value
+consequents.
+Most mining algorithms would determine the following rules:
+    * Rule 1: A implies 0
+    * Rule 2: B implies 1
+because these are simply the most common patterns found in the data. A simple
+review of the above table should make these rules obvious.
+The support for Rule 1 is 3/7 because that is the number of items in the
+dataset in which the antecedent is A and the consequent 0 . The support for
+Rule 2 is 2/7 because two of the seven records meet the antecedent of B and the
+consequent of 1.
+The confidence for Rule 1 is 3/4 because three of the four records that meet
+the antecedent of A meet the consequent of 0. The confidence for Rule 2 is 2/
+3 because two of the three records that meet the antecedent of B meet the
+consequent of 1.
+Lift can be found by dividing the confidence by the probability of the
+consequent, or by dividing the support by the probability of the antecedent
+times the consequent, so:
+    * The lift for Rule 1 is (3/4)/(4/7) = 1.3125
+    * The lift for Rule 2 is (2/3)/(3/7) = 2/3 * 7/3 = 14/9 = 1.(5).
+If some rule had a lift of 1, it would imply that a specific occurrence of the
+some value pairs of the antecedent and consequent was independent. If two
+events are independent from each other, we can't draw a rule involving those
+two events.
+If the lift is positive, like for Rule 1 and Rule 2, that lets us know the
+degree to which those two occurrences are dependent from one another, that
+those rules are potentially useful for predicting the consequent in future data
+sets.
+Observe that even though Rule 1 has higher confidence, it has lower lift.
+Intuitively, it would seem that Rule 1 is more valuable because of its higher
+confidence--it seems more accurate. But accuracy of the rule independent of the
+data set can be misleading. The value of lift is that it considers both the
+confidence of the rule and the overall data set.
+***** [edit] References *****
+    * Coppock, David S (2002-06-21). "Data_Modelling_and_Mining:_Why_Lift?".
+      http://www.dmreview.com/article_sub.cfm?articleId=5329. Retrieved 2007-
+      02-19. 
+[Stub_icon] This statistics-related article is a stub. You can help Wikipedia
+            by expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Lift_(data_mining)"
+
+Categories: Statistics_stubs | Data_mining
+Hidden categories: Orphaned_articles_from_July_2010 | All_orphaned_articles
+

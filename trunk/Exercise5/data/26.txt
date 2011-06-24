@@ -1,0 +1,45 @@
+
+****** K-optimal pattern discovery ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+K-optimal pattern discovery is a data_mining technique that provides an
+alternative to the frequent pattern discovery approach that underlies most
+association_rule_learning techniques.
+Frequent pattern discovery techniques find all patterns for which there are
+sufficient examples in the sample data. In contrast, k-optimal pattern
+discovery techniques find the k patterns that optimize a user-specified measure
+of interest. The value k is also specified by the user.
+Examples of k-optimal pattern discovery techniques include:
+    * k-optimal classification rule discovery [1].
+    * k-optimal subgroup discovery [2].
+    * finding k most interesting patterns using sequential sampling [3].
+    * mining top.k frequent closed patterns without minimum support [4].
+    * k-optimal rule discovery [5].
+
+***** [edit] References *****
+   1. ^ Webb, G. I. (1995). OPUS: An efficient admissible algorithm for
+      unordered search. Journal of Artificial Intelligence Research, 3, 431-
+      465.
+   2. ^ Wrobel, Stefan (1997) An algorithm for multi-relational discovery of
+      subgroups. In Proceedings First European Symposium on Principles of Data
+      Mining and Knowledge Discovery. Springer.
+   3. ^ Scheffer, T., &amp; Wrobel, S. (2002). Finding the most interesting
+      patterns in a database quickly by using sequential sampling. Journal of
+      Machine Learning Research, 3, 833-862.
+   4. ^ Han, J., Wang, J., Lu, Y., &amp; Tzvetkov, P. (2002) Mining top-
+      k frequent closed patterns without minimum support. In Proceedings of the
+      International Conference on Data Mining, pp. 211-218.
+   5. ^ Webb, G. I., &amp; Zhang, S. (2005). K-optimal rule discovery. Data
+      Mining and Knowledge Discovery, 10(1), 39-79.
+***** [edit] External links *****
+**** [edit] Software ****
+    * Magnum_Opus
+
+Retrieved from "http://en.wikipedia.org/wiki/K-optimal_pattern_discovery"
+
+Categories: Data_mining
+

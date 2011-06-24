@@ -1,0 +1,144 @@
+
+****** Cyber spying ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Cyber spying or Cyber espionage is the act or practice of obtaining secrets
+without the permission of the holder of the information (personal, sensitive,
+proprietary or of classified nature), from individuals, competitors, rivals,
+groups, governments and enemies for personal, economic, political or military
+advantage using illegal exploitation methods on the Internet, networks or
+individual computers through the use of cracking techniques and malicious
+software including Trojan_horses and spyware. It may wholly be perpetrated
+online from computer desks of professionals on bases in far away countries or
+may involve infiltration at home by computer trained conventional spies and
+moles or in other cases may be the criminal handiwork of amateur malicious
+hackers and software_programmers.
+Cyber spying typically involves the use of such illegally gained access to
+secrets and classified information or illegally gained control of individual
+computers or whole networks for an unethical and illegal strategic advantage
+and for psychological, political and physical subversion activities and
+sabotage.
+***** [edit] See also *****
+    * Computer_surveillance
+    * Computer_insecurity
+    * Cyber-security_regulation
+    * Cyberwarfare
+    * Proactive_Cyber_Defence
+    * GhostNet
+    * Surveillance
+    * Espionage
+    * Chinese_Intelligence_Operations_in_the_United_States
+    * Economic_and_Industrial_Espionage
+***** [edit] References *****
+                                 This article includes a list_of
+                                 references, related reading or external
+[Text_document_with_red_question links, but its sources remain unclear
+mark.svg]                        because it lacks inline_citations. Please
+                                 improve this article by introducing more
+                                 precise citations where_appropriate. (June
+                                 2009)
+    * Bill Schiller, ASIA BUREAU (Apr 01, 2009), Chinese_ridicule_U_of_T_spy
+      report_-_But_government_officials_choose_words_carefully,_never_denying
+      country_engages_in_cyber-espionage, Toronto, Ontario, Canada, http://
+      www.thestar.com/News/World/article/611481, retrieved 2009-04-04 
+    * Kelly, Cathal (Mar 31, 2009), Cyberspies'_code_a_click_away_-_Simple
+      Google_search_quickly_finds_link_to_software_for_Ghost_Rat_program_used
+      to_target_governments, Toronto, Ontario, Canada, http://www.thestar.com/
+      News/World/Article/610860, retrieved 2009-04-04 
+    * All_about_Chinese_cyber_spying, infotech.indiatimes.com (Times_of_India),
+      March 30, 2009, http://infotech.indiatimes.com/quickiearticleshow/
+      4334292.cms, retrieved 2009-04-01 
+    * Cooper, Alex (March 30, 2009), We_can_lead_in_cyber_spy_war,_sleuth_says;
+      Toronto_investigator_helped_expose_hacking_of_embassies,_NATO, Toronto,
+      Ontario, Canada, http://www.thestar.com/news/canada/article/610329,
+      retrieved 2009-03-31 
+    * Chinese-based_cyber_spy_network_exposes_need_for_better_security:_Cdn
+      researchers, Yahoo News Canada, March 30, 2009, http://ca.news.yahoo.com/
+      s/capress/090330/national/computer_spying, retrieved 2009-03-31 [dead
+      link]
+    * Steve Herman (30 March 2009), Exiled_Tibetan_Government_Expresses_Concern
+      over_Cyber-Spying_Traced_to_China, New Delhi: GlobalSecurity.org, http://
+      www.globalsecurity.org/intell/library/news/2009/intell-090330-voa01.htm,
+      retrieved 2009-03-31 
+    * "Chinese_government_accused_of_cyber_spying", Belfast_Telegraph, 30 March
+      2009, http://www.belfasttelegraph.co.uk/news/world-news/chinese-
+      government-accused-of-cyber-spying-14248347.html 
+    * Patrick Goodenough, International Editor (March 30, 2009), China_Rejects
+      Cyber_Spying_Allegations;_âDalai_Lama_Propagandaâ, CNSNews.com, http:
+      //www.cnsnews.com/public/content/article.aspx?RsrcID=45797, retrieved
+      2009-03-31 [dead_link]
+    * Harvey, Mike (March 29, 2009), "'World's_biggest_cyber_spy_network'
+      snoops_on_classified_documents_in_103_countries", The_Times (London),
+      http://www.timesonline.co.uk/tol/news/uk/crime/article5996253.ece,
+      retrieved 2009-03-30 
+    * Major_cyber_spy_network_uncovered, BBC_News, 29 March 2009, http://
+      news.bbc.co.uk/2/hi/americas/7970471.stm, retrieved 2009-03-30 
+    * SciTech_Cyber_spy_network_'smoking_gun'_for_China:_expert, CTV Canada,
+      March 29, 2009, http://www.ctv.ca/servlet/ArticleNews/story/CTVNews/
+      20090329/China_Hackers_090329/20090329?hub, retrieved 2009-03-30 
+    * Kim Covert (March 28, 2009), "Canadian_researchers_uncover_vast_Chinese
+      cyber_spy_network" ([dead_link]), National_Post, Don_Mills, Ontario,
+      Canada (Canwest News Service), http://www.nationalpost.com/news/
+      story.html?id=1440426 
+    * US_warned_of_China_'cyber-spying', BBC_News, 20 November 2008, http://
+      news.bbc.co.uk/2/hi/asia-pacific/7740483.stm, retrieved 2009-04-01 
+    * Mark Hosenball (June 2, 2008), "INTELLIGENCE_-_Cyber-Spying_for_Dummies",
+      Newsweek, http://www.newsweek.com/id/138520 
+    * Walton, Gregory (April 2008). "Year_of_the_Gh0st_RAT". World Association
+      of Newspapers. http://www.beijing2008conference.com/articles.php?id=101.
+      Retrieved 2009-04-01. 
+    * German_court_limits_cyber_spying, BBC News, 27 February 2008, http://
+      news.bbc.co.uk/2/hi/europe/7266543.stm 
+    * Rowan Callick; Jane Macartney (December 7, 2007), "Chinese_fury_at_cyber
+      spy_claims", The_Australian, http://www.theaustralian.news.com.au/story/
+      0,25197,22882854-2703,00.html 
+***** [edit] External links *****
+    * Congress_to_Investigate_Google_Charges_Of_Chinese_Internet_Spying_(AHN)
+    * Information_Warfare_Monitor_-_Tracking_Cyberpower_(University_of_Toronto,
+      Canada/Munk_Centre)
+    * Twitter:_InfowarMonitor
+    * Spy_software_for_cyber_spies
+v Â· d Â· eEspionage
+Agent_handling Â· Asset Â· Black_operation Â· Black_bag_operation Â· Concealment_device Â·
+Cryptography Â· Cut-out Â· Dead_drop Â· Eavesdropping Â· False_flag Â· Industrial_espionage Â·
+Intelligence_assessment Â· Interrogation Â· Numbers_station Â· One-way_voice_link Â· Official
+cover Â· Non-official_cover Â· Resident_spy Â· Steganography Â· Surveillance
+v Â· d Â· eIntelligence_cycle_management
+              HUMINT/      Clandestine_HUMINT (recruiting Â· operational_techniques Â· Covert_action Â· Direct_action Â· Clandestine_cell_system)
+              Human        Special_reconnaissance (organizations)
+              Intelligence Espionage (Agent_handling Â· Asset Â· Black_operation Â· Black_bag_operation Â· Concealment_device Â· Cryptography Â· Cut-out Â· Dead_drop Â· Eavesdropping Â· False_flag Â· Industrial_espionage Â· Intelligence_assessment Â· Interrogation Â· Numbers_station Â· One-way_voice
+                           link Â· Official_cover Â· Non-official_cover Â· Resident_spy Â· Steganography Â· Surveillance)
+              SIGINT/
+Intelligence  Signals      SIGINT_by_alliances,_nations_and_industries Â· SIGINT_operational_platforms_by_nation Â· SIGINT_in_modern_history Â· TEMPEST Â· Direction_finding Â· Traffic_analysis
+collection    Intelligence
+management    MASINT/
+              Measurement
+              and          Electro-optical Â· Nuclear Â· Geophysical Â· Radar Â· Radiofrequency Â· Materials Â· Casualty_estimation
+              Signature
+              Intelligence
+              Others       OSINT/Open_source_intelligence Â· IMINT/Imagery_intelligence Â· GEOINT/Geospatial_intelligence Â· FININT/Financial_intelligence Â· TECHINT/Technical_intelligence
+Intelligence
+analysis      Intelligence_analysis Â· Cognitive_traps_for_intelligence_analysis Â· Words_of_Estimative_Probability Â· Analysis_of_Competing_Hypotheses Â· Intelligence_cycle_(target-centric_approach)
+management
+Intelligence
+dissemination Intelligence_cycle_security Â· Counter-intelligence Â· Counter-intelligence_and_counter-terrorism_organizations Â· List_of_counterintelligence_organizations Â· Counterintelligence_failures
+management
+
+Retrieved from "http://en.wikipedia.org/wiki/Cyber_spying"
+
+Categories: Cyberwarfare | Data_mining | Espionage | Intelligence_(information
+gathering) | Military_intelligence_collection | Security | Computer_security |
+Computer_crimes | Information_sensitivity | Sabotage | Open_source_intelligence
+| Spyware | Mass_intelligence-gathering_systems | Security_engineering | Social
+engineering_(computer_security) | National_security | Computer_security
+procedures | Hacking_(computer_security) | Computing_culture | Computing
+terminology | Web_security_exploits
+Hidden categories: Articles_lacking_in-text_citations_from_June_2009 | All
+articles_lacking_in-text_citations | All_articles_with_dead_external_links |
+Articles_with_dead_external_links_from_September_2010 | Articles_with_dead
+external_links_from_May_2010
+

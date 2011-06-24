@@ -1,0 +1,384 @@
+
+****** Association rule learning ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+In data_mining, association rule learning is a popular and well researched
+method for discovering interesting relations between variables in large
+databases. Piatetsky-Shapiro[1] describes analyzing and presenting strong rules
+discovered in databases using different measures of interestingness. Based on
+the concept of strong rules, Agrawal et al.[2] introduced association rules for
+discovering regularities between products in large scale transaction data
+recorded by point-of-sale (POS) systems in supermarkets. For example, the rule
+[\{\mathrm{onions, potatoes}\} \Rightarrow \{\mathrm{burger}\}] found in the
+sales data of a supermarket would indicate that if a customer buys onions and
+potatoes together, he or she is likely to also buy burger. Such information can
+be used as the basis for decisions about marketing activities such as, e.g.,
+promotional pricing or product_placements. In addition to the above example
+from market_basket_analysis association rules are employed today in many
+application areas including Web_usage_mining, intrusion_detection and
+bioinformatics.
+***** Contents *****
+    * 1_Definition
+    * 2_Useful_Concepts
+    * 3_Process
+    * 4_History
+    * 5_Alternative_measures_of_interestingness
+    * 6_Statistically_sound_associations
+    * 7_Algorithms
+          o 7.1_Apriori_algorithm
+          o 7.2_Eclat_algorithm
+          o 7.3_FP-growth_algorithm
+          o 7.4_GUHA_procedure_ASSOC
+          o 7.5_One-attribute_rule
+          o 7.6_OPUS_search
+          o 7.7_Zero-attribute_rule
+    * 8_Lore
+    * 9_Other_types_of_association_mining
+    * 10_See_also
+    * 11_References
+    * 12_External_links
+          o 12.1_Bibliographies
+          o 12.2_Implementations
+          o 12.3_Open_Standards
+***** [edit] Definition *****
+Example data base with 4 items and 5
+            transactions
+transaction ID milk bread butter beer
+1              1    1     0      0
+2              0    0     1      0
+3              0    0     0      1
+4              1    1     1      0
+5              0    1     0      0
+Following the original definition by Agrawal et al.[2] the problem of
+association rule mining is defined as: Let [I=\{i_1, i_2,\ldots,i_n\}] be a set
+of n binary attributes called items. Let [D = \{t_1, t_2,
+\ldots, t_m\}] be a set of transactions called the database. Each transaction
+in D has a unique transaction ID and contains a subset of the items in I. A
+rule is defined as an implication of the form [X \Rightarrow Y] where [X, Y
+\subseteq I] and [X \cap Y = \emptyset]. The sets of items (for short itemsets)
+X and Y are called antecedent (left-hand-side or LHS) and consequent (right-
+hand-side or RHS) of the rule respectively.
+To illustrate the concepts, we use a small example from the supermarket domain.
+The set of items is I = {milk,bread,butter,beer} and a small database
+containing the items (1 codes presence and 0 absence of an item in a
+transaction) is shown in the table to the right. An example rule for the
+supermarket could be [\{\mathrm{butter, bread}\} \Rightarrow \{\mathrm{milk}\}]
+meaning that if butter and bread is bought, customers also buy milk.
+Note: this example is extremely small. In practical applications, a rule needs
+a support of several hundred transactions before it can be considered
+statistically significant, and datasets often contain thousands or millions of
+transactions.
+***** [edit] Useful Concepts *****
+To select interesting rules from the set of all possible rules, constraints on
+various measures of significance and interest can be used. The best-known
+constraints are minimum thresholds on support and confidence.
+    * The support supp(X) of an itemset X is defined as the proportion of
+      transactions in the data set which contain the itemset. In the example
+      database, the itemset {milk,bread,butter} has a support of 1 / 5 = 0.2
+      since it occurs in 20% of all transactions (1 out of 5 transactions).
+    * The confidence of a rule is defined [\mathrm{conf}(X\Rightarrow Y) =
+      \mathrm{supp}(X \cup Y) / \mathrm{supp}(X)]. For example, the rule [\
+      {\mathrm{milk,  bread}\} \Rightarrow \{\mathrm{butter}\}] has a
+      confidence of 0.2 / 0.4 = 0.5 in the database, which means that for 50%
+      of the transactions containing milk and bread the rule is correct.
+          o Confidence can be interpreted as an estimate of the probability P(Y
+            | X), the probability of finding the RHS of the rule in
+            transactions under the condition that these transactions also
+            contain the LHS.[3]
+    * The lift of a rule is defined as [ \mathrm{lift}(X\Rightarrow Y) = \frac
+      { \mathrm{supp}(X \cup Y)}{ \mathrm{supp}(Y) \times \mathrm{supp}(X) } ]
+      or the ratio of the observed support to that expected if X and Y were
+      independent. The rule [\{\mathrm{milk, bread}\} \Rightarrow \{\mathrm
+      {butter}\}] has a lift of [\frac{0.2}{0.4 \times 0.4} = 1.25 ].
+    * The conviction of a rule is defined as [ \mathrm{conv}(X\Rightarrow Y)
+      =\frac{ 1 - \mathrm{supp}(Y) }{ 1 - \mathrm{conf}(X\Rightarrow Y)}]. The
+      rule [\{\mathrm{milk, bread}\} \Rightarrow \{\mathrm{butter}\}] has a
+      conviction of [\frac{1 - 0.4}{1 - .5} = 1.2 ], and can be interpreted as
+      the ratio of the expected frequency that X occurs without Y (that is to
+      say, the frequency that the rule makes an incorrect prediction) if X and
+      Y were independent divided by the observed frequency of incorrect
+      predictions. In this example, the conviction value of 1.2 shows that the
+      rule [\{\mathrm{milk, bread}\} \Rightarrow \{\mathrm{butter}\}] would be
+      incorrect 20% more often (1.2 times as often) if the association between
+      X and Y was purely random chance.
+    * The property of succinctness(Characterized by clear, precise expression
+      in few words) of a constraint. A constraint is succinct if we are able to
+      explicitly write down all Item-sets,that satisfy the constraint.
+      Example : Constraint C = S.Type = {NonFood}
+      Products that would satisfy this constraint are for ex.
+      {Headphones,Shoes,Toilet paper}
+      Usage Example: Instead of using Apriori_algorithm to obtain the Frequent-
+      Item-sets we can instead create all the Item-sets and run support
+      counting only once.
+***** [edit] Process *****
+Frequent itemset lattice, where the color of the box indicates how many
+transactions contain the combination of items. Note that lower levels of the
+lattice can contain at most the minimum number of their parents' items; e.g.
+{ac} can have only at most min(a,c) items. This is called the downward-closure
+property.[2]
+Association rules are usually required to satisfy a user-specified minimum
+support and a user-specified minimum confidence at the same time. Association
+rule generation is usually split up into two separate steps:
+   1. First, minimum support is applied to find all frequent itemsets in a
+      database.
+   2. Second, these frequent itemsets and the minimum confidence constraint are
+      used to form rules.
+While the second step is straight forward, the first step needs more attention.
+Finding all frequent itemsets in a database is difficult since it involves
+searching all possible itemsets (item combinations). The set of possible
+itemsets is the power_set over I and has size 2n â 1 (excluding the empty set
+which is not a valid itemset). Although the size of the powerset grows
+exponentially in the number of items n in I, efficient search is possible using
+the downward-closure property of support[2][4] (also called anti-monotonicity
+[5]) which guarantees that for a frequent itemset, all its subsets are also
+frequent and thus for an infrequent itemset, all its supersets must also be
+infrequent. Exploiting this property, efficient algorithms (e.g., Apriori[6]
+and Eclat[7]) can find all frequent itemsets.
+***** [edit] History *****
+The concept of association rules was popularised particularly due to the 1993
+article of Agrawal,[2] which has acquired more than 6000 citations according to
+Google Scholar, as of March 2008, and is thus one of the most cited papers in
+the Data Mining field. However, it is possible that what is now called
+"association rules" is similar to what appears in the 1966 paper[8] on GUHA, a
+general data mining method developed by Petr_HÃ¡jek et al.[9]
+***** [edit] Alternative measures of interestingness *****
+Next to confidence also other measures of interestingness for rules were
+proposed. Some popular measures are:
+    * All-confidence[10]
+    * Collective strength[11]
+    * Conviction[12]
+    * Leverage[13]
+    * Lift (originally called interest)[12]
+A definition of these measures can be found here. Several more measures are
+presented and compared by Tan et al.[14] Looking for techniques that can model
+what the user has known (and using this models as interestingness measures) is
+currently an active research trend under the name of "Subjective
+Interestingness"
+***** [edit] Statistically sound associations *****
+One limitation of the standard approach to discovering associations is that by
+searching massive numbers of possible associations to look for collections of
+items that appear to be associated, there is a large risk of finding many
+spurious associations. These are collections of items that co-occur with
+unexpected frequency in the data, but only do so by chance. For example,
+suppose we are considering a collection of 10,000 items and looking for rules
+containing two items in the left-hand-side and 1 item in the right-hand-side.
+There are approximately 1,000,000,000,000 such rules. If we apply a statistical
+test for independence with a significance level of 0.05 it means there is only
+a 5% chance of accepting a rule if there is no association. If we assume there
+are no associations, we should nonetheless expect to find 50,000,000,000 rules.
+Statistically sound association discovery[15][16] controls this risk, in most
+cases reducing the risk of finding any spurious associations to a user-
+specified significance level.
+***** [edit] Algorithms *****
+Many algorithms for generating association rules were presented over time.
+Some well known algorithms are Apriori, Eclat and FP-Growth, but they only do
+half the job, since they are algorithms for mining frequent itemsets. Another
+step needs to be done after to generate rules from frequent itemsets found in a
+database.
+**** [edit] Apriori algorithm ****
+Main article: Apriori_algorithm
+Apriori[6] is the best-known algorithm to mine association rules. It uses a
+breadth-first search strategy to counting the support of itemsets and uses a
+candidate generation function which exploits the downward closure property of
+support.
+**** [edit] Eclat algorithm ****
+Eclat[7] is a depth-first search algorithm using set intersection.
+**** [edit] FP-growth algorithm ****
+FP-growth (frequent pattern growth)[17] uses an extended prefix-tree (FP-tree)
+structure to store the database in a compressed form. FP-growth adopts a
+divide-and-conquer approach to decompose both the mining tasks and the
+databases. It uses a pattern fragment growth method to avoid the costly process
+of candidate generation and testing used by Apriori.
+**** [edit] GUHA procedure ASSOC ****
+GUHA is a general method for exploratory data analysis that has theoretical
+foundations in observational_calculi.[18] The ASSOC procedure[19] is a GUHA
+method which mines for generalized association rules using fast bitstrings
+operations. The association rules mined by this method are more general than
+those output by apriori, for example "items" can be connected both with
+conjunction and disjunctions and the relation between antecedent and consequent
+of the rule is not restricted to setting minimum support and confidence as in
+apriori: an arbitrary combination of supported interest measures can be used.
+**** [edit] One-attribute rule ****
+The one-attribute rule, one-attribute-rule algorithm, or OneR, is an algorithm
+for finding association_rules. According to Ross, very simple association
+rules, involving just one attribute in the condition part, often work well in
+practice with real-world data.[20] The idea of the OneR (one-attribute-rule)
+algorithm is to find the one attribute to use to classify a novel datapoint
+that makes fewest prediction errors.
+For example, to classify a car you haven't seen before, you might apply the
+following rule: If Fast Then Sportscar, as opposed to a rule with multiple
+attributes in the condition: If Fast And Softtop And Red Then Sportscar.
+The algorithm is as follows:
+  For each attribute A:
+    For each value V of that attribute, create a rule:
+      1. count how often each class appears
+      2. find the most frequent class, c
+      3. make a rule "if A=V then C=c"
+    Calculate the error rate of this rule
+  Pick the attribute whose rules produce the lowest error rate
+**** [edit] OPUS search ****
+OPUS is an efficient algorithm for rule discovery that, in contrast to most
+alternatives, does not require either monotone or anti-monotone constraints
+such as minimum support.[21] Initially used to find rules for a fixed
+consequent[21][22] it has subsequently been extended to find rules with any
+item as a consequent.[23] OPUS search is the core technology in the popular
+Magnum_Opus association discovery system.
+**** [edit] Zero-attribute rule ****
+The zero-attribute rule, or ZeroR, does not involve any attribute in the
+condition part, and always returns the most frequent class in the training set.
+This algorithm is frequently used to measure the classification success of
+other algorithms.
+***** [edit] Lore *****
+A famous story about association rule mining is the "beer and diaper" story. A
+purported survey of behavior of supermarket shoppers discovered that customers
+(presumably young men) who buy diapers tend also to buy beer. This anecdote
+became popular as an example of how unexpected association rules might be found
+from everyday data. There are varying opinions as to how much of the story is
+true.[24] Daniel Powers says[24]
+     In 1992, Thomas Blischok, manager of a retail consulting group at
+     Teradata, and his staff prepared an analysis of 1.2 million market
+     baskets from about 25 Osco Drug stores. Database queries were
+     developed to identify affinities. The analysis "did discover that
+     between 5:00 and 7:00 p.m. that consumers bought beer and diapers".
+     Osco managers did NOT exploit the beer and diapers relationship by
+     moving the products closer together on the shelves.
+***** [edit] Other types of association mining *****
+Contrast set learning is a form of associative learning. Contrast set learners
+use rules that differ meaningfully in their distribution across subsets.[25]
+Weighted class learning is another form of associative learning in which weight
+may be assigned to classes to give focus to a particular issue of concern for
+the consumer of the data mining results.
+K-optimal_pattern_discovery provides an alternative to the standard approach to
+association rule learning that requires that each pattern appear frequently in
+the data.
+Mining frequent sequences uses support to find sequences in temporal data.[26]
+Generalized Association Rules hierarchical taxonomy (concept hierarchy)
+Quantitiative Association Rules categorical and quantitative data
+Interval Data Association Rules e.g. partition the age into 5-year-increment
+ranged
+Maximal Association Rules
+Sequential Assocatiation Rules temporal data e.g. first buy computer, then CD
+Roms, then a webcam.
+***** [edit] See also *****
+    * Production_system
+***** [edit] References *****
+   1. ^ Piatetsky-Shapiro, G. (1991), Discovery, analysis, and presentation of
+      strong rules, in G. Piatetsky-Shapiro &amp; W. J. Frawley, eds,
+      âKnowledge Discovery in Databasesâ, AAAI/MIT Press, Cambridge, MA.
+   2. ^ a b c d e R. Agrawal; T. Imielinski; A. Swami: Mining Association Rules
+      Between Sets of Items in Large Databases", SIGMOD Conference 1993: 207-
+      216
+   3. ^ Jochen Hipp, Ulrich GÃ¼ntzer, and Gholamreza Nakhaeizadeh. Algorithms
+      for association rule mining - A general survey and comparison. SIGKDD
+      Explorations, 2(2):1-58, 2000.
+   4. ^ Tan, Pang-Ning; Michael, Steinbach; Kumar, Vipin (2005). "Chapter_6.
+      Association_Analysis:_Basic_Concepts_and_Algorithms". Introduction to
+      Data Mining. Addison-Wesley. ISBN 0321321367. http://www-
+      users.cs.umn.edu/~kumar/dmbook/ch6.pdf. 
+   5. ^ Jian Pei, Jiawei Han, and Laks V.S. Lakshmanan. Mining frequent
+      itemsets with convertible constraints. In Proceedings of the 17th
+      International Conference on Data Engineering, April 2â6, 2001,
+      Heidelberg, Germany, pages 433-442, 2001.
+   6. ^ a b Rakesh Agrawal and Ramakrishnan Srikant. Fast algorithms for mining
+      association rules in large databases. In Jorge B. Bocca, Matthias Jarke,
+      and Carlo Zaniolo, editors, Proceedings of the 20th International
+      Conference on Very Large Data Bases, VLDB, pages 487-499, Santiago,
+      Chile, September 1994.
+   7. ^ a b Mohammed J. Zaki. Scalable algorithms for association mining. IEEE
+      Transactions on Knowledge and Data Engineering, 12(3):372-390, May/June
+      2000.
+   8. ^ Hajek P., Havel I., Chytil M.: The GUHA method of automatic hypotheses
+      determination, Computing 1(1966) 293-308.
+   9. ^ Petr Hajek, Tomas Feglar, Jan Rauch, David Coufal. The GUHA method,
+      data preprocessing and mining. Database Support for Data Mining
+      Applications, ISBN_978-3-540-22479-2, Springer, 2004
+  10. ^ Edward R. Omiecinski. Alternative interest measures for mining
+      associations in databases. IEEE Transactions on Knowledge and Data
+      Engineering, 15(1):57-69, Jan/Feb 2003.
+  11. ^ C. C. Aggarwal and P. S. Yu. A new framework for itemset generation. In
+      PODS 98, Symposium on Principles of Database Systems, pages 18-24,
+      Seattle, WA, USA, 1998.
+  12. ^ a b Sergey Brin, Rajeev Motwani, Jeffrey D. Ullman, and Shalom Tsur.
+      Dynamic itemset counting and implication rules for market basket data. In
+      SIGMOD 1997, Proceedings ACM SIGMOD International Conference on
+      Management of Data, pages 255-264, Tucson, Arizona, USA, May 1997.
+  13. ^ Piatetsky-Shapiro, G., Discovery, analysis, and presentation of strong
+      rules. Knowledge Discovery in Databases, 1991: p. 229-248.
+  14. ^ Pang-Ning Tan, Vipin Kumar, and Jaideep Srivastava. Selecting the right
+      objective measure for association analysis. Information Systems, 29(4):
+      293-313, 2004.
+  15. ^ Webb, G.I. (2007). Discovering Significant Patterns. Machine Learning
+      68(1). Netherlands: Springer, pages 1-33. online_access
+  16. ^ A. Gionis, H. Mannila, T. Mielikainen, and P. Tsaparas, Assessing Data
+      Mining Results via Swap Randomization, ACM Transactions on Knowledge
+      Discovery from Data (TKDD), Volume 1 , Issue 3 (December 2007) Article
+      No. 14.
+  17. ^ Jiawei Han, Jian Pei, Yiwen Yin, and Runying Mao. Mining frequent
+      patterns without candidate generation. Data Mining and Knowledge
+      Discovery 8:53-87, 2004.
+  18. ^ J. Rauch, Logical calculi for knowledge discovery in databases.
+      Proceedings of the First European Symposium on Principles of Data Mining
+      and Knowledge Discovery, Springer, 1997, pgs. 47-57.
+  19. ^ HÃ¡jek, P.; HavrÃ¡nek P (1978). Mechanising_Hypothesis_Formation_â
+      Mathematical_Foundations_for_a_General_Theory. Springer-Verlag. ISBN 0-
+      7869-1850-8. http://www.cs.cas.cz/hajek/guhabook/. 
+  20. ^ Ross, Peter. "OneR:_the_simplest_method". http://www.dcs.napier.ac.uk/
+      ~peter/vldb/dm/node8.html. 
+  21. ^ a b Webb, G. I. (1995). OPUS: An Efficient Admissible Algorithm For
+      Unordered Search. Journal of Artificial Intelligence Research 3. Menlo
+      Park, CA: AAAI Press, pages 431-465 online_access.
+  22. ^ Bayardo, R.J.; Agrawal, R.; Gunopulos, D. (2000). "Constraint-based
+      rule mining in large, dense databases". Data Mining and Knowledge
+      Discovery 4 (2): 217â240. doi:10.1023/A:1009895914772. 
+  23. ^ Webb, G. I. (2000). Efficient Search for Association Rules. In R.
+      Ramakrishnan and S. Stolfo (Eds.), Proceedings of the Sixth ACM SIGKDD
+      International Conference on Knowledge Discovery and Data Mining (KDD-
+      2000) Boston, MA. New York: The Association for Computing Machinery,
+      pages 99-107. online_access
+  24. ^ a b http://www.dssresources.com/newsletters/66.php
+  25. ^ T. Menzies, Y. Hu, "Data Mining For Very Busy People." IEEE Computer,
+      October 2003, pgs. 18-25.
+  26. ^ M. J. Zaki. (2001). SPADE: An Efficient Algorithm for Mining Frequent
+      Sequences. Machine Learning Journal, 42, 31â60.
+***** [edit] External links *****
+**** [edit] Bibliographies ****
+    * Annotated_Bibliography_on_Association_Rules by M. Hahsler
+    * Statsoft_Electronic_Statistics_Textbook:_Association_Rules
+**** [edit] Implementations ****
+    * KXEN,_a_commercial_Data_Mining_software
+    * Silverlight_widget_for_live_demonstration_of_association_rule_mining
+      using_Apriori_algorithm
+    * RapidMiner, a free Java data mining software suite (Community Edition:
+      GNU)
+    * Orange, a free data mining software suite, module orngAssoc
+    * Ruby_implementation_(AI4R)
+    * arules, a package for mining association rules and frequent itemsets with
+      R.
+    * C._Borgelt's_implementation_of_Apriori_and_Eclat
+    * Frequent_Itemset_Mining_Implementations_Repository_(FIMI)
+    * Frequent_pattern_mining_implementations_from_Bart_Goethals
+    * Weka, a collection of machine learning algorithms for data mining tasks
+      written in Java.
+    * KNIME an open source workflow oriented data preprocessing and analysis
+      platform.
+    * Data_Mining_Software_by_Mohammed_J._Zaki
+    * Magnum_Opus, a system for statistically sound association discovery.
+    * LISp_Miner, Mines for generalized (GUHA) association rules. Uses
+      bitstrings not apriori algorithm.
+    * Ferda_Dataminer, An extensible visual data mining platform, implements
+      GUHA procedures ASSOC. Features multirelational data mining.
+    * STATISTICA, commercial statistics software with an Association Rules
+      module.
+    * SPMF, Java implementations of more than twenty frequent itemset,
+      sequential pattern and association rule mining algorithms
+**** [edit] Open Standards ****
+    * Association_Rules_in_PMML
+
+Retrieved from "http://en.wikipedia.org/wiki/Association_rule_learning"
+
+Categories: Data_management | Data_mining
+

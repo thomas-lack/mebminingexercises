@@ -1,0 +1,60 @@
+
+****** Silhouette (clustering) ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Silhouette refers to a method of interpretation and validation of clusters_of
+data. The technique provides a succinct graphical representation of how well
+each object lies within its cluster. It was first described by Peter_J.
+Rousseeuw in 1986[1].
+***** [edit] Method *****
+Assume the data have been clustered via any technique, such as k-means, into k
+clusters. For each datum i, let a(i) be the average dissimilarity of i with all
+other data within the same cluster. Any measure of dissimilarity can be used
+but distance_measures are the most common. We can interpret a(i) as how well
+matched i is to the cluster it is assigned (the smaller the value, the better
+the matching). Then find the average dissimilarity of i with the data of
+another single cluster. Repeat this for every cluster of which i is not a
+member. Denote the lowest average dissimilarity to i of any such cluster by b
+(i). The cluster with this average dissimilarity is said to be the
+"neighbouring cluster" of i as it is, aside from the cluster i is assigned, the
+cluster in which i fits best. We now define:
+      [s(i) = \frac{b(i) - a(i)}{\max\{a(i),b(i)\}}
+      ]
+Which can be written as:
+      [s(i) = \begin{cases}
+        1-a(i)/b(i), &amp; \mbox{if } a(i) < b(i) \\
+        0,  &amp; \mbox{if } a(i) = b(i) \\
+        b(i)/a(i)-1, &amp; \mbox{if } a(i) > b(i) \\
+      \end{cases}
+      ]
+From the above definition it is clear that
+      [ -1 \le s(i) \le 1
+      ]
+For s(i) to be close to 1 we require a(i) < < b(i). As a(i) is a measure of how
+dissimilar i is to its own cluster, a small value means it is well matched.
+Furthermore, a large b(i) implies that i is badly matched to its neighbouring
+cluster. Thus an s(i) close to one means that the datum is appropriately
+clustered. If s(i) is close to negative one, then by the same logic we see that
+i would be more appropriate if it was clustered in its neighbouring cluster. An
+s(i) near zero mean that the datum is on the border of two natural clusters.
+The average s(i) of a cluster is a measure of how tightly grouped all the data
+in the cluster are. Thus the average s(i) of the entire dataset is a measure of
+how appropriately the data has been clustered. If there are too many or too few
+clusters, as may occur when a poor choice of k is used in the k-means
+algorithm, some of the clusters will typically display much narrower
+silhouettes than the rest. Thus silhouette plots and averages may be used to
+determine the natural number of clusters within a dataset.
+***** [edit] References *****
+   1. ^ Peter_J._Rousseeuw (1987). "Silhouettes: a Graphical Aid to the
+      Interpretation and Validation of Cluster Analysis". Computational and
+      Applied Mathematics 20: 53â65. doi:10.1016/0377-0427(87)90125-7. 
+
+Retrieved from "http://en.wikipedia.org/wiki/Silhouette_(clustering)"
+
+Categories: Data_mining | Data_analysis | Data_clustering_algorithms |
+Knowledge_discovery_in_databases
+

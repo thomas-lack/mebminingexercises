@@ -1,0 +1,87 @@
+
+****** Optimal matching ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Optimal matching is a sequence analysis method used in social science, to
+assess the dissimilarity of ordered arrays of tokens that usually represent a
+time-ordered sequence of socio-economic states two individuals have
+experienced. Once such distances have been calculated for a set of observations
+(e.g. individuals in a cohort) classical tools (such as cluster_analysis) can
+be used. The method was tailored to social sciences[1] from a technique
+originally introduced to study molecular biology (protein or genetic) sequences
+(see sequence_alignment).
+***** Contents *****
+    * 1_Algorithm
+    * 2_Criticism
+    * 3_Optimal_matching_in_causal_modelling
+    * 4_Software
+    * 5_References_and_notes
+***** [edit] Algorithm *****
+Let [S = (s_1, s_2, s_3, \ldots s_T)] be a sequence of states si belonging to a
+finite set of possible states. Let us denote [{\mathbf S}] the sequence space,
+i.e. the set of all possible sequences of states.
+Optimal matching algorithms work by defining simple operator algebras that
+manipulate sequences, i.e. a set of operators [a_i: {\mathbf S} \rightarrow
+{\mathbf S}]. In the most simple approach, a set composed of only three basic
+operations to transform sequences is used:
+    * one state s is inserted in the sequence [a^{\rm Ins}_{s'} (s_1, s_2, s_3,
+      \ldots s_T) = (s_1, s_2, s_3, \ldots, s', \ldots s_T) ]
+    * one state is deleted from the sequence [a^{\rm Del}_{s_2} (s_1, s_2, s_3,
+      \ldots s_T) = (s_1, s_3, \ldots  s_T)] and
+    * a state s1 is replaced (substituted) by state s'1, [a^{\rm Sub}_
+      {s_1,s'_1} (s_1, s_2, s_3, \ldots s_T) = (s'_1, s_2, s_3, \ldots s_T)].
+Imagine now that a cost [c(a_i) \in {\mathbf R}^+_0] is associated to each
+operator. Given two sequences S1 and S2, the idea is to measure the cost of
+obtaining S2 from S1 using operators from the algebra. Let [A={a_1, a_2, \ldots
+a_n}] be a sequence of operators such that the application of all the operators
+of this sequence A to the first sequence S1 gives the second sequence S2: [S_2
+= a_1 \circ a_2 \circ \ldots \circ a_{n} (S_1)] where [a_1 \circ a_2] denotes
+the compound operator. To this set we associate the cost [c(A) = \sum_{i=1}^n c
+(a_i)], that represents the total cost of the transformation. One should
+consider at this point that there might exist different such sequences A that
+transform S1 into S2; a reasonable choice is to select the cheapest of such
+sequences. We thus call distance
+[d(S_1,S_2)= \min_A \left \{ c(A)~{\rm such~that}~S_2 = A (S_1)  \right \} ]
+that is, the cost of the less expensive set of transformations that turn S1
+into S2. Notice that d(S1,S2) is by definition nonnegative since it is the sum
+of positive costs, and trivially d(S1,S2) = 0 if and only if S1 = S2, that is
+there is no cost. The distance function is symmetric if insertion and deletion
+costs are equal c(aIns) = c(aDel); the term indel cost usually refers to the
+common cost of insertion and deletion.
+Considering a set composed of only the three basic operations described above,
+this proximity measure satisfies the triangular inequality. Transitivity
+however, depends on the definition of the set of elementary operations.
+***** [edit] Criticism *****
+Although widely used in sociology, demography, several critics that have been
+moved to optimal matching techniques. As was pointed out by several authors
+(see for example[2]), the main problem in the application of optimal matching
+concerns the definition of the costs c(ai).
+***** [edit] Optimal matching in causal modelling *****
+Optimal matching is also a term used in statistical modelling of causal
+effects. In this context it refers to matching "cases" with "controls", and is
+completely separate from the sequence-analytic sense.
+***** [edit] Software *****
+    * Abbott's_original_program is available. The source code and windows
+      binary are available.
+    * TDA is a powerful program, offering access to some of the latest
+      developments in transition data analysis.
+    * STATA has implemented a package to run optimal matching analysis.
+    * TraMineR is an open source R-package for analysing and visualizing states
+      and events sequences, including optimal matching analysis.
+***** [edit] References and notes *****
+   1. ^ A. Abbott and A. Tsay, (2000) Sequence_Analysis_and_Optimal_Matching
+      Methods_in_Sociology:_Review_and_Prospect Sociological Methods &amp;
+      Research], Vol. 29, 3-33. DOI: 10.1177/0049124100029001001
+   2. ^ L. L. Wu. (2000) Some_Comments_on_"Sequence_Analysis_and_Optimal
+      Matching_Methods_in_Sociology:_Review_and_Prospect" Sociological Methods
+      &amp; Research, 29 41-64. DOI: 10.1177/0049124100029001003
+
+Retrieved from "http://en.wikipedia.org/wiki/Optimal_matching"
+
+Categories: Data_mining | Statistical_distance_measures | Knowledge_discovery
+in_databases
+

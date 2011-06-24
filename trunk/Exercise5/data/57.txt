@@ -1,0 +1,24 @@
+
+****** Dynamic itemset counting ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                    This article is an orphan, as few or no other articles link
+[Wiki_letter_w.svg] to_it. Please introduce_links to this page from related
+                    articles; suggestions_may_be_available. (February 2009)
+An extension to Apriori_algorithm used to reduce number of scans on the
+dataset.
+S._Brin R._Motwani, J.Ullman and S. Tsur. Dynamic itemset counting and
+implication rules for market basket data. Sigmod 1997.
+
+[Stub_icon] This artificial_intelligence-related article is a stub. You can
+            help Wikipedia by expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Dynamic_itemset_counting"
+
+Categories: Data_mining | Search_algorithms | Artificial_intelligence_stubs
+Hidden categories: Orphaned_articles_from_February_2009 | All_orphaned_articles
+

@@ -1,0 +1,168 @@
+
+****** Weka (machine learning) ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+"WEKA" redirects here. For other uses, see Weka_(disambiguation).
+                                     Weka
+[Weka-3.5.5.png]
+Weka 3.5.5 with Explorer window open with Iris UCI dataset
+Developer(s)     University_of_Waikato
+Stable_release   3.4.18 (book), 3.6.4 (stable), 3.7.3 (development) / 2010/12/
+                 10
+Operating_system Cross-platform
+Type             Machine_Learning
+License          GNU_General_Public_License
+Website          http://www.cs.waikato.ac.nz/~ml/weka/
+Weka (Waikato Environment for Knowledge Analysis) is a popular suite of machine
+learning software written in Java, developed at the University_of_Waikato, New
+Zealand. Weka is free_software available under the GNU_General_Public_License.
+***** Contents *****
+    * 1_Description
+    * 2_History
+    * 3_See_also
+    * 4_References
+    * 5_External_links
+***** [edit] Description *****
+The Weka logo. The weka is a bird endemic to New Zealand.
+The Weka workbench[1] contains a collection of visualization tools and
+algorithms for data_analysis and predictive_modeling, together with graphical
+user interfaces for easy access to this functionality. The original non-Java
+version of Weka was a TCL/TK front-end to (mostly third-party) modeling
+algorithms implemented in other programming languages, plus data preprocessing
+utilities in C, and a Makefile-based system for running machine learning
+experiments. This original version was primarily designed as a tool for
+analyzing data from agricultural domains,[2][3] but the more recent fully Java-
+based version (Weka 3), for which development started in 1997, is now used in
+many different application areas, in particular for educational purposes and
+research. Advantages of Weka include:
+    * freely availability under the GNU_General_Public_License
+    * portability, since it is fully implemented in the Java_programming
+      language and thus runs on almost any modern computing platform
+    * a comprehensive collection of data preprocessing and modeling techniques
+    * ease of use due to its graphical user interfaces
+Weka supports several standard data_mining tasks, more specifically, data
+preprocessing, clustering, classification, regression, visualization, and
+feature_selection. All of Weka's techniques are predicated on the assumption
+that the data is available as a single flat file or relation, where each data
+point is described by a fixed number of attributes (normally, numeric or
+nominal attributes, but some other attribute types are also supported). Weka
+provides access to SQL databases using Java_Database_Connectivity and can
+process the result returned by a database query. It is not capable of multi-
+relational data mining, but there is separate software for converting a
+collection of linked database tables into a single table that is suitable for
+processing using Weka[4]. Another important area that is currently not covered
+by the algorithms included in the Weka distribution is sequence modeling.
+Weka's main user interface is the Explorer, but essentially the same
+functionality can be accessed through the component-based Knowledge Flow
+interface and from the command_line. There is also the Experimenter, which
+allows the systematic comparison of the predictive performance of Weka's
+machine learning algorithms on a collection of datasets.
+The Explorer interface has several panels that give access to the main
+components of the workbench:
+    * The Preprocess panel has facilities for importing data from a database, a
+      CSV file, etc., and for preprocessing this data using a so-called
+      filtering algorithm. These filters can be used to transform the data
+      (e.g., turning numeric attributes into discrete ones) and make it
+      possible to delete instances and attributes according to specific
+      criteria.
+    * The Classify panel enables the user to apply classification and
+      regression algorithms (indiscriminately called classifiers in Weka) to
+      the resulting dataset, to estimate the accuracy of the resulting
+      predictive_model, and to visualize erroneous predictions, ROC_curves,
+      etc., or the model itself (if the model is amenable to visualization
+      like, e.g., a decision_tree).
+    * The Associate panel provides access to association_rule_learners that
+      attempt to identify all important interrelationships between attributes
+      in the data.
+    * The Cluster panel gives access to the clustering techniques in Weka,
+      e.g., the simple k-means algorithm. There is also an implementation of
+      the expectation_maximization_algorithm for learning a mixture of normal
+      distributions.
+    * The Select attributes panel provides algorithms for identifying the most
+      predictive attributes in a dataset.
+    * The Visualize panel shows a scatter_plot matrix, where individual scatter
+      plots can be selected and enlarged, and analyzed further using various
+      selection operators.
+***** [edit] History *****
+    * In 1993, the University_of_Waikato in New_Zealand started development of
+      the original version of Weka (which became a mixture of TCL/TK, C, and
+      Makefiles).
+    * In 1997, the decision was made to redevelop Weka from scratch in Java,
+      including implementations of modeling algorithms.[5]
+    * In 2005, Weka receives the SIGKDD Data Mining and Knowledge Discovery
+      Service Award[6][7]
+    * In 2006, Pentaho_Corporation acquired an exclusive licence to use Weka
+      for business_intelligence. It forms the data mining and predictive
+      analytics component of the Pentaho business intelligence suite.
+    * All-time_ranking on Sourceforge.net as of 2009-06-11, 246 (with 1,566,318
+      downloads)
+***** [edit] See also *****
+[Portal-puzzle.svg] Free_software_portal
+    * RapidMiner (formerly YALE (Yet Another Learning Environment)), an open-
+      source machine learning framework implemented in Java, fully integrating
+      Weka
+    * ELKI is a similar project to Weka with a focus on clustering algorithms
+      (i.e. unsupervised methods, data mining as opposed to machine learning)
+    * KNIME
+    * List_of_numerical_analysis_software
+***** [edit] References *****
+   1. ^ Ian H. Witten; Eibe Frank (2005). "Data_Mining:_Practical_machine
+      learning_tools_and_techniques,_2nd_Edition". Morgan Kaufmann, San
+      Francisco. http://www.cs.waikato.ac.nz/~ml/weka/book.html. Retrieved
+      2007-06-25. 
+   2. ^ G. Holmes; A. Donkin and I.H. Witten (1994). "Weka:_A_machine_learning
+      workbench". Proc Second Australia and New Zealand Conference on
+      Intelligent Information Systems, Brisbane, Australia. http://
+      www.cs.waikato.ac.nz/~ml/publications/1994/Holmes-ANZIIS-WEKA.pdf.
+      Retrieved 2007-06-25. 
+   3. ^ S.R. Garner; S.J. Cunningham, G. Holmes, C.G. Nevill-Manning, and I.H.
+      Witten (1995). "Applying_a_machine_learning_workbench:_Experience_with
+      agricultural_databases". Proc Machine Learning in Practice Workshop,
+      Machine Learning Conference, Tahoe City, CA, USA. pp. 14â21. http://
+      www.cs.waikato.ac.nz/~ml/publications/1995/Garner95-imlc95.pdf. Retrieved
+      2007-06-25. 
+   4. ^ P. Reutemann; B. Pfahringer and E. Frank (2004). "Proper:_A_Toolbox_for
+      Learning_from_Relational_Data_with_Propositional_and_Multi-Instance
+      Learners". 17th Australian Joint Conference on Artificial Intelligence
+      (AI2004). Springer-Verlag. http://www.cs.waikato.ac.nz/~eibe/pubs/
+      reutemann_et_al.ps.gz. Retrieved 2007-06-25. 
+   5. ^ Ian H. Witten; Eibe Frank, Len Trigg, Mark Hall, Geoffrey Holmes, and
+      Sally Jo Cunningham (1999). "Weka:_Practical_Machine_Learning_Tools_and
+      Techniques_with_Java_Implementations". Proceedings of the ICONIP/ANZIIS/
+      ANNES'99 Workshop on Emerging Knowledge Engineering and Connectionist-
+      Based Information Systems. pp. 192â196. http://www.cs.waikato.ac.nz/
+      ~ml/publications/1999/99IHW-EF-LT-MH-GH-SJC-Tools-Java.pdf. Retrieved
+      2007-06-26. 
+   6. ^ Gregory Piatetsky-Shapiro (2005-06-28). "KDnuggets_news_on_SIGKDD
+      Service_Award_2005". http://www.kdnuggets.com/news/2005/n13/2i.html.
+      Retrieved 2007-06-25. 
+   7. ^ "Overview_of_SIGKDD_Service_Award_winners". 2005. http://www.acm.org/
+      sigs/sigkdd/awards_service.php. Retrieved 2007-06-25. 
+***** [edit] External links *****
+ Wikimedia Commons has media related to: Weka_(machine_learning)
+  General
+    * Weka_Project_home_page_at_University_of_Waikato_in_New_Zealand
+    * Weka_Project_home_page_at_SourceForge.net (acquired by Pentaho in
+      September 2006)
+    * Wiki_with_FAQs,_HOWTOs,_code-snippets,_etc.
+    * List_of_algorithms_compared_to_other_DM_Tools
+  Examples of applications
+    * Acronym_identification
+    * Gene_selection_from_microarray_data_for_cancer_classification
+    * QSPR of_metal_complexation
+    * Classification of Expressed_sequence_tag (EST) data from plant/pathogen
+      interface
+    * Further_related_projects_and_applications
+  Extended versions
+    * Weka4WS:_a_Grid-enabled_version_of_Weka_developed_at_University_of
+      Calabria,_Italy
+
+Retrieved from "http://en.wikipedia.org/wiki/Weka_(machine_learning)"
+
+Categories: Machine_learning | Data_mining | Free_science_software | Software
+programmed_in_Java
+

@@ -1,0 +1,153 @@
+
+****** Environment for DeveLoping KDD-Applications Supported by Index-
+Structures ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+  Environment for DeveLoping KDD-Applications Supported by
+                      Index-Structures
+[RTree-Visualization-3D.svg]
+Visualization of an R-tree for 3D cubes in ELKI
+Developer(s)     Ludwig_Maximilian_University_of_Munich
+Stable_release   0.3.0 / March 30, 2010
+Operating_system Cross-platform
+Type             Data_Mining
+License          proprietary
+Website          http://www.dbs.ifi.lmu.de/research/KDD/ELKI
+Environment for DeveLoping KDD-Applications Supported by Index-Structures
+(ELKI) is a Knowledge_Discovery_in_Databases (KDD, "data mining") software
+framework developed for use in research and teaching by the database systems
+research unit of Professor Hans-Peter_Kriegel at the Ludwig_Maximilian
+University_of_Munich, Germany. It aims at allowing the development and
+evaluation of advanced data mining algorithms and their interaction with
+database_index_structures.
+***** Contents *****
+    * 1_Description
+    * 2_Awards
+    * 3_Included_algorithms
+    * 4_Licensing
+    * 5_Version_history
+    * 6_Related_applications
+    * 7_External_links
+    * 8_References
+***** [edit] Description *****
+The ELKI framework is written in Java and built around a modular architecture.
+Most currently included algorithms belong to clustering, outlier_detection[1]
+and database_indexes. A key concept of ELKI is to allow the combination of
+arbitrary algorithms, data types, distance_functions and indexes and evaluate
+these combinations. When developing new algorithms or index structures, the
+existing components can be reused and combined.
+The university project is developed for use in teaching and research. The
+source code is written with extensibility, readability and reusability in mind,
+but it is not extensively optimized for performance. A scientific evaluation
+comparing run times thus is only sound when both algorithms are implemented
+within ELKI so they share the same cost. It currently does not offer
+integration with business_intelligence applications or even an interface to
+common database_management_systems via SQL. The application of the algorithms
+requires knowledge about their use and study of documentation. The audience are
+students, researchers and software_engineers.
+The visualization modules use SVG for scalable graphics output, and Apache
+Batik for rendering of the user interface as well as lossless export into
+PostScript and PDF for easy inclusion in scientific publications in LaTeX.
+***** [edit] Awards *****
+ELKI started as implementation[2] of the doctoral dissertation of Dr. Arthur
+Zimek,[3] which was awarded "SIGKDD Doctoral Dissertation Award 2009 Runner-up"
+[4] by the Association_for_Computing_Machinery for its contributions to
+correlation_clustering. The algorithms published as part of the dissertation
+(4C, COPAC, HiCO, ERiC, CASH) are available in ELKI.[2]
+***** [edit] Included algorithms *****
+Select included algorithms:
+    * Cluster_analysis:
+          o K-means_clustering
+          o Expectation-maximization_algorithm
+          o Single-linkage_clustering
+          o DBSCAN (Density-Based Spatial Clustering of Applications with
+            Noise)
+          o OPTICS (Ordering Points To Identify the Clustering Structure),
+            including the extensions OPTICS-OF, DeLi-Clu, HiSC, HiCO and DiSH
+          o SUBCLU (Density-Connected Subspace Clustering for High-Dimensional
+            Data)
+    * Anomaly_detection:
+          o LOF (Local outlier factor)
+          o OPTICS-OF
+          o DB-Outlier (Distance-Based Outliers)
+          o LOCI (Local Correlation Integral)
+          o LDOF (Local Distance-Based Outlier Factor)
+          o EM-Outlier
+    * Spatial_index structures:
+          o R-tree
+          o R*-tree
+          o M-tree
+    * Evaluation:
+          o Receiver_operating_characteristic (ROC curve)
+          o Scatter_plot
+          o Histogram
+          o Parallel_coordinates
+    * Other:
+          o Apriori_algorithm
+          o Dynamic_time_warping
+          o Principal_component_analysis
+***** [edit] Licensing *****
+The website or source code does not give an explicit license, it should
+therefore be considered copyrighted. The authors have stated that research use
+is acceptable but attribution is required. For commercial use, an explicit
+license is required.
+***** [edit] Version history *****
+Version 0.1 (July 2008) contained several Algorithms from cluster_analysis and
+anomaly_detection, as well as some index_structures such as the R*-tree. The
+focus of the first release was on subspace_clustering and correlation
+clustering algorithms.[5]
+Version 0.2 (July 2009) added functionality for time_series_analysis, in
+particular distance functions for time series.[6]
+Version 0.3 (March 2010) extended the choice of anomaly_detection algorithms
+and visualization modules.[7]
+***** [edit] Related applications *****
+    * Weka a similar project by the University of Waikato, with a focus on
+      classification algorithms.
+    * RapidMiner an application available both as open source as well as
+      commercially with a focus on machine_learning.
+    * Konstanz_Information_Miner_(KNIME) - open source data analytics platform
+      integrated in Eclipse.
+***** [edit] External links *****
+    * Official_web_page_of_ELKI with download and documentation.
+***** [edit] References *****
+   1. ^ Hans-Peter_Kriegel, Peer KrÃ¶ger, Arthur Zimek (2009). "Outlier
+      Detection_Techniques_(Tutorial)". 13th Pacific-Asia Conference on
+      Knowledge Discovery and Data Mining (PAKDD 2009) (Bangkok, Thailand).
+      http://www.dbs.ifi.lmu.de/Publikationen/Papers/tutorial_slides.pdf.
+      Retrieved 2010-03-26. 
+   2. ^ a b Zimek, A. (2009). "Correlation clustering". ACM SIGKDD Explorations
+      Newsletter 11 (1): 53â54. doi:10.1145/1656274.1656286.  edit
+   3. ^ Zimek, Arthur (2008-06-30), Correlation_Clustering, Munich, Germany:
+      Ludwig_Maximilian_University_of_Munich, urn:nbn:de:bvb:19-87361, http://
+      edoc.ub.uni-muenchen.de/8736/1/Zimek_Arthur.pdf 
+   4. ^ "SIGKDD_Doctoral_Disseration_Award". ACM SIGKDD. http://www.sigkdd.org/
+      awards_dissertation.php. Retrieved 30 May 2010. 
+   5. ^ Elke Achtert, Hans-Peter_Kriegel, Arthur Zimek (2008). "ELKI:_A
+      Software_System_for_Evaluation_of_Subspace_Clustering_Algorithms".
+      Proceedings of the 20th international conference on Scientific and
+      Statistical Database Management (SSDBM 08) (Hong Kong, China: Springer).
+      doi:10.1007/978-3-540-69497-7_41. http://www.dbs.ifi.lmu.de/~zimek/
+      publications/SSDBM2008/elkipaper.pdf. 
+   6. ^ Elke Achtert, Thomas Bernecker, Hans-Peter_Kriegel, Erich Schubert,
+      Arthur Zimek (2009). "ELKI_in_time:_ELKI_0.2_for_the_performance
+      evaluation_of_distance_measures_for_time_series". Proceedings of the 11th
+      International Symposium on Advances in Spatial and Temporal Databases
+      (SSTD 2010) (Aalborg, DÃ¤nemark: Springer). doi:10.1007/978-3-642-02982-
+      0_35. http://www.dbs.ifi.lmu.de/~zimek/publications/SSTD2009/sstd09-elki-
+      paper.pdf. 
+   7. ^ Elke Achtert, Hans-Peter_Kriegel, Lisa Reichert, Erich Schubert,
+      Remigius Wojdanowski, Arthur Zimek (2010). "Visual Evaluation of Outlier
+      Detection Models". 15th International Conference on Database Systems for
+      Advanced Applications (DASFAA 2010) (Tsukuba, Japan: Spinger). doi:
+      10.1007/978-3-642-12098-5_34. 
+
+Retrieved from "http://en.wikipedia.org/wiki/Environment_for_DeveLoping_KDD-
+Applications_Supported_by_Index-Structures"
+
+Categories: Data_mining | Science_software | Software_programmed_in_Java | Data
+analysis_software
+

@@ -1,0 +1,50 @@
+
+****** Transaction (data mining) ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article may need to be wikified to meet Wikipedia's quality_standards.
+ Please help by adding relevant_internal_links, or by improving the article's
+ layout. (September 2010)
+ Click [show] on right for more details.
+     * Please replace HTML_markup with wiki_markup where appropriate.
+     * Add wikilinks. Where appropriate, make links to other articles by
+       putting "[[" and "]]" on either side of relevant words (see WP:LINK for
+       more information). Please do not link terms that most readers are
+       familiar with, such as common occupations, well-known geographical
+       terms, and everyday items.
+     * Format the lead. Create or improve the lead_paragraph.
+     * Arrange section headers as described at Wikipedia:Guide_to_layout.
+     * Add an infobox if it is appropriate for the article.
+     * Remove this tag.
+In data_mining, a transaction is an element of a family of a set of items. In
+other words, the transaction is a subset of the set of items.
+***** Contents *****
+    * 1_Formal_definition
+    * 2_Frequent_set
+    * 3_Closed_item_set
+    * 4_Further_reading
+***** [edit] Formal definition *****
+Let I be a set of items and [\mathcal{T}] be a family of sets over I. Then an
+element [T \in \mathcal{T}] is called a transaction.
+***** [edit] Frequent set *****
+An Î±-frequent set is a subset [S \subseteq I] if at least Î± transactions in
+[\mathcal{T}] includes S.
+***** [edit] Closed item set *****
+A frequent set S of I is a closed item set if there is no superset [S' \supset
+S] such that [S' \subseteq T] for any [T \in \mathcal{T}].
+***** [edit] Further reading *****
+    * Makino, K. and Takeaki, U. New Algorithms for Enumerating All Maximal
+      Cliques, Lecture Notes in Computer Science, 3111, pp. 260â272.
+[Stub_icon] This database-related article is a stub. You can help Wikipedia by
+            expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Transaction_(data_mining)"
+
+Categories: Database_stubs | Data_mining | Set_families
+Hidden categories: Articles_that_need_to_be_wikified_from_September_2010 | All
+articles_that_need_to_be_wikified
+

@@ -1,0 +1,44 @@
+
+****** Sequence mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article does not cite any references_or_sources.
+ Please help improve_this_article by adding citations to reliable_sources.
+ Unsourced material may be challenged and removed. (December 2009)
+Sequence mining is concerned with finding statistically relevant patterns
+between data examples where the values are delivered in a sequence. It is
+usually presumed that the values are discrete, and thus Time_series mining is
+closely related, but usually considered a different activity. Sequence mining
+is a special case of structured_data_mining.
+There are two different kinds of sequence mining: string mining and itemset
+mining. String mining is widely used in biology, to examine gene and protein
+sequences, and is primarily concerned with sequences with a single member at
+each position. There exist a variety of prominent algorithms to perform
+alignment of a query sequence with those existing in databases. The kind of
+alignment could either involve matching a query with one subject e.g. BLAST or
+matching multiple query sets with each other e.g. ClustalW. Itemset mining is
+used more often in marketing and CRM applications, and is concerned with
+multiple-symbols at each position. Itemset mining is also a popular approach to
+text_mining.
+There are several key problems within this field. These include building
+efficient databases and indexes for sequence information, extracting the
+frequently occurring patterns, comparing sequences for similarity, and
+recovering missing sequence members.
+Two common techniques that are applied to sequence databases for frequent
+itemset mining are the influential apriori_algorithm and the more-recent FP-
+Growth technique. However, there is nothing in these techniques that restricts
+them to sequences, per se.
+***** [edit] See also *****
+    * GSP_Algorithm
+    * Process_mining
+
+Retrieved from "http://en.wikipedia.org/wiki/Sequence_mining"
+
+Categories: Data_mining | Bioinformatics
+Hidden categories: Articles_lacking_sources_from_December_2009 | All_articles
+lacking_sources
+

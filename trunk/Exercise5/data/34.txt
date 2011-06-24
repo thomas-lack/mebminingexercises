@@ -1,0 +1,126 @@
+
+****** Data mining in meteorology ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                           This page is a new unreviewed article.
+              This template should be removed once the page has been reviewed
+[N write.svg] by someone other than its creator; if necessary the page should
+              be appropriately tagged_for_cleanup. If you are the article's
+              creator, you can seek_feedback_on_your_new_article. (April 2011)
+***** Contents *****
+    * 1_What_is_meteorological_data?
+    * 2_What_is_Data_mining?
+          o 2.1_Self-organizing_Maps
+    * 3_References
+    * 4_External_links
+***** [edit] What is meteorological data? *****
+      Meteorology is the interdisciplinary scientific study of the atmosphere.
+      It observes the changes in temperature, air pressure, moisture and wind
+      direction. Usually, temperature, pressure, wind measurements and humidity
+      are the variables that are measured by a thermometer, barometer,
+      anemometer, and hygrometer, respectively. There are many methods of
+      collecting data and Radar, Lidar, satellites are some of them.
+      Weather_forecasts are made by collecting quantitative data about the
+      current state of the atmosphere. The main issue arise in this prediction
+      is, it involves high-dimensional characters. To overcome this issue, it
+      is necessary to first analyze and simplify the data before proceeding
+      with other analysis. Some data_mining techniques are appropriate in this
+      context.
+***** [edit] What is Data mining? *****
+      Data_mining, the extraction of hidden predictive information from large
+      databases, is a powerful new technology with great potential to analyze
+      important information in data warehouses. Consequently, data mining
+      consists of more than collecting and analyzing data, it also includes
+      analyze and predictions. The tools which are use to analysis can include
+      statistical_models, mathematical algorithms and machine learning methods.
+      These methods include algorithms that improve their performance
+      automatically through experience, such as neural_networks or decision
+      trees[1]
+. The network_architecture and signal process used to model nervous systems can
+roughly be divided into three categories, each based on a different philosophy.
+   1. Feedforward_neural_network: the input information defines the initial
+      signals into set of output signals.[2]
+   2. Feedback network: the input information defines the initial activity
+      state of a feedback system, and after state transitions, the asymptotic
+      final state is identified as the outcome of the computation.[3]
+   3. Neighboring cells in a neural network compete in their activities by
+      means of mutual lateral interactions, and develop adaptively into
+      specific detectors of different signal patterns. In this category,
+      learning is called competitive, unsupervised_learning or self-organizing.
+      [4]
+**** [edit] Self-organizing Maps ****
+      Self-Organizing_Map (SOM) is one of the most popular neural network
+      models, which is especially suitable for high dimensional data
+      visualization, clustering and modeling. It uses an unsupervised learning
+      for creating a set of prototype vectors representing the data. The SOM
+      was introduced to meteorological and climatic sciences in late 1990s as a
+      clustering and pattern recognition method.[5] Nowadays, Self-Organized
+      maps have been applied in several meteorological problems, such as
+      classifying climate modes, cloud classification[6], classification of
+      TEMP data [7], extreme weather and rainfall pattern analysis.
+      The Self-Organizing Map projects high-dimensional input data onto a low
+      dimensional (usually two-dimensional) space[8]. Because it preserves the
+      neighborhood relations of the input data, the SOM is a topology-
+      preserving technique. There are many types of topologies used in SOM:
+      grid, hexagonal, random are some of them[9]. The output neurons are
+      arranged according to the given topology. The distances between neurons
+      are calculated using a distance function[10]. There are several distance
+      functions which can be used such as Euclidean_distance, box distance,
+      link distance and Manhattan_distance.
+      According to the first input of the input vector, System chooses the
+      output neuron (winning neuron) that closely matches with the given input
+      vector. Then determining a neighborhood of excited neurons around the
+      winner; and finally, updating all of the excited neurons. It must select
+      the neighborhood function that permits to calculate the nodes
+      ânearestâ to the winner[11]. Some neighborhood functions are the
+      Gaussian, the Bubble and the EP[12]. The outcome weight vectors of the
+      SOM nodes are reshaped back to have characteristic data patterns. This
+      learning procedure leads to a topologically ordered mapping of the input
+      data. Similar patterns are mapped onto neighboring regions on the map,
+      while dissimilar patterns are located further apart.
+***** [edit] References *****
+   1. ^ Seifert, W. (2004). "Data Mining:An Overview". CRS. 
+   2. ^ Kohonen, T. (2002 ).. "The Self-Organizing Map.". IEEE:
+      pp. 1464â1480.. 
+   3. ^ Kohonen, T. (2002 ).. "The Self-Organizing Map.". IEEE:
+      pp. 1464â1480.. 
+   4. ^ Liu, Y., &amp; Weisberg, R. H.. "A Review of Self-Organizing Map
+      Applications in Meteorology and Oceanography". Self Organizing Maps -
+      Applications and Novel Algorithm Design .: pp. 2011.. 
+   5. ^ COFIÃO, A., GUTIÃRREZ, J., JAKUBIAK, B., &amp; MELONEK, M. (2003).
+      "IMPLEMENTATION OF DATA MINING TECHNIQUES FOR METEOROLOGICAL
+      APPLICATIONS". World Scientific: pp. 215â240. 
+   6. ^ Hong Y., HSU, K., SOROOSHIAN, S., &amp; GAO, X. . (2004).
+      "Precipitation Estimation from Remotely Sensed Imagery Using an
+      Artificial Neural.". JOURNAL OF APPLIED METEOROLOGY 43:
+      pp. 1834â1852.. 
+   7. ^ Lahoz, D., &amp; Miguel, M. S. (2004.). "CLASSIFICATION TEMP DATA WITH
+      SELF-ORGANIZING MAPS.". MonografÃ­as del Seminario MatemÃ¡tico GarcÃ­a de
+      Galdeano. 
+   8. ^ Liu, Y., &amp; Weisberg, R. H.. "A Review of Self-Organizing Map
+      Applications in Meteorology and Oceanography". Self Organizing Maps -
+      Applications and Novel Algorithm Design .: pp. 2011.. 
+   9. ^ Lahoz, D., &amp; Miguel, M. S. (2004.). "CLASSIFICATION TEMP DATA WITH
+      SELF-ORGANIZING MAPS.". MonografÃ­as del Seminario MatemÃ¡tico GarcÃ­a de
+      Galdeano. 
+  10. ^ Lahoz, D., &amp; Miguel, M. S. (2004.). "CLASSIFICATION TEMP DATA WITH
+      SELF-ORGANIZING MAPS.". MonografÃ­as del Seminario MatemÃ¡tico GarcÃ­a de
+      Galdeano. 
+  11. ^ Lahoz, D., &amp; Miguel, M. S. (2004.). "CLASSIFICATION TEMP DATA WITH
+      SELF-ORGANIZING MAPS.". MonografÃ­as del Seminario MatemÃ¡tico GarcÃ­a de
+      Galdeano. 
+  12. ^ Lahoz, D., &amp; Miguel, M. S. (2004.). "CLASSIFICATION TEMP DATA WITH
+      SELF-ORGANIZING MAPS.". MonografÃ­as del Seminario MatemÃ¡tico GarcÃ­a de
+      Galdeano. 
+***** [edit] External links *****
+
+Retrieved from "http://en.wikipedia.org/wiki/Data_mining_in_meteorology"
+
+Categories: Meteorology | Data_mining
+Hidden categories: Unreviewed_new_articles_created_via_the_Article_Wizard_from
+April_2011 | Articles_created_via_the_Article_Wizard
+

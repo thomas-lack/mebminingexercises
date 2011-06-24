@@ -1,0 +1,49 @@
+
+****** Weather Data Mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                    This article is an orphan, as few or no other articles link
+[Wiki_letter_w.svg] to_it. Please introduce_links to this page from related
+                    articles; suggestions_may_be_available. (February 2009)
+ This article may need to be wikified to meet Wikipedia's quality_standards.
+ Please help by adding relevant_internal_links, or by improving the article's
+ layout. (April 2010)
+ Click [show] on right for more details.
+     * Please replace HTML_markup with wiki_markup where appropriate.
+     * Add wikilinks. Where appropriate, make links to other articles by
+       putting "[[" and "]]" on either side of relevant words (see WP:LINK for
+       more information). Please do not link terms that most readers are
+       familiar with, such as common occupations, well-known geographical
+       terms, and everyday items.
+     * Format the lead. Create or improve the lead_paragraph.
+     * Arrange section headers as described at Wikipedia:Guide_to_layout.
+     * Add an infobox if it is appropriate for the article.
+     * Remove this tag.
+Weather Data Mining is a form of Data_mining concerned with finding hidden
+patterns inside largely available meteorological data, so that the information
+retrieved can be transformed into usable knowledge. A variety of data mining
+tool and techniques are available in the industry, but their use is limited for
+meteorologic data.
+Data mining, the extraction of hidden predictive information from large
+databases, is a powerful new technology with great potential to analyze
+important information in data warehouses. Data mining scours databases for
+hidden patterns, finding predictive information that experts may miss, as it
+goes beyond their expectations. There is an increasing desire to use this new
+technology in new domains of application and a growing perception that these
+large passive databases can be transformed into useful actionable information.
+Meteorology is one of such domains, where data mining can improve the
+productivity of its analysts tremendously by transforming their voluminous,
+unmanageable and prone to ignorance information into usable pieces of
+knowledge.
+
+Retrieved from "http://en.wikipedia.org/wiki/Weather_Data_Mining"
+
+Categories: Data_mining | Meteorology
+Hidden categories: Orphaned_articles_from_February_2009 | All_orphaned_articles
+| Articles_that_need_to_be_wikified_from_April_2010 | All_articles_that_need_to
+be_wikified
+

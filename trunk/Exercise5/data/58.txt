@@ -1,0 +1,753 @@
+
+****** Cluster analysis ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                              This article may need to be rewritten entirely to
+[Crystal_Clear_app_kedit.svg] comply with Wikipedia's quality_standards. You
+                              can_help. The discussion_page may contain
+                              suggestions. (May 2009)
+                It has been suggested that Cluster_analysis_(in_marketing) be
+[Mergefrom.svg] merged into this article or section. (Discuss) Proposed since
+                May 2009.
+The result of a cluster analysis shown as the coloring of the squares into
+three clusters.
+Cluster analysis or clustering is the assignment of a set of observations into
+subsets (called clusters) so that observations in the same cluster are similar
+in some sense. Clustering is a method of unsupervised_learning, and a common
+technique for statistical data_analysis used in many fields, including machine
+learning, data_mining, pattern_recognition, image_analysis, information
+retrieval, and bioinformatics.
+Besides the term clustering, there are a number of terms with similar meanings,
+including automatic classification, numerical_taxonomy, botryology and
+typological analysis.
+***** Contents *****
+    * 1_Types_of_clustering
+    * 2_Distance_measure
+    * 3_Hierarchical_clustering
+          o 3.1_Agglomerative_hierarchical_clustering
+          o 3.2_Concept_clustering
+    * 4_Partitional_clustering
+          o 4.1_K-means_and_derivatives
+                # 4.1.1_k-means_clustering
+                # 4.1.2_Fuzzy_c-means_clustering
+                # 4.1.3_QT_clustering_algorithm
+          o 4.2_Locality-sensitive_hashing
+          o 4.3_Graph-theoretic_methods
+    * 5_Spectral_clustering
+    * 6_Applications
+          o 6.1_Biology
+          o 6.2_Medicine,_Psychology_and_Neuroscience
+          o 6.3_Market_research
+          o 6.4_Educational_research
+                # 6.4.1_Example_of_cluster_analysis_in_educational_research
+                # 6.4.2_Common_cluster_techniques_in_educational_research
+                # 6.4.3_Advantages_of_cluster_analysis
+                # 6.4.4_Disadvantages_of_cluster_analysis
+                # 6.4.5_Solution_to_problems_of_cluster_analysis_in_educational
+                  research
+          o 6.5_Other_applications
+    * 7_Evaluation_of_clustering
+          o 7.1_Internal_criterion_of_quality
+          o 7.2_External_criterion_of_quality
+          o 7.3_Relative_criterion_of_quality
+    * 8_Algorithms
+    * 9_See_also
+    * 10_References
+    * 11_Further_reading
+    * 12_External_links
+***** [edit] Types of clustering *****
+Hierarchical algorithms find successive clusters using previously established
+clusters. These algorithms usually are either agglomerative ("bottom-up") or
+divisive ("top-down"). Agglomerative algorithms begin with each element as a
+separate cluster and merge them into successively larger clusters. Divisive
+algorithms begin with the whole set and proceed to divide it into successively
+smaller clusters.
+Partitional algorithms typically determine all clusters at once, but can also
+be used as divisive algorithms in the hierarchical_clustering.
+Density-based clustering algorithms are devised to discover arbitrary-shaped
+clusters. In this approach, a cluster is regarded as a region in which the
+density of data objects exceeds a threshold. DBSCAN and OPTICS are two typical
+algorithms of this kind.
+Subspace_clustering methods look for clusters that can only be seen in a
+particular projection (subspace, manifold) of the data. These methods thus can
+ignore irrelevant attributes. The general problem is also known as Correlation
+clustering while the special case of axis-parallel subspaces is also known as
+Two-way clustering, co-clustering or biclustering: in these methods not only
+the objects are clustered but also the features of the objects, i.e., if the
+data is represented in a data_matrix, the rows and columns are clustered
+simultaneously. They usually do not however work with arbitrary feature
+combinations as in general subspace methods. But this special case deserves
+attention due to its applications in bioinformatics.
+Many clustering algorithms require the specification_of_the_number_of_clusters
+to produce in the input data set, prior to execution of the algorithm. Barring
+knowledge of the proper value beforehand, the appropriate value must be
+determined, a problem on its own for which a number of techniques have been
+developed.
+***** [edit] Distance measure *****
+An important step in most clustering is to select a distance_measure, which
+will determine how the similarity of two elements is calculated. This will
+influence the shape of the clusters, as some elements may be close to one
+another according to one distance and farther away according to another. For
+example, in a 2-dimensional space, the distance between the point (x = 1,
+y = 0) and the origin (x = 0, y = 0) is always 1 according to the usual norms,
+but the distance between the point (x = 1, y = 1) and the origin can be 2,
+[\sqrt{2}] or 1 if you take respectively the 1-norm, 2-norm or infinity-norm
+distance.
+Common distance functions:
+    * The Euclidean_distance (also called distance as_the_crow_flies or 2-norm
+      distance). A review of cluster analysis in health psychology research
+      found that the most common distance measure in published studies in that
+      research area is the Euclidean distance or the squared Euclidean
+      distance.[Full_citation_needed]
+    * The Manhattan_distance (aka taxicab norm or 1-norm)
+    * The maximum_norm (aka infinity norm)
+    * The Mahalanobis_distance corrects data for different scales and
+      correlations in the variables
+    * The angle between two vectors can be used as a distance measure when
+      clustering high dimensional data. See Inner_product_space.
+    * The Hamming_distance measures the minimum number of substitutions
+      required to change one member into another.
+Another important distinction is whether the clustering uses symmetric or
+asymmetric distances. Many of the distance functions listed above have the
+property that distances are symmetric (the distance from object A to B is the
+same as the distance from B to A). In other applications (e.g., sequence-
+alignment methods, see Prinzie &amp; Van den Poel (2006)), this is not the
+case. (A true metric gives symmetric measures of distance.)
+***** [edit] Hierarchical clustering *****
+Main article: Hierarchical_clustering
+                  It has been suggested that this article or section be merged
+[Merge-arrow.svg] into Hierarchical_clustering. (Discuss) Proposed since
+                  October 2009.
+Hierarchical clustering creates a hierarchy of clusters which may be
+represented in a tree_structure called a dendrogram. The root of the tree
+consists of a single cluster containing all observations, and the leaves
+correspond to individual observations.
+Algorithms for hierarchical clustering are generally either agglomerative, in
+which one starts at the leaves and successively merges clusters together; or
+divisive, in which one starts at the root and recursively splits the clusters.
+Any non-negative-valued function may be used as a measure of similarity between
+pairs of observations. The choice of which clusters to merge or split is
+determined by a linkage criterion, which is a function of the pairwise
+distances between observations.
+Cutting the tree at a given height will give a clustering at a selected
+precision. In the following example, cutting after the second row will yield
+clusters {a} {b c} {d e} {f}. Cutting after the third row will yield clusters
+{a} {b c} {d e f}, which is a coarser clustering, with a smaller number of
+larger clusters.
+**** [edit] Agglomerative hierarchical clustering ****
+For example, suppose this data is to be clustered, and the euclidean_distance
+is the distance_metric.
+Raw data
+The hierarchical clustering dendrogram would be as such:
+Traditional representation
+This method builds the hierarchy from the individual elements by progressively
+merging clusters. In our example, we have six elements {a} {b} {c} {d} {e} and
+{f}. The first step is to determine which elements to merge in a cluster.
+Usually, we want to take the two closest elements, according to the chosen
+distance.
+Optionally, one can also construct a distance_matrix at this stage, where the
+number in the i-th row j-th column is the distance between the i-th and j-th
+elements. Then, as clustering progresses, rows and columns are merged as the
+clusters are merged and the distances updated. This is a common way to
+implement this type of clustering, and has the benefit of caching distances
+between clusters. A simple agglomerative clustering algorithm is described in
+the single-linkage_clustering page; it can easily be adapted to different types
+of linkage (see below).
+Suppose we have merged the two closest elements b and c, we now have the
+following clusters {a}, {b, c}, {d}, {e} and {f}, and want to merge them
+further. To do that, we need to take the distance between {a} and {b c}, and
+therefore define the distance between two clusters. Usually the distance
+between two clusters [\mathcal{A}] and [\mathcal{B}] is one of the following:
+    * The maximum distance between elements of each cluster (also called
+      complete-linkage_clustering):
+            [ \max \{\, d(x,y) : x \in \mathcal{A},\, y \in \mathcal{B}\,\}. ]
+    * The minimum distance between elements of each cluster (also called
+      single-linkage_clustering):
+            [ \min \{\, d(x,y) : x \in \mathcal{A},\, y \in \mathcal{B} \,\}. ]
+    * The mean distance between elements of each cluster (also called average
+      linkage clustering, used e.g. in UPGMA):
+            [ {1 \over {|\mathcal{A}|\cdot|\mathcal{B}|}}\sum_{x \in \mathcal
+            {A}}\sum_{ y \in \mathcal{B}} d(x,y). ]
+    * The sum of all intra-cluster variance.
+    * The increase in variance for the cluster being merged (Ward's_criterion).
+    * The probability that candidate clusters spawn from the same distribution
+      function (V-linkage).
+Each agglomeration occurs at a greater distance between clusters than the
+previous agglomeration, and one can decide to stop clustering either when the
+clusters are too far apart to be merged (distance criterion) or when there is a
+sufficiently small number of clusters (number criterion).
+**** [edit] Concept clustering ****
+Another variation of the agglomerative clustering approach is conceptual
+clustering.
+***** [edit] Partitional clustering *****
+**** [edit] K-means and derivatives ****
+*** [edit] k-means clustering ***
+Main article: k-means_clustering
+The k-means algorithm assigns each point to the cluster whose center (also
+called centroid) is nearest. The center is the average of all the points in the
+cluster â that is, its coordinates are the arithmetic mean for each dimension
+separately over all the points in the cluster.
+      Example: The data set has three dimensions and the cluster has two
+      points: X = (x1,x2,x3) and Y = (y1,y2,y3). Then the centroid Z becomes Z
+      = (z1,z2,z3), where [z_1=\frac{x_1+y_1}{2}], [z_2=\frac{x_2+y_2}{2}] and
+      [z_3=\frac{x_3+y_3}{2}].
+The algorithm steps are[1]:
+    * Choose_the_number_of_clusters, k.
+    * Randomly generate k clusters and determine the cluster centers, or
+      directly generate k random points as cluster centers.
+    * Assign each point to the nearest cluster center, where "nearest" is
+      defined with respect to one of the distance measures discussed above.
+    * Recompute the new cluster centers.
+    * Repeat the two previous steps until some convergence criterion is met
+      (usually that the assignment hasn't changed).
+The main advantages of this algorithm are its simplicity and speed which allows
+it to run on large datasets. Its disadvantage is that it does not yield the
+same result with each run, since the resulting clusters depend on the initial
+random assignments (the k-means++ algorithm addresses this problem by seeking
+to choose better starting clusters). It minimizes intra-cluster variance, but
+does not ensure that the result has a global minimum of variance. Another
+disadvantage is the requirement for the concept of a mean to be definable which
+is not always the case. For such datasets the k-medoids variants is
+appropriate. An alternative, using a different criterion for which points are
+best assigned to which centre is k-medians_clustering.
+*** [edit] Fuzzy c-means clustering ***
+In fuzzy_clustering, each point has a degree of belonging to clusters, as in
+fuzzy_logic, rather than belonging completely to just one cluster. Thus, points
+on the edge of a cluster, may be in the cluster to a lesser degree than points
+in the center of cluster. An overview and comparison of different fuzzy
+clustering algorithms can be found in Nock_and_Nielsen_(2006).
+For each point x we have a coefficient giving the degree of being in the kth
+cluster uk(x). Usually, the sum of those coefficients for any given x is
+defined to be 1:
+      [ \forall x \left(\sum_{k=1}^{\mathrm{num.}\ \mathrm{clusters}} u_k(x) \
+      =1\right).]
+With fuzzy c-means, the centroid of a cluster is the mean of all points,
+weighted by their degree of belonging to the cluster:
+      [\mathrm{center}_k = {{\sum_x u_k(x)^m x} \over {\sum_x u_k(x)^m}}.]
+The degree of belonging is related to the inverse of the distance to the
+cluster center:
+      [u_k(x) = {1 \over d(\mathrm{center}_k,x)},]
+then the coefficients are normalized and fuzzyfied with a real parameter m > 1
+so that their sum is 1. So
+      [u_k(x) = \frac{1}{\sum_j \left(\frac{d(\mathrm{center}_k,x)}{d(\mathrm
+      {center}_j,x)}\right)^{2/(m-1)}}.]
+For m equal to 2, this is equivalent to normalising the coefficient linearly to
+make their sum 1. When m is close to 1, then cluster center closest to the
+point is given much more weight than the others, and the algorithm is similar
+to k-means.
+The fuzzy c-means algorithm is very similar to the k-means algorithm:[2]
+    * Choose_a_number_of_clusters.
+    * Assign randomly to each point coefficients for being in the clusters.
+    * Repeat until the algorithm has converged (that is, the coefficients'
+      change between two iterations is no more than [\varepsilon], the given
+      sensitivity threshold) :
+          o Compute the centroid for each cluster, using the formula above.
+          o For each point, compute its coefficients of being in the clusters,
+            using the formula above.
+The algorithm minimizes intra-cluster variance as well, but has the same
+problems as k-means; the minimum is a local minimum, and the results depend on
+the initial choice of weights. The expectation-maximization_algorithm is a more
+statistically formalized method which includes some of these ideas: partial
+membership in classes. It generally preferred to fuzzy-c-means.
+Fuzzy c-means has been a very important tool for image processing in clustering
+objects in an image. In the 70's, mathematicians introduced the spatial term
+into the FCM algorithm to improve the accuracy of clustering under noise.[3]
+*** [edit] QT clustering algorithm ***
+QT (quality threshold) clustering (Heyer, Kruglyak, Yooseph, 1999) is an
+alternative method of partitioning data, invented for gene clustering. It
+requires more computing power than k-means, but does not require specifying_the
+number_of_clusters a priori, and always returns the same result when run
+several times.
+The algorithm is:
+    * The user chooses a maximum diameter for clusters.
+    * Build a candidate cluster for each point by iteratively including the
+      point that is closest to the group, until the diameter of the cluster
+      surpasses the threshold.
+    * Save the candidate cluster with the most points as the first true
+      cluster, and remove all points in the cluster from further consideration.
+      Must clarify what happens if more than 1 cluster has the maximum number
+      of points ?
+    * Recurse with the reduced set of points.
+The distance between a point and a group of points is computed using complete
+linkage, i.e. as the maximum distance from the point to any member of the group
+(see the "Agglomerative hierarchical clustering" section about distance between
+clusters).
+**** [edit] Locality-sensitive hashing ****
+Locality-sensitive_hashing can be used for clustering. Feature space vectors
+are sets, and the metric used is the Jaccard_distance. The feature space can be
+considered high-dimensional. The MinHash min-wise independent permutations LSH
+scheme is then used to put similar items into buckets. With just one set of
+hashing methods, there are only clusters of very similar elements. By seeding
+the hash functions several times (e.g. 20), it is possible to get bigger
+clusters.[4]
+**** [edit] Graph-theoretic methods ****
+Formal_concept_analysis is a technique for generating clusters(called formal
+concepts) of objects and attributes, given a bipartite_graph representing the
+relation between the objects and attributes. This technique was introduced by
+Rudolf_Wille in 1984. Other methods for generating overlapping clusters (a
+cover rather than a partition) are discussed by Jardine and Sibson (1968) and
+Cole and Wishart (1970).
+***** [edit] Spectral clustering *****
+      See also: Kernel_principal_component_analysis
+Given a set of data points A, the similarity_matrix may be defined as a matrix
+S where Sij represents a measure of the similarity between points [i, j\in A].
+Spectral clustering techniques make use of the spectrum of the similarity
+matrix of the data to perform dimensionality_reduction for clustering in fewer
+dimensions.
+One such technique is the Normalized_Cuts_algorithm by Shi-Malik, commonly used
+for image_segmentation. It partitions points into two sets (S1,S2) based on the
+eigenvector v corresponding to the second-smallest eigenvalue of the Laplacian
+matrix
+      L = I â D â 1 / 2SD â 1 / 2
+of S, where D is the diagonal matrix
+      Dii = âSij.
+             j
+This partitioning may be done in various ways, such as by taking the median m
+of the components in v, and placing all points whose component in v is greater
+than m in S1, and the rest in S2. The algorithm can be used for hierarchical
+clustering by repeatedly partitioning the subsets in this fashion.
+A related algorithm is the Meila-Shi_algorithm, which takes the eigenvectors
+corresponding to the k largest eigenvalues of the matrix P = SD â 1 for some
+k, and then invokes another algorithm (e.g. k-means) to cluster points by their
+respective k components in these eigenvectors.
+***** [edit] Applications *****
+**** [edit] Biology ****
+In biology clustering has many applications
+    * In imaging, data clustering may take different form based on the data
+      dimensionality. For example, the SOCR_EM_Mixture_model_segmentation
+      activity_and_applet shows how to obtain point, region or volume
+      classification using the online SOCR computational libraries.
+    * In the fields of plant and animal ecology, clustering is used to describe
+      and to make spatial and temporal comparisons of communities (assemblages)
+      of organisms in heterogeneous environments; it is also used in plant
+      systematics to generate artificial phylogenies or clusters of organisms
+      (individuals) at the species, genus or higher level that share a number
+      of attributes
+    * In computational biology and bioinformatics:
+          o In transcriptomics, clustering is used to build groups of genes
+            with related expression patterns (also known as coexpressed genes).
+            Often such groups contain functionally related proteins, such as
+            enzymes for a specific pathway, or genes that are co-regulated.
+            High throughput experiments using expressed_sequence_tags (ESTs) or
+            DNA_microarrays can be a powerful tool for genome_annotation, a
+            general aspect of genomics.
+          o In sequence_analysis, clustering is used to group homologous
+            sequences into gene_families. This is a very important concept in
+            bioinformatics, and evolutionary_biology in general. See evolution
+            by gene_duplication.
+          o In high-throughput genotyping platforms clustering algorithms are
+            used to automatically assign genotypes.
+    * In QSAR and molecular modeling studies as also chemoinformatics
+**** [edit] Medicine, Psychology and Neuroscience ****
+In medical_imaging, such as PET_scans, cluster analysis can be used to
+differentiate between different types of tissue and blood in a three
+dimensional image. In this application, actual position does not matter, but
+the voxel intensity is considered as a vector, with a dimension for each image
+that was taken over time. This technique allows, for example, accurate
+measurement of the rate a radioactive tracer is delivered to the area of
+interest, without a separate sampling of arterial blood, an intrusive technique
+that is most common today.
+**** [edit] Market research ****
+Cluster analysis is widely used in market_research when working with
+multivariate data from surveys and test panels. Market researchers use cluster
+analysis to partition the general population of consumers into market segments
+and to better understand the relationships between different groups of
+consumers/potential customers.
+    * Segmenting the market and determining target_markets
+    * Product_positioning
+    * New_product_development
+    * Selecting test markets (see : experimental_techniques)
+**** [edit] Educational research ****
+In educational research analysis, data for clustering can be students, parents,
+sex or test score. Clustering is an important method for understanding and
+utility of cluster[5] in educational research. Cluster analysis in educational
+research can be used for data exploration,[6] cluster confirmation [7] and
+hypothesis testing.[7] Data exploration is used when there is little
+information about which schools or students will be grouped together.[6] It
+aims at discovering any meaningful clusters of units based on measures on a set
+of response variables. Cluster confirmation is used for confirming the
+previously reported cluster results.[7] Hypothesis testing is used for
+arranging cluster structure.[7]
+*** [edit] Example of cluster analysis in educational research ***
+In 2002, Hattie used cluster analysis in the project 'School Like Mine' [8] to
+compare studentsâ achievement in literacy and numeracy by the type of school
+they attended. 2707 majority and minority students in New Zealand are
+classified into different clusters according to school size, student ethnicity,
+region, size of civil jurisdiction and socioeconomic status for comparison. The
+cluster in this research is calculated across five dimensions, decile, region,
+size, minority and rurality. All schools are placed into one of twenty clusters
+that are used in the asTTle software[clarification_needed] as a basis of
+student achievement comparison. The result shows that using the power of
+socioeconomic status to describe schools is analysed and found inadequate.
+Euclidean_distance was used as the clustering method in this research. Schools
+that are alike were clustered together. In addition, dendrogram. By clustering
+schools, Hattie suggested that school types had no significant relation with
+performance of schools.
+*** [edit] Common cluster techniques in educational research ***
+All cluster techniques have two basic concerns: firstly, the measurement of
+similarity between individual profiles; and secondly, the use of that measure
+to form the groups or clusters. Brennan [9] described Iterative Relocation as
+the most important cluster technique in behavioral and educational research. It
+has been adopted at Lancaster to create typologies of pupils based on
+personality and behavioral items to identify types of students [10] and to
+isolate the skills considered to be important for certain grades of
+technologist in industry. Other similarity coefficients are available and the
+one chosen will depend upon the type of data gained.
+The number of groups needs to be decided. This is often an arbitrary decision
+and the groupings are random. The analysis then proceeds by computing the group
+profile (or group centroid) of each group, which is the cumulative frequencies
+of all variables measured. Each individual should be compared with each of the
+group centroids. A number of formulae are available for measuring this
+similarity. Among others, Wishart [9] has found the error sum of squares, a
+measure of dissimilarity, to be one of the most successful coefficients for
+continuous data. When relocate or alters the composition of groups and
+recalculate the group centroids are completed, a new iteration cycle commences.
+This sequence of comparison and relocation continues until all individuals are
+in the group whose central profile is most similar to their own. The solution
+is then said to be stable. The analysis is then continued by reducing the
+number of groups by one (N-1). This is achieved by a fushion process whereby a
+measure of dissimilarity (error sum of squares) between all pairs of group
+centroids is calculated again. The two most similar groups are then combined to
+reduce one group. Recalculate the group centroids and repeat steps 2 and 3
+until the solution is stable for the N-1 group level. This process can continue
+until the two level group is reached, at which point the analysis is complete.
+*** [edit] Advantages of cluster analysis ***
+Frisvad of BioCentrum-DTU said that cluster analysis is a good way for quick
+review of data, especially if the objects are classified into many groups.[11]
+In the âSchools Like Mineâ example,[8] 23 clusters of schools with
+different properties were clearly clustered. It is easy for users to assign or
+nominate themselves into a cluster they would most like to compare with in a
+school cluster database[8] because each cluster is clearly named with
+understandable terms.
+Cluster Analysis provides a simple profile of individuals.[8] Given a number of
+analysis units, for example school size, student ethnicity, region, size of
+civil jurisdiction and social economic status in this example, each of which is
+described by a set of characteristics and attributes. Cluster Analysis also
+suggests how groups of units are determined such that units within groups are
+similar in some respect and unlike those from other groups [12]
+*** [edit] Disadvantages of cluster analysis ***
+An object can be assigned in one cluster only.[8] For example in 'Schools Like
+Mine', schools are automatically assigned into the first twenty-two clusters.
+However, if schools want to compare themselves with integrated schools, they
+will have to manually assign themselves into cluster twenty-three. Data-driven
+clustering may not represent reality, because once a school is assigned to a
+cluster, it cannot be assigned to another one. Some schools may have more than
+one significant property or fall on the edge of two clusters.[8]
+Clustering may have detrimental effects to teachers who work in low-decile
+schools, students who are educated in them, and parents who support them, by
+telling them the schools are classified as ineffective, when in fact many are
+doing well in some unique aspects that are not sufficiently illustrated by the
+clusters formed.[8]
+In k-means clustering methods, it is often requires several analysis before the
+number of clusters can be determined.[13] It can be very sensitive to the
+choice of initial cluster centres.[13]
+*** [edit] Solution to problems of cluster analysis in educational research ***
+Hattie stated although Cluster analysis provides an easy way to make comparison
+between schools, no particular variable should be taken as the âshort cutâ
+for judging school quality.[8] in order to overcome the unit reassignment
+issue, some researchers suggest a nonhierarchical cluster method which allows
+for reassignment of units from one cluster. This operates through an iterative
+partitioning k- means algorithm, where k denotes the number of clusters.[7]
+Nevertheless, to conduct a k-means analysis, the number of clusters needs to be
+specified at the start. This limits the exploratory power of cluster analysis.
+Cluster Analysis has to be very carefully used in classifying schools into
+groups because results are heavily influenced by partial sampling, choice of
+clustering criteria and compositional variables, as well as cluster labeling.
+Like assigning schools into different bands, clustering may bring about
+unnecessary comparisons and inappropriate discriminations among schools,
+thereby adversely affecting students.[8]
+**** [edit] Other applications ****
+  Social network analysis
+      In the study of social_networks, clustering may be used to recognize
+      communities within large groups of people.
+  Software_evolution
+      Clustering is useful in software evolution as it helps to reduce legacy
+      properties in code by reforming functionality that has become dispersed.
+      It is a form of restructuring and hence is a way of directly preventative
+      maintenance.
+  Image segmentation
+      Clustering can be used to divide a digital image into distinct regions
+      for border_detection or object_recognition.
+  Data mining
+      Many data_mining applications involve partitioning data items into
+      related subsets; the marketing applications discussed above represent
+      some examples. Another common application is the division of documents,
+      such as World_Wide_Web pages, into genres.
+  Search result grouping
+      In the process of intelligent grouping of the files and websites,
+      clustering may be used to create a more relevant set of search results
+      compared to normal search engines like Google. There are currently a
+      number of web based clustering tools such as Clusty.
+  Slippy map optimization
+      Flickr's map of photos and other map sites use clustering to reduce the
+      number of markers on a map. This makes it both faster and reduces the
+      amount of visual clutter.
+  IMRT segmentation
+      Clustering can be used to divide a fluence map into distinct regions for
+      conversion into deliverable fields in MLC-based Radiation Therapy.
+  Grouping of Shopping Items
+      Clustering can be used to group all the shopping items available on the
+      web into a set of unique products. For example, all the items on eBay can
+      be grouped into unique products. (eBay doesn't have the concept of a SKU)
+  Recommender_systems
+      Recommender systems are designed to recommend new items based on a user's
+      tastes. They sometimes use clustering algorithms to predict a user's
+      preferences based on the preferences of other users in the user's
+      cluster.
+  Mathematical_chemistry
+      To find structural similarity, etc., for example, 3000 chemical compounds
+      were clustered in the space of 90 topological_indices.[14]
+  Climatology
+      To find weather regimes or preferred sea level pressure atmospheric
+      patterns.[15]
+  Petroleum Geology
+      Cluster Analysis is used to reconstruct missing bottom hole core data or
+      missing log curves in order to evaluate reservoir properties.
+  Physical Geography
+      The clustering of chemical properties in different sample locations.
+  Crime Analysis
+      Cluster analysis can be used to identify areas where there are greater
+      incidences of particular types of crime. By identifying these distinct
+      areas or "hot spots" where a similar crime has happened over a period of
+      time, it is possible to manage law enforcement resources more
+      effectively.
+  Evolutionary_algorithms
+      Clustering may be used to identify different niches within the population
+      of an evolutionary algorithm so that reproductive opportunity can be
+      distributed more evenly amongst the evolving species or subspecies.
+***** [edit] Evaluation of clustering *****
+Evaluation of clustering is sometimes referred to as Cluster validation.
+There have been several suggestions for a measure of similarity between two
+clusterings. Such a measure can be used to compare how well different data
+clustering algorithms perform on a set of data. These measures are usually tied
+to the type of criterion being considered in assessing the quality of a
+clustering method.
+**** [edit] Internal criterion of quality ****
+Clustering evaluation methods that adhere to internal criterion assign the best
+score to the algorithm that produces clusters with high similarity within a
+cluster and low similarity between clusters. One drawback of using internal
+criterion in cluster evaluation is that high scores on an internal measure do
+not necessarily result in effective information retrieval applications.[16]
+The following methods can be used to assess the quality clustering algorithms
+based on internal criterion:
+    * DaviesâBouldin_index
+      The Davies-Bouldin_index can be calculated by the following formula:
+      [
+      DB = \frac {1} {n} \sum_{i=1,i\neq j}^{n} \max\left(\frac{\sigma_i +
+      \sigma_j} {d(c_i,c_j)}\right)
+      ]
+      where n is the number of clusters, cx is the centroid of cluster x, Ïx
+      is the average distance of all elements in cluster x to centroid cx, and
+      d(ci,cj) is the distance between centroids ci and cj. Since algorithms
+      that produce clusters with low intra-cluster distances (high intra-
+      cluster similarity) and high inter-cluster distances (low inter-cluster
+      similarity) will have a low Davies-Bouldin index, the clustering
+      algorithm that produces a collection of clusters with the smallest
+      DaviesâBouldin_index is considered the best algorithm based on this
+      criteria.
+    * Dunn Index
+      The Dunn index aims to identify dense and well-separated clusters. It is
+      defined as the ratio between the minimal inter-cluster distance to
+      maximal intra-cluster distance. For each cluster partition, the Dunn
+      index can be calculated by the following formula [17]:
+      [
+      D = \min_{1\leq i \leq n}\left\{\min_{1\leq j \leq n,i\neq j}\left\{\frac
+      {d(i,j)}{\max_{1\leq k \leq n}{d^{'}(k)}}\right\}\right\}
+      ]
+      where d(i,j) represents the distance between clusters i and j, and d'(k)
+      measures the intra-cluster distance of cluster k. The inter-cluster
+      distance d(i,j) between two clusters may be any number of distance
+      measures, such as the distance between the centroids of the clusters.
+      Similarly, the intra-cluster distance d'(k) may be measured in a variety
+      ways, such as the maximal distance between any pair of elements in
+      cluster k. Since internal criterion seek clusters with high intra-cluster
+      similarity and low inter-cluster similarity, algorithms that produce
+      clusters with high Dunn index are more desirable.
+**** [edit] External criterion of quality ****
+Clustering evaluation methods that adhere to external criterion compare the
+results of the clustering algorithm against some external benchmark. Such
+benchmarks consist of a set of pre-classified items, and these sets are often
+created by human (experts). Thus, the benchmark sets can be thought of as a
+gold_standard for evaluation. These types of evaluation methods measure how
+close the clustering is to the predetermined benchmark classes. However, it has
+recently been discussed whether this is adequate for real data, or only on
+synthetic data sets with a factual ground truth, since classes can contain
+internal structure, the attributes present may not allow separation of clusters
+or the classes may contain anomalies.[18]
+Some of the measures of quality of a cluster algorithm using external criterion
+include:
+    * Rand_measure
+      The Rand index computes how similar the clusters (returned by the
+      clustering algorithm) are to the benchmark classifications. One can also
+      view the Rand index as a measure of the percentage of correct decisions
+      made by the algorithm. It can be compute using the following formula:
+      [
+      RI = \frac {TP + TN} {TP + FP + FN + TN}
+      ]
+      where TP is the number of true_positives, TN is the number of true
+      negatives, FP is the number of false_positives, and FN is the number of
+      false_negatives. One issue with the Rand_index is that false_positives
+      and false_negatives are equally weighted. This may be an undesirable
+      characteristic for some clustering applications. The F-measure addresses
+      this concern.
+    * F-measure
+      The F-measure can be used to balance the contribution of false_negatives
+      by weighting recall through a parameter [\beta \geq 0]. Let precision and
+      recall be defined as follows:
+      [
+      P = \frac {TP } {TP + FP }
+      ]
+      [
+      R = \frac {TP } {TP + FN}
+      ]
+      where P is the precision rate and R is the recall rate. We can calculate
+      the F-measure by using the following formula [16]:
+      [
+      F_{\beta} = \frac {(\beta^2 + 1)\cdot P \cdot R } {\beta^2 \cdot P + R}
+      ]
+      Notice that when Î² = 0, F0 = P. In other words, recall has no impact on
+      the F-measure when Î² = 0, and increasing Î² allocates an increasing
+      amount of weight to recall in the final F-measure.
+    * Jaccard_index
+      The Jaccard index is used to quantify the similarity between two
+      datasets. The Jaccard_index takes on a value between 0 and 1. An index of
+      1 means that the two dataset are identical, and an index of 0 indicates
+      that the datasets have no common elements. The Jaccard index is defined
+      by the following formula:
+      [
+      J(A,B) = \frac {|A \cap B| } {|A \cup B|}
+      ]
+      This is simply the number of unique elements common to both sets divided
+      by the total number of unique elements in both sets.
+    * Fowlkes-Mallows index
+    * confusion_matrix
+      A confusion matrix can be used to quickly visualize the results of a
+      classification (or clustering) algorithm.It shows how different a cluster
+      is different from the gold standard cluster.
+**** [edit] Relative criterion of quality ****
+Cluster evaluation methods that incorporate relative criterion directly
+evaluate the clustering algorithm in regard to user needs. For example, a
+clustering algorithm may perform admirably based on various internal criterion,
+but the algorithm may be unnecessarily slow. If the user seeks quick clustering
+response, a faster algorithm that performs slightly poorer on the internal
+criterion may be more desirable. This valuation method is more direct and
+requires carefully defining what the "user's needs" are. This approach can also
+be more expensive, in particular if large user studies are required to fully
+understand user preference. [16]
+***** [edit] Algorithms *****
+In recent years considerable effort has been put into improving algorithm
+performance (Z. Huang, 1998)[Full_citation_needed]. Among the most popular are
+CLARANS (Ng and Han,1994)[Full_citation_needed], DBSCAN[19] and BIRCH (Zhang et
+al., 1996)[Full_citation_needed].
+Several different clustering systems based on mutual_information have been
+proposed. One is Marina Meila's 'Variation of Information' metric; another
+provides hierarchical clustering.[20] The adjusted-for-chance version for the
+mutual information is the Adjusted_Mutual_Information (AMI), which corrects
+mutual information for agreement solely due to chance between clusterings (Vinh
+et al., 2009)[Full_citation_needed]. Using genetic algorithms, a wide range of
+different fit-functions can be optimized, including mutual information.[21]
+***** [edit] See also *****
+    * Adjusted_Mutual       * Data_clustering         * Nearest_neighbor
+      Information             algorithms                search
+    * Artificial_neural     * Data_mining             * Neural_Gas
+      network (ANN)         * Data_stream             * Neighbourhood
+    * Cluster-weighted        clustering                components_analysis
+      modeling              * Determining_the         * Paired_difference
+    * Clustering_high-        number_of_clusters        test
+      dimensional_data        in_a_data_set           * Principal_Component
+    * Consensus             * Dimension_reduction       Analysis
+      clustering            * Latent_Class            * Silhouette
+    * Constrained             Analysis                * Structured_data
+      clustering            * Mixture_modelling         analysis_
+    * Curse_of              * Multidimensional          (statistics)
+      dimensionality          scaling                 * Parallel_coordinates
+***** [edit] References *****
+   1. ^ MacQueen, J. B. (1967). Some Methods for classification and Analysis of
+      Multivariate Observations, Proceedings of 5th Berkeley Symposium on
+      Mathematical Statistics and Probability, Berkeley, University of
+      California Press, 1:281-297
+   2. ^ Bezdek, James C. (1981). Pattern Recognition with Fuzzy Objective
+      Function Algorithms. ISBN 0306406713 
+   3. ^ Ahmed, Mohamed N.; Yamany, Sameh M.; Mohamed, Nevin; Farag, Aly A.;
+      Moriarty, Thomas (2002), "A_Modified_Fuzzy_C-Means_Algorithm_for_Bias
+      Field_Estimation_and_Segmentation_of_MRI_Data", IEEE Transactions on
+      Medical Imaging 21 (3): 193â199, http://www.cvip.uofl.edu/wwwcvip/
+      research/publications/Pub_Pdf/2002/3.pdf .
+   4. ^ Google_News_personalization:_scalable_online_collaborative_filtering
+   5. ^ [1], Cluster Analysis: Basic Concepts and Algorithms
+   6. ^ a b Finch, H. (2005). Comparison of distance measures in cluster
+      analysis with dichotomous data. Journal of Data Science, 3, 85-100
+   7. ^ a b c d e Huberty, C. J., Jordan, E. M., &amp; Brandt, W. C. (2005).
+      Cluster analysis in higher education research. In J. C. Smart (Ed.),
+      Higher Education: Handbook of Theory and Research (Vol. 20, pp. 437-457).
+      Great Britain: Springer.
+   8. ^ a b c d e f g h i Hattie (2002). Schools Like Mine: Cluster Analysis of
+      New Zealand Schools. Technical Report 14, Project asTTle. University of
+      Auckland.
+   9. ^ a b Bennett, S. N. (1975). Cluster analysis in educational research: A
+      non-statistical introduction. Research Intelligence, 1, 64-70.
+  10. ^ Entwistle, N. J., &amp; Brennan, T. (1971). Types of successful
+      students. British Journal of Educational Psychology, 41, 268-276.
+  11. ^ [2], Frisvad. Cluster Analysis. Based on BasedonH.C. Romesburg:
+      Clusteranalysisfor researchers, LifetimeLearningPublications, Belmont,
+      CA, 1984 P.H.A. Sneathand R.R. Sokal: NumericxalTaxonomy, Freeman, San
+      Francisco, CA, 1973 http://www2.imm.dtu.dk/courses/27411/doc/Lection10/
+      Cluster%20analysis.pdf
+  12. ^ Carl J Huberty, E. Michael Jordan and W. Christopher Brandt (2005).
+      Carl J Huberty11, E. Michael Jordan12 and W. Christopher Brandt13 Vol:20.
+      pp.437-457.Springer Netherlands.
+  13. ^ a b Cornish, (2007). Cluster Analysis. Mathematics Learning Support
+      Chapter 3.1.
+  14. ^ Basak S.C., Magnuson V.R., Niemi C.J., Regal R.R. "Determing Structural
+      Similarity of Chemicals Using Graph Theoretic Indices". Discr. Appl.
+      Math., 19, 1988: 17-44.
+  15. ^ Huth R. et al. "Classifications of Atmospheric Circulation Patterns:
+      Recent Advances and Applications". Ann. N.Y. Acad. Sci., 1146, 2008: 105-
+      152
+  16. ^ a b c Christopher D. Manning, Prabhakar Raghavan &amp; Hinrich Schutze.
+      Introduction to Information Retrieval. Cambridge University Press.
+      ISBN 978-0-521-86571-5. 
+  17. ^ Dunn, J. (1974). "Well separated clusters and optimal fuzzy
+      partitions". Journal of Cybernetics 4: 95â104. 
+  18. ^ Ines FÃ¤rber, Stephan GÃ¼nnemann, Hans-Peter_Kriegel, Peer KrÃ¶ger,
+      Emmanuel MÃ¼ller, Erich Schubert, Thomas Seidl, Arthur Zimek (2010). "On
+      Using_Class-Labels_in_Evaluation_of_Clusterings". In Xiaoli Z. Fern, Ian
+      Davidson, Jennifer Dy. MultiClust: Discovering, Summarizing, and Using
+      Multiple Clusterings. ACM SIGKDD. http://eecs.oregonstate.edu/research/
+      multiclust/Evaluation-4.pdf. 
+  19. ^ Martin Ester, Hans-Peter_Kriegel, JÃ¶rg Sander, Xiaowei Xu (1996). "A
+      density-based_algorithm_for_discovering_clusters_in_large_spatial
+      databases_with_noise". In Evangelos Simoudis, Jiawei Han, Usama M.
+      Fayyad. Proceedings of the Second International Conference on Knowledge
+      Discovery and Data Mining (KDD-96). AAAI_Press. pp. 226â231. ISBN 1-
+      57735-004-9. http://citeseerx.ist.psu.edu/viewdoc/
+      summary?doi=10.1.1.71.1980. 
+  20. ^ Alexander Kraskov, Harald StÃ¶gbauer, Ralph G. Andrzejak, and Peter
+      Grassberger, "Hierarchical Clustering Based on Mutual Information",
+      (2003) ArXiv_q-bio/0311039
+  21. ^ Auffarth, B. (2010). Clustering by a Genetic Algorithm with Biased
+      Mutation Operator. WCCI CEC. IEEE, July 18â23, 2010. http://
+      citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.170.869
+***** [edit] Further reading *****
+    * Romesburg, H. Charles, Cluster Analysis for Researchers, 2004, 340
+      pp. ISBN_1-4116-0617-5, reprint of 1990 edition published by Krieger_Pub.
+      Co... A Japanese language translation is available from Uchida_Rokakuho
+      Publishing_Co., Ltd., Tokyo, Japan.
+    * Aldenderfer, M.S., Blashfield, R.K, Cluster Analysis, (1984), Newbury
+      Park (CA): Sage.
+***** [edit] External links *****
+    * PAL_Clustering_suite written in Java.
+
+Retrieved from "http://en.wikipedia.org/wiki/Cluster_analysis"
+
+Categories: Data_mining | Data_analysis | Cluster_analysis | Geostatistics |
+Machine_learning | Multivariate_statistics | Knowledge_discovery_in_databases
+Hidden categories: Wikipedia_articles_needing_rewrite_from_May_2009 | Articles
+to_be_merged_from_May_2009 | All_articles_to_be_merged | All_pages_needing
+cleanup | Articles_to_be_merged_from_October_2009 | Wikipedia_articles_needing
+clarification_from_December_2010
+

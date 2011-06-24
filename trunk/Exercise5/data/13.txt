@@ -1,0 +1,210 @@
+
+****** Category:Information technology management ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                 Pages in this category should be moved to subcategories where
+                 applicable.
+[Sub-arrows.svg] This category may require frequent maintenance to avoid
+                 becoming too large. It should directly contain very few, if
+                 any, articles and should mainly contain subcategories.
+[â] Information_technology_management
+[+] Computer_data
+[+] Customer_relationship_management_software
+[+] Data_management
+[+] Data_mining
+[+] Data_security
+[+] Data_warehousing
+[Ã] Document_management_systems
+[+] Dot-com
+[+] Electronic_commerce
+[+] Enterprise_architecture
+[+] Information_technology_governance
+[Ã] Help_desk
+[+] Information_Risk_Management
+[Ã] Information_technology_audit
+[+] Knowledge_management
+[Ã] Laboratory_Information_Management_System
+[+] Method_engineering
+[+] Network_management
+[+] Product_lifecycle_management
+[+] Service-oriented_(business_computing)
+[+] Software_engineering
+[+] System_administration
+Contents:     Top  Â·  0â9  Â·  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+ Information technology management is included in the JEL_classification_codes:
+ JEL: M15
+ Wikimedia Commons has media related to: Information_technology_management
+See Information_technology_management for an overview of this topic.
+***** Subcategories *****
+This category has the following 22 subcategories, out of 22 total.
+**** C ****                                      **** E ****                                                  **** M ****
+    * [+]  Computer_data (15 C, 61 P)                * [+]  Electronic_commerce (18 C, 316 P)                     * [+]  Method
+    * [+]  Customer_relationship_management          * [+]  Enterprise_architecture (5 C, 88 P)                     engineering (3
+      software (4 C, 61 P)                       **** G ****                                                        C, 13 P)
+**** D ****                                          * [+]  Information_technology_governance (1 C, 25 P)     **** N ****
+    * [+]  Data_management (30 C, 280 P)         **** H ****                                                      * [+]  Network
+    * [+]  Data_mining (2 C, 90 P)                   * [Ã]  Help_desk (31 P)                                     management (5
+    * [+]  Data_security (5 C, 111 P)            **** I ****                                                        C, 189 P)
+    * [+]  Data_warehousing (1 C, 42 P)              * [+]  Information_Risk_Management (3 C, 13 P)           **** P ****
+    * [Ã]  Document_management_systems (57 P)     * [Ã]  Information_technology_audit (22 P)                * [+]  Product
+    * [+]  Dot-com (2 C, 157 P)                  **** K ****                                                        lifecycle
+                                                     * [+]  Knowledge_management (2 C, 58 P)                        management (1
+                                                 **** L ****                                                        C, 79 P)
+                                                     * [Ã]  Laboratory_Information_Management_System (6 P) **** S ****
+                                                                                                                  * [+]  Service-
+                                                                                                                    oriented_
+                                                                                                                    (business
+                                                                                                                    computing) (3
+                                                                                                                    C, 92 P)
+                                                                                                                  * [+]  Software
+                                                                                                                    engineering
+                                                                                                                    (17 C, 44 P)
+                                                                                                                  * [+]  System
+                                                                                                                    administration
+                                                                                                                    (9 C, 154 P)
+Pages in category "Information technology management"
+The following 200 pages are in this category, out of 269 total. This list may
+not reflect recent changes (learn_more).
+(previous 200) (next_200)
+    * Information         **** D cont. ****         **** I cont. ****
+      technology              * Desktop_Outsourcing     * Information_Services
+      management              * Device_Management         Procurement_Library
+**** * ****                     Forum                   * Information
+    * Data_proliferation      * DevOps                    technology
+    * Information             * Digital_asset             consulting
+      Lifecycle                 management              * Information
+      Management              * VFinity                   Technology
+    * Information             * Digital_Fuel              Infrastructure
+      repository              * DigitalFusion             Library
+    * Storage                   Platform                * Information
+      virtualization          * Direct_digital            technology_planning
+**** 2 ****                     manufacturing           * Infra_Corporation
+    * 25U_Signal_Support      * Disintermediation       * Integrated_Data
+      Systems_Specialist      * Distributed               Management
+**** A ****                     development             * Intelligent_device
+    * Aarohan                 * Document_imaging          management
+    * Accelops                * DocSTAR                 * Intelligent_workload
+    * Advanced_planning       * Document_management       management
+      and_scheduling            system                  * International
+    * Application             * Dot-com_bubble            Association_for
+      Portfolio               * Downtime                  Human_Resource
+      Management              * Drill_down                Information
+    * Application             * Dynamic_business          Management
+      Services_Library          process_management      * The_International
+    * Autonomic           **** E ****                     Records_Management
+      Networking              * E-Booking_(UK             Trust
+**** B ****                     government_project)     * Intranet_strategies
+    * Bachelor_in             * E-HRM                   * ISO/IEC_19770
+      Information             * Early-arriving_fact     * ISO/IEC_20000
+      Management              * ETM_(Economic           * ISO/IEC_27000-series
+    * Banking_BPO               Traffic_Management)     * IT_Asset_&amp;
+      Services                * EDIFACT                   Service_Management
+    * Battle_Command          * EFx_Factory             * IT_asset_management
+      Knowledge_System        * Electronic_commerce     * IT_baseline
+    * Bizagi                  * Electronic_data           protection
+    * Blind_credential          processing              * IT_cost_transparency
+    * Bonita_Open             * Electronic_Document     * IT_Interaction_Model
+      Solution                  and_Records             * IT_portfolio
+    * Bricks_and_clicks         Management_System         management
+    * Building_lifecycle      * Electronic_Human        * IT_risk
+      management                Resources               * IT_risk_management
+    * Business                * Enterprise_bus          * IT_service
+      informatics               matrix                    continuity
+    * Business                * Enterprise_content      * IT_service
+      Information               management                management
+      Services_Library        * Enterprise              * IT_Service
+    * Business_Object           information               Management_Forum
+      Model                     management              * ITIL_Planning_to
+    * Business                * Enterprise_IT             implement_service
+      performance               Management                management
+      management              * Enterprise_Output       * ITIL_security
+    * Business_process          Management                management
+      management              * Enterprise_portal   **** J ****
+    * PNMsoft                 * Enterprise_project      * JAPS
+    * Business_process          management          **** K ****
+      outsourcing             * Enterprise_wiki         * Key_server_(software
+    * Business_record         * Epitechnology             licensing)
+    * Business_service        * ERP_for_IT              * Knowledge_management
+      management              * ESCM_(eSourcing           software
+    * Business_Technology       Capability_Model)       * Knowledge_spillover
+      Management              * ESCM-CL             **** L ****
+    * Business                * ESCM-SP                 * League_Lab
+      transaction             * European_Research       * Lean_IT
+      performance               Center_for              * Legal_matter
+    * Business                  Information_Systems       management
+      transformation          * Executive               * Library_Review
+    * Business-to-              information_system      * Local_information
+      business            **** F ****                     systems
+    * Business-to-            * Financial           **** M ****
+      employee                  Management_for_IT       * Management
+    * Business-to-              Services_(ITSM)           information_system
+      government              * Financial               * Many-to-many
+**** C ****                     Management_Standard     * Master_data
+    * CA_IT_Process           * FORTRAS                   management
+      Automation_Manager  **** G ****                   * Master_of_Business
+    * Cable_management        * GESMES/TS                 Informatics
+    * Capability_Maturity     * Global_delivery         * Material
+      Model                     model                     requirements
+    * Capacity_management     * Corporate                 planning
+    * CatDV                     Governance_of_ICT       * Microsoft_Customer
+    * Central_Computer        * Corporate                 Care_Framework
+      and                       governance_of           * Microsoft_Operations
+      Telecommunications        information               Framework
+      Agency                    technology              * Mobile_business
+    * Change_Management_      * Granular                  development
+      (ITSM)                    Configuration           * Mobile_document
+    * Change_management         Automation                access
+      auditing                * Grey_problem            * MobShop
+    * Clean_enterprise    **** H ****                   * Multifunction
+    * Closed_Loop             * Hierarchical              printer
+      Lifecycle                 storage_management      * Mung_(computer_term)
+      Management              * High_Availability   **** N ****
+    * COBIT                     Application             * National_Biological
+    * Computer-aided            Architecture              Information
+      facility_management     * Holistic_Data             Infrastructure
+    * Computer-aided            Management              * Network
+      manufacturing           * HP_ePrint                 configuration_and
+    * Computer-aided          * HP_FutureSmart            change_management
+      process_planning          firmware            **** O ****
+    * Computer-integrated     * HP_Open                 * ODMA
+      manufacturing             Extensibility           * OMII-UK
+    * Computerized              Platform_(OXP)          * One-to-many
+      Maintenance             * Human_interaction       * One-to-one_
+      Management_System         management                (communication)
+    * Configuration       **** I ****                   * Online_analytical
+      Management_(ITSM)       * IBM_Tivoli_Unified        processing
+    * Configuration             Process_(ITUP)          * Open_Cobalt
+      management_database     * Identity_Governance     * OpenACS
+    * Consumer_privacy          Framework               * OpenIT
+    * Contract_management     * IFPUG                   * Operational_database
+    * Corporate_taxonomy      * Imaging_for_Windows     * Operational
+    * Croquet_Project         * Incident_Management       intelligence
+    * Cumulus_(software)        (ITSM)                  * Operational_level
+    * Customer                * Information               agreement
+      communications            management              * Operational_system
+      management              * Information_model       * Information
+    * Customer                * Information               technology
+      intelligence              protection_policy         operations
+    * Customer_to             * Information             * Operations
+      customer                  security_governance       architecture
+**** D ****                                             * OPIDIS
+    * Data_farming                                      * Optimization_
+    * Data_warehouse                                      (Infrastructure
+    * Data_warehouse                                      &amp;_Application
+      appliance                                           Platform)
+    * Dataspaces
+    * Definitive_Media
+      Library
+    * Demand_chain
+(previous 200) (next_200)
+Retrieved from "http://en.wikipedia.org/wiki/Category:
+Information_technology_management"
+
+Categories: Project_management | Information_technology
+Hidden categories: Categories_requiring_diffusion | Categories_which_are
+included_in_the_JEL_classification_codes
+

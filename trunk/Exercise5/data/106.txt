@@ -1,0 +1,89 @@
+
+****** Zementis Inc ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                    This article is an orphan, as few or no other articles link
+[Wiki_letter_w.svg] to_it. Please introduce_links to this page from related
+                    articles; suggestions_may_be_available. (July 2010)
+ This article has no lead_section. Please help by adding an introductory
+ section to this article. For more information, see the layout_guide, and
+ Wikipedia's lead_section_guidelines, and join in a discussion of the issue on
+ the talk_page. (September 2010)
+               ADAPA
+Developer(s)   Zementis_Inc.
+Stable_release 3.0 / May, 2010
+Type           Predictive_Analytics
+License        Software_as_a_service
+Website        www.zementis.com
+***** Contents *****
+    * 1_The_"Zementis"_Name
+    * 2_The_Road_to_ADAPA
+    * 3_Zementis_Locations
+    * 4_See_also
+    * 5_References
+    * 6_External_links
+***** [edit] The "Zementis" Name *****
+The name Zementis, symbolizing "concrete thoughts", is derived from the German
+word Zement (cement, concrete) and the Latin word Mentis (thought, intellect)
+and relates to the company's core competence in machine learning and AI.
+[citation_needed]
+***** [edit] The Road to ADAPA *****
+Founded in 2004 with the goal of providing predictive_analytics to the
+marketplace, Zementis is composed of two main divisions, analytics and
+engineering. Although it started as a company focused on building predictive
+models, Zementis scientists soon realized that their models needed a platform
+in which they could be easily deployed and managed. From this need, the ADAPA
+Decision Engine came to be.
+ADAPA initially supported only neural_networks, but it soon became a platform
+for the deployment of a myriad of statistical techniques as well as data
+processing. From its inception, ADAPA has been based on open-standards,
+including PMML, the Predictive Model Markup Language. As a member of the Data
+Mining Group (DMG), the committee defining PMML, Zementis has helped shaped the
+standard as it becomes the necessary vehicle for the sharing of predictive
+solutions between applications.
+In 2008, ADAPA was launched as a service on the Amazon_Elastic_Compute_Cloud
+and is currently being used worldwide by companies and individuals who want to
+execute their predictive models and decision logic.
+In 2011, building on the heritage of its ADAPA Decision Engine, Zementis
+launched the Universal PMML Plug-in, a highly optimized, in-database scoring
+engine for predictive models, fully supporting the PMML standard. With PMML,
+the Plug-in delivers a wide range of predictive analytics for high performance
+scoring. It shortens time to market for predictive models and empowers users
+through instant deployment of predictive models.
+Zementis is a privately held company with offices in the USA and in Asia.
+***** [edit] Zementis Locations *****
+Zementis HQ is located in San Diego in California. It also has an office in
+Hong Kong for servicing clients in the Asia-Pacific region.
+***** [edit] See also *****
+    * ADAPA
+    * Data_mining
+    * Predictive_analytics
+    * PMML
+***** [edit] References *****
+    * R. Nisbet, J. Elder, and G. Miner. Handbook of Statistical Analysis and
+      Data Mining Applications. Academic Press, 2009.
+    * A. Guazzelli, M. Zeller, W. Lin, and G. Williams. PMML:_An_Open_Standard
+      for_Sharing_Models. The R Journal, Volume 1/1, May 2009.
+    * A. Guazzelli, K. Stathatos, M. Zeller. Efficient_Deployment_of_Predictive
+      Analytics_through_Open_Standards_and_Cloud_Computing. The ACM SIGKDD
+      Explorations Newsletter, Volume 11/1, July 2009.
+    * A. Guazzelli, W. Lin, T. Jena (2010). PMML_in_Action:_Unleashing_the
+      Power_of_Open_Standards_for_Data_Mining_and_Predictive_Analytics.
+      CreateSpace.
+***** [edit] External links *****
+    * Zementis Web site www.zementis.com
+    * DMG Web Site www.dmg.org
+
+Retrieved from "http://en.wikipedia.org/wiki/Zementis_Inc"
+
+Categories: Business_software | Data_mining | Companies_based_in_San_Diego,
+California | Software_companies_of_the_United_States
+Hidden categories: Orphaned_articles_from_July_2010 | All_orphaned_articles |
+Wikipedia_introduction_cleanup_from_September_2010 | All_pages_needing_cleanup
+| Pages_missing_lead_section | All_articles_with_unsourced_statements |
+Articles_with_unsourced_statements_from_September_2010
+

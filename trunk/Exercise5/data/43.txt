@@ -1,0 +1,83 @@
+
+****** Document classification ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Document classification/categorization is a problem in information_science. The
+task is to assign an electronic_document to one or more categories, based on
+its contents. Document classification tasks can be divided into two sorts:
+supervised document classification where some external mechanism (such as human
+feedback) provides information on the correct classification for documents, and
+unsupervised document classification (also known as document_clustering), where
+the classification must be done entirely without reference to external
+information. There is also a semi-supervised document classification, where
+parts of the documents are labeled by the external mechanism.
+***** Contents *****
+    * 1_Techniques
+    * 2_Applications
+    * 3_See_also
+    * 4_Further_reading
+***** [edit] Techniques *****
+Document classification techniques include:
+    * Expectation_maximizations(EM)
+    * naive_Bayes_classifier
+    * tf-idf
+    * latent_semantic_indexing
+    * support_vector_machines (SVM)
+    * artificial_neural_network
+    * kNN
+    * decision_trees, such as ID3 or C4.5
+    * Concept_Mining
+    * Rough_set_based_classifier
+    * Soft_set_based_classifier
+and approaches based on natural_language_processing.
+***** [edit] Applications *****
+Classification techniques have been applied to
+    * spam_filtering, a process which tries to discern E-mail_spam messages
+      from legitimate emails
+    * topic_spotting, automatically determining the topic of a text
+          o email_routing, sending an email sent to a general address to a
+            specific address or mailbox depending on topic[1]
+    * language_guessing, automatically determining the language of a text
+***** [edit] See also *****
+    * classification_(disambiguation)       * information_retrieval
+    * Compound_term_processing              * string_metrics
+    * supervised_learning, unsupervised     * machine_learning
+      learning                              * text_mining, web_mining, concept
+    * document_retrieval                      mining
+    * document_clustering                   * RapidMiner - open source text
+                                              mining software used for document
+                                              classification, e-mail spam
+                                              detection, e-mail routing, text
+                                              sentiment_analysis, and other
+                                              text_classification tasks.
+***** [edit] Further reading *****
+Publications:
+    * Fabrizio Sebastiani. Machine_learning_in_automated_text_categorization.
+      ACM Computing Surveys, 34(1):1â47, 2002.
+    * Stefan BÃ¼ttcher, Charles L. A. Clarke, and Gordon V. Cormack.
+      Information_Retrieval:_Implementing_and_Evaluating_Search_Engines. MIT
+      Press, 2010.
+    * Introduction_to_document_classification
+    * Bibliography_on_Automated_Text_Categorization
+    * Bibliography_on_Query_Classification
+    * Text_Classification analysis page
+    * Learning_to_Classify_Text_-_Chap._6_of_the_book_Natural_Language
+      Processing_with_Python (available online)
+References:
+   1. ^ Stephan Busemann, Sven Schmeier and Roman G. Arens (2000). Message
+      classification in the call center. In Sergei Nirenburg, Douglas Appelt,
+      Fabio Ciravegna and Robert Dale, eds., Proc. 6th Applied Natural Language
+      Processing Conf. (ANLP'00), pp. 158-165, ACL.
+Data sets:
+    * TechTC_-_Technion_Repository_of_Text_Categorization_Datasets
+    * David_D._Lewis's_Datasets
+
+Retrieved from "http://en.wikipedia.org/wiki/Document_classification"
+
+Categories: Information_science | Natural_language_processing | Knowledge
+representation | Data_mining | Machine_learning
+

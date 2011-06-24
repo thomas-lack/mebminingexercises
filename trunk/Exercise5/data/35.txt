@@ -1,0 +1,68 @@
+
+****** Concept mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article does not cite any references_or_sources.
+ Please help improve_this_article by adding citations to reliable_sources.
+ Unsourced material may be challenged and removed. (June 2009)
+Concept mining is an activity that results in the extraction of concepts from
+artifacts. Solutions to the task typically involve aspects of artificial
+intelligence and statistics, such as data_mining and text_mining. Because
+artifacts are typically a loosely structured sequence of words and other
+symbols (rather than concepts), the problem is nontrivial, but it can provide
+powerful insights into the meaning, provenance and similarity of documents.
+***** Contents *****
+    * 1_Methods
+    * 2_Applications
+          o 2.1_Detecting_and_indexing_similar_documents_in_large_corpora
+          o 2.2_Clustering_documents_by_topic
+    * 3_See_also
+***** Methods *****
+Traditionally, the conversion of words to concepts has been performed using a
+thesaurus, and for computational techniques the tendency is to do the same. The
+thesauri used are either specially created for the task, or a pre-existing
+language model, usually related to Princeton's WordNet.
+The mappings of words to concepts are often ambiguous. Typically each word in a
+given language will relate to several possible concepts. Humans use context to
+disambiguate the various meanings of a given piece of text, where available.
+Machine translation systems cannot easily infer context.
+For the purposes of concept mining however, these ambiguities tend to be less
+important than they are with machine translation, for in large documents the
+ambiguities tend to even out, much as is the case with text mining.
+There are many techniques for disambiguation that may be used. Examples are
+linguistic analysis of the text and the use of word and concept association
+frequency information that may be inferred from large text corpora. Recently,
+techniques that base on semantic_similarity between the possible concepts and
+the context have appeared and gained interest in the scientific community.
+***** Applications *****
+**** Detecting and indexing similar documents in large corpora ****
+One of the spin-offs of calculating document statistics in the concept domain,
+rather than the word domain, is that concepts form natural tree structures
+based on hypernymy and meronymy. These structures can be used to produce simple
+tree membership statistics, that can be used to locate any document in a
+Euclidean_concept_space. If the size of a document is also considered as
+another dimension of this space then an extremely efficient indexing system can
+be created. This technique is currently in commercial use locating similar
+legal documents in a 2.5 million document corpus.
+**** Clustering documents by topic ****
+Standard numeric clustering techniques may be used in "concept space" as
+described above to locate and index documents by the inferred topic. These are
+numerically far more efficient than their text_mining cousins, and tend to
+behave more intuitively, in that they map better to the similarity measures a
+human would generate.
+***** See also *****
+    * Formal_concept_analysis
+    * Information_extraction
+    * Compound_term_processing
+
+Retrieved from "http://en.wikipedia.org/wiki/Concept_mining"
+
+Categories: Natural_language_processing | Artificial_intelligence_applications
+| Data_mining
+Hidden categories: Articles_lacking_sources_from_June_2009 | All_articles
+lacking_sources
+

@@ -1,0 +1,78 @@
+
+****** Evolutionary data mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Evolutionary data mining, or genetic data mining is an umbrella_term for any
+data_mining using evolutionary_algorithms. While it can be used for mining data
+from DNA_sequences,[1] it is not limited to biological contexts and can be used
+in any classification-based prediction scenario, which helps "predict the value
+... of a user-specified goal attribute based on the values of other
+attributes."[2] For instance, a banking institution might want to predict
+whether a customer's credit would be "good" or "bad" based on their age, income
+and current savings.[2] Evolutionary algorithms for data mining work by
+creating a series of random rules to be checked against a training dataset.[3]
+The rules which most closely fit the data are selected and are mutated.[3] The
+process is iterated many times and eventually, a rule will arise that
+approaches 100% similarity with the training data.[2] This rule is then checked
+against a test dataset, which was previously invisible to the genetic
+algorithm.[2]
+***** Contents *****
+    * 1_Process
+          o 1.1_Data_preparation
+          o 1.2_Data_mining
+    * 2_See_also
+    * 3_References
+***** [edit] Process *****
+**** [edit] Data preparation ****
+Before databases can be mined for data using evolutionary algorithms, it first
+has to be cleaned,[2] which means incomplete, noisy or inconsistent data should
+be repaired. It is imperative that this be done before the mining takes place,
+as it will help the algorithms produce more accurate results.[3]
+If data comes from more than one database, they can be integrated, or combined,
+at this point.[3] When dealing with large datasets, it might be beneficial to
+also reduce the amount of data being handled.[3] One common method of data
+reduction works by getting a normalized sample of data from the database,
+resulting in much faster, yet statistically equivalent results.[3]
+At this point, the data is split into two equal but mutually exclusive
+elements, a test and a training dataset.[2] The training dataset will be used
+to let rules evolve which match it closely.[2] The test dataset will then
+either confirm or deny these rules.[2]
+**** [edit] Data mining ****
+Evolutionary algorithms work by trying to emulate natural evolution.[3] First,
+a random series of "rules" are set on the training dataset, which try to
+generalize the data into formulas.[3] The rules are checked, and the ones that
+fit the data best are kept, the rules that do not fit the data are discarded.
+[3] The rules that were kept are then mutated, and multiplied to create new
+rules.[3]
+This process iterates as necessary in order to produce a rule that matches the
+dataset as closely as possible.[3] When this rule is obtained, it is then
+checked against the test dataset.[2] If the rule still matches the data, then
+the rule is valid and is kept.[2] If it does not match the data, then it is
+discarded and the process begins by selecting random rules again.[2]
+***** [edit] See also *****
+    * Data_mining
+    * Evolutionary_algorithm
+    * Knowledge_discovery
+    * Pattern_mining
+    * Data_analysis
+***** [edit] References *****
+   1. ^ Wai-Ho Au, Keith C. C. Chan, and Xin Yao. "A_Novel_Evolutionary_Data
+      Mining_Algorithm_With_Applications_to_Churn_Prediction", IEEE, retrieved
+      on 2008-12-4.
+   2. ^ a b c d e f g h i j k Freitas, Alex A. "A_Survey_of_Evolutionary
+      Algorithms_for_Data_Mining_and_Knowledge_Discovery", PontifÃ­cia
+      Universidade_CatÃ³lica_do_ParanÃ¡, Retrieved on 2008-12-4.
+   3. ^ a b c d e f g h i j k Jiawei Han, Micheline Kamber Data Mining:
+      Concepts and Techniques (2006), Morgan_Kaufmann, ISBN_1558609016
+
+[Stub_icon] This database-related article is a stub. You can help Wikipedia by
+            expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Evolutionary_data_mining"
+
+Categories: Data_mining | Data_analysis | Database_stubs
+

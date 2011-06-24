@@ -1,0 +1,94 @@
+
+****** Category:Data analysis ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+The main article for this category is Data_analysis.
+
+***** Subcategories *****
+This category has the following 13 subcategories, out of 13 total.
+**** A ****                                   **** F ****                                 **** S ****
+    * [+]  Analysis_of_variance (1 C, 47 P)       * [+]  Financial_data_analysis (3 C, 9      * [Ã]  Sensitivity_analysis (6 P)
+**** C ****                                         P)                                        * [+]  Spatial_data_analysis (2 C,
+    * [+]  Cluster_analysis (2 C, 11 P)       **** M ****                                       32 P)
+**** D ****                                       * [+]  Data_mining (2 C, 90 P)          **** T ****
+    * [+]  Data_analysis_software (2 C, 88 P) **** N ****                                     * [+]  Time_series_analysis (8 C,
+**** E ****                                       * [+]  Network_analyzers (4 C, 78 P)          103 P)
+    * [Ã]  Estimation_of_densities (7 P)   **** R ****
+    * [Ã]  Exploratory_data_analysis (9 P)     * [+]  Regression_analysis (7 C, 131 P)
+                                                  * [Ã]  Resampling_(statistics) (4 P)
+Pages in category "Data analysis"
+The following 103 pages are in this category, out of 103 total. This list may
+not reflect recent changes (learn_more).
+    * Data_analysis       **** E cont. ****         **** P cont. ****
+**** 1 ****                   * Exploratory_data        * Principal_geodesic
+    * 1.96                      analysis                  analysis
+**** 6 ****                   * Exponential             * Probit
+    * 68-95-99.7_rule           smoothing               * Proxy_(statistics)
+**** A ****               **** F ****               **** Q ****
+    * Algorithmic             * Fathom:_Dynamic         * QSR_International
+      inference                 Data_Software           * Quantile
+    * ANOVA-simultaneous      * Forecasting               normalization
+      component_analysis      * Functional_data     **** R ****
+    * Anscombe_transform        analysis                * Reification_
+**** B ****               **** G ****                     (statistics)
+    * Barnard's_test          * Geometric_data          * Report_mining
+    * Barnardisation            analysis            **** S ****
+    * Boolean_analysis        * German_tank_problem     * Segmented_regression
+    * Bootstrapping_          * Grand_mean              * Self-modeling
+      (statistics)            * Grouped_data              mixture_analysis
+    * Bootstrapping       **** H ****                   * Shape_of_the
+      populations             * Health_care               distribution
+**** C ****                     analytics               * Silhouette_
+    * User:Cengence/      **** I ****                     (clustering)
+      Cengence                * Imputation_             * Smoothing
+    * Cluster_analysis          (statistics)            * Standard_deviation
+    * Cluster-weighted        * Independent             * Standard_score
+      modeling                  component_analysis      * Standardized_rate
+    * Clustering_high-        * Index_of_dispersion     * Stationary_subspace
+      dimensional_data        * Inverse_Mills_ratio       analysis
+    * Collocation_(remote     * Inverse-variance        * Statistical
+      sensing)                  weighting                 assumption
+    * Combinatorial_data      * Item_tree_analysis      * Structured_data
+      analysis            **** K ****                     analysis_
+    * Contingency_table       * K-medoids                 (statistics)
+    * Correlation         **** L ****                   * Subgroup_analysis
+      clustering              * Limited_dependent   **** T ****
+    * Correspondence            variable                * Test_set
+      analysis                * Lincoln_index           * Natural_Language
+    * Counternull             * LISREL                    Toolkit
+    * Covariance_matrix       * Local_convex_hull       * Text_analytics
+    * Cross_tabulation    **** M ****                   * Text_mining
+    * Cumulative              * Missing_data            * TinkerPlots
+      frequency_analysis      * Multiple                * Topological_data
+**** D ****                     correspondence            analysis
+    * Data_classification       analysis                * Training_set
+      (business               * Multiscale          **** U ****
+      intelligence)             geometric_analysis      * Univariate_analysis
+    * Data_Discovery_and      * Multitrait-         **** V ****
+      Query_Builder             multimethod_matrix      * Variance
+    * Data_mining         **** N ****                   * Variance-stabilizing
+    * Data_reduction          * Neighbourhood             transformation
+    * Data_transformation       components_analysis     * Visual_comparison
+      (statistics)            * Normal_score            * Visual_inspection
+    * Data_visualization  **** O ****               **** W ****
+    * Double_mass             * Outlier                 * Wide_and_narrow_data
+      analysis                * Overdispersion          * Window_function
+**** E ****                   * Oversampling_and
+    * Empirical                 undersampling_in
+      distribution              data_analysis
+      function            **** P ****
+    * Evolutionary_data       * Photoanalysis
+      mining                  * Political
+    * Experimental              forecasting
+      uncertainty             * Post-hoc_analysis
+      analysis                * Power_transform
+    * Explained_variation     * Principal_component
+                                analysis
+Retrieved from "http://en.wikipedia.org/wiki/Category:Data_analysis"
+
+Categories: Statistics | Analysis | Data_management
+

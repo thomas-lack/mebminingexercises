@@ -1,0 +1,247 @@
+
+****** Nearest neighbor search ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Nearest neighbor search (NNS), also known as proximity search, similarity
+search or closest point search, is an optimization problem for finding closest
+points in metric_spaces. The problem is: given a set S of points in a metric
+space M and a query point q â M, find the closest point in S to q. In many
+cases, M is taken to be d-dimensional Euclidean_space and distance is measured
+by Euclidean_distance or Manhattan_distance.
+Donald_Knuth in vol. 3 of The_Art_of_Computer_Programming (1973) called it the
+post-office problem, referring to an application of assigning to a residence
+the nearest post office.
+***** Contents *****
+    * 1_Applications
+    * 2_Methods
+          o 2.1_Linear_search
+          o 2.2_Space_partitioning
+          o 2.3_Locality_sensitive_hashing
+          o 2.4_Nearest_neighbor_search_in_spaces_with_small_intrinsic
+            dimension
+          o 2.5_Vector_Approximation_Files
+    * 3_Variants
+          o 3.1_k-nearest_neighbor
+          o 3.2_Approximate_nearest_neighbor
+          o 3.3_Nearest_neighbor_distance_ratio
+          o 3.4_All_nearest_neighbors
+    * 4_See_also
+    * 5_Notes
+    * 6_References
+    * 7_External_links
+    * 8_Further_reading
+***** [edit] Applications *****
+The nearest neighbor search problem arises in numerous fields of application,
+including:
+    * Pattern_recognition - in particular for optical_character_recognition
+    * Statistical_classification- see k-nearest_neighbor_algorithm
+    * Computer_vision
+    * Databases - e.g. content-based_image_retrieval
+    * Coding_theory - see maximum_likelihood_decoding
+    * Data_compression - see MPEG-2 standard
+    * Recommendation_systems
+    * Internet_marketing - see contextual_advertising and behavioral_targeting
+    * DNA_sequencing
+    * Spell_checking - suggesting correct spelling
+    * Plagiarism_detection
+    * Contact_searching_algorithms_in_FEA
+    * Similarity_scores for predicting career paths of professional athletes.
+    * Cluster_analysis - assignment of a set of observations into subsets
+      (called clusters) so that observations in the same cluster are similar in
+      some sense, usually based on Euclidean_distance
+***** [edit] Methods *****
+Various solutions to the NNS problem have been proposed. The quality and
+usefulness of the algorithms are determined by the time complexity of queries
+as well as the space complexity of any search data structures that must be
+maintained. The informal observation usually referred to as the curse_of
+dimensionality states that there is no general-purpose exact solution for NNS
+in high-dimensional Euclidean space using polynomial preprocessing and
+polylogarithmic search time.
+**** [edit] Linear search ****
+The simplest solution to the NNS problem is to compute the distance from the
+query point to every other point in the database, keeping track of the "best so
+far". This algorithm, sometimes referred to as the naive approach, has a
+running_time of O(Nd) where N is the cardinality of S and d is the
+dimensionality of M. There are no search data structures to maintain, so linear
+search has no space complexity beyond the storage of the database.
+Surprisingly, naive search outperforms space partitioning approaches on higher
+dimensional spaces.[1]
+**** [edit] Space partitioning ****
+Since the 1970s, branch_and_bound methodology has been applied to the problem.
+In the case of Euclidean space this approach is known as spatial_index or
+spatial access methods. Several space-partitioning methods have been developed
+for solving the NNS problem. Perhaps the simplest is the kd-tree, which
+iteratively bisects the search space into two regions containing half of the
+points of the parent region. Queries are performed via traversal of the tree
+from the root to a leaf by evaluating the query point at each split. Depending
+on the distance specified in the query, neighboring branches that might contain
+hits may also need to be evaluated. For constant dimension query time, average
+complexity is O(log N) [2] in the case of randomly distributed points, worst
+case complexity analyses have been performed.[3] Alternatively the R-tree data
+structure was designed to support nearest neighbor search in dynamic context,
+as it has efficient algorithms for insertions and deletions.
+In case of general metric space branch and bound approach is known under the
+name of metric_trees. Particular examples include VP-tree and Bk-tree.
+Using a set of points taken from a 3-dimensional space and put into a BSP tree,
+and given a query point taken from the same space, a possible solution to the
+problem of finding the nearest point-cloud point to the query point is given in
+the following description of an algorithm. (Strictly speaking, no such point
+may exist, because it may not be unique. But in practice, usually we only care
+about finding any one of the subset of all point-cloud points that exist at the
+shortest distance to a given query point.) The idea is, for each branching of
+the tree, guess that the closest point in the cloud resides in the half-space
+containing the query point. This may not be the case, but it is a good
+heuristic. After having recursively gone through all the trouble of solving the
+problem for the guessed half-space, now compare the distance returned by this
+result with the shortest distance from the query point to the partitioning
+plane. This latter distance is that between the query point and the closest
+possible point that could exist in the half-space not searched. If this
+distance is greater than that returned in the earlier result, then clearly
+there is no need to search the other half-space. If there is such a need, then
+you must go through the trouble of solving the problem for the other half
+space, and then compare its result to the former result, and then return the
+proper result. The performance of this algorithm is nearer to logarithmic time
+than linear time when the query point is near the cloud, because as the
+distance between the query point and the closest point-cloud point nears zero,
+the algorithm needs only perform a look-up using the query point as a key to
+get the correct result.
+**** [edit] Locality sensitive hashing ****
+Locality_sensitive_hashing (LSH) is a technique for grouping points in space
+into 'buckets' based on some distance metric operating on the points. Points
+that are close to each other under the chosen metric are mapped to the same
+bucket with high probability.
+**** [edit] Nearest neighbor search in spaces with small intrinsic dimension
+****
+The cover_tree has a theoretical bound that is based on the dataset's doubling
+constant. The bound on search time is O(c12 log n) where c is the expansion
+constant of the dataset.
+**** [edit] Vector Approximation Files ****
+In high dimensional spaces tree indexing structures become useless because an
+increasing percentage of the nodes need to be examined anyway. To speed up
+linear search, a compressed version of the feature vectors stored in RAM is
+used to prefilter the datasets in a first run. The final candidates are
+determined in a second stage using the uncompressed data from the disk for
+distance calculation.[4]
+***** [edit] Variants *****
+There are numerous variants of the NNS problem and the two most well-known are
+the k-nearest_neighbor_search and the Îµ-approximate_nearest_neighbor_search.
+**** [edit] k-nearest neighbor ****
+Main article: k-nearest_neighbor_algorithm
+k-nearest_neighbor_search identifies the top k nearest neighbors to the query.
+This technique is commonly used in predictive analytics to estimate or classify
+a point based on the consensus of its neighbors. k-nearest neighbor graphs are
+graphs in which every point is connected to its k nearest neighbors.
+**** [edit] Approximate nearest neighbor ****
+In some applications it may be acceptable to retrieve a "good guess" of the
+nearest neighbor. In those cases, we can use an algorithm which doesn't
+guarantee to return the actual nearest neighbor in every case, in return for
+improved speed or memory savings. Often such an algorithm will find the nearest
+neighbor in a majority of cases, but this depends strongly on the dataset being
+queried.
+Algorithms that support the approximate nearest neighbor search include
+locality-sensitive_hashing, best_bin_first and balanced_box-decomposition_tree
+based search.[5]
+Îµ-approximate_nearest_neighbor_search is becoming an increasingly popular tool
+for fighting the curse_of_dimensionality.[citation_needed]
+**** [edit] Nearest neighbor distance ratio ****
+Nearest_neighbor_distance_ratio do not apply the threshold on the direct
+distance from the original point to the challenger neighbor but on a ratio of
+it depending on the distance to the previous neighbor. It is used in CBIR to
+retrieve pictures through a "query by example" using the similarity between
+local features. More generally it is involved in several matching problems.
+**** [edit] All nearest neighbors ****
+For some applications (e.g. entropy_estimation), we may have N data-points and
+wish to know which is the nearest neighbor for every one of those N points.
+This could of course be achieved by running a nearest-neighbor search once for
+every point, but an improved strategy would be an algorithm that exploits the
+information redundancy between these N queries to produce a more efficient
+search. As a simple example: when we find the distance from point X to point Y,
+that also tells us the distance from point Y to point X, so the same
+calculation can be reused in two different queries.
+Given a fixed dimension, a semi-definite positive norm (thereby including every
+Lp_norm), and n points in this space, the m nearest neighbours of every point
+can be found in O(mn log n) time.[6]
+***** [edit] See also *****
+    * Ball_tree               * Fixed-radius_near        * Nearest-neighbor
+    * Cluster_analysis          neighbors                  interpolation
+    * Content-based_image     * Fourier_Analysis         * Principal_Component
+      retrieval               * k-nearest_neighbor         Analysis
+    * Curse_of                  algorithm                * Singular_value
+      dimensionality          * Linear_least_squares       decomposition
+    * Digital_signal          * Locality_sensitive       * Time_series
+      processing                hashing                  * Voronoi_diagram
+    * Dimension_reduction     * Multidimensional         * Wavelet
+                                analysis
+***** [edit] Notes *****
+   1. ^ Weber, Schek, Blott. "A_quantitative_analysis_and_performance_study_for
+      similarity_search_methods_in_high_dimensional_spaces". http://
+      www.vldb.org/conf/1998/p194.pdf. 
+   2. ^ Andrew Moore. "An_introductory_tutorial_on_KD_trees". http://
+      www.autonlab.com/autonweb/14665/version/2/part/5/data/moore-
+      tutorial.pdf?branch=main&amp;language=en. 
+   3. ^ Lee,_D._T.; Wong, C. K. (1977). "Worst-case analysis for region and
+      partial region searches in multidimensional binary search trees and
+      balanced quad trees". Acta Informatica 9 (1): 23â29. doi:10.1007/
+      BF00263763. 
+   4. ^ Weber, Blott. "An Approximation-Based Data Structure for Similarity
+      Search". 
+   5. ^ S. Arya, D._M._Mount, N. S. Netanyahu, R. Silverman and A. Wu, An
+      optimal algorithm for approximate nearest neighbor searching, Journal of
+      the ACM, 45(6):891-923, 1998. [1]
+   6. ^ Vaidya, P. M. (1989). "An_O(n log n)_Algorithm_for_the_All-Nearest-
+      Neighbors_Problem". Discrete_and_Computational_Geometry 4 (1): 101â115.
+      doi:10.1007/BF02187718. http://www.springerlink.com/content/
+      p4mk2608787r7281/?p=09da9252d36e4a1b8396833710ef08cc&amp;pi=8. 
+***** [edit] References *****
+    * Andrews, L.. A template for the nearest neighbor problem. C/C++ Users
+      Journal, vol. 19 , no 11 (November 2001), 40 - 49, 2001, ISSN:1075-2838,
+      www.ddj.com/architect/184401449
+    * Arya, S., D. M. Mount, N. S. Netanyahu, R. Silverman, and A. Y. Wu. An
+      Optimal Algorithm for Approximate Nearest Neighbor Searching in Fixed
+      Dimensions. Journal of the ACM, vol. 45, no. 6, pp. 891â923
+    * Beyer, K., Goldstein, J., Ramakrishnan, R., and Shaft, U. 1999. When is
+      nearest neighbor meaningful? In Proceedings of the 7th ICDT, Jerusalem,
+      Israel.
+    * Chung-Min Chen and Yibei Ling - A Sampling-Based Estimator for Top-
+      k Query. ICDE 2002: 617-627
+    * Samet, H. 2006. Foundations of Multidimensional and Metric Data
+      Structures. Morgan Kaufmann. ISBN_0123694469
+    * Zezula, P., Amato, G., Dohnal, V., and Batko, M. Similarity Search - The
+      Metric Space Approach. Springer, 2006. ISBN_0-387-29146-6
+***** [edit] External links *****
+    * Nearest_Neighbors_and_Similarity_Search - a website dedicated to
+      educational materials, software, literature, researchers, open problems
+      and events related to NN searching. Maintained by Yury Lifshits.
+    * Similarity_Search_Wiki a collection of links, people, ideas, keywords,
+      papers, slides, code and data sets on nearest neighbours.
+    * Metric_Spaces_Library - An open-source C-based library for metric space
+      indexing by Karina Figueroa, Gonzalo Navarro, Edgar ChÃ¡vez.
+    * ANN - A Library for Approximate Nearest Neighbor Searching by David M.
+      Mount and Sunil Arya.
+    * STANN - A Simple Threaded Approximate Nearest Neighbor Search Library in
+      C++ by Michael Connor and Piyush Kumar.
+    * MESSIF - Metric Similarity Search Implementation Framework by Michal
+      Batko and David Novak.
+    * OBSearch - Similarity Search engine for Java (GPL). Implementation by
+      Arnoldo Muller, developed during Google Summer of Code 2007.
+    * KNNLSB - K Nearest Neighbors Linear Scan Baseline (distributed, LGPL).
+      Implementation by Georges QuÃ©not (LIG-CNRS).
+    * NearTree - An API for finding nearest neighbors among points in spaces of
+      arbitrary dimensions by Lawrence C. Andrews and Herbert J. Bernstein.
+***** [edit] Further reading *****
+    * Shasha, Dennis (2004). High Performance Discovery in Time Series. Berlin:
+      Springer. ISBN 0387008578. 
+
+Retrieved from "http://en.wikipedia.org/wiki/Nearest_neighbor_search"
+
+Categories: Approximation_algorithms | Classification_algorithms | Data_mining
+| Discrete_geometry | Geometric_algorithms | Image_processing | Information
+retrieval | Machine_learning | Numerical_analysis | Mathematical_optimization |
+Searching | Search_algorithms
+Hidden categories: All_articles_with_unsourced_statements | Articles_with
+unsourced_statements_from_March_2011
+

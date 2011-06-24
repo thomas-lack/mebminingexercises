@@ -1,0 +1,91 @@
+
+****** Apatar ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                      Apatar
+Stable_release   v1.12.13 / October 25, 2010
+Operating_system Cross-platform
+Type             ETL, Data_migration and SQL.
+License          General_Public_License_version_2.0
+Website          apatar.com
+Apatar is an open source ETL_(Extract-Transform-Load) and data integration
+software application.
+***** Contents *****
+    * 1_History
+    * 2_Products
+    * 3_Technology
+    * 4_Typical_use
+    * 5_Users_and_customers
+    * 6_References
+    * 7_External_links
+***** [edit] History *****
+Apatar open source project was founded in 2005 [1]. The first version of the
+tool was released under the GPLv2 license at www.sourceforge.net in February
+2007. In April 2007, Apatar alpha version was demonstrated to its strategic
+partners, including MySQL and BlackDuck. Apatar, Inc., a commercial company
+that provides support for the Apatar open source software, was founded in 2007
+[2].
+***** [edit] Products *****
+The companyâs main product is Apatar, a cross-platform open source desktop
+data integration tool that provides connectivity to a variety of databases,
+applications, protocols, files, and many more. The tool allows developers,
+database administrators, and business users to integrate information between a
+variety of data sources and formats and provides intuitive user interface that
+requires no coding to set up a data integration job.
+
+Other tools designed by the Apatar team:
+Apatar Merge â an MS Word plug-in that allows for building MS documents and
+templates using data from Salesforce CRM.
+Apatar On-Demand â a Web-based application that can integrate Salesforce_CRM
+and desktop editions of the QuickBooks accounting system.
+***** [edit] Technology *****
+Programming language: J2EE
+Development platform: Eclipse
+Query languages: SQL, SOAP/XML
+Supported Operating Systems: Windows, Linux, MacOS
+
+Apatar data integration software is adopted for the Amazon Web Services
+platform.
+***** [edit] Typical use *****
+    * Database migration
+    * Application integration
+    * Database creation/update scripts
+    * Cross-database operations, import/export
+    * Data aggregation
+***** [edit] Users and customers *****
+Apatarâs user and customer base ranges from small companies and individuals
+to large organizations such as the World Bank Group, Thomson Reuters, John
+Wiley &amp; Sons, R.R. Donnelley, Autodesk [3],[4]. and more.
+***** [edit] References *****
+   1. ^ "Apatar_Crashes_Data_Mashup_Party". SD_Times. http://www.sdtimes.com/
+      article/story-20070715-13.html. Retrieved 2007-09-24. 
+   2. ^ "Open_Source_Companies_to_Watch". NetworkWorld. http://
+      www.networkworld.com/news/2007/082307-open-source-to-watch.html.
+      Retrieved 2007-09-24. 
+   3. ^ "Two_Ways_To_Deal_With_SOA's_Data_Integration_Challenge".
+      InformationWeek. http://www.informationweek.com/software/
+      showArticle.jhtml?articleID=200900682&amp;pgno=2&amp;queryText=.
+      Retrieved 2007-09-24. 
+   4. ^ "Young_software_exec_moves_to_open_source_model". American_City
+      Business_Journals,_Inc.. http://masshightech.bizjournals.com/
+      masshightech/stories/2007/07/16/story12.html?page=2. Retrieved 2007-09-
+      24. 
+***** [edit] External links *****
+    * Apatar_Web_site
+    * Apatar_project_page_on_SourceForge.Net
+    * Apatar_Community_Web_site
+    * Apatar_Overview_Demo
+
+This business_software article is a stub. You can help Wikipedia by expanding
+it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Apatar"
+
+Categories: ETL_tools | Data_mining | SQL | Data_warehousing_products | Free
+software_companies | Enterprise_application_integration | Business_software
+stubs
+

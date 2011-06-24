@@ -1,0 +1,75 @@
+
+****** Affinity analysis ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Affinity analysis is a data_analysis and data_mining technique that discovers
+co-occurrence relationships among activities performed by (or recorded about)
+specific individuals or groups. In general, this can be applied to any process
+where agents can be uniquely_identified and information about their activities
+can be recorded. In retail, affinity analysis is used to perform market basket
+analysis, in which retailers seek to understand the purchase behavior of
+customers. This information can then be used for purposes of cross-selling and
+up-selling, in addition to influencing sales_promotions, loyalty programs,
+store design, and discount_plans.[1]
+***** Contents *****
+    * 1_Examples
+    * 2_Business_Use
+    * 3_See_Also
+    * 4_References
+    * 5_Further_reading
+    * 6_External_links
+***** [edit] Examples *****
+    * Market basket analysis might tell a retailer that customers often
+      purchase shampoo and conditioner together, so putting both items on
+      promotion at the same time would not create a significant increase in
+      profit, while a promotion involving just one of the items would likely
+      drive sales of the other.
+    * Market basket analysis can be used to divide_customers_into_groups. A
+      company could look at what other items people purchase along with eggs,
+      and classify them as baking a cake (if they're buying eggs along with
+      flour and sugar) or making omelets (if they're buying eggs along with
+      bacon and cheese). This identification could then be used to drive other
+      programs.
+***** [edit] Business Use *****
+Business use of market basket analysis has significantly increased since the
+introduction of electronic point_of_sale[1]. Amazon uses affinity analysis for
+cross-selling when it recommends products to people based on their purchase
+history and the purchase history of other people who bought the same item.
+Family_Dollar plans to use market basket analysis to help maintain sales growth
+while moving towards stocking more low-margin consumable_goods[2]. A common
+urban_legend highlighting the unexpected insights that can be found involves a
+chain (often incorrectly given as Wal-Mart) discovering that beer and diapers
+were often purchased together, and responding to that by moving the beer closer
+to the diapers to drive sales; however, while the relationship seems to have
+been noted, it is unclear whether any action was taken to promote selling them
+together[3].
+***** [edit] See Also *****
+Association_rule_learning
+***** [edit] References *****
+   1. ^ a b "Demystifying_Market_Basket_Analysis". http://www.information-
+      management.com/specialreports/20061031/1067598-1.html. Retrieved 3
+      November 2009. 
+   2. ^ "Family_Dollar_Supports_Merchandising_with_IT". http://
+      www.retailerdaily.com/entry/45999/family-dollar-merchandising/. Retrieved
+      3 November 2009. 
+   3. ^ "The_parable_of_the_beer_and_diapers". The_Register. http://
+      www.theregister.co.uk/2006/08/15/beer_diapers/. Retrieved 3 September
+      2009. 
+***** [edit] Further reading *****
+    * J. Han et al., 2006, Data Mining: Concepts and Techniques ISBN_978-1-
+      55860-901-3
+    * V. Kumar et al. 2005 Introduction to Data Mining ISBN_978-0-321-32136-7
+    * U. Fayyad et al. 1996 Advances in Knowledge Discovery and Data Mining
+      ISBN_978-0-262-56097-9
+***** [edit] External links *****
+    * Examples_of_basic_Market_Basket_Analysis_using_Excel
+    * An_overview_of_Market_Basket_Analysis
+
+Retrieved from "http://en.wikipedia.org/wiki/Affinity_analysis"
+
+Categories: Data_mining
+

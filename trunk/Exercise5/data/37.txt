@@ -1,0 +1,35 @@
+
+****** Non-linear iterative partial least squares ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+In statistics, non-linear iterative partial least squares (NIPALS) is an
+algorithm for computing the first few components in a principal_component or
+partial_least_squares analysis. For very high-dimensional datasets, such as
+those generated in the 'omics sciences (e.g., genomics, metabolomics) it is
+usually only necessary to compute the first few principal_components. The
+nonlinear iterative partial_least_squares (NIPALS) algorithm calculates t1 and
+p1' from X. The outer_product, t1p1' can then be subtracted from X leaving the
+residual matrix E1. This can be then used to calculate subsequent PCs.[1] This
+results in a dramatic reduction in computational_time since calculation of the
+covariance_matrix is avoided.
+***** [edit] References *****
+   1. ^ Geladi, Paul; Kowalski, Bruce (1986), "Partial Least Squares
+      Regression:A Tutorial", Analytica Chimica Acta 185: 1â17 
+***** [edit] External links *****
+    * Teach_Me_Data_Analysis_-_The_NIPALS_Algorithm
+    * NIPALS_algorithm_for_PLS_regression
+    * Principal_Component_Analysis_(PCA)_and_NIPALS_algorithm
+    * Comments_on_the_NIPALS_algorithm (requires subscription)
+[Stub_icon] This statistics-related article is a stub. You can help Wikipedia
+            by expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Non-
+linear_iterative_partial_least_squares"
+
+Categories: Multivariate_statistics | Singular_value_decomposition | Data
+mining | Least_squares | Statistics_stubs
+

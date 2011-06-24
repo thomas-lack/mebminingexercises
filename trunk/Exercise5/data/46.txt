@@ -1,0 +1,50 @@
+
+****** Reactive Business Intelligence ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Reactive Business Intelligence (RBI) advocates an holistic approach that
+integrates data_mining, modeling and interactive_visualization, into an end-to-
+end discovery and continuous innovation process powered by human and automated
+learning[1].
+In the area of decision_making this approach has been used to adapt the
+decision method to the knowledge which is progressively acquired from the
+decision maker [2].
+An interactive_visualization software based on RBI principles is Grapheur.
+***** [edit] Relationships with Reactive Search Optimization (RSO) *****
+RSO is multi-disciplinary
+RSO is a multi-disciplinary research area between Operations Research
+(optimization), Computer Science, Machine learning and Neural Networks that
+studies online learning schemes applied to problem-solving and optimization,
+according to a learning while optimizing principle [3]. The word reactive hints
+at a ready response to events during the search through an internal feedback
+loop for online self-tuning and dynamic adaptation. Online adaptation and model
+revision is used in Reactive Business Intelligence to adapt the data mining and
+interactive visualization techniques to the knowledge derived from a user in
+real time.
+***** [edit] References *****
+   1. ^ Roberto Battiti and Mauro Brunato, Reactive_Business_Intelligence._From
+      Data_to_Models_to_Insight, Reactive Search Srl, Italy, February 2011.
+      ISBN_978-88-905795-0-9.
+   2. ^ Battiti, Roberto; Andrea Passerini (2010). "Brain-Computer_Evolutionary
+      Multi-Objective_Optimization_(BC-EMO):_a_genetic_algorithm_adapting_to
+      the_decision_maker." (PDF). IEEE Transactions on Evolutionary Computation
+      14 (15): 671â687. doi:10.1109/TEVC.2010.2058118. http://
+      rtm.science.unitn.it/~battiti/archive/bcemo.pdf 
+   3. ^ Battiti, Roberto; Mauro Brunato; Franco Mascia (2008). Reactive_Search
+      and_Intelligent_Optimization. Springer_Verlag. ISBN 978-0-387-09623-0.
+      http://reactive-search.org/thebook. 
+***** [edit] See also *****
+    * Business_Intelligence
+    * Data_mining
+    * Interactive_visualization
+    * Reactive_Search_Optimization
+
+Retrieved from "http://en.wikipedia.org/wiki/Reactive_Business_Intelligence"
+
+Categories: Business_intelligence | Financial_data_analysis | Data_management |
+Intelligence_(information_gathering) | Machine_learning | Data_mining
+

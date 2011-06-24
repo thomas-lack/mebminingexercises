@@ -1,0 +1,113 @@
+
+****** Correlation clustering ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article may require cleanup to meet Wikipedia's quality_standards. Please
+ improve_this_article if you can. The talk_page may contain suggestions. (May
+ 2009)
+ This article may need to be wikified to meet Wikipedia's quality_standards.
+ Please help by adding relevant_internal_links, or by improving the article's
+ layout. (May 2009)
+ Click [show] on right for more details.
+     * Please replace HTML_markup with wiki_markup where appropriate.
+     * Add wikilinks. Where appropriate, make links to other articles by
+       putting "[[" and "]]" on either side of relevant words (see WP:LINK for
+       more information). Please do not link terms that most readers are
+       familiar with, such as common occupations, well-known geographical
+       terms, and everyday items.
+     * Format the lead. Create or improve the lead_paragraph.
+     * Arrange section headers as described at Wikipedia:Guide_to_layout.
+     * Add an infobox if it is appropriate for the article.
+     * Remove this tag.
+***** Correlation clustering in machine learning *****
+Correlation clustering operates in a scenario where the relationship between
+the objects is known instead of the actual representation of the objects. For
+example, given a signed_graph G = (V,E) where the edge label indicates whether
+two nodes are similar (+) or different (â), the task is to cluster the
+vertices so that similar objects are grouped together. Unlike other clustering
+algorithms this does not require choosing_the_number_of_clusters k in advance
+because the objective, to minimize the disagreements, is independent of the
+number of clusters.
+It may not be possible to find a perfect clustering, where all similar items
+are in a cluster while all dissimilar ones are in different clusters. If the
+graph indeed admits a perfect clustering, then simply deleting all the negative
+edges and finding the connected components in the remaining graph will return
+the required clusters.
+But, in general a graph may not have a perfect clustering. For example, given
+nodes a,b,c such that a,b and a,c are similar while b,c are dissimilar, a
+perfect clustering is not possible. In such cases, the task is to find a
+clustering that maximizes the number of agreements (number of + edges inside
+clusters plus the number of - edges between clusters) or minimizes the number
+of disagreements (the number of - edges inside clusters plus the number of +
+edges between clusters). This problem of maximizing the agreements is NP-
+complete (multiway cut problem reduces to maximizing weighted agreements and
+the problem of partitioning into triangles[1] can be reduced to unweighted
+version)
+Bansal et al.[2] discuss the NP-completeness proof and also present both a
+constant factor approximation algorithm and polynomial-time_approximation
+scheme to find the clusters in this setting. Ailon et al.[3] propose a
+randomized 3-approximation algorithm for the same problem.
+CC-Pivot(G=(V,E+,E-))
+   Pick random pivot i â V
+   Set C = {i}, V'=Ã
+   For all j â V, j â  i;
+       If (i,j) â E+ then
+            Add j to C
+       Else (If (i,j) â E-)
+            Add j to V'
+   Let G' be the subgraph induced by V'
+   Return clustering C,CC-Pivot(G')
+The authors show that the above algorithm is a 3-approximation algorithm for
+correlation clustering.
+***** Correlation Clustering (Data Mining) *****
+Correlation Clustering also relates to a different task, where correlations
+among attributes of feature_vectors in a high_dimensional_space are assumed to
+exist guiding the clustering_process. These correlations may be different in
+different clusters, thus a global decorrelation cannot reduce this to
+traditional (uncorrelated) clustering.
+Correlations among subsets of attributes result in different spatial shapes of
+clusters. Hence, the similarity between cluster objects is defined by taking
+into account the local correlation patterns. With this notion, the term has
+been introduced in [4] simultaneously with the notion discussed above.
+Different methods for correlation clustering of this type are discussed in [5],
+the relationship to different types of clustering is discussed in [6], see also
+Clustering_high-dimensional_data.
+Correlation clustering (according to this definition) can be shown to be
+closely related to biclustering. As in biclustering, the goal is to identify
+groups of objects that share a correlation in some of their attributes; where
+the correlation is usually typical for the individual clusters.
+***** References *****
+   1. ^ Garey, M. and Johnson, D. (2000). "Computers and Intractability: A
+      Guide to the Theory of NP-Completeness". 
+   2. ^ Bansal, N., Blum, A. and Chawla, S. (2004). "Correlation Clustering".
+      Machine Learning Journal (Special Issue on Theoritical Advances in Data
+      Clustering,. pp. 86â113,. doi:10.1023/B:MACH.0000033116.57574.95. 
+   3. ^ Ailon, Nir and Charikar, Moses and Newman, Alantha (2005). "Aggregating
+      inconsistent information: ranking and clustering". STOC '05: Proceedings
+      of the thirty-seventh annual ACM symposium on Theory of computing.
+      pp. 684â693,. doi:10.1145/1060590.1060692. 
+   4. ^ BÃ¶hm, C., Kailing, K., KrÃ¶ger, P., Zimek, A. (2004). "Computing
+      Clusters_of_Correlation_Connected_Objects". Proc. ACM SIGMOD
+      International Conference on Management of Data (SIGMOD'04), Paris,
+      France. pp. 455â467. doi:10.1145/1007568.1007620. http://doi.acm.org/
+      10.1145/1007568.1007620. 
+   5. ^ Zimek, A. (2008). Correlation_Clustering. http://edoc.ub.uni-
+      muenchen.de/8736/. 
+   6. ^ Kriegel, H.-P.; KrÃ¶ger, P., Zimek, A. (March 2009). "Clustering_High
+      Dimensional_Data:_A_Survey_on_Subspace_Clustering,_Pattern-based
+      Clustering,_and_Correlation_Clustering". ACM Transactions on Knowledge
+      Discovery from Data (TKDD) 3 (1): 1â58. doi:10.1145/1497577.1497578.
+      http://doi.acm.org/10.1145/1497577.1497578. 
+
+Retrieved from "http://en.wikipedia.org/wiki/Correlation_clustering"
+
+Categories: Data_mining | Data_analysis | Cluster_analysis | Computational
+problems_in_graph_theory
+Hidden categories: Wikipedia_articles_needing_cleanup_from_May_2009 | All
+articles_needing_cleanup | Articles_that_need_to_be_wikified_from_May_2009 |
+All_articles_that_need_to_be_wikified
+

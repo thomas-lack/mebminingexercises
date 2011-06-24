@@ -1,0 +1,508 @@
+
+****** Wikipedia:Categorization ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+[Page_semi-protected]
+Multiple shortcuts redirect here, you may be looking for: WikiProject_Cats,
+WikiProject_Categories or Help:Sorting.
+            This page documents an English Wikipedia editing
+            guideline. It is a generally accepted standard that
+            editors should attempt to follow, though it is best    Shortcuts:
+[Blue tick] treated with common_sense, and occasional_exceptions   WP:CAT
+            may apply. Any substantive edit to this page should    WP:CATEGORY
+            reflect consensus. When in doubt, discuss first on the
+            talk_page.
+Wikipedia_guidelines
+Behavioral
+Assume_good_faith
+Conflict_of_interest
+Don't_bite_the_newbies
+Don't_disrupt_Wikipedia_to_make_a point
+Etiquette
+Gaming_the_system
+User_pages
+Content
+Citing_sources
+Identifying_reliable_sources
+Notability
+Discussion
+Signatures
+Talk_page_guidelines
+Editing
+Article_size
+Be_bold
+Don't_add_the_full_text_of_primary_sources
+Don't_create_hoaxes
+Edit_summary
+Patent_nonsense
+Organization
+Categories,_lists,_and_templates
+Categorization
+Disambiguation
+Subpages
+Style
+Manual_of_Style
+Manual_of_Style_(lists)
+Manual_of_Style_(tables)
+More
+List_of_policies_and_guidelines
+[Category_explanation.ogv]
+[Play video]
+A screencast explaining categories at Wikipedia and the usage of HotCat
+This page contains guidance on the proper use of the categorization function in
+Wikipedia. For information on the mechanics of the function, category syntax,
+etc., see Help:Category. For quick answers, see the Categorization_FAQ. For the
+naming of categories, see Wikipedia:Category_names. For the category system
+itself, see Category:Contents.
+***** Contents *****
+    * 1_The_category_system
+    * 2_Categorizing_pages
+    * 3_What_categories_should_be_created
+    * 4_Subcategorization
+          o 4.1_Diffusing_large_categories
+          o 4.2_Non-diffusing_subcategories
+          o 4.3_Eponymous_categories
+    * 5_Sort_keys
+    * 6_Content_of_category_pages
+    * 7_Non-article_and_maintenance_categories
+          o 7.1_Images
+          o 7.2_Categorizing_user_pages
+          o 7.3_Hiding_categories
+    * 8_Categorization_using_templates
+    * 9_Redirected_categories
+    * 10_See_also
+          o 10.1_For_browsing
+          o 10.2_For_maintenance
+    * 11_Notes
+***** The category system *****
+Wikipedia's category system can be thought of as consisting of overlapping
+trees. Any category may branch into subcategories, and it is possible for a
+category to be a subcategory of more than one parent. (A is said to be a parent
+category of B when B is a subcategory of A). Mathematically speaking, this
+means that the system approximates a directed_acyclic_graph.
+There is one top-level category, Category:Contents. All other categories are
+found below this. Hence every category apart from this top one must be a
+subcategory of at least one other category.
+There are two main kinds of category:
+    * Topic categories are named after a topic (usually sharing a name with the
+      Wikipedia article on that topic). For example, Category:France contains
+      articles relating to the topic France.
+    * Set categories are named after a class (usually in the plural). For
+      example, Category:Cities_in_France contains articles whose subjects are
+      cities in France.
+Sometimes, for convenience, the two types can be combined, to create a set-and-
+topic category (such as Category:Voivodeships_of_Poland, which contains
+articles about particular voivodeships as well as articles relating to
+voivodeships in general).
+If logical membership of one category implies logical membership of a second,
+then the first category should be made a subcategory (directly or indirectly)
+of the second. For example, Cities_in_France is a subcategory of Populated
+places_in_France, which in turn is a subcategory of Geography_of_France.
+Partial view of Wikipedia's category system. Note how the arrows point
+downwards.
+***** Categorizing pages *****
+Which pages a given category is supposed to contain is generally clear from the
+name of the category. Additional explanation may be placed in the text of the
+category page.
+Pages are not placed directly into every possible category, only into the most
+specific one in any branch. This means that if a page belongs to a subcategory
+of C (or a subcategory of a subcategory of C, and so on) then it is not
+normally placed directly into C. For exceptions to this rule, see Eponymous
+categories and Non-diffusing_subcategories below.
+Every Wikipedia article should belong to at least one category. Normally a new
+article will fit into existing categories â compare articles on similar
+topics to find what those categories are. If you think a new category needs to
+be created, see What_categories_should_be_created below. If you don't know
+where to put an article, add the {{uncategorized}} template to it â other
+editors (such as those monitoring Wikipedia:WikiProject_Categories/
+uncategorized) will find good categories for it.
+For information on whether and how to categorize pages other than articles, see
+Non-article_and_maintenance_categories below.
+Particular considerations for categorizing articles:
+    * Each article should be placed in all of the most specific categories to
+      which it logically belongs.
+    * It should be clear from verifiable information in the article why it was
+      placed in each of its categories. Use the {{Category_unsourced}} template
+      if you find an article in a category that is not shown by sources to be
+      appropriate, or the {{Category_relevant?}} template if the article gives
+      no clear indication for inclusion in a category.
+    * Categorize articles by characteristics of the topic, not characteristics
+      of the article. A biographical article about a specific person, for
+      example, does not belong in Category:Biography.
+    * Articles on fictional subjects should not be categorized in a manner that
+      confuses them with real subjects.
+    * An article should never be left with a non-existent (redlinked) category
+      on it. Either the category should be created, or else the link should be
+      removed or changed to a category that does exist.
+    * By convention, category declarations are placed at the end of the
+      wikitext, but before any stub templates (which themselves transclude
+      categories) and interlanguage_links.
+    * The order in which categories are placed on a page is not governed by any
+      single rule (for example, it does not need to be alphabetical, although
+      partially alphabetical ordering can sometimes be helpful). Normally the
+      most essential, significant categories appear first. If an article has an
+      eponymous category (see below), then that category should be listed first
+      of all. For example, Category:George_Orwell is listed before other
+      categories on the George_Orwell page.
+    * If the desired display text in a particular category is different from
+      the title of the article, it may be appropriate to categorize a redirect,
+      either instead of or along with the article itself. For example, if John
+      Smith was notable as both a musician and a writer, but used the stage
+      name Johnny Rocket in his musical career, then the musician category
+      declarations can be placed on the "Johnny Rocket" redirect page as well
+      as (or instead of) on "John Smith". (Redirects appear in italics in
+      category listings.) See also Wikipedia:Categorizing_redirects.
+***** What categories should be created *****
+Categories should be useful for readers to find and navigate sets of related
+articles. They should be the categories under which readers would most likely
+look if they were not sure of where to find an article on a given subject. They
+should be based on essential, "defining" features of article subjects, such as
+nationality or notable profession (in the case of people), type of location or
+region (in the case of places), etc. Do not create categories based on
+incidental or subjective features. Examples of types of categories which should
+not be created can be found at Wikipedia:Overcategorization.
+Remember that categories are not the only means of enabling users to browse
+sets of related articles. Other tools which may be used instead of or alongside
+categories in particular instances include lists and navigation boxes. For a
+comparison of these techniques, see Categories,_lists_and_navigation_templates.
+Categorizations appear on pages without annotations or referencing to justify
+or explain their addition; editors should be conscious of the need to maintain
+a neutral_point_of_view when creating categories or adding them to articles.
+Categorizations should generally be uncontroversial; if the category's topic is
+likely to spark controversy, then a list article (which can be annotated and
+referenced) is probably more appropriate.
+Before creating a new category, check whether a similar category already exists
+under a different name (for example, by looking on the likely member pages or
+in likely parent categories).
+Categories follow the same general_naming_rules as articles; for example,
+common nouns are not automatically capitalized. For specific rules, see
+Wikipedia:Naming_conventions_(categories).
+For proposals to delete, merge, or rename categories, follow the instructions
+at Categories_for_discussion.
+***** Subcategorization *****
+Shortcut:
+WP:SUBCAT
+Many subcategories have two or more parent categories. For example, Category:
+British_writers should be in both Category:Writers_by_nationality and Category:
+British_people_by_occupation. When making one category a subcategory of
+another, ensure that the members of the first really can be expected (with
+possibly a few exceptions) to belong to the second also. Category chains formed
+by parent-child relationships should never form closed loops. If two categories
+are closely related but are not in a subset relation, then links between them
+can be included in the text of the category pages.
+**** Diffusing large categories ****
+Shortcut:
+WP:DIFFUSE
+Although there is no limit on the size of categories, a large category will
+often be broken down ("diffused") into smaller, more specific subcategories.
+For example, Category:Rivers_of_Europe is broken down by country into the
+subcategories Rivers_of_Albania, Rivers_of_Andorra, etc.
+A category may be diffused using several coexisting schemes; for example,
+Category:Albums is broken down by artist, by date, by genre etc. Metacategories
+may be created as ways of organizing schemes of subcategories. For example, the
+subcategories called "Artistname albums" are not placed directly into Category:
+Albums, but into the metacategory Category:Albums_by_artist, which itself
+appears in Category:Albums.
+It is possible for a category to be only partially diffused â some members
+are placed in subcategories, while others remain in the main category.
+Information about how a category is diffused may be given on the category page.
+Categories which are intended to be fully broken down into subcategories can be
+marked with the {{catdiffuse}} template, which indicates that any pages which
+editors might add to the main category should be moved to the appropriate
+subcategories when sufficient information is available. (If the proper
+subcategory for an article does not exist yet, either create the subcategory or
+leave the article in the parent category for the time being.)
+To suggest that a category is so large that it ought to be diffused into
+subcategories, you can add the {{verylarge}} template to the category page.
+**** Non-diffusing subcategories ****
+Shortcut:
+WP:DUPCAT
+Not all subcategories serve the "diffusion" function described above; some are
+simply subsets which have some special characteristic of interest, such as Best
+Actor_Academy_Award_winners as a subcategory of Film_actors, Toll_bridges_in
+New_York_City as a subcategory of Bridges_in_New_York_City, and Musical_films
+as a subcategory of Musicals. These are called non-diffusing subcategories.
+They sometimes provide an exception to the general rule that pages are not
+placed in both a category and its subcategory: there is no need to take pages
+out of the parent category purely because of their membership of a non-
+diffusing subcategory. (Of course, if the pages also belong to other
+subcategories that do cause diffusion, then they will not appear in the parent
+category directly.)
+It is useful to identify non-diffusing subcategories with a note on the
+category page. The {{allincluded}} and {{distinguished_subcategory}} templates
+can be used.
+Subcategories defined by ethnicity and sexuality are often non-diffusing
+subcategories. See also the gender,_race_and_sexuality categorization
+guideline.
+**** Eponymous categories ****
+Shortcut:
+WP:EPON
+See also: Category:Eponymous_categories
+Often an article and a topic category will share the same name, as in George_W.
+Bush and Category:George_W._Bush, or occasionally similar names referring to
+the same thing, as with Mekong and Category:Mekong_River. Such a category is
+called an eponymous category. Usually the article itself will be a member of
+the category (and should be sorted to appear at the start of the listing, as
+described below under Sort_keys). A clear link to the main topic article from
+an eponymous category page can be created using the template {{cat_main}}.
+The question arises as to whether eponymous categories should be placed in
+(made subcategories of) the categories which their corresponding articles
+belong to. Logically they usually should not (for example, France belongs to
+Category:European_countries, but Category:France does not constitute a subset
+of European countries). However, by convention, many categories do contain
+their articles' eponymous categories as subcategories, even though they are not
+"true" subcategories. In any case, an article should not be excluded from any
+set category on the grounds that its eponymous category is made a "subcategory"
+of that category.
+If eponymous categories are categorized separately from their articles, it will
+be helpful to make links between the category page containing the articles and
+the category page containing the eponymous categories. The template {{Related
+category}} can be used for this. An example of this set-up is the linked
+categories Category:American_politicians and Category:Categories_named_after
+American_politicians.
+***** Sort keys *****
+"WP:SORT" redirects here. For sortable tables, see Help:Sorting.
+Shortcuts:
+WP:SORT
+WP:SORTKEY
+Sort keys are sometimes needed to produce a correct ordering of member pages
+and subcategories on the category page. For the mechanics, see Sort_order on
+the help page.
+Because the software uses Unicode rather than true alphabetical ordering (see
+details), it is important that sort keys be capitalized consistently. By
+convention, the first letter of each word in a sort key is capitalized, and
+other letters are lower case. For example, use "Dubois" in sort keys rather
+than "DuBois".
+Categories of people are usually sorted by last name rather than first name, so
+"surname, forename" sort keys are used (as in "Washington, George"). For more
+information, see Ordering_names_in_a_category in the people categorization
+guideline.
+Entries containing modified letters should be sorted as if the letters were
+unmodified (for example, ÅÃ³dÅº has the sort key "Lodz").
+Other sort key considerations:
+    * Leading articlesâa, an, and theâare one of the most common reasons
+      for using sortkeys. Please also apply these sort keys to deliberate
+      misspellings of these wordsâe.g. "da" or "tha" for "the."
+    * Spell out abbreviations and characters used in place of words so that
+      they can be found easily in categories. E.g. the sortkey for Mr._Bean
+      should be {{DEFAULTSORT:Mister Bean}} and Dungeons_&amp;_Dragons should
+      be sorted {{DEFAULTSORT:Dungeons And Dragons}}.
+    * Entries containing numbers sometimes need special sort keys to ensure
+      numerical rather than alphabetical ordering (for example, 19 and 103 come
+      before 2 in alphabetical order, and IX comes before V). So Haydn's 13th
+      symphony might have the sort key "Symphony 013", the zero ensuring that
+      it is listed before symphonies 100â108; Pope John IX might have a sort
+      key "John 09". It is important to stick to the same system for all
+      similar entries in a given category.
+    * Systematic sort keys are also used in other categories where the logical
+      sort order is not alphabetical (for example, individual month articles in
+      year categories such as Category:2004 use sort keys like "*2004-04" for
+      April). Again, such systems must be used consistently within a category.
+    * In some categories, sort keys are used to exclude prefixes that are
+      common to all or many of the entries, or are considered unimportant (such
+      as "List of" or "The"). For example, in Category:2004 the page 2004_in
+      film would have the sort key "Film", and in Category:2004_in_Canada the
+      page 2004_Canadian_federal_budget would have the sort key "Federal
+      Budget".
+    * Use a space as the sort key for an article matching an eponymous
+      category, or for a key_article for the category. Typically, these
+      eponymous articles or categories are best listed first even if they do
+      not appear first in alphabetical order. For example, the article Barack
+      Obama includes the category sort key [[Category:Barack Obama| ]]. This
+      places the article at the start of the listing for that category. (Note:
+      If the key article should not be a member, simply edit the category text
+      itself to add it, perhaps using {{Cat_main}}.)
+    * Use other sort keys beginning with a space (or an asterisk or a plus
+      sign) for any "List of ..." and other pages that should appear after the
+      key article and before the main alphabetical listings. The same technique
+      is sometimes used to bring particular subcategories to the start of the
+      list.
+    * To place entries after the main alphabetical list, use sort keys
+      beginning with tilde ("~"). Other characters used for this purpose are
+      "Âµ" (mu), used to place stub categories at the end of subcategory lists;
+      "Î²" (beta) for Wikipedia_books; "Î" (iota) for images; "Î¡" (rho) for
+      portals; "Î¤" (tau) for templates; and "Î©" (omega) for WikiProjects.
+    * If a page is to be given the same sort key in all or several of its
+      categories, the {{DEFAULTSORT}} magic_word can be used. Conventionally,
+      this is placed just before the list of category declarations. Default
+      sort keys are sometimes defined even where they do not seem
+      necessaryâwhen they are the same as the page name, for exampleâin
+      order to prevent other editors or automated tools from trying to infer a
+      different default.
+***** Content of category pages *****
+Rather than leave the text of a category page empty (containing only parent
+category declarations), it is helpful â to both readers and editors â to
+include a description of the category, indicating what pages it contains, how
+they should be subcategorized, and so on. The description can also contain
+links to other pages, in particular to other related categories which do not
+appear directly as subcategories or parent categories, and to "sister
+categories" on other projects, such as Commons.
+Various templates have been developed to make it easier to produce category
+descriptions, such as {{Cat_main}}, {{Cat_see_also}}, and {{Related_category}}.
+For more of these, see Category_namespace_templates. Another technique that can
+be used is described at Wikipedia:Classification.
+A maximum of 200 category entries are displayed per screen. To make navigating
+large categories easier, a table of contents can be used on the category page.
+The following templates are some of the ways of doing this:
+    * {{Category_TOC}} â adds a complete table of contents (Top, 0â9,
+      AâZ)
+    * {{CatAZ}} â the same as {{Category_TOC}}, but without the numbers 0â9
+    * {{Large_category_TOC_2}} â adds a complete table of contents with five
+      subdivisions for each letter (Aa Ae Aj Ao At)
+    * {{Large_category_TOC}} â adds a complete table of contents with twenty-
+      six subdivisions for each letter (Aa ... Az)
+Subcategories are split alphabetically along with the articles, which means
+that the initial screen of a split category may not include all its
+subcategories. To make all subcategories display on each screen, add a category
+tree to the text of the category page, as described at the help page under
+Displaying_category_trees_and_page_counts.
+Interlanguage_links work on category pages just as they do for articles, and
+can be used to link to corresponding categories on other language Wikipedias.
+***** Non-article and maintenance categories *****
+Shortcut:
+WP:PROJCATS
+A distinction is made between two types of category:
+    * Administration categories, intended for use by editors or by automated
+      tools, based on features of the current state of articles, or used to
+      categorize non-article pages.
+    * Content categories, intended as part of the encyclopedia, to help readers
+      find articles, based on features of the subjects of those articles;
+Administration categories include stub categories (generally produced by stub
+templates), maintenance categories (often produced by tag templates such as {
+{cleanup}} and {{fact}}, and used for maintenance projects), WikiProject and
+assessment categories, and categories of pages in non-main namespaces.
+Article pages should be kept out of administration categories if possible. For
+example, the templates that generate WikiProject and assessment categories
+should be placed on talk pages, not on the articles themselves. If it is
+unavoidable that a administration category appears on article pages (usually
+because it is generated by a maintenance tag that is placed on articles), then
+in most cases it should be made a hidden category, as described under Hiding
+categories below.
+There are separate administration categories for different kinds of non-article
+page (template categories, disambiguation_page categories, project_page
+categories etc.). There is no need to categorize user_pages, talk_pages or
+redirects, although these can be placed in categories where appropriate. See
+the guideline on categorizing_redirects, and the Categorizing_user_pages
+section below.
+**** Images ****
+Category tags can be added to image pages too. Images are not included in the
+count of articles in the category, but are displayed in a separate section with
+a thumbnail and the name for each. A category can mix articles and images, or a
+separate image category can be created. An image category is typically a
+subcategory of the general category about the same subject, and a subcategory
+of the wider image category, Wikipedia_images. To categorize a new image when
+uploading, simply add the category tag to the upload_summary.
+**** Categorizing user pages ****
+Shortcut:
+WP:USERNOCAT
+User_pages are not articles, and thus do not belong in content categories such
+as Living_people or Biologists. They can however be placed in user categories
+â subcategories of Wikipedians, such as Wikipedian_biologists â which
+assist collaboration between users. See Wikipedia:User_categories for further
+information.
+Similarly, user subpages that are draft versions of articles should be kept out
+of content categories. If you copy an article from mainspace to userspace and
+it already contains categories, remove them or comment them out. Restore the
+categories when you move the draft back into article space.
+**** Hiding categories ****
+Shortcut:
+WP:HIDDENCAT
+In cases where, for technical reasons, administration categories appear
+directly on articles rather than talk pages, they should be made into hidden
+categories, so that they are not displayed to readers. This rule does not apply
+to stub categories or "uncategorized article" categories â these types are
+not hidden.
+To hide a category, add the template {{Wikipedia_category|hidden=yes}} to the
+category page (the template uses the magic_word __HIDDENCAT__). This also
+places the page in Category:Hidden_categories.
+A logged-in user may elect to view all hidden categories, by checking "Show
+hidden categories" on the "Appearance" tab of My_Preferences. Notice that
+"hidden" parent categories are never in fact hidden on category pages (although
+they are listed separately).
+***** Categorization using templates *****
+Many templates include category declarations in their transcludable text, for
+the purpose of placing the pages containing those templates into specific
+categories. This technique is very commonly used for populating certain kinds
+of administration categories, including stub categories and maintenance
+categories.
+However, it is recommended that articles should not be placed in ordinary
+content categories using templates in this way. There are many reasons for this
+â editors cannot see the category in the wikitext; removing or restructuring
+the category is made more difficult (partly because automated processes will
+not work); inappropriate articles and non-article pages may get added to the
+category; sort keys may be unavailable to be customised per category; ordering
+of categories on the page is less controllable; and the "incategory" search
+term will not find such pages [1].
+When templates are used to populate administration categories, ensure that the
+code cannot generate nonsensical or non-existent categories, particularly when
+the category name depends on a parameter. Also, see Category_suppression for
+ways of keeping inappropriate pages out of template-generated categories.
+Category declarations in templates often use {{PAGENAME}} as the sort key,
+particularly if they are designed to be placed on talk pages, as this
+suppresses the Talk: prefix. Note that this overrides any DEFAULTSORT defined
+on the page.
+***** Redirected categories *****
+Because of software limitations,[2] ordinary (hard) redirects should not be
+used with category pages. If a category name needs to be redirected to another,
+use the {{Category_redirect}} template to create a soft redirect. A bot
+traverses categories redirected in this manner, moving articles out of the
+redirected category into the target category. (See Template_talk:Category
+redirect.)
+***** See also *****
+    * Wikipedia:Overcategorization
+    * Wikipedia:Categorization_of_people
+    * Wikipedia:Categorizing_redirects
+    * Wikipedia:Categories,_lists,_and_navigation_templates
+    * Wikipedia:Category_suppression
+    * Wikipedia:WikiProject_Categories
+    * Association_of_Categorist_Wikipedians
+    * Sortable_tables
+**** For browsing ****
+    * Wikipedia:Classification (category tree jumping)
+    * Special:CategoryTree
+    * Wikipedia:CatScan
+    * Category:Categories
+    * Special:Categories (lists all existing categories alphabetically)
+**** For maintenance ****
+    * Special:Uncategorizedpages
+    * Special:Uncategorizedimages
+    * Special:Uncategorizedcategories (not currently updated)
+    * Special:Unusedcategories
+    * Special:Wantedcategories
+    * Special:Mostlinkedcategories
+***** Notes *****
+   1. ^ bugzilla:2285
+   2. ^ bugzilla:3311
+v Â· d Â· eKey_Wikipedia_policies_and_guidelines
+Overview       Five_pillars Â· Policies_and_guidelines  Â· List_of_policies_and_guidelines (Summary_list_of_policies Â· Summary_list_of
+               guidelines)
+Project-wide   What_Wikipedia_is_not Â· Editing_policy Â· Consensus Â· Dispute_resolution Â· Ignore_all_rules
+principles
+Core content   Neutral_point_of_view Â· No_original_research  Â· Verifiability
+policies
+Other content  Article_titles Â· Biographies_of_living_persons Â· Deletion
+policies
+Content        Citing_sources  Â· Conflict_of_interest Â· Disambiguation Â· Do_not_create_hoaxes Â· Do_not_include_copies_of_primary_sources Â·
+guidelines     Identifying_reliable_sources Â· Lead_section Â· Notability Â· Map_conventions  Â· Patent_nonsense
+Behavioral     Child_protection Â· Civility Â· Edit_warring Â· No_legal_threats Â· No_personal_attacks Â· Ownership_of_articles Â· Sock_puppetry
+policies
+Behavioral     Assume_good_faith Â· Do_not_disrupt_Wikipedia_to_illustrate_a_point Â· Etiquette Â· Gaming_the_system  Â· Please_do_not_bite_the
+guidelines     newcomers
+Editing        Article_size Â· Be_bold Â· Hatnotes Â· Signatures Â· Talk_page_guidelines Â· Subpages  Â· User_pages
+guidelines
+Style          Manual_of_Style  Â· Manual_of_Style_(accessibility) Â· Manual_of_Style_(dates_and_numbers) Â· Manual_of_Style_(layout) Â· Manual_of
+conventions    Style_(lists) Â· Manual_of_Style_(linking)
+Classification Categories,_lists,_and_navigation_templates Â· Categorization Â· Template_namespace
+guidelines
+Policies Â· Guidelines
+
+Retrieved from "http://en.wikipedia.org/wiki/Wikipedia:Categorization"
+
+Categories: Wikipedia_editing_guidelines | Wikipedia_categorization
+Hidden categories: Semi-protected_project_pages | Wikipedia_move-protected
+project_pages
+

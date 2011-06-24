@@ -1,0 +1,131 @@
+
+****** Category:Business intelligence ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+The main article for this category is Business_intelligence.
+
+***** Subcategories *****
+This category has the following 5 subcategories, out of 5 total.
+**** A ****
+    * [Ã]  Analytics (5 P)
+**** B ****
+    * [Ã]  Business_intelligence_companies (19 P)
+**** D ****
+    * [+]  Data_mining (2 C, 90 P)
+    * [+]  Data_warehousing (1 C, 42 P)
+**** O ****
+    * [Ã]  Open_source_intelligence (32 P)
+Pages in category "Business intelligence"
+The following 157 pages are in this category, out of 157 total. This list may
+not reflect recent changes (learn_more).
+    * Business          **** F ****              **** O cont. ****
+      intelligence          * Craig_Fleisher         * Organizational
+    * Business              * Focus_group              intelligence
+      Intelligence          * Freightgate        **** P ****
+      Project_Planning      * Fuld-Gilad-Herring     * Palo_(OLAP_database)
+**** A ****                   Academy_of             * Panopticon_Software
+    * ABC_analysis            Competitive            * ParAccel
+    * Academic                Intelligence           * Pentaho
+      Analytics             * Future_Map             * Performance
+    * Accounting        **** G ****                    intelligence
+      intelligence          * Geo-enable             * Pervasive_business
+    * ActiveReports         * GL_Wand                  intelligence
+    * Actuate               * GOPPAR                 * PEST_analysis
+      Corporation           * Government             * Pilot_Software
+    * ADAPA                   Performance            * Plateau_Talent
+    * Advanced_365            Management               Management_Suite
+    * User_talk:Agujero     * Greenplum              * Predictive_analytics
+      Negro                 * Gross_Merchandise      * Predictive_modelling
+    * Altius_Consulting       Volume             **** Q ****
+    * American_Business **** H ****                  * Qualitative_marketing
+      Media                 * Holistic_Data            research
+    * Analytic                Management             * Quantitative_marketing
+      applications      **** I ****                    research
+    * ApeSoft               * I-net_Crystal-     **** R ****
+**** B ****                   Clear                  * Reactive_Business
+    * BIfFI                 * IBM_Cognos_8             Intelligence
+    * BigChampagne            Business               * Real-time_business
+    * BIRT_Project            Intelligence             intelligence
+    * Blindspots            * IMRB_International     * Reed_Construction_Data
+      analysis              * Industry_or_market     * Report
+    * Business                research               * Resource-based_view
+      Intelligence_2.0      * ORC_International      * Revenue_Technology
+    * Business              * Information_broker       Services
+      Intelligence          * InfoSTEP               * Runtime_intelligence
+      Competency_Center     * InfoZoom               * Runtime_Intelligence
+    * Business              * Institute_for            Service
+      Intelligence            Competitive        **** S ****
+      portal                  Intelligence           * Sales_intelligence
+    * Business              * Integrated             * SAS_(software)
+      intelligence            business_planning      * Segment_Y
+      tools             **** J ****                  * Semantic_layer
+    * Business              * JasperReports          * Sentient_Information
+      performance           * JReport                  Systems
+      management        **** K ****                  * SIS_International
+    * BusinessObjects       * Performance              Research
+      OLAP_Intelligence       indicator              * Site_prospecting
+**** C ****                 * Ralph_Kimball          * Social_BI
+    * Cognos_Reportnet      * Klipfolio              * SpagoBI
+    * Competitive             Dashboard              * Spatial_intelligence_
+      intelligence      **** L ****                    (business_method)
+    * Competitor            * Latigent               * Spreadmart
+      analysis              * List_&amp;_Label       * Stealth_mode
+    * Competitor            * Lloyd's_List           * Supplier_Risk
+      intelligence            Intelligence             Management
+    * Context_analysis      * Location               * SWOT_analysis
+    * Creative                intelligence       **** T ****
+      competitive           * LogiXML                * Talend
+      intelligence          * LucidEra               * Talendforge
+    * Crystal_Analysis  **** M ****                  * Telecom_Data
+    * Crystal_Decisions     * Market_Information       Intelligence
+    * Customer                in_Business            * Telescopic_Observations
+      analytics               intelligence             Strategic_Framework
+    * Customer              * MarketTools            * Telligent_Analytics
+      attrition             * Master_data            * The_Dark_Report
+**** D ****                   management             * Thomson_Data_Analyzer
+    * Dashboard_            * Mergermarket           * Trendrr
+      (business)            * Meteorological         * TREX_search_engine
+    * Data                    intelligence           * Truviso
+      classification_       * Metrics_Reference  **** U ****
+      (business               Model                  * Unstructured_data
+      intelligence)         * Microsoft_Analysis     * Uplift_modelling
+    * Data_cleansing          Services               * Utility-Business
+    * Data_Discovery        * Microsoft_Office         Intelligence
+      and_Query_Builder       PerformancePoint   **** V ****
+    * Data_stream             Server                 * Visual_business
+      mining                * MicroStrategy            intelligence
+    * Data_warehouse        * MicroStrategy      **** W ****
+    * Data_warehouse          Reporting_Suite        * Winâloss_analytics
+      appliance             * Mobile_business
+    * Data_warehouse          intelligence
+      architectures         * Moreover
+    * DataCleaner             Technologies
+    * DATAllegro            * Mum_software
+    * DataRush          **** N ****
+      Technology            * National_Diamond
+    * Business              * NxTier
+      intelligence      **** O ****
+      deployment            * Online_video
+    * DevExpress              analytics
+      Reporting             * Opera_Solutions
+    * Digital_strategy      * Operational
+    * Dimensional_Fact        database
+      Model                 * Operational_system
+**** E ****                 * Organizational
+    * Early-arriving          diagnostics
+      fact
+    * Ecological_model
+      of_competition
+    * Enterprise_bus
+      matrix
+    * Espicom_Business
+      Intelligence
+Retrieved from "http://en.wikipedia.org/wiki/Category:Business_intelligence"
+
+Categories: Business | Strategic_management | Intelligence_(information
+gathering) | Information_technology
+

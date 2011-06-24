@@ -1,0 +1,89 @@
+
+****** Structure mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Structure mining or structured data mining is the process of finding and
+extracting useful information from semi structured data sets. Graph mining is a
+special case of structured data mining[citation_needed].
+***** Contents *****
+    * 1_Description
+    * 2_See_also
+    * 3_External_links
+    * 4_References
+***** [edit] Description *****
+The growth of the use of semi-structured_data has created new opportunities for
+data mining, which has traditionally been concerned with tabular data sets,
+reflecting the strong association between data_mining and relational_databases.
+Much of the world's interesting and mineable data does not easily fold into
+relational databases, though a generation of software engineers have been
+trained to believe this was the only way to handle data, and data mining
+algorithms have generally been developed only to cope with tabular data.
+XML, being the most frequent way of representing semi-structured data, is able
+to represent both tabular data and arbitrary trees. Any particular
+representation of data to be exchanged between two applications in XML is
+normally described by a Schema often written in XSD. Practical examples of such
+Schemata, for instance NewsML, are normally very sophisticated, containing
+multiple optional subtrees, used for representing special case data. Frequently
+around 90% of a Schema is concerned with the definition of these optional data
+items and sub-trees.
+Messages and data, therefore, that are transmitted or encoded using XML and
+that conform to the same Schema are liable to contain very different data
+depending on what is being transmitted.
+Such data presents large problems for conventional data mining. Two messages
+that conform to the same Schema may have little data in common. Building a
+training set from such data means that if one were to try to format it as
+tabular data for conventional data mining, large sections of the tables would
+or could be empty.
+There is a tacit assumption made in the design of most data mining algorithms
+that the data presented will be complete. Many algorithms perform badly with
+incomplete data sets, for instance those based on neural_networks.[citation
+needed]
+XPath is the standard mechanism used to refer to nodes and data items within
+XML. It has similarities to standard techniques for navigating directory
+hierarchies used in operating systems user interfaces. To data and structure
+mine XML data of any form, at least two extensions are required to conventional
+data mining. These are the ability to associate an XPath statement with any
+data pattern and sub statements with each data node in the data pattern, and
+the ability to mine the presence and count of any node or set of nodes within
+the document.
+As an example, if one were to represent a family tree in XML, using these
+extensions one could create a data set containing all the individuals in the
+tree, data items such as name and age at death, and counts of related nodes,
+such as number of children. More sophisticated searches could extract data such
+as grandparents' lifespans etc.
+The addition of these data types related to the structure of a document or
+message facilitates structure mining.
+The other desideratum is that the actual mining algorithms employed, whether
+supervised or unsupervised, must be able to handle sparse data. In practice the
+set of data mining algorithms that are best at handling sparse data are those
+that process the training set data into trees of related patterns. These are
+frequently descendants of or take their inspiration from Ross_Quinlan's ID3
+algorithm.[citation_needed]
+***** [edit] See also *****
+    * Molecule_mining
+    * Sequence_mining
+    * Data_mining
+    * Data_warehousing
+    * Structured_content
+***** [edit] External links *****
+    * The_5th_International_Workshop_on_Mining_and_Learning_with_Graphs,
+      Firenze,_Aug_1-3,_2007
+***** [edit] References *****
+    * Andrew_N_Edmonds,_On_data_mining_tree_structured_data_in_XML',_Data
+      mining_UK_conference,_University_of_Nottingham,_Aug_2003
+    * Gusfield, D., Algorithms on Strings, Trees, and Sequences: Computer
+      Science and Computational Biology, Cambridge University Press, 1997. ISBN
+      0-521-58519-8
+    * R.O. Duda, P.E. Hart, D.G. Stork, Pattern Classification, John Wiley
+      &amp; Sons, 2001. ISBN_0-471-05669-3
+
+Retrieved from "http://en.wikipedia.org/wiki/Structure_mining"
+
+Categories: Data_mining
+Hidden categories: All_articles_with_unsourced_statements | Articles_with
+unsourced_statements_from_November_2010
+

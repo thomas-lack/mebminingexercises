@@ -1,0 +1,77 @@
+
+****** Cross Industry Standard Process for Data Mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+CRISP-DM stands for Cross Industry Standard Process for Data Mining[1]. It is a
+data_mining process model that describes commonly used approaches that expert
+data miners use to tackle problems. Polls conducted in 2002, 2004, and 2007
+show that it is the leading methodology used by data miners.[2] [3] [4]
+***** Contents *****
+    * 1_Major_phases
+    * 2_History
+    * 3_CRISP-DM_2.0
+    * 4_Advantages
+    * 5_References
+    * 6_External_links
+***** [edit] Major phases *****
+CRISP-DM breaks the process of data_mining into six major phases[5]:
+    * Business Understanding
+    * Data Understanding
+    * Data Preparation
+    * Modeling
+    * Evaluation
+    * Deployment
+***** [edit] History *****
+CRISP-DM was conceived in 1996. In 1997 it got underway as a European Union
+project under the ESPRIT funding initiative. The project was led by four
+companies: ISL, NCR_Corporation, Daimler-Benz and OHRA.
+This core consortium brought different experiences to the project: ISL, later
+acquired and merged into SPSS_Inc. The computer giant NCR_Corporation produced
+the Teradata data warehouse and its own data mining software. Daimler-Benz had
+a significant data mining team. OHRA, an insurance company, was just starting
+to explore the potential use of data mining.
+The first version of the methodology was released as CRISP-DM_1.0 in 1999.
+***** [edit] CRISP-DM 2.0 *****
+In July 2006 the consortium announced that it was going to start the process of
+working towards a second version of CRISP-DM. On 26 September 2006, the CRISP-
+DM_SIG met to discuss potential enhancements for CRISP-DM 2.0 and the
+subsequent roadmap. However, these efforts appear to be stalled. The SIG has
+not met, updated the CRISP website, or communicated anything to members since
+early 2007.
+***** [edit] Advantages *****
+    * Industry neutral
+    * Tool neutral
+    * Closely related to KDD_Process_Model
+    * Anchors the data mining process
+***** [edit] References *****
+   1. ^ Shearer C. The_CRISP-DM_model:_the_new_blueprint_for_data_mining. J
+      Data Warehousing 2000;5:13â22.
+   2. ^ Gregory Piatetsky-Shapiro (2002) KDnuggets_Methodology_Poll
+   3. ^ Gregory Piatetsky-Shapiro (2004) KDnuggets_Methodology_Poll
+   4. ^ Gregory Piatetsky-Shapiro (2007) KDnuggets_Methodology_Poll
+   5. ^ Harper, Gavin; Stephen D. Pickett (August 2006). "Methods_for_mining
+      HTS_data". Drug_Discovery_Today 11 (15-16): 694â699. doi:10.1016/
+      j.drudis.2006.06.006. PMID 16846796. http://www.sciencedirect.com/
+      science?_ob=ArticleURL&amp;_udi=B6T64-4KDJSRH-
+      4&amp;_user=793840&amp;_coverDate=08%2F31%2F2006&amp;_rdoc=4&amp;_fmt=full&amp;_orig=browse&amp;_srch=doc-
+      info
+      (%23toc%235020%232006%23999889984%23627946%23FLA%23display%23Volume)&amp;_cdi=5020&amp;_sort=d&amp;_docanchor=&amp;view=c&amp;_ct=17&amp;_acct=C000043460&amp;_version=1&amp;_urlVersion=0&amp;_userid=793840&amp;md5=f7f5b2376172e12b63177a32b03de111. 
+***** [edit] External links *****
+    * CRoss_Industry_Standard_Process_for_Data_Mining
+    * CRoss_Industry_Standard_Process_for_Data_Mining_Blog
+    * Le_site_des_dataminers Article publiÃ© par Pascal BIZZARI, Mai 2009
+    * The_Data_Mining_Group_(DMG): The DMG is an independent, vendor led group
+      which develops data mining standards, such as the Predictive Model Markup
+      Language (PMML)
+[Stub_icon] This computer science article is a stub. You can help Wikipedia by
+            expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/
+Cross_Industry_Standard_Process_for_Data_Mining"
+
+Categories: Data_mining | Computer_science_stubs
+

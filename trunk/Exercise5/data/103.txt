@@ -1,0 +1,31 @@
+
+****** Data mining agent ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Diagram of Parallel Data Mining Agents
+A data mining agent is a software program built for the primary purpose of
+finding information efficiently. It is a type of intelligent_agent that
+operates in a data_warehouse and attempts to find relationships between
+different pieces of data. This type of agent is able to detect major trend
+changes, as well as detect new pertinent information. If a new piece of
+information is found, the agent will generally attempt to alert the end-user of
+this.
+For example, a corporation may develop an agent to analyze economic trends. If
+the agent detects that consumers are becoming more conservative, it will alert
+management of the change. With this information in hand, management can better
+plan on how to produce, market, and sell its product.
+***** [edit] General references *****
+    * Stephen Haag et al., Management Information Systems for the information
+      age, ISBN_0-07-095569-7
+***** [edit] External links *****
+    * Parallel_Data_Mining_Agents An article dealing with PDMAs
+    * Agent_Mining Agent Mining Interaction and Integration
+
+Retrieved from "http://en.wikipedia.org/wiki/Data_mining_agent"
+
+Categories: Data_mining
+

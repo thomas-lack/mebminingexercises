@@ -1,0 +1,203 @@
+
+****** Extension neural network ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Extension neural network is a pattern recognition method found by M. H. Wang
+and C. P. Hung in 2003 to classify instances of data sets. Extension neural
+network is composed of neural_network and extension theory concepts. It uses
+the fast and adaptive learning capability of neural_network and correlation
+estimation property of extension theory by calculating extension distance.
+ENN was used in:
+    * Failure detection in machinery.
+    * Tissue classification through MRI.
+    * Fault recognition in automotive engine.
+    * State of charge estimation in lead-acid battery.
+    * Classification with incomplete survey data.
+***** Contents *****
+    * 1_Extension_Theory
+    * 2_Extension_Neural_Network
+          o 2.1_Learning_Algorithm
+    * 3_References
+***** Extension Theory *****
+Extension theory was first proposed by Cai in 1983 to solve contradictory
+problems. While classical mathematic is familiar with quantity and forms of
+objects, extension theory transforms these objects to matter-element model.
+      R = (N,C,V)    (1
+                       )
+
+where in matter R, N is the name or type, C is its characteristics and V is the
+corresponding value for the characteristic. There is a corresponding example in
+equation 2.
+      [
+      R=\begin{bmatrix}                               (2
+      Yusuf      &amp; Height, &amp; 178cm      \\      )
+       &amp; Weight &amp; 98kg
+      \end{bmatrix}]
+where Height and Weight characteristics form extension sets. These extension
+sets are defined by the V values which are range values for corresponding
+characteristics. Extension theory concerns with the extension correlation
+function between matter-element models like shown in equation 2 and extension
+sets. Extension correlation function is used to define extension space which is
+composed of pairs of elements and their extension correlation functions. The
+extension space formula is shown in equation 3.
+      [                                             (3
+      A=\left \{ (x,y)| x\in U, y=K(x) \right \}      )
+      ]
+
+where, A is the extension space, U is the object space, K is the extension
+correlation function, x is an element from the object space and y is the
+corresponding extension correlation function output of element x. K(x) maps x
+to a membership interval [\left [ -\infin,\infin \right ] ]. Negative region
+represents an element not belonging membership degree to a class and positive
+region vice versa. If x is mapped to [\left [ 0,1 \right ] ], extension theory
+acts like fuzzy_set theory. The correlation function can be shown with the
+equation 4.
+      [
+      \rho(x,X_{in})=\left|x-\frac{a+b}{2}\right|-\frac{b-a}{2}
+      ]                                                             (4
+      [                                                               )
+      \rho(x,X_{out})=\left|x-\frac{c+d}{2}\right|-\frac{d-c}{2}
+      ]
+
+where, Xin and Xout are called concerned and neighborhood domain and their
+intervals are (a,b) and (c,d) respectively. The extended correlation function
+used for estimation of membership degree between x and Xin, Xout is shown in
+equation 5.
+      [
+      K(x)=
+      \begin{cases}
+      -\rho(x,X_{in})                      &amp;x\in{X_{in}} \\    (5
+      \frac{\rho(x,X_{in})}{\rho(x,X_{out})-\rho(x,X_{in})}          )
+      &amp;x\not \in{X_{in}}
+      \end{cases}
+      ]
+
+[Extension_Correlation_Function]
+***** Extension Neural Network *****
+Extension neural network has a neural network like appearance. Weight vector
+resides between the input nodes and output nodes. Output nodes are the
+representation of input nodes by passing them through the weight vector.
+[Extension_Neural_Network_Architecture]
+There are total number of input and output nodes are represented by n and nc,
+respectively. These numbers depend on the number of characteristics and
+classes. Rather than using one weight value between two layer nodes as in
+neural_network, extension neural network architecture has two weight values. In
+extension neural network architecture, for instance i, [x^p_{ij}] is the input
+which belongs to class p and oik is the corresponding output for class k. The
+output oik is calculated by using extension distance as shown in equation 6.
+      [
+      ED_{ik}=\sum\limits_{j=0}^n \left( \frac{|x_{ij}^p-z_{kj}|-\frac    (6
+      {w_{kj}^U-w_{kj}^L}{2}}{|\frac{w_{kj}^U-w_{kj}^L}{2}|}+1 \right)      )
+      ]
+      k = 1,2,....,nc
+Estimated class is found through searching for the minimum extension distance
+among the calculated extension distance for all classes as summarized in
+equation 7, where k * is the estimated class.
+      k * = argmink(oik)    (7
+                              )
+**** Learning Algorithm ****
+Each class is composed of ranges of characteristics. These characteristics are
+the input types or names which come from matter-element model. Weight values in
+extension neural network represent these ranges. In the learning algorithm,
+first weights are initialized by searching for the maximum and minimum values
+of inputs for each class as shown in equation 8
+      [
+      w_{kj}^U = \max_i\{x_{ij}^k\}
+      ]                                             (8
+      [                                               )
+      w_{kj}^L = \min_i\{x_{ij}^k\}
+      ] i = 1,...,Np k = 1,...,nc j = 1,2,....,n
+where, i is the instance number and j is represents number of input. This
+initialization provides classes' ranges according to given training data.
+After maintaining weights, center of clusters are found through the equation 9.
+      Zk = {zk1,zk2,...,zkn}
+      [                                       (9
+      z_{kj} = \frac{w_{kj}^U+w_{kj}^L}{2}      )
+      ] k = 1,2,....,nc j = 1,2,....,n
+Before learning process begins, predefined learning performance rate is given
+as shown in equation 10
+      [                         (10
+      E_\tau=\frac{N_m}{N_p}      )
+      ]
+where, Nm is the misclassified instances and Np is the total number of
+instances. Initialized parameters are used to classify instances with using
+equation 6. If the initialization is not sufficient due to the learning
+performance rate, training is required. In the training step weights are
+adjusted to classify training data more accurately, therefore reducing learning
+performance rate is aimed. In each iteration, EÏ is checked to control if
+required learning performance is reached. In each iteration every training
+instance is used for training.
+Instance i, belongs to class p is shown by:
+[
+X_{i}^p=\{x_{i1}^p,x_{i2}^p,...,x_{in}^p\}
+]
+[
+1\leq p\leq n_c
+]
+Every input data point of [X_i^p] is used in extension distance calculation to
+estimate the class of [X_i^p]. If the estimated class k * = p then update is
+not needed. Whereas, if [k^* \neq p] then update is done. In update case,
+separators which show the relationship between inputs and classes, are shifted
+proportional to the distance between the center of clusters and the data
+points.
+The update formula:
+[
+z_{pj}^{new} = z_{pj}^{old} + \eta (x_{ij}^p-z_{pj}^{old})
+]
+[
+z_{k^*j}^{new} = z_{k^*j}^{old} - \eta (x_{ij}^p-z_{k^*j}^{old})
+]
+[
+w_{pj}^{L(new)} = w_{pj}^{L(old)} + \eta (x_{ij}^p-z_{pj}^{old})
+]
+[
+w_{pj}^{U(new)} = w_{pj}^{U(old)} + \eta (x_{ij}^p-z_{pj}^{old})
+]
+[
+w_{k^*j}^{L(new)} = w_{k^*j}^{L(old)} - \eta (x_{ij}^p-z_{k^*j}^{old})
+]
+[
+w_{k^*j}^{U(new)} = w_{k^*j}^{U(old)} - \eta (x_{ij}^p-z_{k^*j}^{old})
+]
+
+To classify the instance i accurately, separator of class p for input j moves
+close to data-point of instance i, whereas separator of class k * for input j
+moves far away. In the above image, an update example is given. Assume that
+instance i belongs to class A, whereas it is classified to class B because
+extension distance calculation gives out EDA > EDB. After the update, separator
+of class A moves close to the data-point of instance i whereas separator of
+class B moves far away. Consequently, extension distance gives out EDB > EDA,
+therefore after update instance i is classified to class A.
+***** References *****
+   1. Kuei-Hsiang Chao, Meng-Hui Wang, Hung-Cheng Chen, and Yi-Feng Tseng. A
+      novel clustering algorithm based on the extension theory and genetic
+      algorithm. Expert Systems with Applications, 36(4):82698276, 2009
+   2. Kuei-Hsiang Chao, Meng-Hui Wang, and Chia-Chang Hsu. A novel residual
+      capacity estimation method based on extension neural network for lead-
+      acid batteries. International Symposium on Neural Networks, pages
+      1145â1154, 2007
+   3. Kuei-Hsiang Chao, Meng-Hui Wang, Wen-Tsai Sung, and Guan-Jie Huang. Using
+      enn-1 for fault recognition of automotive engine. Expert Systems with
+      Applications, 37(4):29432947, 2010
+   4. Chuin-Mu Wang, Ming-Ju Wu, Jian-Hong Chen, and Cheng-Yi Yu. Extension
+      neural network approach to classification of brain mri. Intelligent
+      Information Hiding and Multimedia Signal Processing, pages 515â517,
+      2009
+   5. Jun Ye. Application of extension theory in misfire fault diagnosis of
+      gasoline engines. Expert Systems with Applications, 36(2):1145â1154,
+      2009
+   6. Juncai Zhang, Xu Qian, Yu Zhou, and Ai Deng. Condition monitoring method
+      of the equipment based on extension neural network. Chinese Control and
+      Decision Conference, pages 1735â1740, 2010
+   7. M.H. Wang and C.P Hung. Extension neural network and its applications.
+      International Joint Conference On Neural Networks, 5-6:779â784, 2003
+
+Retrieved from "http://en.wikipedia.org/wiki/Extension_neural_network"
+
+Categories: Computational_neuroscience | Data_mining | Neural_networks |
+Network_architecture | Econometrics | Information,_knowledge,_and_uncertainty
+

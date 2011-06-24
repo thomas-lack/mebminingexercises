@@ -1,0 +1,128 @@
+
+****** Data mining in agriculture ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+***** Contents *****
+    * 1_Introduction
+    * 2_Applications
+          o 2.1_Prediction_of_problematic_wine_fermentations
+          o 2.2_Detection_of_diseases_from_sounds_issued_by_animals
+          o 2.3_Sorting_apples_by_watercores
+          o 2.4_Optimizing_pesticide_usage_by_Data_Mining
+          o 2.5_Explaining_pesticide_abuse_by_Data_Mining
+    * 3_The_literature
+    * 4_The_conference
+    * 5_References
+***** [edit] Introduction *****
+Data mining in agriculture is a very recent research topic. It consists in the
+application of data_mining techniques to agriculture. Recent technologies are
+nowadays able to provide a lot of information on agricultural-related
+activities, which can then be analyzed in order to find important information
+[1]. A related, but not equivalent term is precision_agriculture.
+***** [edit] Applications *****
+*** [edit] Prediction of problematic wine fermentations ***
+Wine is widely produced all around the world. The fermentation process of the
+wine is very important, because it can impact the productivity of wine-related
+industries and also the quality of wine. If we were able to predict how the
+fermentation is going to be at the early stages of the process, we could
+interfere with the process in order to guarantee a regular and smooth
+fermentation. Fermentations are nowadays studied by using different techniques,
+such as, for example, the k-means_algorithm [2], and a technique for
+classification based on the concept of biclustering [3]. Note that these works
+are different from the ones where a classification of different kinds of wine
+is performed. See the wiki page Classification_of_wine for more details.
+*** [edit] Detection of diseases from sounds issued by animals ***
+The detection of animal's diseases in farms can impact positively the
+productivity of the farm, because sick animals can cause contaminations.
+Moreover, the early detection of the diseases can allow the farmer to cure the
+animal as soon as the disease appears. Sounds issued by pigs can be analyzed
+for the detection of diseases. In particular, their coughs can be studied,
+because they indicate their sickness. A computational system is under
+development which is able to monitor pig sounds by microphones installed in the
+farm, and which is also able to discriminate among the different sounds that
+can be detected [4].
+*** [edit] Sorting apples by watercores ***
+Before going to market, apples are checked and the ones showing some defects
+are removed. However, there are also invisible defects, that can spoil the
+apple flavor and look. An example of invisible defect is the watercore. This is
+an internal apple disorder that can affect the longevity of the fruit. Apples
+with slight or mild watercores are sweeter, but apples with moderate to sever
+degree of watercore cannot be stored for any length of time. Moreover, a few
+fruits with severe watercore could spoil a whole batch of apples. For this
+reason, a computational system is under study which takes X-ray photographs of
+the fruit while they run on conveyer belts, and which is also able to analyse
+(by data mining techniques) the taken pictures and estimate the probability
+that the fruit contains watercores [5].
+*** [edit] Optimizing pesticide usage by Data Mining ***
+Recent studies by agriculture researchers in Pakistan (one of the top four
+cotton producers of the world) showed that attempts of cotton crop yield
+maximization through pro-pesticide state policies have led to a dangerously
+high pesticide usage. These studies have reported a negative correlation
+between pesticide usage and crop yield in Pakistan. Hence excessive use (or
+abuse) of pesticides is harming the farmers with adverse financial,
+environmental and social impacts. By data mining the cotton Pest Scouting data
+along with the meteorological recordings it was shown that how pesticide usage
+can be optimized (reduced). Clustering of data revealed interesting patterns of
+farmer practices along with pesticide usage dynamics and hence help identify
+the reasons for this pesticide abuse[6].
+*** [edit] Explaining pesticide abuse by Data Mining ***
+To monitor cotton growth, different government departments and agencies in
+Pakistan have been recording pest scouting, agriculture and metrological data
+for decades. Coarse estimates of just the cotton pest scouting data recorded
+stands at around 1.5 million records, and growing. The primary agro-met data
+recorded has never been digitized, integrated or standardized to give a
+complete picture, and hence cannot support decision making, thus requiring an
+Agriculture Data Warehouse. Creating a novel Pilot Agriculture Extension Data
+Warehouse followed by analysis through querying and data mining some
+interesting discoveries were made, such as pesticides sprayed at the wrong
+time, wrong pesticides used for the right reasons and temporal relationship
+between pesticide usage and day of the week[7].
+***** [edit] The literature *****
+Since this research topic is quite recent, there is only one reference book.
+Data_Mining_in_Agriculture is published by Springer and it is co-authored by
+Antonio_Mucherino, Petraq_Papajorgji and Panos_Pardalos. A quick survey of the
+book can be found at this_address. There are a few precision agriculture
+journals, such as Springer's Precision_Agriculture or Elsevier's Computers_and
+Electronics_in_Agriculture, but those are not exclusively devoted to data
+mining in agriculture.
+***** [edit] The conference *****
+There are many conferences organized every year on data mining techniques and
+applications, but rather few of them consider problems arising in the
+agricultural field. To date, there is only one example of conference completely
+devoted to applications in agriculture of data mining. It is organized by Georg
+RuÃ. This is the conference web_page.
+***** [edit] References *****
+   1. ^ Mucherino, A.; Papajorgji, P.J.; Pardalos, P. (2009). Data Mining in
+      Agriculture, Springer. 
+   2. ^ Urtubia, A.; Perez-Correa, J.R.; Meurens, M.; Agosin, E. (2004).
+      "Monitoring Large Scale Wine Fermentations with Infrared Spectroscopy".
+      Talanta 64(3): 778â784. 
+   3. ^ Mucherino, A.; Urtubia, A. (2010). "Consistent Biclustering and
+      Applications to Agriculture". IbaI Conference Proceedings, Proceedings of
+      the Industrial Conference on Data Mining (ICDM10), Workshop Data Mining
+      in Agriculture (DMA10), Springer: 105â113. 
+   4. ^ Chedad, A.; Moshou, D.; Aerts, J.M.; Van Hirtum, A.; Ramon, H.;
+      Berckmans, D. (2001). "Recognition System for Pig Cough based on
+      Probabilistic Neural Networks". Journal of Agricultural Engineering
+      Research 79(4): 449â457. 
+   5. ^ Schatzki, T.F.; Haff, R.P.; Young, R.; Can, I.; Le, L-C.; Toyofuku, N.
+      (1997). "Defect Detection in Apples by Means of X-ray Imaging".
+      Transactions of the American Society of Agricultural Engineers 40(5):
+      1407â1415. 
+   6. ^ Abdullah, Ahsan; Brobst, Stephen; Pervaiz, Ijaz; Umar, Muhammad; Nisar,
+      Azhar (2004). "Learning_Dynamics_of_Pesticide_Abuse_through_Data_Mining".
+      Australasian Workshop on Data Mining and Web Intelligence, Dunedin, New
+      Zealand. http://crpit.com/confpapers/CRPITV32Abdullah.pdf. 
+   7. ^ Abdullah, Ahsan; Hussain, Amir (2006). "Data_Mining_a_New_Pilot
+      Agriculture_Extension_Data_Warehouse". Journal of Research and Practice
+      in Information Technology, Vol. 38, No. 3, August 2006: 229â249. http:/
+      /www.jrpit.acs.org.au/jrpit/JRPITVolumes/JRPIT38/JRPIT38.3.229.pdf. 
+
+Retrieved from "http://en.wikipedia.org/wiki/Data_mining_in_agriculture"
+
+Categories: Data_mining | Agriculture
+
