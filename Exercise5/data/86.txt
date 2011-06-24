@@ -1,0 +1,183 @@
+
+****** Data fusion ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Data fusion, is generally defined as the use of techniques that combine data
+from multiple sources and gather that information in order to achieve
+inferences, which will be more efficient and potentially more accurate than if
+they were achieved by means of a single source.
+fusion of the data from 2 sources (dimension #1 &amp; #2) can yield classifier
+superior to any classifiers based on dimension #1 or dimension #2.
+Data fusion processes are often categorized as low, intermediate or high,
+depending on the processing stage at which fusion takes place.[1] Low level
+fusion, (Data fusion) combines several sources of raw data to produce new raw
+data. The expectation is that fused data is more informative and synthetic than
+the original inputs.
+For example, sensor_fusion is also known as (multi-sensor) data fusion and is a
+subset of information_fusion.
+***** Contents *****
+    * 1_Data_Fusion_in_Geospatial_Applications
+    * 2_Data_fusion_vs._Data_integration
+    * 3_Data_Fusion_and_the_JDL_Model
+    * 4_See_also
+          o 4.1_Application_areas
+    * 5_References
+    * 6_General_references
+    * 7_Books
+    * 8_External_links
+***** [edit] Data Fusion in Geospatial Applications *****
+In the geospatial (GIS) domain, data fusion is often synonymous with data
+integration. In these applications, there is often a need to combine diverse
+data sets into a unified (fused) data set which includes all of the data points
+and time steps from the input data sets. The fused data set is different from a
+simple combined superset in that the points in the fused data set contain
+attributes and metadata which might not have been included for these points in
+the original data set.
+A simplified example of this process is shown below where data set "Î±" is
+fused with data set Î² to form the fused data set Î´. Data points in set "Î±"
+have spatial coordinates X and Y and attributes A1 and A2. Data points in set
+Î² have spatial coordinates X and Y and attributes B1 and B2. The fused data
+set contains all points and attributes
+Input Data Set Î±
+ _________________
+|Point|X_|Y_|A1|A2|
+|Î±1|10|10|M_|N_|
+|Î±2|10|30|M_|N_|
+|Î±3|30|10|M_|N_|
+|Î±4|30|30|M_|N_|
+Input Data Set Î²
+ _________________
+|Point|X_|Y_|B1|B2|
+|Î²1|20|20|Q_|R_|
+|Î²2|20|40|Q_|R_|
+|Î²3|40|20|Q_|R_|
+|Î²4|40|40|Q_|R_|
+Fused Data Set Î´
+ _______________________
+|Point|X_|Y_|A1|A2|B1|B2|
+|Î´1|10|10|M_|N_|Q_|R_|
+|Î´2|10|30|M_|N_|Q_|R_|
+|Î´3|30|10|M_|N_|Q_|R_|
+|Î´4|30|30|M_|N_|Q_|R_|
+|Î´5|20|20|M_|N_|Q_|R_|
+|Î´6|20|40|M_|N_|Q_|R_|
+|Î´7|40|20|M_|N_|Q_|R_|
+|Î´8|40|40|M_|N_|Q_|R_|
+In this simple case all attributes are uniform across the entire analysis
+domain, so attributes may be simply assigned. In more realistic applications,
+attributes are rarely uniform and some type of interpolation is usually
+required to properly assign attributes to the data points in the fused set.
+[Visualization_of_fused_data_sets_for_rock_lobster_tracks_in_the_Tasman_Sea.
+Image_generated_using_Eonfusion_software_by_Myriax_Pty._Ltd._-
+eonfusion.myriax.com]
+In a much more complicated application, marine animal researchers use data
+fusion to combine animal tracking data with bathymetric, meteorological, sea
+surface_temperature (SST) and animal habitat data to examine and understand
+habitat utilization and animal behavior in reaction to external forces such as
+weather or water temperature. Each of these data sets exhibit a different
+spatial grid and sampling rate so a simple combination would likely create
+erroneous assumptions and taint the results of the analysis. But through the
+use of data fusion, all data and attributes are brought together into a single
+view in which a more complete picture of the environment is created. This
+enables scientists to identify key locations and times and form new insights
+into the interactions between the environment and animal behaviors.
+In the figure at right, rock lobsters are studied off the coast of Tasmania.
+Dr. Hugh Pederson of the University_of_Tasmania used data fusion software to
+fuse southern_rock_lobster tracking data (color-coded for in yellow and black
+for day and night, respectively) with bathymetry and habitat data to create a
+unique 4D picture of rock lobster behavior.
+***** [edit] Data fusion vs. Data integration *****
+In applications outside of the geospatial domain, differences in the usage of
+the terms Data_integration and Data fusion apply. In areas such as business
+intelligence, for example, data integration is used to describe the combining
+of data, whereas data fusion is integration followed by reduction or
+replacement. Data integration might be viewed as set combination wherein the
+larger set is retained, whereas fusion is a set reduction technique with
+improved confidence.
+***** [edit] Data Fusion and the JDL Model *****
+In the mid-1980s, the Joint Directors of Laboratories formed the Data Fusion
+Subpanel (which later became known as the Data Fusion Group). The JDL/DFG
+introduced a model of data fusion that divided the various processes into 5
+levels:
+Level 0: Source Preprocessing/subobject refinement
+Level 1: Object refinement
+Level 2: Situation refinement
+Level 3: Impact Assessment (or Threat Refinement)
+Level 4: Process Refinement
+Level 5: Cognitive Refinement (or User Refinement)
+Although the JDL Model is still in use today, it is often criticized for its
+implication that the levels necessarily happen in order from 0-5 and also for
+its lack of adequate representation of the potential for a human-in-the-loop.
+Despite these shortcomings, the JDL model is useful for visualizing the data
+fusion process and also for facilitating discussion and common understanding
+(Hall et al. 2007).
+***** [edit] See also *****
+    * Data_integration
+    * Dataspaces
+    * Artificial_intelligence
+    * Bayesian_network
+    * CRISP-DM
+    * Data_analysis
+    * Data_farming
+    * Data_mining
+    * Descriptive_statistics
+    * Fuzzy_logic
+    * Hypothesis_testing
+    * k-nearest_neighbor_algorithm
+    * Machine_learning
+    * Image_fusion
+    * Pattern_recognition
+    * Predictive_analytics
+    * Preprocessing
+    * Sensor_Fusion
+    * Statistics
+**** [edit] Application areas ****
+    * Geospatial_Information_Systems
+    * Business_intelligence
+    * Oceanography
+    * Discovery_science
+    * Business_performance_management
+    * Intelligent_transport_systems
+    * Loyalty_card
+    * Cheminformatics
+          o Quantitative_structure-activity_relationship
+    * Bioinformatics
+    * Intelligence_services
+    * Wireless_sensor_networks
+***** [edit] References *****
+   1. ^ Lawrence A. Klein (2004). Sensor_and_data_fusion:_A_tool_for
+      information_assessment_and_decision_making. SPIE Press. p. 51.
+      ISBN 0819454354. http://books.google.co.za/books?id=-782bo4u_ogC. 
+***** [edit] General references *****
+   1. Dave L. Hall and James Llinas, âIntroduction to Multisensor Data
+      Fusionâ, Proc. of IEEE , Vol. 85, No. 1, pp. 6 â 23, Jan 1997.
+   2. Erik Blasch, Ivan Kadar, John Salerno, Mieczyslaw Kokar, Subrata Dase,
+      Gerald Powell, Daniel Corkill, and E. Euspini (2006), Issues_and
+      Challenges_in_Situation_Assessment_(Level_2_Fusion), Journal of Advances
+      in Information Fusion, Vol 1, No 2, Dec. 2006.
+***** [edit] Books *****
+    * Liggins, Martin E., David L. Hall, and James Llinas. Multisensor Data
+      Fusion, Second Edition Theory and Practice (Multisensor Data Fusion).
+      CRC, 2008. ISBN_978-1-4200-5308-1
+    * David L. Hall, Sonya A. H. McMullen, Mathematical Techniques in
+      Multisensor Data Fusion (2004), ISBN_1580533353
+    * Springer, Information Fusion in Data Mining (2003), ISBN_3540006761
+    * H. B. Mitchell, Multi-sensor Data Fusion â An Introduction (2007)
+      Springer-Verlag, Berlin, ISBN_9783540714637
+    * S. Das, High-Level Data Fusion (2008), Artech House Publishers, Norwood,
+      MA, ISBN_9781596932814 and 1596932813
+***** [edit] External links *****
+ Look up data_fusion in Wiktionary, the free dictionary.
+    * Data_Fusion,_Multitel
+    * An_Introduction_to_Data_Fusion,_Royal_Military_Academy
+    * Sensordata_Fusion,_An_Introduction
+    * International_Society_of_Information_Fusion
+
+Retrieved from "http://en.wikipedia.org/wiki/Data_fusion"
+
+Categories: Data_mining
+

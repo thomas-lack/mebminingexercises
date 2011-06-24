@@ -1,0 +1,22 @@
+
+****** Ball tree ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+A ball tree is a data_structure designed to enable fast nearest_neighbor
+searching in high-dimensional spaces, by covering the points in a dataset with
+a system of balls arranged in a tree.
+***** [edit] External links *****
+    * PDF_paper Stephen M. Omohundro, "Five Balltree Construction Algorithms",
+      November 1989.
+[Stub_icon] This data_structure-related article is a stub. You can help
+            Wikipedia by expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Ball_tree"
+
+Categories: Trees_(structure) | Data_mining | Learning_in_computer_vision |
+Data_structure_stubs
+

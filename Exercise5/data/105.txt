@@ -1,0 +1,85 @@
+
+****** Ren-rou ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article has multiple issues. Please help improve_it or discuss these
+ issues on the talk_page.
+     * Very few or no other articles link_to_it. Please help introduce_links to
+       this page from other articles_related_to_it. Tagged since February 2011.
+     * It may need to be wikified to meet Wikipedia's quality_standards. Tagged
+       since February 2011.
+ This article may require cleanup to meet Wikipedia's quality_standards. Please
+ improve_this_article if you can. The talk_page may contain suggestions. (May
+ 2011)
+Ren-rou(Chinese: äººè, pin yin: rÃ©n rÃ²u), or ren rou sou suo(äººèæç´¢)
+means to mine certain specific information about someone or some people,
+usually done by a group of non-professional participants in coordinated effort
+with helps of modern technologies, especially the internet. This action is
+conducted usually without permission of the subject(s) being ren-roued.
+***** Contents *****
+    * 1_Purpose_of_ren-rou
+    * 2_Triggers_for_individuals_become_ren-roued
+    * 3_Methods_of_conduct_information_mining
+    * 4_pros&amp;cons[1]
+    * 5_References
+***** [edit] Purpose of ren-rou *****
+    * Gathering information about people to know more about someone.
+    * Promoting hatred, by exposing individual actions or behaviors that is
+      likely to be opposed by the public, or certain group of people.
+    * Promoting assault against someone. By exposing subject's private
+      information including home address, phone number, email, work place, to
+      make this subject available to go after.
+    * Holding people accountable to what they say online. By exposing the true
+      identity of an online commentator , the subject (commentator) is attached
+      to his/her voice, so he/she will become targeted and risk being punished
+      (by public or law) if he/she has said something irresponsible (online).
+    * Exposing someone's bad or illegal actions, like fraud.
+***** [edit] Triggers for individuals become ren-roued *****
+    * Online posting or commenting (usually in a forum) which stimulates the
+      anger of its viewers very badly.
+    * Evidences or traces being revealed against someone, suggest that there is
+      potentially a great evil behind him/her, making people want to find out
+      more.
+***** [edit] Methods of conduct information mining *****
+    * Going after IP_address. Sometimes, people who comment anonymously online
+      can leave their IP address available to public or certain group of
+      people. IP address can be entered into some site to find out the physical
+      location of that IP being assigned to. Therefore it can leak out more
+      information to go after.
+    * Posting existent information about a subject (being ren-roued) online, so
+      other people who know the subject can recognize, and contribute more
+      information about this subject.
+    * Hacking. Breaking into email inboxes, hacking into subject computers, to
+      mine more information.
+    * Photo taking, voice recording, usually in covert.
+    * Web coordinated tracking.
+    * Use search_engine to search information. For instance, the subject may
+      have posted some resume on certain sites to be searched for.
+***** [edit] pros&amp;cons[1] *****
+pro:
+    * It's a great way to uncover fraud or illegal actions.
+    * Make people aware goods and evil (through learning why the subject is
+      being ren-roued).
+    * There is law to protect privacy issues, so subjects (being ren-roued) can
+      still protect themselves against any illegal conduct of ren-rou that
+      harms them.
+con:
+    * It invades people's privacy.
+    * It makes people fear and nervous, even it is unnecessary.
+    * There is no legal guide line on how to conduct it properly.
+***** [edit] References *****
+[1] äººèæç´¢è°æ¯è´£ä»»ä¸»ä½, http://tech.sina.com.cn/it/2008-12-30/
+10182704437.shtml
+
+Retrieved from "http://en.wikipedia.org/wiki/Ren-rou"
+
+Categories: Data_mining
+Hidden categories: Orphaned_articles_from_February_2011 | All_orphaned_articles
+| Articles_that_need_to_be_wikified_from_February_2011 | All_articles_that_need
+to_be_wikified | Wikipedia_articles_needing_cleanup_from_May_2011 | All
+articles_needing_cleanup
+

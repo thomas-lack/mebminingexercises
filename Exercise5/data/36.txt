@@ -1,0 +1,80 @@
+
+****** Keel (software) ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                    This article is an orphan, as few or no other articles link
+[Wiki_letter_w.svg] to_it. Please introduce_links to this page from related
+                    articles; suggestions_may_be_available. (July 2010)
+ This article is missing information about the purpose and its influence. This
+ concern has been noted on the talk_page where whether or not to include such
+ information may be discussed. (June 2010)
+                                   KEEL
+[Keel.JPG]
+KEEL SOFTWARE TOOL - Open Source - V2010-05-06
+Developer(s)     University_of_Granada under the Spanish National Project
+Stable_release   1.0. (Reference manual),2.0. (User Manual), 2010-05-06
+                 (stable) / ((release date
+Operating_system Cross-platform
+Type             Machine_Learning
+                 Copyright 2004-2010, KEEL (Knowledge Extraction based on
+License          Evolutionary Learning) in its beginning; GNU GPL_v3 since
+                 2010-07-13[1]
+Website          http://sci2s.ugr.es/keel/index.php
+KEEL (Knowledge Extraction based on Evolutionary Learning) is a suite of
+machine_learning software tools, developed under the Spanish National Project
+TIC2002-04036-C05, TIN2005-08386-C05 and TIN2008-06681-C06.
+***** Contents *****
+    * 1_Description
+    * 2_References
+    * 3_See_also
+    * 4_External_links
+***** [edit] Description *****
+KEEL is designed for solving data mining problems and assessing evolutionary
+algorithms. It has a collection of libraries for preprocessing and post-
+processing techniques for data manipulating, soft-computing methods in
+knowledge of extracting and learning, and providing scientific and research
+methods[2].
+The implemented programs are applied in wide research and educational goals
+such as evolutionary fuzzy rule learning, Mamdani rule tuning, genetic
+artificial neural networks and Learning Classiï¬er Systems [3].
+***** [edit] References *****
+   1. ^ http://sci2s.ugr.es/keel/download.php#sub1
+   2. ^ http://www.keel.es
+   3. ^ KEEL_description_paper: J. AlcalÃ¡-Fdez, L. SÃ¡nchez, S. GarcÃ­a, M.J.
+      del Jesus, S. Ventura, J.M. Garrell, J. Otero, C. Romero, J. Bacardit,
+      V.M. Rivas, J.C. FernÃ¡ndez, F. Herrera. KEEL: A Software Tool to Assess
+      Evolutionary Algorithms to Data Mining Problems. Soft Computing 13:3
+      (2009) 307-318
+Find more about Keel (software) on Wikipedia's sister_projects:
+ Definitions from Wiktionary
+ Images_and_media from Commons
+ Learning_resources from Wikiversity
+ News_stories from Wikinews
+ Quotations from Wikiquote
+ Source_texts from Wikisource
+ Textbooks from Wikibooks
+***** [edit] See also *****
+[Portal-puzzle.svg] Free_Software_portal
+    * Fuzzy_control_system
+    * Evolutionary_Algorithm
+    * Soft_computing
+***** [edit] External links *****
+    * Home_page_of_KEEL_in_spanish
+    * Website_of_KEEL_in_english
+    * (Spanish) Learning_of_Artificial_Neuronal_Networks_(Aprendizaje_de_Redes
+      Neuronales_Artificiales)
+[Stub_icon] This computer science article is a stub. You can help Wikipedia by
+            expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Keel_(software)"
+
+Categories: Soft_computing | Artificial_intelligence | Machine_learning | Data
+mining | Free_science_software | Free_software_programmed_in_Java | Computer
+science_stubs
+Hidden categories: Orphaned_articles_from_July_2010 | All_orphaned_articles |
+Accuracy_disputes_from_June_2010
+

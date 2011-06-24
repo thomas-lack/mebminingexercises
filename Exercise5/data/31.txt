@@ -1,0 +1,100 @@
+
+****** List of machine learning algorithms ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                    This article is an orphan, as few or no other articles link
+[Wiki_letter_w.svg] to_it. Please introduce_links to this page from related
+                    articles; suggestions_may_be_available. (December 2009)
+***** Contents *****
+    * 1_Supervised_learning
+          o 1.1_Statistical_classification
+    * 2_Unsupervised_learning
+          o 2.1_Association_rule_learning
+          o 2.2_Hierarchical_clustering
+          o 2.3_Partitional_clustering
+    * 3_Reinforcement_learning
+    * 4_Others
+***** [edit] Supervised learning *****
+    * AODE
+    * Artificial_neural_network
+          o Backpropagation
+    * Bayesian_statistics
+          o Naive_Bayes_classifier
+          o Bayesian_network
+          o Bayesian_knowledge_base
+    * Case-based_reasoning
+    * Decision_trees
+    * Inductive_logic_programming
+    * Gaussian_process_regression
+    * Group_method_of_data_handling (GMDH)
+    * Learning_Automata
+    * Learning_Vector_Quantization
+    * Minimum_message_length (decision trees, decision graphs, etc.)
+    * Lazy_learning
+    * Instance-based_learning
+          o Nearest_Neighbor_Algorithm
+          o Analogical_modeling
+    * Probably_approximately_correct_learning (PAC) learning
+    * Ripple_down_rules, a knowledge acquisition methodology
+    * Symbolic_machine_learning algorithms
+    * Subsymbolic_machine_learning algorithms
+    * Support_vector_machines
+    * Random_Forests
+    * Ensembles_of_classifiers
+          o Bootstrap_aggregating (bagging)
+          o Boosting
+    * Ordinal_classification
+    * Regression_analysis
+    * Information_fuzzy_networks (IFN)
+**** [edit] Statistical classification ****
+    * AODE
+    * Linear_classifiers
+          o Fisher's_linear_discriminant
+          o Logistic_regression
+          o Naive_Bayes_classifier
+          o Perceptron
+          o Support_vector_machines
+    * Quadratic_classifiers
+    * k-nearest_neighbor
+    * Boosting
+    * Decision_trees
+          o C4.5
+          o Random_forests
+    * Bayesian_networks
+    * Hidden_Markov_models
+***** [edit] Unsupervised learning *****
+    * Artificial_neural_network
+    * Data_clustering
+    * Expectation-maximization_algorithm
+    * Self-organizing_map
+    * Radial_basis_function_network
+    * Vector_Quantization
+    * Generative_topographic_map
+    * Information_bottleneck_method
+    * IBSEAD
+**** [edit] Association rule learning ****
+    * Apriori_algorithm
+    * Eclat_algorithm
+    * FP-growth_algorithm
+**** [edit] Hierarchical clustering ****
+    * Single-linkage_clustering
+    * Conceptual_clustering
+**** [edit] Partitional clustering ****
+    * K-means_algorithm
+    * Fuzzy_clustering
+***** [edit] Reinforcement learning *****
+    * Temporal_difference_learning
+    * Q-learning
+***** [edit] Others *****
+    * Data_Pre-processing
+
+Retrieved from "http://en.wikipedia.org/wiki/
+List_of_machine_learning_algorithms"
+
+Categories: Machine_learning | Data_mining
+Hidden categories: Orphaned_articles_from_December_2009 | All_orphaned_articles
+

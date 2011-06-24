@@ -1,0 +1,202 @@
+
+****** Consensus clustering ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article may require cleanup to meet Wikipedia's quality_standards. Please
+ improve_this_article if you can. The talk_page may contain suggestions.
+ (February 2009)
+Clustering is the assignment of objects into groups (called clusters) so that
+objects from the same cluster are more similar to each other than objects from
+different clusters. Often similarity is assessed according to a distance
+measure. Clustering is a common technique for statistical data_analysis, which
+is used in many fields, including machine_learning, data_mining, pattern
+recognition, image_analysis and bioinformatics.
+Consensus clustering has emerged as an important elaboration of the classical
+clustering problem. Consensus clustering, also called aggregation of clustering
+(or partitions), refers to the situation in which a number of different (input)
+clusterings have been obtained for a particular dataset and it is desired to
+find a single (consensus) clustering which is a better fit in some sense than
+the existing clusterings. Consensus clustering is thus the problem of
+reconciling clustering information about the same data set coming from
+different sources or from different runs of the same algorithm. When cast as an
+optimization problem, consensus clustering is known as median partition, and
+has been shown to be NP-complete.
+***** Contents *****
+    * 1_Issues_with_existing_clustering_techniques
+    * 2_Why_Consensus_Clustering?
+    * 3_Advantages_of_Consensus_Clustering
+    * 4_Related_Work
+    * 5_Hard_Ensemble_Clustering
+          o 5.1_Efficient_Consensus_Functions
+    * 6_Soft_Clustering_Ensembles
+    * 7_References
+    * 8_Further_reading
+***** [edit] Issues with existing clustering techniques *****
+    * Current clustering techniques do not address all the requirements
+      adequately.
+    * Dealing with large number of dimensions and large number of data items
+      can be problematic because of time complexity;
+    * Effectiveness of the method depends on the definition of âdistanceâ
+      (for distance based clustering)
+    * If an obvious distance measure doesnât exist we must âdefineâ it,
+      which is not always easy, especially in multidimensional spaces.
+    * The result of the clustering algorithm (that in many cases can be
+      arbitrary itself) can be interpreted in different ways.
+***** [edit] Why Consensus Clustering? *****
+    * There are potential shortcomings for each of the known clustering
+      techniques.
+    * Interpretation of results are difficult in a few cases.
+    * When there is no knowledge about the number of clusters, it becomes
+      difficult.
+    * They are extremely sensitive to the initial settings.
+    * Some algorithms can never undo what was done previously.
+    * Iterative descent clustering methods, such as the SOM and K-Means
+      clustering circumvent some of the shortcomings of Hierarchical_clustering
+      by providing for univocally defined clusters and cluster boundaries.
+      However, they lack the intuitive and visual appeal of Hierarchical
+      clustering, and the number of clusters must be chosen a priori.
+    * An extremely important issue in cluster analysis is the validation of the
+      clustering results, that is, how to gain confidence about the
+      significance of the clusters provided by the clustering technique,
+      (cluster numbers and cluster assignments). Lacking an external objective
+      criterion (the equivalent of a known class label in supervised learning)
+      this validation becomes somewhat elusive.
+***** [edit] Advantages of Consensus Clustering *****
+    * Provides for a method to represent the consensus across multiple runs of
+      a clustering algorithm, to determine the number of clusters in the data,
+      and to assess the stability of the discovered clusters.
+    * The method can also be used to represent the consensus over multiple runs
+      of a clustering algorithm with random restart (such as K-means, model-
+      based Bayesian clustering, SOM, etc.), so as to account for * its
+      sensitivity to the initial conditions.
+    * It also provides for a visualization tool to inspect cluster number,
+      membership, and boundaries.
+    * We will be able to extract lot of features / attributes from multiples
+      runs of different clustering algorithms on the data. These features can
+      give us valuable information in doing a final consensus clustering.
+***** [edit] Related Work *****
+1. Clustering Ensemble (Strehl and Ghosh): They consider various formulations
+for the problem, most of which reduce the problem to a hyper-graph partitioning
+problem. In one of their formulations they consider the same graph as in the
+correlation clustering problem. The solution they propose is to compute the
+best k-partition of the graph, which does not take into account the penalty for
+merging two nodes that are far apart.
+2. Clustering Aggregation (Fern and Brodley): They apply the clustering
+aggregation idea to a collection of soft clusterings they obtain by random
+projections. They use an agglomerative algorithm and do not penalize for
+merging dissimilar nodes.
+3. Fred and Jain: propose to use a single linkage algorithm to combine multiple
+runs of the k-means algorithm.
+4. Dana Cristofor and Dan Simovici: observe the connection between clustering
+aggregation and clustering of categorical data. They propose information
+theoretic distance measures, and they propose genetic algorithms for finding
+the best aggregation solution.
+5. Topchy et al.: They define clustering aggregation as a maximum likelihood
+estimation problem, and they propose an EM algorithm for finding the consensus
+clustering.
+***** [edit] Hard Ensemble Clustering *****
+This approach by Strehl and Ghosh introduces the problem of combining multiple
+partitionings of a set of objects into a single consolidated clustering without
+accessing the features or algorithms that determined these partitionings. They
+discuss three approaches towards solving this problem to obtain high quality
+consensus functions. Their techniques have low computational costs and this
+makes it feasible to evaluate each of the techniques discussed below and arrive
+at the best solution by comparing the results against the objective function.
+**** [edit] Efficient Consensus Functions ****
+1. Cluster-based Similarity Partitioning Algorithm (CSPA)
+In CSPA the similarity between two data-points is defined to be directly
+proportional to number of constituent clusterings of the ensemble in which they
+are clustered together. The intuition is that the more similar two data-points
+are the higher is the chance that constituent clusterings will place them in
+the same cluster. CSPA is the simplest heuristic, but its computational and
+storage complexity are both quadratic in n. The following two methods are
+computationally less expensive:
+2. Hyper-Graph Partitioning Algorithm (HGPA)
+The HGPA algorithm takes a very different approach to finding the consensus
+clustering than the previous method. The cluster ensemble problem is formulated
+as partitioning the hypergraph by cutting a minimal number of hyperedges. They
+make use of hMETIS which is a hypergraph partitioning package system.
+3. Meta-CLustering Algorithm (MCLA)
+The Meta-CLustering Algorithm (MCLA) is based on clustering clusters. First, it
+tries to solve the cluster correspondence problem and then uses voting to place
+data-points into the final consensus clusters. The cluster correspondence
+problem is solved by grouping the clusters identified in the individual
+clusterings of the ensemble. The clustering is performed using METIS and
+Spectral clustering.
+
+***** [edit] Soft Clustering Ensembles *****
+Punera and Ghosh extended the idea of hard clustering ensembles to the soft
+clustering scenario. Each instance in a soft ensemble is represented by a
+concatenation of r posterior membership probability distributions obtained from
+the constituent clustering algorithms. We can define a distance measure between
+two instances using the Kullback-Leibler (KL) divergence, which calculates the
+âdistanceâ between two probability distributions.
+1. sCSPA
+sCSPA extends CSPA by calculating a similarity matrix. Each object is
+visualized as a point in dimensional space, with each dimension corresponding
+to probability of its belonging to a cluster. This technique first transforms
+the objects into a label-space and then interprets the dot product between the
+vectors representing the objects as their similarity.
+2. sMCLA
+sMCLA extends MCLA by accepting soft clusterings as input. sMCLAâs working
+can be divided into the following steps:
+    * Construct Soft Meta-Graph of Clusters
+    * Group the Clusters into Meta-Clusters
+    * Collapse Meta-Clusters using Weighting
+    * Compete for Objects
+3. sHBGF
+HBGF represents the ensemble as a bipartite graph with clusters and instances
+as nodes, and edges between the instances and the clusters they belong to. This
+approach can be trivially adapted to consider soft ensembles since the graph
+partitioning algorithm METIS accepts weights on the edges of the graph to be
+partitioned. In sHBGF, the graph has n + t vertices, where t is the total
+number of underlying clusters.
+                                 This article includes a list_of
+                                 references, related reading or external
+[Text_document_with_red_question links, but its sources remain unclear
+mark.svg]                        because it lacks inline_citations. Please
+                                 improve this article by introducing more
+                                 precise citations where_appropriate.
+                                 (December 2010)
+***** [edit] References *****
+    * Alexander_Strehl and J. Ghosh, Cluster_ensembles_â_a_knowledge_reuse
+      framework_for_combining_multiple_partitions, Journal on Machine Learning
+      Research (JMLR) 2002
+    * Kunal Punera, Joydeep Ghosh. Consensus_Based_Ensembles_of_Soft
+      Clusterings.
+    * Aristides Gionis, Heikki Mannila, Panayiotis Tsaparas. Clustering
+      Aggregation. 21st International Conference on Data Engineering (ICDE
+      2005)
+    * Hongjun Wang, Hanhuai Shan, Arindam Banerjee. Bayesian_Cluster_Ensembles,
+      SIAM International Conference on Data Mining, SDM 09
+    * Nam Nguyen, Rich Caruana. Consensus Clusterings. Seventh IEEE
+      International Conference on Data Mining.
+    * Alexander Topchy, Anil K. Jain, William Punch. Clustering_Ensembles:
+      Models_of_Consensus_and_Weak_Partitions. IEEE International Conference on
+      Data Mining, ICDM 03 &amp; SIAM International Conference on Data Mining,
+      SDM 04
+***** [edit] Further reading *****
+    * Andrey Goder and Vladimir Filkov. "Consensus_Clustering_Algorithms:
+      Comparison_and_Refinement" (PDF). 2008 Proceedings of the Ninth Workshop
+      on Algorithm Engineering and Experiments (ALENEX) â San Francisco,
+      January 19, 2008. Society for Industrial and Applied Mathematics. http://
+      www.siam.org/proceedings/alenex/2008/alx08_011godera.pdf. 
+    * Tao Li and Chris Ding. "Weighted_Consensus_Clustering" (PDF). Proceedings
+      of the 2008 SIAM International Conference on Data Mining â Atlanta,
+      April 24â26, 2008. Society for Industrial and Applied Mathematics.
+      http://www.siam.org/proceedings/datamining/2008/dm08_72_li.pdf. 
+    * Stefano Monti, Pablo Tamayo, Jill Mesirov and Todd Golub. "Consensus
+      Clustering_-_A_resampling-based_method_for_class_discovery_and
+      visualization_of_gene_expression_microarray_data"
+
+Retrieved from "http://en.wikipedia.org/wiki/Consensus_clustering"
+
+Categories: Data_mining | Data_clustering_algorithms
+Hidden categories: Wikipedia_articles_needing_cleanup_from_February_2009 | All
+articles_needing_cleanup | Articles_lacking_in-text_citations_from_December
+2010 | All_articles_lacking_in-text_citations
+

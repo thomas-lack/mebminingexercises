@@ -1,0 +1,45 @@
+
+****** Deep Web Technologies ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+        Deep Web Technologies, Inc.
+Type         Private
+Industry     computer_software
+Headquarters Santa_Fe,_NM
+Key people   Abe_Lederman, President and CEO
+Products     Explorit_Research_Accelerator
+Employees    15 (2007)
+Website      www.deepwebtech.com
+Deep Web Technologies is a software company that specializes in mining the deep
+Web â the part of the Internet that is not directly searchable through
+ordinary web search engines.
+    * [1] The company produces a proprietary software platform "Explorit" for
+      such searches. It also produces the federated search engine
+      ScienceResearch.com, which provides free federated public searching of a
+      large number of databases, and is also produced in specialized versions,
+      Biznar for business research, Mednar for medical research, and customized
+      versions for individual clients.[2]
+***** [edit] References *****
+   1. ^ Lederman, Abe; Sol Lederman (March 2004). "Challenges_of_the_Deep_Web
+      Explorers". Enterprise Search Newsletter (7). http://www.ideaeng.com/pub/
+      entsrch/issue07/article02.html. Retrieved 2006-07-05. 
+   2. ^ "Deep Web Tech Relaunches ScienceResearch.com" by Paula J. Hane
+      Information_Today_article, June 15, 2009
+***** [edit] External links *****
+    * Home_Page
+
+[Stub_icon] This United States corporation or company article is a stub. You
+            can help Wikipedia by expanding_it.v Â· d Â· e
+[Stub_icon] This technology article about a corporation or company is a stub.
+            You can help Wikipedia by expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Deep_Web_Technologies"
+
+Categories: Technology_companies | Data_mining | Companies_based_in_New_Mexico
+| Santa_Fe,_New_Mexico | United_States_company_stubs | Technological_company
+stubs
+

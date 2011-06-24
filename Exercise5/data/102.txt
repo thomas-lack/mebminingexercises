@@ -1,0 +1,254 @@
+
+****** Data visualization ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+A data visualization of Wikipedia as part of the World_Wide_Web, demonstrating
+hyperlinks
+Data visualization is the study of the visual representation of data, meaning
+"information which has been abstracted in some schematic form, including
+attributes or variables for the units of information".[1]
+According to Friedman (2008) the "main goal of data visualization is to
+communicate information clearly and effectively through graphical means. It
+doesnât mean that data visualization needs to look boring to be functional or
+extremely sophisticated to look beautiful. To convey ideas effectively, both
+aesthetic form and functionality need to go hand in hand, providing insights
+into a rather sparse and complex data set by communicating its key-aspects in a
+more intuitive way. Yet designers often fail to achieve a balance between
+design and function, creating gorgeous data visualizations which fail to serve
+their main purpose â to communicate information".[2] Indeed, Fernanda_Viegas
+and Martin_M._Wattenberg have suggested that an ideal visualization should not
+merely communicate clearly, but stimulate viewer engagement and attention[3]
+Data visualization is closely related to Information_graphics, Information
+visualization, Scientific_visualization and Statistical_graphics. In the new
+millennium data visualization has become active area of research, teaching and
+development. According to Post et al. (2002) it has united the field of
+scientific and information visualization".[4]
+KPI Library has developed the âPeriodic Table of Visualization Methodsâ, an
+interactive chart displaying various different data visualization methods [1].
+It details 6 types of data visualization methods: data, information, concept,
+strategy, metaphor and compound.[citation_needed]
+***** Contents *****
+    * 1_Data_visualization_scope
+    * 2_Related_fields
+          o 2.1_Data_acquisition
+          o 2.2_Data_analysis
+          o 2.3_Data_governance
+          o 2.4_Data_management
+          o 2.5_Data_mining
+    * 3_Data_visualization_software
+    * 4_See_also
+    * 5_References
+    * 6_Further_reading
+    * 7_External_links
+***** [edit] Data visualization scope *****
+There are different approaches on the scope of data visualization. One common
+focus is on information presentation such as Friedman (2008) presented it. On
+this way Friendly (2008) presumes two main parts of data visualization:
+statistical_graphics, and thematic_cartography.[1] In this line the "Data
+Visualization: Modern Approaches" (2007) article gives an overview of seven
+subjects of data visualization:[5]
+    * Mindmaps
+    * Displaying news
+    * Displaying data
+    * Displaying connections
+    * Displaying websites
+    * Articles &amp; resources
+    * Tools and services
+All these subjects are all close related to graphic_design and information
+representation.
+On the other hand, from a computer_science perspective, Frits H. Post (2002)
+categorized the field into a number of sub-fields:[4]
+    * Visualization algorithms and techniques
+    * Volume_visualization
+    * Information_visualization
+    * Multiresolution methods
+    * Modelling techniques and
+    * Interaction_techniques and architectures
+***** [edit] Related fields *****
+**** [edit] Data acquisition ****
+Data_acquisition is the sampling of the real world to generate data that can be
+manipulated by a computer. Sometimes abbreviated DAQ or DAS, data acquisition
+typically involves acquisition of signals and waveforms and processing the
+signals to obtain desired information. The components of data acquisition
+systems include appropriate sensors that convert any measurement parameter to
+an electrical signal, which is acquired by data acquisition hardware.
+**** [edit] Data analysis ****
+Data_analysis is the process of studying and summarizing data with the intent
+to extract useful information and develop conclusions. Data analysis is closely
+related to data_mining, but data mining tends to focus on larger data sets,
+with less emphasis on making inference, and often uses data that was originally
+collected for a different purpose. In statistical_applications, some people
+divide data analysis into descriptive_statistics, exploratory_data_analysis and
+inferential_statistics (or confirmatory_data_analysis), where the EDA focuses
+on discovering new features in the data, and CDA on confirming or falsifying
+existing hypotheses.
+Types of data analysis are:
+    * Exploratory_data_analysis (EDA): an approach to analyzing data for the
+      purpose of formulating hypotheses worth testing, complementing the tools
+      of conventional statistics for testing hypotheses. It was so named by
+      John_Tukey.
+    * Qualitative_data_analysis (QDA) or qualitative_research is the analysis
+      of non-numerical data, for example words, photographs, observations,
+      etc..
+**** [edit] Data governance ****
+This is very useful information for DM Seminars. Data_governance encompasses
+the people, processes and technology required to create a consistent,
+enterprise view of an organisation's data in order to:
+    * Increase consistency &amp; confidence in decision making
+    * Decrease the risk of regulatory fines
+    * Improve data security
+    * Maximize the income generation potential of data
+    * Designate accountability for information quality
+**** [edit] Data management ****
+Data_management comprises all the academic disciplines related to managing data
+as a valuable resource. The official definition provided by DAMA is that "Data
+Resource Management is the development and execution of architectures,
+policies, practices and procedures that properly manage the full data lifecycle
+needs of an enterprise." This definition is fairly broad and encompasses a
+number of professions which may not have direct technical contact with lower-
+level aspects of data management, such as relational_database management.
+**** [edit] Data mining ****
+Data_mining is the process of sorting through large amounts of data and picking
+out relevant information. It is usually used by business_intelligence
+organizations, and financial_analysts, but is increasingly being used in the
+sciences to extract information from the enormous data_sets generated by modern
+experimental and observational methods.
+It has been described as "the nontrivial extraction of implicit, previously
+unknown, and potentially useful information from data"[6] and "the science of
+extracting useful information from large data_sets or databases."[7] In
+relation to enterprise_resource_planning, according to Monk (2006), data mining
+is "the statistical and logical analysis of large sets of transaction data,
+looking for patterns that can aid decision making".[8]
+***** [edit] Data visualization software *****
+ _____________________________________________________________________________
+|Software_____________|Type_________________|Targeted_Users_______|License____|
+|Avizo                |GUI/Code Data        |Engineers and        |Proprietary|
+|_____________________|Visualisation________|Scientists___________|___________|
+|Cave5D               |Virtual Reality Data |Scientists           |Open Source|
+|_____________________|Visualization________|_____________________|___________|
+|Data_Desk            |GUI Data             |Statisician          |Proprietary|
+|_____________________|Visualisation________|_____________________|___________|
+|DAVIX                |Operating System with|Security Consultant  |Various    |
+|_____________________|data_tools___________|_____________________|___________|
+|Dundas_Data          |GUI Data             |Business Managers    |Proprietary|
+|Visualization,_Inc.__|Visualisation________|_____________________|___________|
+|Eye-Sys              |GUI/Code Data        |Engineers and        |Proprietary|
+|_____________________|Visualisation________|Scientists___________|___________|
+|Ferret_Data          |Gridded Datasets     |Oceanographers and   |           |
+|Visualization_and    |Visualisation        |meteorologists       |Open Source|
+|Analysis_____________|_____________________|_____________________|___________|
+|Trendalyzer__________|Data_Visualisation___|Teachers_____________|Proprietary|
+|GGobi                |GUI Data             |Statisician          |Open Source|
+|_____________________|Visualisation________|_____________________|___________|
+|Grapheur             |GUI Data             |Business Users       |Proprietary|
+|_____________________|Visualisation________|_____________________|___________|
+|Mondrian             |GUI Data             |Statisician          |Open Source|
+|_____________________|Visualisation________|_____________________|___________|
+|IBM_OpenDX           |GUI/Code Data        |Engineers and        |Open Source|
+|_____________________|Visualisation________|Scientists___________|___________|
+|IDL_(programming     |Code Data            |Programmer           |Many       |
+|language)____________|Visualisation________|_____________________|___________|
+|IDL_(programming     |Programming Language |Programmer           |Open Source|
+|language)____________|_____________________|_____________________|___________|
+|InetSoft_____________|Company______________|Many_________________|Proprietary|
+|                     |                     |Analysts,            |           |
+|Instantatlas         |GIS Data             |researchers,         |Proprietary|
+|                     |Visualisation        |statisticians and GIS|           |
+|_____________________|_____________________|professionals________|___________|
+|MeVisLab             |GUI/Code Data        |Engineers and        |Proprietary|
+|_____________________|Visualisation________|Scientists___________|___________|
+|OpenLink_AJAX_Toolkit|Library_/_Toolkit____|Programmers__________|GPL________|
+|ParaView             |GUI/Code Data        |Engineers and        |BSD        |
+|_____________________|Visualisation________|Scientists___________|___________|
+|Processing_          |                     |                     |           |
+|(programming         |Programming Language |Programmers          |GPL        |
+|language)____________|_____________________|_____________________|___________|
+|Smile_(software)     |GUI/Code Data        |Engineers and        |Proprietary|
+|_____________________|Visualisation________|Scientists___________|___________|
+|Spotfire             |GUI Data             |Business Users       |Proprietary|
+|_____________________|Visualisation________|_____________________|___________|
+|                     |Company of GUI/Code  |Engineers and        |           |
+|StatSoft             |Data Visualisation   |Scientists           |Proprietary|
+|_____________________|Software_____________|_____________________|___________|
+|Tableau_Software     |GUI Data             |Business Users       |Proprietary|
+|_____________________|Visualisation________|_____________________|___________|
+|                     |                     |Business Users,      |           |
+|Tom_Sawyer_Software  |Data Visualization   |Engineers, and       |Proprietary|
+|_____________________|_____________________|Scientists___________|___________|
+|Trade_Space          |GUI/Code Data        |Engineers and        |Proprietary|
+|Visualizer___________|Visualisation________|Scientists___________|___________|
+|Visifire_____________|Library______________|Programmers__________|Open_Source|
+|Vis5D                |GUI Data             |Scientists           |Open Source|
+|_____________________|Visualization________|_____________________|___________|
+|VisAD________________|Java/Jython_Library__|Programmers__________|Open_Source|
+|VisIt                |GUI/Code Data        |Engineers and        |Open Source|
+|_____________________|Visualisation________|Scientists___________|___________|
+|VTK__________________|C++_Library__________|Programmers__________|Open_Source|
+|Yoix_________________|Programming_Language_|Programmers__________|Open_Source|
+***** [edit] See also *****
+    * Data_Presentation_Architecture
+    * Scientific_visualization
+***** [edit] References *****
+   1. ^ a b Michael_Friendly (2008). "Milestones_in_the_history_of_thematic
+      cartography,_statistical_graphics,_and_data_visualization".
+   2. ^ Vitaly Friedman (2008) "Data_Visualization_and_Infographics" in:
+      Graphics, Monday Inspiration, January 14th, 2008.
+   3. ^ Fernanda Viegas and Martin Wattenberg, "How To Make Data Look Sexy",
+      CNN.com, April 19, 2011. http://articles.cnn.com/2011-04-19/opinion/
+      sexy.data_1_visualization-21st-century-engagement?_s=PM:OPINION
+   4. ^ a b Frits H. Post, Gregory M. Nielson and Georges-Pierre Bonneau
+      (2002). Data_Visualization:_The_State_of_the_Art._Research_paper_TU
+      delft,_2002..
+   5. ^ "Data_Visualization:_Modern_Approaches". in: Graphics, August 2nd, 2007
+   6. ^ W. Frawley and G. Piatetsky-Shapiro and C. Matheus (Fall 1992).
+      "Knowledge Discovery in Databases: An Overview". AI Magazine: pp.
+      213â228. ISSN 0738-4602. 
+   7. ^ D. Hand, H. Mannila, P. Smyth (2001). Principles of Data Mining. MIT
+      Press, Cambridge, MA. ISBN 0-262-08290-X. 
+   8. ^ Ellen Monk, Bret Wagner (2006). Concepts in Enterprise Resource
+      Planning, Second Edition. Thomson Course Technology, Boston, MA. ISBN 0-
+      619-21663-8. 
+***** [edit] Further reading *****
+    * Chandrajit Bajaj, Bala Krishnamurthy (1999). Data Visualization
+      Techniques.
+    * William S. Cleveland (1993). Visualizing Data. Hobart Press.
+    * William S. Cleveland (1994). The Elements of Graphing Data. Hobart Press.
+    * Alexander N. Gorban, BalÃ¡zs KÃ©gl, Donald Wunsch, and Andrei Zinovyev
+      (2008). Principal_Manifolds_for_Data_Visualization_and_Dimension
+      Reduction. LNCSE 58. Springer.
+    * John P. Lee and Georges G. Grinstein (eds.) (1994). Database_Issues_for
+      Data_Visualization:_IEEE_Visualization_'93_Workshop,_San_Diego.
+    * Peter R. Keller and Mary Keller (1993). Visual Cues: Practical Data
+      Visualization.
+    * Frits H. Post, Gregory M. Nielson and Georges-Pierre Bonneau (2002). Data
+      Visualization:_The_State_of_the_Art.
+***** [edit] External links *****
+ Wikimedia Commons has media related to: Data_visualization
+    * Milestones_in_the_History_of_Thematic_Cartography,_Statistical_Graphics,
+      and_Data_Visualization, An illustrated chronology of innovations by
+      Michael Friendly and Daniel J. Denis.
+    * Peer-reviewed definition_of_Data_Visualization with commentaries
+v Â· d Â· eVisualization of technical information
+        Biological_data_visualization Â· Chemical_imaging Â· Crime_mapping Â· Data visualization Â· Educational_visualization Â· Flow
+Fields  visualization Â· Geovisualization Â· Information_visualization Â· Mathematical_visualization Â· Medical_imaging Â· Molecular
+        graphics Â· Product_visualization Â· Scientific_visualization Â· Software_visualization Â· Technical_drawing Â· Visual_culture Â·
+        Volume_visualization
+Image   Chart Â· Computer_graphics Â· Diagram Â· Graph_of_a_function Â· Engineering_drawing Â· Ideogram Â· Information_graphics Â· Map Â·
+types   Photograph Â· Pictogram Â· Plot Â· Statistical_graphics Â· Table Â· Technical_drawings Â· Technical_illustration
+        Jacques_Bertin Â· Stuart_Card Â· Thomas_A._DeFanti Â· Michael_Friendly Â· Nigel_Holmes Â· Alan_MacEachren Â· Jock_D._Mackinlay Â·
+Experts Michael_Maltz Â· Bruce_H._McCormick Â· Charles_Joseph_Minard Â· Otto_Neurath Â· William_Playfair Â· Clifford_A._Pickover Â· Arthur
+        H._Robinson Â· Lawrence_J._Rosenblum Â· Adolphe_Quetelet Â· George_G._Robertson Â· Ben_Shneiderman Â· Edward_Tufte
+Related Cartography Â· Computer_graphics Â· Graph_drawing Â· Graphic_design Â· Imaging_science Â· Information_science Â· Mental
+topics  visualisation Â· Neuroimaging Â· Scientific_modelling Â· Spatial_analysis Â· Visual_analytics Â· Visual_perception
+
+Retrieved from "http://en.wikipedia.org/wiki/Data_visualization"
+
+Categories: Visualization_(graphic) | Data_analysis | Data_collection | Data
+management | Data_mining | Information_technology_governance
+Hidden categories: All_articles_with_unsourced_statements | Articles_with
+unsourced_statements_from_December_2010
+

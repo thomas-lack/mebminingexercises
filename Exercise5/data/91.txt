@@ -1,0 +1,127 @@
+
+****** Wikipedia:FAQ/Categories ******
+
+From Wikipedia, the free encyclopedia
+
+< Wikipedia:FAQ
+
+Jump to: navigation, search
+
+[Page_semi-protected]
+Categories FAQ
+Reader help
+About_Wikipedia
+Categories
+Copyright
+Disambiguation
+Images_&amp;_multimedia
+Mobile_access
+Navigation
+Other_languages
+Page_names
+Portals
+Researching_with_Wikipedia
+Searching
+===============================================================================
+Reader_glossary
+Readers'_FAQ
+Readerâs_Guide_to_Wikipedia
+Content Portals
+Content
+Categories
+Portals
+Frequently asked questions about using Wikipedia's categories.
+(This page is intended for readers of Wikipedia. Editors should see Wikipedia:
+FAQ/Categorization.)
+***** Contents *****
+    * 1_What_are_categories?
+    * 2_How_are_categories_organized?
+    * 3_Why_is_an_article_not_in_the_categories_I_would_expect?
+    * 4_What_types_of_categories_are_there?
+    * 5_How_else_can_I_navigate_articles?
+    * 6_Can_I_specify_categories_when_searching?
+    * 7_Why_might_a_category_list_not_be_up_to_date?
+***** What are categories? *****
+Categories are groups of articles on related topics. At the bottom of an
+article, you will see a box containing the categories to which that article has
+been assigned. Simply click any of these categories to go to the corresponding
+category page. From there you can browse other articles on the same topic, or
+navigate through the category tree to find other related categories
+***** How are categories organized? *****
+Most categories have a number of other categories listed as subcategories.
+These are listed in a special section of the category page, which appears above
+the list of articles belonging to the category. Click on these subcategories to
+navigate through the category tree to find more specific groups of articles.
+Similarly, you may want to navigate in the other direction, to find more
+general groups of articles ("parent categories"). These are listed in the box
+at the bottom of a category page, just like on a Wikipedia article page.
+To go directly to the top of the category structure, see Portal:Contents/
+Categorical_index. To browse all categories alphabetically, go to Special:
+Categories.
+***** Why is an article not in the categories I would expect? *****
+Articles are not usually placed in every category to which they logically
+belong. In many cases they will not be placed directly into a category if they
+belong to one of its subcategories. This is because otherwise categories would
+become too large, and the list of categories on articles too long. To find the
+articles you are looking for, it may be necessary to dig down. For example, you
+won't find Oslo listed at the category called Cities, but if you start from
+there and click "Cities_by_country", and then "Cities_and_towns_in_Norway",
+you'll arrive at the right place. Conversely, if you are at the Oslo article
+and you want to find the category of all cities, start by clicking Cities_and
+towns_in_Norway and navigate up the tree to its parent categories.
+***** What types of categories are there? *****
+Different parts of Wikipedia use different schemes for organizing articles into
+categories. The main types of categories used are:
+    * Administration categories or project categories â categories used
+      mainly by Wikipedia's editors for project management purposes, rather
+      than for browsing. A common type is stub categories, which contain very
+      short ("stub") articles in a particular field.
+    * Container categories â categories which only contain other categories.
+          o Intermediate categories â categories used to organize large
+            classes of subcategories, such as Category:Albums_by_artist.
+    * Set categories â categories of articles on subjects in a particular
+      class, such as Category:Villages_in_Poland.
+    * Topic categories â categories of articles relating to a particular
+      topic, such as Category:Geography or Category:Paris.
+    * Set-and-topic categories â categories which are combinations of the two
+      above types.
+    * Universal categories â categories used to provide a complete list of
+      articles which are otherwise normally divided into subcategories.
+***** How else can I navigate articles? *****
+Of course, categories are not the only Wikipedia feature for browsing articles
+on particular topics. Readers most often find related articles simply by
+clicking the links that appear in the article they are reading. To find which
+articles contain links to the article you are reading, click What_links_here at
+the left-hand side of the page. For a general starting point to browsing the
+encyclopedia, go to Portal:Contents. Wikipedia also has many pages containing
+lists, which serve a similar function to categories.
+***** Can I specify categories when searching? *****
+When using the search box, it is possible to restrict your search to articles
+in a particular category. To do this, just add +incategory:"CategoryName" to
+the search string. More than one category can be specified, making it possible
+to find articles in the intersection of categories.
+It is also possible to search for categories themselves, prefixing the search
+term with the prefix Category:. For example, searching for "Category:Countries"
+will return a list of all categories whose names contain the word "countries"
+or "country".
+***** Why might a category list not be up to date? *****
+Sometimes, pages are not placed in categories manually by Wikipedia editors,
+but by means of templates, which can be used to place identical information
+(including category membership information) on many different pages at once.
+When the information on such a template is edited, the pages containing that
+template are updated, but not necessarily updated immediately. This means that
+pages might not always appear in the most current categories. However, this
+problem usually affects project maintenance categories rather than the
+categories used for browsing.
+Various other temporary delays may sometimes mean that lists of category
+members or subcategories, or the page counts given, are not completely up to
+date. So if you are editing Wikipedia and find that your page hasn't yet shown
+up in a category or been removed from an old category, don't panic! The problem
+may resolve itself within minutes, but sometimes it may take longer, in some
+cases days, even weeks. (It may help if you purge the page.)
+
+Retrieved from "http://en.wikipedia.org/wiki/Wikipedia:FAQ/Categories"
+
+Categories: Wikipedia_FAQ | Wikipedia_categorization | Reader_help
+Hidden categories: Semi-protected_project_pages
+

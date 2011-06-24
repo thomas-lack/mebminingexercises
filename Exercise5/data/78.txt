@@ -1,0 +1,60 @@
+
+****** KXEN Inc. ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                KXEN
+Developer(s)     KXEN_Inc.
+Stable_release   5.1 / May, 2009
+Operating_system Windows, Linux, Unix
+Type             Predictive_Analytics
+License          proprietary
+Website          www.kxen.com
+Founded in 1998, KXEN is a privately held company headquartered in California
+with offices in the USA, UK, France and distributors throughout the world
+(Brazil, Belarus, China, Czech Republic, Denmark, Israel, Italy, Japan,
+Kazakhstan, Korea, Malaysia, Mauritius, Pakistan, Poland, Russia, South Africa,
+Spain, Turkey, Ukraine).
+***** Contents *****
+    * 1_Automated_data_mining
+    * 2_Overview_of_KXEN_Scientific_Committee
+    * 3_See_also
+    * 4_External_links
+***** [edit] Automated data mining *****
+KXEN Analytic Framework (KAF) is a predictive_modelling suite provided by
+KXEN,inc. and enabling analytic professionals, and business executives to
+automatically extract information from data. Among other functions, KXEN is
+used for Variable Importance, Classification, regression, segmentation, time
+series, product_recommendation, as described and expressed by the JDM_API
+group, and a social network analysis solution. KAF has been designed to allow
+the prediction of a behavior or a value, the forecast of a time series or the
+understanding_of_a_group_of_individuals_with_similar_behavior. Advanced
+functions include behavioral modeling, exporting the model code into different
+target environments or building predictive models on top of SAS or SPSS data
+files.
+***** [edit] Overview of KXEN Scientific Committee *****
+KXEN Scientific Committee informs and supports KXEN on current hot research
+topics related to its activity. Members are worldwide acknowledged
+mathematicians and researchers in mathematics or statistics : Vladimir_Vapnik,
+LÃ©on_Bottou, Olivier Chapelle, Christian Derquenne , Lee_Giles, Isabelle
+Guyon, Yann_LeCun, Philippe Lelong , Gregory Piatetsky-Shapiro, Gilbert
+Saporta, Bernhard_SchÃ¶lkopf, Emmanuel Viennet.
+***** [edit] See also *****
+    * The Java_Data_Mining community
+    * Data_mining
+    * Predictive_analytics
+    * About the importance of robustness in modelling
+    * VapnikâChervonenkis_theory, the Basis.
+    * Supervised_learning
+***** [edit] External links *****
+    * KXEN Web site www.kxen.com
+
+Retrieved from "http://en.wikipedia.org/wiki/KXEN_Inc."
+
+Categories: Business_software | Data_mining | Companies_based_in_San_Francisco,
+California | Software_companies_of_the_United_States | Companies_established_in
+1998
+

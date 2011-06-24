@@ -1,0 +1,109 @@
+
+****** Category:Natural language processing ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+The principal article of this category is Natural_language_processing
+
+***** Subcategories *****
+This category has the following 8 subcategories, out of 8 total.
+**** C ****       **** N ****                                     **** S ****
+    * [+]  Corpus     * [Ã]  Natural_language_generation (5 P)     * [Ã]  Statistical_natural_language_processing (32 P)
+      linguistics     * [Ã]  Natural_language_parsing (13 P)   **** T ****
+      (4 C, 31 P)     * [+]  Natural_language_processing_software     * [+]  Tasks_of_Natural_language_processing (1 C, 19 P)
+**** D ****             (3 C, 10 P)
+    * [+]  Data
+      mining (2
+      C, 90 P)
+**** M ****
+    * [+]
+      Machine
+      translation
+      (2 C, 76 P)
+Pages in category "Natural language processing"
+The following 116 pages are in this category, out of 116 total. This list may
+not reflect recent changes (learn_more).
+**** * ****               **** K ****               **** R ****
+    * Natural_language        * Kleene_star             * Realization_
+      processing          **** L ****                     (linguistics)
+**** A ****                   * Language_Computer       * Recursive_transition
+    * Affix_grammar_over        Corporation               network
+      a_finite_lattice        * Language_guessing       * Referring_expression
+    * AFNLP                   * Language                  generation
+    * Aggregation_              identification          * Rewrite_rule
+      (linguistics)           * Languageware        **** S ****
+    * Attensity               * Latent_semantic         * Semantic_analysis_
+    * Automatic                 analysis                  (computational)
+      Acquisition_of          * Latent_semantic         * Semantic_analytics
+      Sense-Tagged              mapping                 * Semantic_neural
+      Corpora                 * Legal_information         network
+    * Automatic                 retrieval               * SemEval
+      summarization           * Lesk_algorithm          * Sentence_extraction
+**** B ****                   * Lexalytics              * Sentic_computing
+    * Bag_of_words_model      * Document                * Sentiment_analysis
+    * Bigram                    structuring             * Shapado
+    * Brill_tagger            * Lexical_choice          * SHRDLU
+**** C ****                   * Lexical_Markup          * Speech_segmentation
+    * Cache_language            Framework               * SPL_notation
+      model                   * Lexical                 * Stemming
+    * Calais_(Reuters           substitution            * String_kernel
+      Product)                * Linguistic_Issues       * Studies_in_NLP
+    * ChaSen                    in_Language             * Sukhotins_Algorithm
+    * ClearForest               Technology              * Synthetix
+    * CMU_Pronouncing         * LKB                 **** T ****
+      Dictionary              * Logic_form              * T9_(predictive_text)
+    * Computational       **** M ****                   * Tatoeba
+      semantics               * Machine_translation     * Teragram_Corporation
+    * Computerized_Speech       software_usability      * Terminology
+      Lab                     * Example-based             extraction
+    * Concept_mining            machine_translation     * Natural_Language
+    * Content                 * MAREC                     Toolkit
+      determination           * METEOR                  * Text_analytics
+    * Controlled_natural      * Microsoft_text-to-      * Text_mining
+      language                  speech_voices           * Text_Retrieval
+    * Cross-language          * Modular_Audio             Conference
+      information               Recognition             * Text_simplification
+      retrieval                 Framework               * Text-to-voice
+**** D ****                   * Morphological           * TipTop_Technologies
+    * DATR                      pattern                 * Transderivational
+    * Discourse_relation      * Multi-document            search
+    * Document                  summarization           * Trigram
+      classification          * Multilingual            * Triphone
+    * Document-term             notation            **** W ****
+      matrix              **** N ****                   * W-shingling
+**** E ****                   * N-gram                  * William_Aaron_Woods
+    * ETBLAST                 * Paco_Nathan             * Word-sense
+**** F ****                   * Natural_language          disambiguation
+    * Filtered-popping        * Natural_language        * Word_sense_induction
+      recursive                 user_interface
+      transition_network      * News_analytics
+**** G ****                   * Noisy_text
+    * Robby_Garner              analytics
+    * GeneRIF                 * NooJ
+    * Gorn_address        **** O ****
+    * Grammar_checker         * Ontology_learning
+    * Grammar_induction       * Open_domain
+    * Grammatik                 question_answering
+**** H ****               **** P ****
+    * History_of_machine      * Powerset_(company)
+      translation             * Production_
+    * History_of_natural        (computer_science)
+      language_processing     * PropBank
+**** I ****               **** Q ****
+    * IGlue                   * Question_answering
+    * Information
+      extraction
+    * Information
+      retrieval
+    * International
+      Conference_on
+      Language_Resources
+      and_Evaluation
+Retrieved from "http://en.wikipedia.org/wiki/Category:
+Natural_language_processing"
+
+Categories: Artificial_intelligence_applications | Computational_linguistics
+

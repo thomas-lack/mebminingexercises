@@ -1,0 +1,32 @@
+
+****** Automatic distillation of structure ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Automatic Distillation of Structure (ADIOS) is an algorithm that can analyse
+source material such as text and come up with meaningful information about the
+generative structures that gave rise to the source. One application of the
+algorithm is grammar induction: ADIOS can read a source text and infer
+grammatical rules based on structures and patterns found in the text. Using
+these, the system can then generate new well-structured sentences.
+ADIOS was developed by Zach_Solan, David_Horn, and Eytan_Ruppin from Tel_Aviv
+University, Israel, and Shimon_Edelman from Cornell_University, New_York, USA.
+***** [edit] References *****
+    * "Computers_learn_a_new_language". New Scientist. 2005-08-06. http://
+      www.newscientist.com/article.ns?id=mg18725115.300. 
+    * "Computer_program_learns_language_rules_and_composes_sentences,_all
+      without_outside_help". Gizmag. 2005-09-02. http://www.gizmag.com/go/
+      4526/. 
+    * ADIOS_Project_Homepage
+
+[Stub_icon] This computer science article is a stub. You can help Wikipedia by
+            expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/
+Automatic_distillation_of_structure"
+
+Categories: Data_mining | Computer_science_stubs
+

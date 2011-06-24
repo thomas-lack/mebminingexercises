@@ -1,0 +1,74 @@
+
+****** Category:Data analysis software ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+See also related category category:Earth_sciences_graphics_software
+
+***** Subcategories *****
+This category has the following 2 subcategories, out of 2 total.
+**** D ****
+    * [+]  Data_visualization_software (2 C, 23 P)
+**** F ****
+    * [+]  Free_data_analysis_software (1 C, 2 P)
+Pages in category "Data analysis software"
+The following 89 pages are in this category, out of 89 total. This list may not
+reflect recent changes (learn_more).
+**** A ****               **** I ****              **** O cont. ****
+    * ACL_(software           * IDL_(programming       * Origin_(software)
+      company)                  language)              * OSIsoft
+    * ADAPA                   * Imc_FAMOS          **** P ****
+    * ADMB                    * INCA_(software)        * Photoanalysis
+    * Analyst's_Notebook      * Integer_Matrix         * PottersWheel
+**** B ****                     Library                * PowerLab
+    * Biopac_student_lab      * Iox_acquisition        * Psychometric
+    * User:                     software                 software
+      Bmxoffspring99/PQ   **** J ****              **** Q ****
+      Systems,_Inc            * Jacket_(software)      * Q_research_software
+**** C ****                   * Java_Analysis      **** R ****
+    * CANalyzer                 Studio                 * R_(programming
+    * CANape                  * Java_Data_Mining         language)
+    * CANoe                   * JHepWork               * RapidMiner
+    * Comparison_of           * JMathLib               * RGL
+      numerical_analysis  **** K ****                  * ROOT
+      software                * Kirix_Strata       **** S ****
+    * Computer_Aided      **** L ****                  * Sage_(mathematics
+      Audit_Tools             * LabVIEW                  software)
+    * Converting_scanned      * LISREL                 * Scilab
+      graphs_to_data      **** M ****                  * SekChek_Classic
+    * Core_Security           * MagicPlot              * SekChek_Local
+**** D ****                   * Maple_(software)       * SimplexNumerica
+    * Data_Applied            * Mathematica            * Simulink
+    * DataScene               * MATLAB                 * Social_network
+**** E ****                   * MEX_file                 analysis_software
+    * EgoNet                  * Microsoft_Analysis     * Speakeasy_
+    * EICASLAB                  Services                 (computational
+    * Environment_for         * Monarch_(software)       environment)
+      DeveLoping_KDD-         * Moose_(analysis)       * SPSS_Modeler
+      Applications            * MountainsMap           * STATISTICA
+      Supported_by_Index-     * MTAB               **** T ****
+      Structures          **** N ****                  * Talend_Open_Profiler
+    * Euler_(software)        * NCAR_Command           * TANAGRA_(software)
+**** F ****                     Language               * Teradata_Warehouse
+    * Fathom:_Dynamic         * List_of_numerical        Miner
+      Data_Software             analysis_software      * TinkerPlots
+    * Fityk               **** O ****                  * Truviso
+    * FreeMat                 * Ocean_Data_View    **** V ****
+    * Fsc2                    * OpenOpt                * VisSim
+**** G ****                   * OpenScientist      **** W ****
+    * GAUSS_(software)        * Oracle_Data_Mining     * User:Wirismath/WIRIS
+    * Genius_(mathematics     * Orange_(software)  **** X ****
+      software)                                        * XLfit_(software)
+    * Gmsh
+    * GNU_Octave
+    * Grapheur
+    * Gretl
+**** H ****
+    * HippoDraw
+Retrieved from "http://en.wikipedia.org/wiki/Category:Data_analysis_software"
+
+Categories: Data_analysis | Statistical_software
+

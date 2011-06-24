@@ -1,0 +1,40 @@
+
+****** Information Harvesting ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Information Harvesting (IH) was an early data_mining product from the 1990s. It
+was invented by Ralphe Wiggins and produced by the Ryan Corp, later Information
+Harvesting Inc., of Cambridge, Massachusetts. IH sought to infer rules from
+sets of data. It did this first by classifying various input variables into one
+of a number of bins, thereby putting some structure on the continuous variables
+in the input. IH then proceeds to generate rules, trading off generalization
+against memorization, that will infer the value of the prediction variable,
+possibly creating many levels of rules in the process. It included strategies
+for checking if overfitting took place and, if so, correcting for it. Because
+of its strategies for correcting for overfitting by considering more data, and
+refining the rules based on that data, IH might also be considered to be a form
+of machine_learning.
+The advantage of IH, as compared with other data mining products of its time
+and even later, was that it provided a mechanism for finding multiple rules
+that would classify the data and determining, according to set criteria, the
+best rules to use.
+In addition, the term "Information Harvesting" has occasionally been used as a
+generic term for any data mining product--thus the product has had an impact on
+the field that outlasted the life of the company that designed it.
+***** [edit] References *****
+ This article does not cite any references_or_sources.
+ Please help improve_this_article by adding citations to reliable_sources.
+ Unsourced material may be challenged and removed. (May 2007)
+[Stub_icon] This computer science article is a stub. You can help Wikipedia by
+            expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Information_Harvesting"
+
+Categories: Data_mining | Computer_science_stubs
+Hidden categories: Articles_lacking_sources_from_May_2007 | All_articles
+lacking_sources
+

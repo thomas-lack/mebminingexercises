@@ -1,0 +1,80 @@
+
+****** Early stopping ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article is missing citations or needs footnotes. Please help add inline
+ citations to guard against copyright violations and factual inaccuracies.
+ (August 2010)
+In machine_learning, early stopping is a form of regularization used when a
+machine_learning model (such as a neural_network) is trained by on-line
+gradient_descent. In early stopping, the training_set is split into a new
+training set and a validation set. Gradient descent is applied to the new
+training set. After each sweep through the new training set, the network is
+evaluated on the validation set. When the performance with the validation test
+stops improving, the algorithm halts. The network with the best performance on
+the validation set is then used for actual testing, with a separate set of data
+(the validation set is used in learning to decide when to stop).
+This technique is a simple but efficient hack to deal with the problem of
+overfitting. Overfitting is a phenomenon in which a learning system, such as a
+neural network gets very good at dealing with one data set at the expense of
+becoming very bad at dealing with other data sets. Early stopping is
+effectively limiting the used weights in the network and thus imposes a
+regularization, effectively lowering the VC_dimension.
+Early stopping is a very common practice in neural network training and often
+produces networks that generalize well. However, while often improving the
+generalization it does not do so in a mathematically well-defined way.
+***** Contents *****
+    * 1_Method
+    * 2_Advantages
+    * 3_Issues
+    * 4_See_also
+    * 5_References
+    * 6_External_links
+***** [edit] Method *****
+   1. Divide the available data into training and validation sets.
+   2. Use a large number of hidden units.
+   3. Use very small random initial values.
+   4. Use a slow learning rate.
+   5. Compute the validation error rate periodically during training.
+   6. Stop training when the validation error rate "starts to go up".
+It is crucial to realize that the validation error is not a good estimate of
+the generalization error. One method for getting an unbiased estimate of the
+generalization error is to run the net on a third set of data, the test set,
+that is not used at all during the training process. The error on the test set
+gives estimate on generalization; to have the outputs of the net approximate
+target values given inputs that are not in the training set.
+***** [edit] Advantages *****
+Early stopping has several advantages:
+    * It is fast.
+    * It can be applied successfully to networks in which the number of weights
+      far exceeds the sample size.
+    * It requires only one major decision by the user: what proportion of
+      validation cases to use.
+***** [edit] Issues *****
+    * It's not clear on how many cases to assign to the training and validation
+      sets
+    * The result might highly depends on the algorithm which is used to split
+      the data into training and validation set
+    * Notion of "increasing validation error" is ambiguous; it may go up and
+      down numerous times during training. The safest approach is to train to
+      convergence, then determine which iteration had the lowest validation
+      error. This impairs fast training, one of the advantages of early
+      stopping.
+***** [edit] See also *****
+    * Overfitting, early stopping is one of methods used to prevent overfitting
+    * Cross-validation, in particular using a "Validation Set"
+    * Generalization_error
+***** [edit] References *****
+***** [edit] External links *****
+    * What_is_early_stopping? Internet FAQ Archives
+
+Retrieved from "http://en.wikipedia.org/wiki/Early_stopping"
+
+Categories: Neural_networks | Data_mining | Machine_learning
+Hidden categories: Articles_with_unsourced_statements_from_August_2010 | All
+articles_with_unsourced_statements
+

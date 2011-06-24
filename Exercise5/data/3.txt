@@ -1,0 +1,122 @@
+
+****** Category:Evaluation methods ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ Wikimedia Commons has media related to: Evaluation_methods
+
+***** Subcategories *****
+This category has the following 13 subcategories, out of 13 total.
+**** D ****                        **** Q ****                                    **** S ****
+    * [+]  Data_mining (2 C, 90 P)     * [+]  Qualitative_research (1 C, 30 P)        * [Ã]  Sampling_techniques (19 P)
+**** J ****                            * [+]  Quality_management (2 C, 41 P)          * [+]  School_examinations (4 C, 76
+    * [Ã]  Job_interview (11 P)     * [+]  Quantitative_research (2 C, 17 P)         P)
+**** M ****                            * [Ã]  Questionnaire_construction (5 P)     * [+]  Survey_methodology (4 C, 19
+    * [+]  Market_research (10 C,  **** R ****                                          P)
+      148 P)                           * [+]  Rating_systems (3 C, 18 P)
+    * [+]  Materials_testing (3 C,
+      19 P)
+**** P ****
+    * [+]  Product_certification
+      (3 C, 33 P)
+Pages in category "Evaluation methods"
+The following 152 pages are in this category, out of 152 total. This list may
+not reflect recent changes (learn_more).
+    * Evaluation         **** E cont. ****        **** P cont. ****
+**** A ****                  * Eightfold_Path_        * Policy_analysis
+    * Accelerated_aging        (policy_analysis)      * Poll_average
+    * Adaptive               * Electronic             * Process_Optimization,
+      comparative              patient-reported         Standardization_and
+      judgement                outcome                  Innovation_Technique
+    * Alternative            * Embedded_case          * Position-specific
+      assessment               study                    scoring_matrix
+    * Aptitude               * Ethnography            * Process_improvement
+    * Axiomatic_design       * Event_correlation      * Program_evaluation
+    * Axiomatic_product      * Experiment             * Provocation_test
+      development            * Experimental       **** Q ****
+      lifecycle                research_design        * Qualitative_research
+**** B ****                  * Expertise_finding      * Quality_audit
+    * Behavioral_Risk    **** F ****                  * Quantitative_research
+      Factor                 * Factorial              * Quasi-experiment
+      Surveillance             experiment             * Question_focused
+      System                 * Feasibility_study        dataset
+    * Between-group          * Field_experiment       * Questionnaire
+      design                 * Field_research         * Questionnaire
+    * British_Polling        * Field_work               construction
+      Council                * First_pass_yield   **** R ****
+    * Business               * First-in-man_study     * Random_digit_dialing
+      excellence             * Fixtureless_in-        * Rating_(pharmaceutical
+**** C ****                    circuit_test             industry)
+    * Career_portfolio       * Force_field            * Reference_class
+    * Careerscope              analysis                 forecasting
+    * Case_series            * Formative              * Repeated_measures
+    * Case_study               assessment               design
+    * Central_composite      * Formative              * Risk-benefit_analysis
+      design                   evaluation             * Rolled_throughput
+    * Challenge-         **** G ****                    yield
+      dechallenge-           * Gender_Evaluation      * Rsl_testing
+      rechallenge              Methodology            * Rubric_(academic)
+    * Check_weigher          * General_Learning   **** S ****
+    * Class_rank               Ability                * SAT_Subject_Tests
+    * Clerk_of_the_works     * Grade_(education)      * SegalâCover_score
+    * Clinical_trial         * Grading_on_a_curve     * Self-_and_Peer-
+    * Cohort_study       **** H ****                    Assessment
+    * Common-cause_and       * Harlan_Hanson          * Self-assessment
+      special-cause          * Hoshin_Kanri           * Separation_test
+    * Component-Based    **** I ****                  * Single-subject_design
+      Usability_Testing      * Impact_assessment      * Single-subject
+    * Computer-based         * Impact_evaluation        research
+      assessment             * In-basket_test         * Six_Sigma
+    * Conformity             * Inquiry                * Spelling_test
+      assessment             * Institutional          * Statistical_process
+    * Consensus                Learning_and             control
+      decision-making          Change_Initiative      * Statistical_survey
+    * Consensus-seeking      * International          * Statistics
+      decision-making          Baccalaureate          * Strengths_and
+    * Content_analysis       * Interview                Difficulties
+    * Context_analysis   **** J ****                    Questionnaire
+    * Contingent             * Joint_Committee_on     * Stress_testing
+      valuation                Standards_for          * Structured_interview
+    * Continuous               Educational            * Student_Achievement
+      assessment               Evaluation               and_School
+    * Control_limits     **** K ****                    Accountability
+    * Cost-benefit           * Knowledge_survey         Programs
+      analysis           **** L ****                  * Summative_assessment
+    * Creative               * Lean_Integration   **** T ****
+      participation          * Least_cost             * Teaching_And_Learning
+    * Critical_appraisal       planning                 International_Survey
+    * Critical_to              methodology            * Test_management
+      quality                * Lexis_ratio            * Test_method
+    * CTQ_tree               * Logic_model            * Test-retest
+    * Cytel              **** M ****                  * TGN1412
+**** D ****                  * Meta-analysis          * Trained_panel
+    * Design_Science         * Multiple_mini          * Transferable_skills
+    * Destructive              interview                analysis
+      testing            **** N ****                  * Transformative
+    * Digital_strategy       * Naturalistic             assessment
+    * Stewart_Donaldson        observation            * Triangulation_(social
+**** E ****                  * Non-response_bias        science)
+    * E-assessment           * Nondestructive     **** U ****
+    * Economic_appraisal       testing                * Usability_testing
+    * Economic_impact    **** O ****              **** V ****
+      analysis               * Observational          * Video_ethnography
+    * Eddy_Test                techniques
+    * Educational        **** P ****
+      accreditation          * Paid_survey
+    * Higher_education       * Participant
+      accreditation            observation
+    * Educational            * Personal
+      assessment               management
+    * Educational              interview
+      evaluation             * Physical_test
+                             * Pick_chart
+                             * Pilot_experiment
+                             * Placebo-controlled
+                               study
+Retrieved from "http://en.wikipedia.org/wiki/Category:Evaluation_methods"
+
+Categories: Evaluation | Social_sciences_methodology
+

@@ -1,0 +1,177 @@
+
+****** Biomedical text mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Biomedical text mining (also known as BioNLP) refers to text mining applied to
+texts and literature of the biomedical and molecular biology domain. It is a
+rather recent research field on the edge of natural_language_processing,
+bioinformatics, medical_informatics and computational_linguistics.
+There is an increasing interest in text_mining and information extraction
+strategies applied to the biomedical and molecular_biology literature due to
+the increasing number of electronically available publications stored in
+databases such as PubMed.
+***** Contents *****
+    * 1_Main_applications
+    * 2_Examples
+    * 3_Conferences_at_which_BioNLP_research_is_presented
+    * 4_See_also
+    * 5_External_links
+    * 6_References
+***** [edit] Main applications *****
+The main developments in this area have been related to the identification of
+biological entities (named entity recognition), such as protein and gene names
+in free text, the association of gene_clusters obtained by microarray
+experiments with the biological context provided by the corresponding
+literature, automatic extraction of protein interactions and associations of
+proteins to functional concepts (e.g. gene_ontology terms). Even the extraction
+of kinetic parameters from text or the subcellular location of proteins have
+been addressed by information extraction and text mining technology.
+***** [edit] Examples *****
+    * KLEIO - an advanced information retrieval system providing knowledge
+      enriched searching for biomedicine.
+    * FACTA+ - a MEDLINE search engine for finding associations between
+      biomedical concepts. The FACTA+_Visualizer helps intuitive understanding
+      of FACTA+ search results through graphical visualization of the results.
+      [1]
+    * U-Compare - U-Compare is an integrated text mining/natural language
+      processing system based on the UIMA Framework, with an emphasis on
+      components for biomedical text mining.[2]
+    * TerMine - a term management system that identifies key terms in
+      biomedical and other text types.
+    * MEDIE - an intelligent search engine to retrieve biomedical correlations
+      from MEDLINE, based on indexing by Natural Language Processing and Text
+      Mining techniques [3]
+    * AcroMine - an acronym dictionary which can be used to find distinct
+      expanded forms of acronyms from MEDLINE.[4]
+    * AcroMine_Disambiguator - Disambiguates abbreviations in biomedical text
+      with their correct full forms.[5]
+    * GENIA_tagger - Analyses biomedical text and outputs base forms, part-of-
+      speech tags, chunk tags, and named entity tags
+    * NEMine - Recognises gene/protein names in text
+    * Yeast_MetaboliNER - Recognizes yeast metabolite names in text.
+    * Smart_Dictionary_Lookup - machine learning-based gene/protein name
+      lookup.
+    * Chilibot â A tool for finding relationships between genes or gene
+      products.
+    * EBIMed - EBIMed is a web application that combines Information Retrieval
+      and Extraction from Medline.[6]
+    * FABLE â A gene-centric text-mining search engine for MEDLINE
+    * GOAnnotator, an online tool that uses Semantic_similarity for
+      verification of electronic protein annotations using GO terms
+      automatically extracted from literature.
+    * GoPubMed â retrieves PubMed abstracts for your search query, then
+      detects ontology terms from the Gene_Ontology and Medical_Subject
+      Headings in the abstracts and allows the user to browse the search
+      results by exploring the ontologies and displaying only papers mentioning
+      selected terms, their synonyms or descendants.
+    * Information_Hyperlinked_Over_Proteins_(iHOP)[7]: "A network of concurring
+      genes and proteins extends through the scientific literature touching on
+      phenotypes, pathologies and gene function. iHOP provides this network as
+      a natural way of accessing millions of PubMed abstracts. By using genes
+      and proteins as hyperlinks between sentences and abstracts, the
+      information in PubMed can be converted into one navigable resource,
+      bringing all advantages of the internet to scientific literature
+      research."
+    * LitInspector â Gene and signal transduction pathway data mining in
+      PubMed abstracts.
+    * NextBio- Life sciences search engine with a text mining functionality
+      that utilizes PubMed abstracts (ex:_literature_search) and clinical
+      trials (example) to return concepts relevant to the query based on a
+      number of heuristics including ontology relationships, journal impact,
+      publication date, and authorship.
+    * PubAnatomy â An interactive visual search engine that provides new ways
+      to explore relationships among Medline literature, text mining results,
+      anatomical structures, gene expression and other background information.
+    * PubGene â Co-occurrence_networks display of gene and protein symbols as
+      well as MeSH, GO, PubChem and interaction terms (such as "binds" or
+      "induces") as these appear in MEDLINE records (that is, PubMed titles and
+      abstracts).
+    * Whatizit - Whatizit is great at identifying molecular biology terms and
+      linking them to publicly available databases.[8]
+    * XTractor â Discovering Newer Scientific Relations Across PubMed
+      Abstracts. A tool to obtain manually annotated,expert curated
+      relationships for Proteins, Diseases, Drugs and Biological_Processes as
+      they get published in PubMed.
+    * MuGeX â MuGeX is a tool for finding disease specific mutation-gene
+      pairs.
+    * MedCase â MedCase is an experimental tool of Faculties of Veterinary
+      Medicine and Computer Science in Cluj-Napoca, designed as a homeostatic
+      serving sistem with natural language support for medical applications.
+***** [edit] Conferences at which BioNLP research is presented *****
+BioNLP is presented at a variety of meetings:
+    * Pacific_Symposium_on_Biocomputing: in plenary session
+    * Intelligent_Systems_for_Molecular_Biology: in plenary session and also in
+      the BioLINK and Bio-ontologies workshops
+    * Association_for_Computational_Linguistics and North_American_Association
+      for_Computational_Linguistics annual meetings and associated workshops:
+      in plenary session and as part of the BioNLP workshop (see below)
+    * BioNLP_2010
+    * American_Medical_Informatics_Association annual meeting: in plenary
+      session
+***** [edit] See also *****
+    * BioCreative
+    * TREC_Genomics
+***** [edit] External links *****
+    * Bio-NLP_resources,_systems_and_application_database_collection
+    * The_BioNLP_mailing_list_archives
+    * Corpora_for_biomedical_text_mining
+    * The_BioCreative_evaluations_of_biomedical_text_mining_technologies
+    * Directory_of_people_involved_in_BioNLP
+    * National_Centre_for_Text_Mining_(NaCTeM)
+***** [edit] References *****
+   1. ^ Tsuruoka Y, Tsujii J and Ananiadou S (2008). "FACTA: a text search
+      engine for finding associated biomedical concepts". Bioinformatics 24
+      (21): 2559â2560. doi:10.1093/bioinformatics/btn469. PMC 2572701.
+      PMID 18772154. 
+   2. ^ Kano Y, Baumgartner Jr WA, McCrohon L, Ananiadou S, Cohen KB, Hunter L
+      and Tsujii J (2009). "U-Compare: share and compare text mining tools with
+      UIMA". Bioinformatics 25 (15): 1997â1998. doi:10.1093/bioinformatics/
+      btp289. PMID 19414535. 
+   3. ^ Miyao Y, Ohta T, Masuda K, Tsuruoka Y, Yoshida K, Ninomiya T and Tsujii
+      J (2006). "Semantic_Retrieval_for_the_Accurate_Identification_of
+      Relational_Concepts_in_Massive_Textbases". Proceedings of COLING-ACL
+      2006. pp. 1017-1024. http://www-tsujii.is.s.u-tokyo.ac.jp/~yusuke/paper/
+      acl2006.pdf. 
+   4. ^ Okazaki N and Ananiadou S (2006). "Building an abbreviation dictionary
+      using a term recognition approach". Bioinformatics 22 (24): 3089â3095.
+      doi:10.1093/bioinformatics/btl534. PMID 17050571. 
+   5. ^ Okazaki N, Ananiadou S and Tsujii J (2010). "Building a high-quality
+      sense inventory for improved abbreviation disambiguation". Bioinformatics
+      26 (9): 1246â1253. doi:10.1093/bioinformatics/btq129. PMID 20360059. 
+   6. ^ Rebholz-Schuhmann D, Kirsch H, Arregui M, Gaudan S, Riethoven M and
+      Stoehr P (2007). "EBIMedâtext crunching to gather facts for proteins
+      from Medline". Bioinformatics 23 (2): e237-e244. doi:10.1093/
+      bioinformatics/btl302. PMID 17237098. 
+   7. ^ Hoffmann R, Valencia A (September 2005). "Implementing_the_iHOP_concept
+      for_navigation_of_biomedical_literature". Bioinformatics 21 (Suppl 2):
+      ii252â8. doi:10.1093/bioinformatics/bti1142. PMID 16204114. http://
+      bioinformatics.oxfordjournals.org/cgi/
+      pmidlookup?view=long&amp;pmid=16204114. 
+   8. ^ Rebholz-Schuhmann D, Arregui M, Gaudan S, Kirsch H, Jimeno A (November
+      2008). "Text processing through Web services: calling Whatizit".
+      Bioinformatics 24 (2): 296â298. doi:10.1093/bioinformatics/btm557.
+      PMID 18006544. 
+    * Krallinger M, Valencia A (2005). "Text-mining_and_information-retrieval
+      services_for_molecular_biology". Genome Biol. 6 (7): 224. doi:10.1186/gb-
+      2005-6-7-224. PMC 1175978. PMID 15998455. http://genomebiology.com/1465-
+      6906/6/224. 
+    * Hoffmann R, Krallinger M, Andres E, Tamames J, Blaschke C, Valencia A
+      (May 2005). "Text_mining_for_metabolic_pathways,_signaling_cascades,_and
+      protein_networks". Sci. STKE 2005 (283): pe21. doi:10.1126/
+      stke.2832005pe21. PMID 15886388. http://stke.sciencemag.org/cgi/
+      pmidlookup?view=long&amp;pmid=15886388. 
+    * Krallinger M, Erhardt RA, Valencia A (March 2005). "Text-mining
+      approaches_in_molecular_biology_and_biomedicine". Drug Discov. Today 10
+      (6): 439â45. doi:10.1016/S1359-6446(05)03376-3. PMID 15808823. http://
+      linkinghub.elsevier.com/retrieve/pii/S1359644605033763. 
+    * Biomedical_Literature_Mining_Publications_(BLIMP): A comprehensive and
+      regularly updated index of publications on (bio)medical text mining
+
+Retrieved from "http://en.wikipedia.org/wiki/Biomedical_text_mining"
+
+Categories: Data_mining | Bioinformatics
+

@@ -1,0 +1,83 @@
+
+****** Apriori algorithm ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ This article may be confusing_or_unclear to readers. Please help clarify_the
+ article; suggestions may be found on the talk_page. (December 2006)
+In computer_science and data_mining, Apriori[1] is a classic algorithm for
+learning_association_rules. Apriori is designed to operate on databases
+containing transactions (for example, collections of items bought by customers,
+or details of a website frequentation). Other algorithms are designed for
+finding association rules in data having no transactions (Winepi and Minepi),
+or having no timestamps (DNA sequencing).
+As is common in association_rule_mining, given a set of itemsets (for instance,
+sets of retail transactions, each listing individual items purchased), the
+algorithm attempts to find subsets which are common to at least a minimum
+number C of the itemsets. Apriori uses a "bottom up" approach, where frequent
+subsets are extended one item at a time (a step known as candidate generation),
+and groups of candidates are tested against the data. The algorithm terminates
+when no further successful extensions are found.
+Apriori uses breadth-first_search and a tree structure to count candidate item
+sets efficiently. It generates candidate item sets of length k from item sets
+of length k â 1. Then it prunes the candidates which have an infrequent sub
+pattern. According to the downward_closure_lemma, the candidate set contains
+all frequent k-length item sets. After that, it scans the transaction database
+to determine frequent item sets among the candidates.
+Apriori, while historically significant, suffers from a number of
+inefficiencies or trade-offs, which have spawned other algorithms. Candidate
+generation generates large numbers of subsets (the algorithm attempts to load
+up the candidate set with as many as possible before each scan). Bottom-up
+subset exploration (essentially a breadth-first traversal of the subset
+lattice) finds any maximal subset S only after all 2 | S | â 1 of its proper
+subsets.
+***** [edit] Example *****
+A large supermarket tracks sales data by Stock-keeping_unit_(SKU) for each
+item, and thus is able to know what items are typically purchased together.
+Apriori is a moderately efficient way to build a list of frequent purchased
+item pairs from this data. Let the database of transactions consist of the sets
+{1,2,3,4}, {1,2}, {2,3,4}, {2,3}, {1,2,4}, {3,4}, and {2,4}. Each number
+corresponds to a product such as "butter" or "bread". The first step of Apriori
+is to count up the frequencies, called the supports, of each member item
+separately:
+This table explains the working of apriori algorithm.
+ ____________
+|Item|Support|
+|1___|3______|
+|2___|6______|
+|3___|4______|
+|4___|5______|
+We can define a minimum support level to qualify as "frequent," which depends
+on the context. For this case, let min support = 3. Therefore, all are
+frequent. The next step is to generate a list of all 2-pairs of the frequent
+items. Had any of the above items not been frequent, they wouldn't have been
+included as a possible member of possible 2-item pairs. In this way, Apriori
+prunes the tree of all possible sets. In next step we again select only these
+items (now 2-pairs are items) which are frequent:
+ _____________
+|Item_|Support|
+|{1,2}|3______|
+|{2,3}|3______|
+|{2,4}|4______|
+|{3,4}|3______|
+And generate a list of all 3-triples of the frequent items (by connecting
+frequent pair with frequent single item). In considered example there is no
+frequent 3-triples. Most common 3-triples are {1,2,4} and {2,3,4}, but their
+support is equal to 2 which is smaller than our min support.
+***** [edit] References *****
+   1. ^ Rakesh Agrawal and Ramakrishnan Srikant. Fast_algorithms_for_mining
+      association_rules_in_large_databases. Proceedings of the 20th
+      International Conference on Very Large Data Bases, VLDB, pages 487-499,
+      Santiago, Chile, September 1994.
+***** [edit] External links *****
+    * "Implementation_of_the_Apriori_algorithm_in_C#"
+
+Retrieved from "http://en.wikipedia.org/wiki/Apriori_algorithm"
+
+Categories: Data_mining
+Hidden categories: Wikipedia_articles_needing_clarification_from_December_2006
+| All_Wikipedia_articles_needing_clarification
+

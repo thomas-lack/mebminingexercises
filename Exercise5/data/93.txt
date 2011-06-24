@@ -1,0 +1,163 @@
+
+****** Data stream mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Data Stream Mining is the process of extracting knowledge structures from
+continuous, rapid data records. A data stream is an ordered sequence of
+instances that in many applications of data stream mining can be read only once
+or a small number of times using limited computing and storage capabilities.
+Examples of data streams include computer network traffic, phone conversations,
+ATM transactions, web searches, and sensor data. Data stream mining can be
+considered a subfield of data_mining, machine_learning, and knowledge
+discovery.
+In many data stream mining applications, the goal is to predict the class or
+value of new instances in the data stream given some knowledge about the class
+membership or values of previous instances in the data stream. Machine learning
+techniques can be used to learn this prediction task from labeled examples in
+an automated fashion. In many applications, the distribution underlying the
+instances or the rules underlying their labeling may change over time, i.e. the
+goal of the prediction, the class to be predicted or the target value to be
+predicted, may change over time. This problem is referred to as concept_drift.
+***** Contents *****
+    * 1_Software_for_data_stream_mining
+    * 2_Events
+    * 3_Researchers_working_on_data_stream_mining
+    * 4_Master_References
+    * 5_Bibliographic_References
+    * 6_Books
+    * 7_See_also
+    * 8_External_references
+***** [edit] Software for data stream mining *****
+    * RapidMiner: free open-source software for knowledge discovery, data
+      mining, and machine learning also featuring data stream mining, learning
+      time-varying concepts, and tracking drifting concept (if used in
+      combination with its data stream mining plugin (formerly: concept drift
+      plugin))
+    * MOA (Massive_Online_Analysis): free open-source software specific for
+      mining data streams with concept drift. It contains a prequential
+      evaluation method, the EDDM concept drift methods, a reader of ARFF real
+      datasets, and artificial stream generators as SEA concepts, STAGGER,
+      rotating hyperplane, random tree, and random radius based functions. MOA
+      supports bi-directional interaction with Weka_(machine_learning).
+***** [edit] Events *****
+    * International_Workshop_on_Knowledge_Discovery_from_Ubiquitous_Data
+      Streams held in conjunction with the 18th_European_Conference_on_Machine
+      Learning_(ECML)_and_the_11th_European_Conference_on_Principles_and
+      Practice_of_Knowledge_Discovery_in_Databases_(PKDD) in Warsaw, Poland, in
+      September 2007.
+    * ACM_Symposium_on_Applied_Computing_Data_Streams_Track held in conjunction
+      with the 2007_ACM_Symposium_on_Applied_Computing_(SAC-2007) in Seoul,
+      Korea, in March 2007.
+    * IEEE_International_Workshop_on_Mining_Evolving_and_Streaming_Data_(IWMESD
+      2006) to be held in conjunction with the 2006_IEEE_International
+      Conference_on_Data_Mining_(ICDM-2006) in Hong_Kong in December 2006.
+    * Fourth_International_Workshop_on_Knowledge_Discovery_from_Data_Streams_
+      (IWKDDS) to be held in conjunction with the 17th_European_Conference_on
+      Machine_Learning_(ECML)_and_the_10th_European_Conference_on_Principles
+      and_Practice_of_Knowledge_Discovery_in_Databases_(PKDD)_(ECML/PKDD-2006)
+      in Berlin, Germany, in September 2006.
+***** [edit] Researchers working on data stream mining *****
+    * Carlo_Zaniolo, University of California Los Angeles (UCLA), California,
+      United States
+    * JoÃ£o_Gama, University of Porto, Portugal
+    * Ralf_Klinkenberg, University of Dortmund, Germany
+    * Mohamed_Medhat_Gaber, University of Portsmouth, UK
+    * Olfa_Nasraoui, University of Louisville, USA
+    * Hua-Fu_Li, National Chiao-Tung University, Taiwan
+    * Eyke HÃ¼llermeier, University of Marburg, Germany
+    * Marco Grawunder, University of Oldenburg, Germany
+    * Latifur_Khan, University of Texas at Dallas.
+***** [edit] Master References *****
+    * Gaber, M, M., Zaslavsky, A., and Krishnaswamy, S., Mining Data Streams: A
+      Review, in ACM SIGMOD Record, Vol. 34, No. 1, June 2005, ISSN: 0163-5808
+    * B. Babcock, S. Babu, M. Datar, R. Motwani, and J. Widom, Models and
+      Issues in Data Stream Systems, in Proceedings of PODS, 2002.
+    * Mining_Data_Streams_Bibliography_Maintained_by:_Mohamed_Medhat_Gaber
+***** [edit] Bibliographic References *****
+    * Grabtree I. Soltysiak S. Identifying and Tracking Changing Interests.
+      International Journal of Digital Libraries, Springer Verlag, vol. 2, 38-
+      53.
+    * Klinkenberg, Ralf: Learning Drifting Concepts: Example Selection vs.
+      Example Weighting. In Intelligent Data Analysis (IDA), Special Issue on
+      Incremental Learning Systems Capable of Dealing with Concept Drift, Vol.
+      8, No. 3, pages 281â300, 2004.
+    * Klinkenberg, Ralf: Using Labeled and Unlabeled Data to Learn Drifting
+      Concepts. In Kubat, Miroslav and Morik, Katharina (editors), Workshop
+      notes of the IJCAI-01 Workshop on \em Learning from Temporal and Spatial
+      Data, pages 16â24, IJCAI, Menlo Park, CA, USA, AAAI Press, 2001.
+    * Klinkenberg, Ralf and Joachims, Thorsten: Detecting Concept Drift with
+      Support Vector Machines. In Langley, Pat (editor), Proceedings of the
+      Seventeenth International Conference on Machine Learning (ICML), pages
+      487â494, San Francisco, CA, USA, Morgan Kaufmann, 2000.
+    * Klinkenberg, Ralf and Renz, Ingrid: Adaptive Information Filtering:
+      Learning in the Presence of Concept Drifts. In Sahami, Mehran and Craven,
+      Mark and Joachims, Thorsten and McCallum, Andrew (editors), Workshop
+      Notes of the ICML/AAAI-98 Workshop \em Learning for Text Categorization,
+      pages 33â40, Menlo Park, CA, USA, AAAI Press, 1998.
+    * Koychev I. Gradual Forgetting for Adaptation to Concept Drift. In
+      Proceedings of ECAI 2000 Workshop Current Issues in Spatio-Temporal
+      Reasoning. Berlin, Germany, 2000, pp. 101â106
+    * Koychev I. and Schwab I., Adaptation to Drifting Userâs Interests,
+      Proc. of ECML 2000 Workshop: Machine Learning in New Information Age,
+      Barcelona, Spain, 2000, pp. 39â45
+    * Maloof, M.A. and Michalski, R.S. Learning Evolving Concepts Using Partial
+      Memory Approach. Working Notes of the 1995 AAAI Fall Symposium on Active
+      Learning, Boston, MA, pp. 70â73, 1995
+    * Maloof M. and Michalski R. Selecting examples for partial memory
+      learning. Machine Learning, 41(11), 2000, pp. 27â52.
+    * Mitchell T., Caruana R., Freitag D., McDermott, J. and Zabowski D.
+      Experience with a Learning Personal Assistant. Communications of the ACM
+      37(7), 1994, pp. 81â91.
+    * Mohammad M. Masud, Jing Gao, Latifur Khan, Jiawei Han, Bhavani M.
+      Thuraisingham: Integrating Novel Class Detection with Classification for
+      Concept-Drifting Data Streams. ECML/PKDD (2) 2009: 79-94 (extended
+      version will appear in TKDE journal).
+    * Nasraoui_O._,_Rojas_C.,_and_Cardona_C.,_â_A_Framework_for_Mining
+      Evolving_Trends_in_Web_Data_Streams_using_Dynamic_Learning_and
+      Retrospective_Validation_â,_Journal_of_Computer_Networks-_Special_Issue
+      on_Web_Dynamics,_50(10),_1425-1652,_July_2006
+    * Nasraoui_O._,_Cerwinske_J.,_Rojas_C.,_and_Gonzalez_F.,_"Collaborative
+      Filtering_in_Dynamic_Usage_Environments",_in_Proc._of_CIKM_2006_â
+      Conference_on_Information_and_Knowledge_Management,_Arlington_VA_,_Nov.
+      2006
+    * Schlimmer J., and Granger R. Incremental Learning from Noisy Data,
+      Machine Learning, 1(3), 1986, 317-357.
+    * Scholz, Martin and Klinkenberg, Ralf: Boosting Classifiers for Drifting
+      Concepts. In Intelligent Data Analysis (IDA), Special Issue on Knowledge
+      Discovery from Data Streams, Vol. 11, No. 1, pages 3â28, March 2007.
+    * Scholz, Martin and Klinkenberg, Ralf: An Ensemble Classifier for Drifting
+      Concepts. In Gama, J. and Aguilar-Ruiz, J. S. (editors), Proceedings of
+      the Second International Workshop on Knowledge Discovery in Data Streams,
+      pages 53â64, Porto, Portugal, 2005.
+    * Schwab I., Pohl W. and Koychev I. Learning to Recommend from Positive
+      Evidence, Proceedings of Intelligent User Interfaces 2000, ACM Press, 241
+      - 247.
+    * Widmer G. Tracking Context Changes through Meta-Learning, Machine
+      Learning 27, 1997, pp. 256â286.
+    * Widmer G. and Kubat M. Learning in the presence of concept drift and
+      hidden contexts. Machine Learning 23, 1996, pp. 69â101.
+***** [edit] Books *****
+    * Gama J., and Gaber M. M. (Eds), Learning from Data Streams: Processing
+      Techniques in Sensor Networks, a book published by Springer Verlag, 2007.
+    * Ganguly A., Gama J., Omitaomu O., Gaber M. M., Vatsavai R. R. (Eds),
+      Knowledge Discovery from Sensor Data, a book published by CRC Press,
+      2008.
+    * Gama J., Knowledge Discovery from Data Streams, a book published by CRC
+      Press, 2010.
+***** [edit] See also *****
+    * Streaming_Algorithm
+    * Stream_processing
+***** [edit] External references *****
+    * IBM_Spade_-_Stream_Processing_Application_Declarative_Engine
+    * IBM_Infosphere_Streams
+    * StreamIt_-_programming_language_and_compilation_infrastructure_by_MIT
+      CSAIL
+
+Retrieved from "http://en.wikipedia.org/wiki/Data_stream_mining"
+
+Categories: Data_mining | Business_intelligence
+

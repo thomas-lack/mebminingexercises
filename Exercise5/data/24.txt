@@ -1,0 +1,215 @@
+
+****** Concept drift ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+In predictive_analytics and machine_learning, the concept drift means that the
+statistical properties of the target variable, which the model is trying to
+predict, change over time in unforeseen ways. This causes problems because the
+predictions become less accurate as time passes.
+The term concept refers to the quantity you are looking to predict. More
+generally, it can also refer to other phenomena of interest besides the target
+concept, such as an input, but, in the context of concept drift, the term
+commonly refers to the target variable.
+***** Contents *****
+    * 1_Examples
+    * 2_Possible_remedies
+    * 3_Software
+    * 4_Datasets
+          o 4.1_Real
+          o 4.2_Other
+          o 4.3_Synthetic
+          o 4.4_Data_generation_frameworks
+    * 5_Projects
+    * 6_Meetings
+    * 7_Mailing_list
+    * 8_Bibliographic_references
+          o 8.1_Reviews
+          o 8.2_Papers
+    * 9_See_also
+***** [edit] Examples *****
+In a fraud_detection application the target concept may be a binary attribute
+FRAUDULENT with values "yes" or "no" that indicates whether a given transaction
+is fraudulent. Or, in a weather_prediction application, there may be several
+target concepts such as TEMPERATURE, PRESSURE, and HUMIDITY.
+The behavior of the customers in an online_shop may change over time. Let's say
+you want to predict weekly merchandise sales, and you have developed a
+predictive model that works to your satisfaction. The model may use inputs such
+as the amount of money spent on advertising, promotions you are running, and
+other metrics that may affect sales. What you are likely to experience is that
+the model will become less and less accurate over time - you will be a victim
+of concept drift. In the merchandise sales application, one reason for concept
+drift may be seasonality, which means that shopping behavior changes
+seasonally. You will likely have higher sales in the winter holiday season than
+during the summer.
+***** [edit] Possible remedies *****
+To prevent deterioration in prediction accuracy over time the model has to be
+refreshed periodically. One approach is to retrain the model using only the
+most recently observed samples (Widmer and Kubat, 1996). Another approach is to
+add new inputs which may be better at explaining the causes of the concept
+drift. For our sales prediction application you may be able to reduce concept
+drift by adding information about the season to your model. By providing
+information about the time of the year you will likely reduce rate of
+deterioration of your model, but you likely will never be able to prevent
+concept drift altogether. This is because actual shopping behavior does not
+follow any static, finite_model. New factors may arise at any time that
+influence shopping behavior, the influence of the known factors or their
+interactions may change.
+Concept drift cannot be avoided if you are looking to predict a complex
+phenomenon that is not governed by fixed laws_of_nature. All processes that
+arise from human activity, such as socioeconomic processes, and biological
+processes are likely to experience concept drift. Therefore, periodic
+retraining, also known as refreshing of your model is inescapable.
+***** [edit] Software *****
+    * RapidMiner (RapidMiner,_formerly_YALE_(Yet_Another_Learning
+      Environment)): free open-source software for knowledge discovery, data
+      mining, and machine learning also featuring data stream mining, learning
+      time-varying concepts, and tracking drifting concept (if used in
+      combination with its data stream mining plugin (formerly: concept drift
+      plugin))
+    * EDDM (EDDM_(Early_Drift_Detection_Method)): free open-source
+      implementation of drift detection methods in Weka_(machine_learning).
+    * MOA (Massive_Online_Analysis): free open-source software specific for
+      mining data streams with concept drift. It contains a prequential
+      evaluation method, the EDDM concept drift methods, a reader of ARFF real
+      datasets, and artificial stream generators as SEA concepts, STAGGER,
+      rotating hyperplane, random tree, and random radius based functions. MOA
+      supports bi-directional interaction with Weka_(machine_learning).
+***** [edit] Datasets *****
+**** [edit] Real ****
+    * Elec2, electricity demand, 2 classes, 45312 instances. Reference:
+      M.Harries, Splice-2 comparative evaluation: Electricity pricing,
+      Technical report, The University of South Wales, 1999. Access from J.Gama
+      webpage.
+    * Text mining, a collection of text mining datasets with concept drift,
+      maintained by I.Katakis. Access
+    * Chess.com (online games) and Luxembourg (social survey) datasets compiled
+      by I.Zliobaite. Access
+    * Airline, approximately 116 million flight arrival and departure records
+      (cleaned and sorted) compiled by E.Ikonomovska. Reference: Data Expo 2009
+      Competition [1]. Access
+    * PAKDD'09 competition data represents the credit evaluation task. It is
+      collected over a five year period. Unfortunately, the true labels are
+      released only for the first part of the data. Access
+    * ECUE spam 2 datasets each consisting of more than 10,000 emails collected
+      over a period of approximately 2 years by an individual. Access from
+      S.J.Delany webpage
+**** [edit] Other ****
+    * KDD'99 competition data contains simulated intrusions in a military
+      network environment. It is often used as a benchmark to evaluate handling
+      concept drift. Access
+**** [edit] Synthetic ****
+    * Sine, Line, Plane, Circle and Boolean Data Sets, L.L.Minku, A.P.White,
+      X.Yao, The Impact of Diversity on On-line Ensemble Learning in the
+      Presence of Concept Drift, IEEE Transactions on Knowledge and Data
+      Engineering, vol.22, no.5, pp. 730-742, 2010. Access from L.Minku
+      webpage.
+    * SEA concepts, N.W.Street, Y.Kim, A streaming ensemble algorithm (SEA) for
+      large-scale classification, KDD'01: Proceedings of the seventh ACM SIGKDD
+      international conference on Knowledge discovery and data mining, 2001.
+      Access from J.Gama webpage.
+    * STAGGER, J.C.Schlimmer, R.H.Granger, Incremental Learning from Noisy
+      Data, Mach. Learn., vol.1, no.3, 1986.
+**** [edit] Data generation frameworks ****
+    * L.L.Minku, A.P.White, X.Yao, The Impact of Diversity on On-line Ensemble
+      Learning in the Presence of Concept Drift, IEEE Transactions on Knowledge
+      and Data Engineering, vol.22, no.5, pp. 730-742, 2010. Download from
+      L.Minku webpage.
+    * Lindstrom P, SJ Delany &amp; B MacNamee (2008) Autopilot: Simulating
+      Changing Concepts in Real Data In: Proceedings of the 19th Irish
+      Conference on Artificial Intelligence &amp; Cognitive Science, D Bridge,
+      K Brown, B O'Sullivan &amp; H Sorensen (eds.) p272-263 PDF
+    * Narasimhamurthy A., L.I. Kuncheva, A framework for generating data to
+      simulate changing environments, Proc. IASTED, Artificial Intelligence and
+      Applications, Innsbruck, Austria, 2007, 384-389 PDF Code
+***** [edit] Projects *****
+    * INFER: Computational Intelligence Platform for Evolving and Robust
+      Predictive Systems (2010 - 2014), Bournemouth University (UK), Evonik
+      Industries (Germany), Research and Engineering Centre (Poland)
+    * HaCDAIS: Handling Concept Drift in Adaptive Information Systems (2008-
+      2012), Eindhoven University of Technology (the Netherlands)
+    * KDUS: Knowledge Discovery from Ubiquitous Streams, INESC Porto and
+      Laboratory of Artificial Intelligence and Decision Support (Portugal)
+    * ADEPT: Adaptive Dynamic Ensemble Prediction Techniques, University of
+      Manchester (UK), University of Bristol (UK)
+    * ALADDIN: autonomous learning agents for decentralised data and
+      information networks (2005-2010)
+***** [edit] Meetings *****
+    * 2011
+          o HaCDAIS_2011 The 2nd International Workshop on Handling Concept
+            Drift in Adaptive Information Systems
+          o ICAIS_2011 Track on Incremental Learning
+          o IJCNN_2011 Special Session on Concept Drift and Learning Dynamic
+            Environments
+          o CIDUE_2011 Symposium on Computational Intelligence in Dynamic and
+            Uncertain Environments
+    * 2010
+          o HaCDAIS_2010 International Workshop on Handling Concept Drift in
+            Adaptive Information Systems: Importance, Challenges and Solutions
+          o ICMLA10 Special Session on Dynamic learning in non-stationary
+            environments
+          o SAC_2010 Data Streams Track at ACM Symposium on Applied Computing
+          o SensorKDD_2010 International Workshop on Knowledge Discovery from
+            Sensor Data
+          o StreamKDD_2010 Novel Data Stream Pattern Mining Techniques
+          o Concept Drift and Learning in Nonstationary Environments at IEEE
+            World_Congress_on_Computational_Intelligence
+          o MLMDSâ2010 Special Session on Machine Learning Methods for Data
+            Streams at the 10th International Conference on Intelligent Design
+            and Applications, ISDAâ10
+***** [edit] Mailing list *****
+Announcements, discussions, job postings related to the topic of concept drift
+in data mining / machine learning. Posts are moderated.
+To subscribe go to the group home page: http://groups.google.com/group/
+conceptdrift
+***** [edit] Bibliographic references *****
+Many papers have been published describing algorithms for concept drift
+detection. A small number of representative ones are given below:
+**** [edit] Reviews ****
+    * Zliobaite, I., Learning under Concept Drift: an Overview. Technical
+      Report. 2009, Faculty of Mathematics and Informatics, Vilnius University:
+      Vilnius, Lithuania. PDF
+    * Jiang, J., A Literature Survey on Domain Adaptation of Statistical
+      Classifiers. 2008. PDF
+    * Kuncheva L.I. Classifier ensembles for detecting concept change in
+      streaming data: Overview and perspectives, Proc. 2nd Workshop SUEMA 2008
+      (ECAI 2008), Patras, Greece, 2008, 5-10, PDF
+    * Gaber, M, M., Zaslavsky, A., and Krishnaswamy, S., Mining Data Streams: A
+      Review, in ACM SIGMOD Record, Vol. 34, No. 1, June 2005, ISSN: 0163-5808
+    * Kuncheva L.I., Classifier ensembles for changing environments,
+      Proceedings 5th International Workshop on Multiple Classifier Systems,
+      MCS2004, Cagliari, Italy, in F. Roli, J. Kittler and T. Windeatt (Eds.),
+      Lecture Notes in Computer Science, Vol 3077, 2004, 1-15, PDF.
+    * Tsymbal, A., The problem of concept drift: Definitions and related work.
+      Technical Report. 2004, Department of Computer Science, Trinity College:
+      Dublin, Ireland. PDF
+**** [edit] Papers ****
+    * Kolter, J.Z. and Maloof, M.A. Dynamic Weighted Majority: An ensemble
+      method for drifting concepts. Journal of Machine Learning Research 8:
+      2755--2790, 2007. PDF
+    * Scholz, Martin and Klinkenberg, Ralf: Boosting Classifiers for Drifting
+      Concepts. In Intelligent Data Analysis (IDA), Special Issue on Knowledge
+      Discovery from Data Streams, Vol. 11, No. 1, pages 3-28, March 2007.
+    * Maloof M.A. and Michalski R.S. Selecting examples for partial memory
+      learning. Machine Learning, 41(11), 2000, pp. 27-52.
+    * Mitchell T., Caruana R., Freitag D., McDermott, J. and Zabowski D.
+      Experience with a Learning Personal Assistant. Communications of the ACM
+      37(7), 1994, pp. 81-91.
+    * Schlimmer J., Granger R. Beyond Incremental Processing: Tracking Concept
+      Drift. AAAI 1986.
+    * Wang H., Fan W., Yu Ph. S. and Han J. Mining concept-drifting data
+      streams using ensemble classifiers. KDD 2003.
+    * Widmer G. and Kubat M. Learning in the presence of concept drift and
+      hidden contexts. Machine Learning 23, 1996, pp. 69-101.
+***** [edit] See also *****
+    * Data_stream_mining
+    * Data_mining
+    * Machine_learning
+
+Retrieved from "http://en.wikipedia.org/wiki/Concept_drift"
+
+Categories: Data_mining | Machine_learning
+

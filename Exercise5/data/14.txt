@@ -1,0 +1,28 @@
+
+****** Data Applied ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Data Applied is a a software vendor headquartered in Washington. Founded by a
+group of former Microsoft employees, [1] the company specializes in data
+mining, data_visualization, and business_intelligence environments.
+***** [edit] Products *****
+Data Applied implements a collection of visualization tools and algorithms for
+data_analysis and data_mining. The product supports several types of analytical
+tasks, including visual reporting, tree_maps, time series forecasting,
+correlation analysis, outlier detection, decision_trees, association_rules,
+clustering, and self-organizing_maps.
+***** [edit] References *****
+   1. ^ New_York_Times:_Ex-Microsofties_Launch_$500_'Meaning_Machine'_For_Large
+      Data_Sets
+***** [edit] External links *****
+    * Official_Site
+
+Retrieved from "http://en.wikipedia.org/wiki/Data_Applied"
+
+Categories: Machine_learning | Data_mining | Data_analysis_software | Free_data
+visualization_software
+

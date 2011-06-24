@@ -1,0 +1,128 @@
+
+****** Text corpus ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                                 This article includes a list_of
+                                 references, related reading or external
+[Text_document_with_red_question links, but its sources remain unclear
+mark.svg]                        because it lacks inline_citations. Please
+                                 improve this article by introducing more
+                                 precise citations where_appropriate.
+                                 (December 2009)
+In linguistics, a corpus (plural corpora) or text corpus is a large and
+structured set of texts (now usually electronically stored and processed). They
+are used to do statistical analysis and hypothesis_testing, checking
+occurrences or validating linguistic rules on a specific universe.
+A corpus may contain texts in a single language (monolingual corpus) or text
+data in multiple languages (multilingual corpus). Multilingual corpora that
+have been specially formatted for side-by-side comparison are called aligned
+parallel corpora.
+In order to make the corpora more useful for doing linguistic research, they
+are often subjected to a process known as annotation. An example of annotating
+a corpus is part-of-speech_tagging, or POS-tagging, in which information about
+each word's part of speech (verb, noun, adjective, etc.) is added to the corpus
+in the form of tags. Another example is indicating the lemma (base) form of
+each word. When the language of the corpus is not a working language of the
+researchers who use it, interlinear glossing is used to make the annotation
+bilingual.
+Some corpora have further structured levels of analysis applied. In particular,
+a number of smaller corpora may be fully parsed. Such corpora are usually
+called Treebanks or Parsed_Corpora. The difficulty of ensuring that the entire
+corpus is completely and consistently annotated means that these corpora are
+usually smaller, containing around 1 to 3 million words. Other levels of
+linguistic structured analysis are possible, including annotations for
+morphology, semantics and pragmatics.
+Corpora are the main knowledge base in corpus_linguistics. The analysis and
+processing of various types of corpora are also the subject of much work in
+computational_linguistics, speech_recognition and machine_translation, where
+they are often used to create hidden_Markov_models for part of speech tagging
+and other purposes. Corpora and frequency_lists derived from them are useful
+for language_teaching.
+***** Contents *****
+    * 1_Archaeological_corpora
+    * 2_Some_notable_text_corpora
+    * 3_See_also
+    * 4_External_links
+***** [edit] Archaeological corpora *****
+Text corpora are also used in the study of historical_documents, for example in
+attempts to decipher ancient scripts, or in Biblical_scholarship. Some
+archaeological corpora can be of such short duration that they provide a
+snapshot in time. One of the shortest corpora in time, may be the 15-30 year
+Amarna_letters texts-(1350_BC). The corpus of an ancient city, (for example the
+"KÃ¼ltepe Texts" of Turkey), may go through a series of corpora, determined by
+their find site dates.
+***** [edit] Some notable text corpora *****
+English language:
+    * American_National_Corpus
+    * Bank_of_English
+    * British_National_Corpus
+    * Corpus_Juris_Secundum
+    * Corpus_of_Contemporary_American_English (COCA) 400+ million words, 1990-
+      present. Freely searchable online.
+    * Brown_Corpus, forming part of the "Brown Family" of corpora, together
+      with LOB, Frown and F-LOB.
+    * International_Corpus_of_English
+    * Oxford_English_Corpus
+    * Scottish_Corpus_of_Texts_&amp;_Speech
+Other languages:
+    * Hamshahri_Corpus (Persian a.k.a Farsi)
+    * Amarna_letters, (for Akkadian, Egyptian, Sumerogram's, etc.)
+    * TEP: Tehran English-Persian Parallel Corpus (http://ece.ut.ac.ir/nlp/)
+    * TMC: Tehran Monolingual Corpus, Standard corpus for Persian Language
+      Modeling (http://ece.ut.ac.ir/nlp/)
+    * Bijankhan_Corpus A Contemporary Persian Corpus for NLP researches
+    * CETENFolha
+    * Croatian_Language_Corpus
+    * Croatian_National_Corpus
+    * Czech_National_Corpus
+    * Neo-Assyrian_Text_Corpus_Project
+    * Russian_National_Corpus
+    * Slovenian_National_Corpus
+    * Thesaurus_Linguae_Graecae (Ancient Greek)
+    * Quranic_Arabic_Corpus (Classical Arabic)
+    * Eastern_Armenian_National_Corpus (EANC) 110 million words. Freely
+      searchable online.
+    * National_Corpus_of_Polish
+    * German_Reference_Corpus (DeReKo) More than 4 billion words of
+      contemporary written German.
+***** [edit] See also *****
+    * Concordance
+    * Corpus_linguistics
+    * Linguistic_Data_Consortium
+    * Natural_language_processing
+    * Natural_Language_Toolkit
+    * Parallel_text_alignment
+    * Search_engines: they access the "web corpus".
+    * Speech_corpus
+    * Translation_memory
+    * Treebank
+    * Zipf's_Law
+***** [edit] External links *****
+    * Freely-available,_web-based_corpora_(100_million_-_400_million_words
+      each):_American_(COCA),_British_(BNC),_TIME,_Spanish,_Portuguese
+    * Computational_Linguistics at the Open_Directory_Project
+    * ACL_SIGLEX_Resource_Links:_Text_Corpora
+    * The_Leipzig_Glossing_Rules: Conventions for interlinear morpheme-by-
+      morpheme glosses
+    * Developing_Linguistic_Corpora:_a_Guide_to_Good_Practice
+    * An_interface_for_querying_automatically-constructed_virtual_corpora.
+    * TEP:_Tehran_English-Persian_Parallel_Corpus.
+    * An_interface for querying text corpora constructed through guided
+      crawling of online news sites, the corpora (both local and virtual)
+      constructed using the SPARTAN_technique, and publicly available
+      collections (e.g. Reuters-21578, texts from the Gutenberg project,
+      GENIA).
+    * [1] Building synchronous parallel corpora of the languages taught at the
+      Faculty of Arts of Charles University.
+
+Retrieved from "http://en.wikipedia.org/wiki/Text_corpus"
+
+Categories: Discourse_analysis | Corpus_linguistics | Computational_linguistics
+| Data_mining
+Hidden categories: Articles_lacking_in-text_citations_from_December_2009 | All
+articles_lacking_in-text_citations
+

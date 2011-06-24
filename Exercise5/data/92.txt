@@ -1,0 +1,76 @@
+
+****** Languageware ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+LanguageWare is a natural_language_processing (NLP) technology developed by
+IBM, that allows applications to process natural language text. It comprises a
+set of Java libraries which provide a range of NLP functions: language
+identification, text segmentation/tokenization, normalization, entity and
+relationship extraction, and semantic analysis and disambiguation. The analysis
+engine uses Finite_State_Machine approach at multiple levels, which aids its
+performance characteristics, while maintaining a reasonably small footprint.
+The behaviour of the system is driven by a set of configurable lexico-semantic
+resources which describe the characteristics and domain of the processed
+language. A default set of resources comes as part of LanguageWare and these
+describe the native language characteristics, such as morphology, and the basic
+vocabulary for the language. Supplemental resources have been created which
+capture additional vocabularies, terminologies, rules and grammars, which may
+be generic to the language or specific to one or more domains.
+A set of Eclipse-based customization tooling, LanguageWare Resource Workbench,
+is available on IBM's_alphaWorks site, and allows domain knowledge to be
+compiled into these resources and thereby incorporated into the analysis
+process.
+LanguageWare can be deployed as a set of UIMA-compliant annotators, Eclipse
+plug-ins or Web_Services.
+***** [edit] See also *****
+    * UIMA
+    * Linguistics
+    * Semantics
+    * Semantic_Web
+    * Web_services
+    * Service-oriented_architecture
+    * Formal_language
+    * Finite_state_machine
+    * IBM_Omnifind
+    * Data_Discovery_and_Query_Builder
+***** [edit] External links *****
+    * IBM_LanguageWare_Resource_Workbench_on_alphaWorks
+    * IBM_LanguageWare_Miner_for_Multidimensional_Socio-Semantic_Networks_on
+      alphaWorks
+    * JumpStart_Infocenter_for_IBM_LanguageWare_on_IBM.com
+    * UIMA_Homepage_at_the_Apache_Software_Foundation
+    * UIMA_Framework_on_SourceForge
+    * IBM_OmniFind_Yahoo!_Edition_(FREE_enterprise_search_engine)
+    * Semantic_Information_Systems_and_Language_Engineering_Group
+    * SemanticDesktop.org
+***** [edit] Related Papers *****
+    * Branimir_K._Boguraev_Annotation-Based_Finite_State_Processing_in_a_Large-
+      Scale_NLP_Architecture,_IBM_Research_Report,_2004
+    * Alexander_Troussov,_Mikhail_Sogrin,_"IBM_LanguageWare_Ontological_Network
+      Miner"
+    * Sheila_Kinsella,_Andreas_Harth,_Alexander_Troussov,_Mikhail_Sogrin,_John
+      Judge,_Conor_Hayes,_John_G._Breslin,_"Navigating_and_Annotating
+      Semantically-Enabled_Networks_of_People_and_Associated_Objects"
+    * Mikhail_Kotelnikov,_Alexander_Polonsky,_Malte_Kiesel,_Max_VÃ¶lkel,_Heiko
+      Haller,_Mikhail_Sogrin,_PÃ¤r_LannerÃ¶,_Brian_Davis,_"Interactive_Semantic
+      Wikis"
+    * Sebastian_TrÃ¼g,_Jos_van_den_Oever,_StÃ©phane_LauriÃ¨re,_"The_Social
+      Semantic_Desktop:_Nepomuk"
+    * SÃ©amus_Lawless,_Vincent_Wade,_"Dynamic_Content_Discovery,_Harvesting_and
+      Delivery"
+    * R._Mack,_S._Mukherjea,_A._Soffer,_N._Uramoto,_E._Brown,_A._Coden,_J.
+      Cooper,_A._Inokuchi,_B._Iyer,_Y._Mass,_H._Matsuzawa,_and_L._V.
+      Subramaniam,_"Text_analytics_for_life_science_using_the_Unstructured
+      Information_Management_Architecture"
+    * Alex_Nevidomsky,_"UIMA_Framework_and_Knowledge_Discovery_at_IBM",_4th
+      Text_Mining_Symposium,_Fraunhofer_SCAI,_2006
+
+Retrieved from "http://en.wikipedia.org/wiki/Languageware"
+
+Categories: Data_mining | Java_development_tools | Natural_language_processing
+| Java_libraries
+

@@ -1,0 +1,237 @@
+
+****** Formal concept analysis ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Formal concept analysis is a principled way of automatically deriving an
+ontology from a collection of objects and their properties. The term was
+introduced by Rudolf_Wille in 1984, and builds on applied lattice and order
+theory that was developed by Birkhoff and others in the 1930s.
+***** Contents *****
+    * 1_Intuitive_description
+    * 2_Example
+    * 3_Contexts_and_concepts
+    * 4_Concept_lattice_of_a_context
+    * 5_Concept_algebra_of_a_context
+    * 6_Recovering_the_context_from_the_Hasse_diagram
+    * 7_Efficient_construction
+    * 8_Formal_Concept_Analysis_tools
+    * 9_See_also
+    * 10_Notes
+    * 11_References
+    * 12_External_links
+***** [edit] Intuitive description *****
+Formal concept analysis refers to both an unsupervised machine learning
+technique and, more broadly, a method of data_analysis. The approach takes as
+input a matrix specifying a set of objects and the properties thereof, called
+attributes, and finds both all the "natural" clusters of attributes and all the
+"natural" clusters of objects in the input data, where
+    * a "natural" object cluster is the set of all objects that share a common
+      subset of attributes, and
+    * a "natural" property cluster is the set of all attributes shared by one
+      of the natural object clusters.
+Natural property clusters correspond one-for-one with natural object clusters,
+and a concept is a pair containing both a natural property cluster and its
+corresponding natural object cluster. The family of these concepts obeys the
+mathematical axioms defining a lattice, and is called a concept lattice (in
+French this is called a Treillis de Galois because the relation between the
+sets of concepts and attributes is a Galois_connection).
+Note the strong parallel between "natural" property clusters and definitions in
+terms of individually necessary and jointly sufficient conditions, on one hand,
+and between "natural" object clusters and the extensions of such definitions,
+on the other. Provided the input objects and input concepts provide a complete
+description of the world (never true in practice, but perhaps a reasonable
+approximation), then the set of attributes in each concept can be interpreted
+as a set of singly necessary and jointly sufficient conditions for defining the
+set of objects in the concept. Conversely, if a set of attributes is not
+identified as a concept in this framework, then those attributes are not singly
+necessary and jointly sufficient for defining any non-empty subset of objects
+in the world.
+***** [edit] Example *****
+A concept lattice for objects consisting of the integers from 1 to 10, and
+attributes composite (c), square (s), even (e), odd (o) and prime (p). The
+lattice is drawn as a Hasse_diagram.
+Consider O = {1,2,3,4,5,6,7,8,9,10}, and A = {composite, even, odd, prime,
+square}. The smallest concept including the number 3 is the one with objects
+{3,5,7}, and attributes {odd, prime}, for 3 has both of those attributes and
+{3,5,7} is the set of objects having that set of attributes. The largest
+concept involving the attribute of being square is the one with objects {1,4,9}
+and attributes {square}, for 1, 4 and 9 are all the square numbers and all
+three of them have that set of attributes. It can readily be seen that both of
+these example concepts satisfy the formal definitions below
+The full set of concepts for these objects and attributes is shown in the
+illustration. It includes a concept for each of the original attributes: the
+composite numbers, square numbers, even numbers, odd numbers, and prime
+numbers. Additionally it includes concepts for the even composite numbers,
+composite square numbers (that is, all square numbers except 1), even composite
+squares, odd squares, odd composite squares, even primes, and odd primes.
+***** [edit] Contexts and concepts *****
+A (formal) context consists of a set of objects O, a set of attributes A, and
+an indication of which objects have which attributes. Formally it can be
+regarded as a bipartite_graph I â O Ã A.
+                                                composite even odd prime square
+                                             1                 â    â
+                                             2            â   â
+                                             3                 ââ
+                                             4  â    â         â
+                                             5                 ââ
+                                             6  â    â
+                                             7                 ââ
+                                             8  â    â
+                                             9  â         â    â
+                                             10 â    â
+A (formal) concept for a context is defined to be a pair (Oi, Ai) such that
+   1. Oi â O
+   2. Ai â A
+   3. every object in Oi has every attribute in Ai
+   4. for every object in O that is not in Oi, there is an attribute in Ai that
+      the object does not have
+   5. for every attribute in A that is not in Ai, there is an object in Oi that
+      does not have that attribute
+Oi is called the extent of the concept, Ai the intent.
+A context may be described as a table, with the objects corresponding to the
+rows of the table, the attributes corresponding to the columns of the table,
+and a Boolean_value (in the example represented graphically as a checkmark) in
+cell (x, y) whenever object x has value y:
+A concept, in this representation, forms a maximal subarray (not necessarily
+contiguous) such that all cells within the subarray are checked. For instance,
+the concept highlighted with a different background color in the example table
+is the one describing the odd prime numbers, and forms a 3 Ã 2 subarray in
+which all cells are checked.[1]
+***** [edit] Concept lattice of a context *****
+The concepts (Oi, Ai) defined above can be partially_ordered by inclusion: if
+(Oi, Ai) and (Oj, Aj) are concepts, we define a partial order â¤ by saying
+that (Oi, Ai) â¤ (Oj, Aj) whenever Oi â Oj. Equivalently, (Oi, Ai) â¤ (Oj,
+Aj) whenever Aj â Ai.
+Every pair of concepts in this partial order has a unique greatest lower bound
+(meet). The greatest lower bound of (Oi, Ai) and (Oj, Aj) is the concept with
+objects Oi â© Oj; it has as its attributes the union of Ai, Aj, and any
+additional attributes held by all objects in Oi â© Oj. Symmetrically, every
+pair of concepts in this partial order has a unique least upper bound (join).
+The least upper bound of (Oi, Ai) and (Oj, Aj) is the concept with attributes
+Ai â© Aj; it has as its objects the union of Oi, Oj, and any additional
+objects that have all attributes in Ai â© Aj.
+These meet and join operations satisfy the axioms defining a lattice. In fact,
+by considering infinite meets and joins, analogously to the binary meets and
+joins defined above, one sees that this is a complete_lattice. It may be viewed
+as the DedekindâMacNeille_completion of a partially_ordered_set of height two
+in which the elements of the partial order are the objects and attributes of A
+and in which two elements x and y satisfy x â¤ y exactly when x is an object
+that has attribute y.
+Any finite lattice may be generated as the concept lattice for some context.
+For, let L be a finite lattice, and form a context in which the objects and the
+attributes both correspond to elements of L. In this context, let object x have
+attribute y exactly when x and y are ordered as x â¤ y in the lattice. Then,
+the concept lattice of this context is isomorphic to L itself.[2] This
+construction may be interpreted as forming the DedekindâMacNeille completion
+of L, which is known to produce an isomorphic lattice from any finite lattice.
+***** [edit] Concept algebra of a context *****
+Modelling negation in a formal context is somewhat problematic because the
+complement (O\Oi, A\Ai) of a concept (Oi, Ai) is in general not a concept.
+However, since the concept lattice is complete one can consider the join (Oi,
+Ai)Î of all concepts (Oj, Aj) that satisfy Oj â G\Oi; or dually the meet
+(Oi, Ai)ð of all concepts satisfying Aj â G\Ai. These two operations are
+known as weak negation and weak opposition, respectively.
+This can be expressed in terms of the derivative functions. The derivative of a
+set Oi â O of objects is the set Oi' â A of all attributes that hold for
+all objects in Oi. The derivative of a set Ai â A of attributes is the set
+Ai' â O of all objects that have all attributes in Ai. A pair (Oi, Ai) is a
+concept if and only if Oi' = Ai and Ai' = Oi. Using this function, weak
+negation can be written as
+      (Oi, Ai)Î = ((G\A)'', (G\A)'),
+and weak opposition can be written as
+      (Oi, Ai)ð = ((M\B)', (M\B)'').
+The concept lattice equipped with the two additional operations Î and ð is
+known as the concept algebra of a context. Concept algebras are a
+generalization of power_sets.
+Weak negation on a concept lattice L is a weak complementation, i.e. an order-
+reversing map Î: L â L which satisfies the axioms xÎÎ â¤ x and
+(xây) â (xâyÎ) = x. Weak composition is a dual weak complementation. A
+(bounded) lattice such as a concept algebra, which is equipped with a weak
+complementation and a dual weak complementation, is called a weakly
+dicomplemented lattice. Weakly dicomplemented lattices generalize distributive
+orthocomplemented_lattices, i.e. Boolean_algebras.[3][4]
+***** [edit] Recovering the context from the Hasse diagram *****
+The Hasse_diagram of the concept lattice (also called, in formal concept
+analysis, a line diagram), encodes enough information to recover the original
+context from which it was formed. Each object of the context corresponds to a
+lattice element, the element with the minimal object set that contains that
+object, and with an attribute set consisting of all attributes of the object.
+Symmetrically, each attribute of the context corresponds to a lattice element,
+the one with the minimal attribute set containing that attribute, and with an
+object set consisting of all objects with that attribute. We may label the
+nodes of the Hasse diagram with the objects and attributes they correspond to;
+with this labeling, object x has attribute y if and only if there exists a
+monotonic path from x to y in the diagram.[5]
+***** [edit] Efficient construction *****
+Kuznetsov_&amp;_Obiedkov_(2001) survey the many algorithms that have been
+developed for constructing concept lattices. These algorithms vary in many
+details, but are in general based on the idea that each edge of the Hasse
+diagram of the concept lattice connects some concept C to the concept formed by
+the join of C with a single object. Thus, one can build up the concept lattice
+one concept at a time, by finding the neighbors in the Hasse diagram of known
+concepts, starting from the concept with an empty set of objects. The amount of
+time spent to traverse the entire concept lattice in this way is polynomial in
+the number of input objects and attributes per generated concept.
+***** [edit] Formal Concept Analysis tools *****
+Many FCA software applications are available today. The main purpose of these
+tools is to generate the concepts Lattice of a given formal context and the
+corresponding association rules. These tools are academic and still under
+active development. One can find a non exhaustive list of FCA tools in the FCA
+software_website. Most of these tools are Java-based open-source application
+like ConExp, ToscanaJ, Lattice_Miner,[6] Coron, etc.
+***** [edit] See also *****
+    * Biclustering
+    * Concept_mining
+    * Conceptual_clustering
+    * Data_clustering
+    * Raymond_Lully
+***** [edit] Notes *****
+   1. ^ Wolff, section 2.
+   2. ^ Stumme, Theorem 1.
+   3. ^ Wille, Rudolf (2000), "Boolean Concept Logic", in Ganter, B.; Mineau,
+      G. W., ICCS 2000 Conceptual Structures: Logical, Linguistic and
+      Computational Issues, LNAI 1867, Springer, pp. 317â331, ISBN 978-
+      3540678595 .
+   4. ^ Kwuida, LÃ©onard (2004), Dicomplemented_Lattices._A_contextual
+      generalization_of_Boolean_algebras, Shaker_Verlag, ISBN 9783832233501,
+      http://hsss.slub-dresden.de/documents/1101148726640-2926/1101148726640-
+      2926.pdf 
+   5. ^ Wolff, section 3.
+   6. ^ Boumedjout Lahcen and Leonard Kwuida. Lattice Miner: A Tool for Concept
+      Lattice Construction and Exploration. In Suplementary Proceeding of
+      International Conference on Formal concept analysis (ICFCA'10), 2010
+***** [edit] References *****
+    * Ganter, Bernhard; Stumme, Gerd; Wille, Rudolf, eds. (2005), Formal
+      Concept Analysis: Foundations and Applications, Lecture Notes in
+      Artificial Intelligence, no. 3626, Springer-Verlag, ISBN_3-540-27891-5 
+    * Ganter, Bernhard; Wille, Rudolf (1998), Formal Concept Analysis:
+      Mathematical Foundations, Springer-Verlag, Berlin, ISBN 3-63311-62767-5 .
+      Translated by C. Franzke.
+    * Carpineto, Claudio; Romano, Giovanni (2004), Concept Data Analysis:
+      Theory and Applications, Wiley, ISBN_978-0-470-85055-8 .
+    * Kuznetsov, Sergei O.; Obiedkov, Sergei A. (2001), "Algorithms for the
+      Construction of Concept Lattices and Their Diagram Graphs", Principles of
+      Data Mining and Knowledge Discovery, Lecture Notes in Computer Science,
+      2168, Springer-Verlag, pp. 289â300, doi:10.1007/3-540-44794-6_24 .
+    * Wolff, Karl Erich (1994), "A_first_course_in_Formal_Concept_Analysis", in
+      F. Faulbaum, StatSoft '93, Gustav Fischer Verlag, pp. 429â438, http://
+      www.fbmn.fh-darmstadt.de/home/wolff/Publikationen/
+      A_First_Course_in_Formal_Concept_Analysis.pdf .
+    * Davey, B.A.; Priestley, H. A. (2002), "3. Formal Concept Analysis",
+      Introduction to Lattices and Order, Cambridge_University_Press, ISBN 978-
+      0-521-78451-1 .
+***** [edit] External links *****
+    * A_Formal_Concept_Analysis_Homepage
+    * Demo
+    * 8th_International_Conference_on_Formal_Concept_Analysis._ICFCA_2010_-
+      Agadir,_Morocco,_March_15-18,_2010
+
+Retrieved from "http://en.wikipedia.org/wiki/Formal_concept_analysis"
+
+Categories: Machine_learning | Lattice_theory | Data_mining | Ontology_
+(information_science)
+

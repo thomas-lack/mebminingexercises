@@ -1,0 +1,85 @@
+
+****** Category:Statistical software ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+***** Subcategories *****
+This category has the following 7 subcategories, out of 7 total.
+**** D ****        **** P ****                             **** T ****
+    * [+]  Data        * [+]  Plotting_software (2 C, 49       * [Ã]  Time_series_software (13 P)
+      analysis           P)
+      software (2  **** R ****
+      C, 89 P)         * [Ã]  Regression_software (4 P)
+**** E ****        **** S ****
+    * [+]              * [+]  Statistical_programming
+      Econometrics       languages (1 C, 16 P)
+      software (1
+      C, 14 P)
+**** F ****
+    * [+]  Free
+      statistical
+      software (6
+      C, 29 P)
+Pages in category "Statistical software"
+The following 92 pages are in this category, out of 92 total. This list may not
+reflect recent changes (learn_more).
+    * Comparison_of       **** J ****                **** S cont. ****
+      statistical             * JHepWork                 * Speakeasy_
+      packages                * JMP_(statistical           (computational
+    * List_of_information       software)                  environment)
+      graphics_software   **** L ****                    * SPSS
+    * List_of_statistical     * LISREL                   * Stata
+      packages            **** M ****                    * StataCorp
+**** A ****                   * MasterPlex_QT            * StatCVS
+    * ADaMSoft                * MasterPlex_ReaderFit     * Statgraphics
+    * ADAPA                   * Mathematica              * STATISTICA
+    * Analyse-it              * MedCalc                  * Statistical_Lab
+    * ASReml                  * Mentor_(statistics)      * Statistical_process
+**** B ****                   * Minitab                    control_software
+    * Blaise_(software)       * MLwiN                    * Statistical
+    * BMDP                **** N ****                      Solutions
+    * User:                   * NCSS_(statistical        * Statistics_Online
+      Bmxoffspring99/PQ         software)                  Computational
+      Systems,_Inc            * NIPO_Software              Resource
+    * User:Busitech/          * NMath_Stats              * Statmetrics
+      Quality_Window          * NumXL                    * StatPlus
+    * BV4.1_(software)    **** O ****                    * Stats_Helper
+**** C ****                   * OpenMx                   * StatXact
+    * CalEst                  * OxMetrics                * SUDAAN
+    * Colectica           **** P ****                    * Survent
+    * Computer-assisted       * PottersWheel             * SYSTAT
+      personal                * Primer-E_Primer      **** T ****
+      interviewing        **** Q ****                    * Table_Producing
+    * Confirmit               * Q_research_software        Language
+**** D ****                   * Quantum_(Statistical     * TinkerPlots
+    * DAP_(software)            programming              * TPL_Tables
+    * Dashboard_of              language)                * TRAMO
+      Sustainability      **** R ****                **** U ****
+    * Data_Desk               * R_(programming           * Unistat
+    * DataDetective             language)                * The_Unscrambler
+    * Multifactor_design      * RGL                  **** V ****
+      of_experiments      **** S ****                    * ViSta,_The_Visual
+      software                * S-PLUS                     Statistics_system
+**** E ****                   * SAS_(software)       **** W ****
+    * Epi_Info                * Sawtooth_Software        * WinBUGS
+    * Epidata                 * SHAZAM_(software)        * Winpepi
+**** F ****                   * SigmaStat                * World_Programming
+    * Fathom:_Dynamic         * Sigmaxl                    System
+      Data_Software           * Simfit               **** X ****
+**** G ****                   * SOFA_Statistics          * XLSTAT
+    * GAUSS_(software)        * SPC_XL                   * XploRe
+    * GenStat
+    * GLIM_(software)
+    * GraphPad_InStat
+    * GraphPad_Prism
+    * Gretl
+**** I ****
+    * IDL_(programming
+      language)
+Retrieved from "http://en.wikipedia.org/wiki/Category:Statistical_software"
+
+Categories: Mathematical_software | Statistics | Computational_statistics
+

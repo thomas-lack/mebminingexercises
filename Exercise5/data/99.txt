@@ -1,0 +1,427 @@
+
+****** Receiver operating characteristic ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+ROC curve of three epitope predictors.
+In signal_detection_theory, a receiver operating characteristic (ROC), or
+simply ROC curve, is a graphical plot of the sensitivity, or true positive
+rate, vs. false positive rate (1 â specificity or 1 â true negative rate),
+for a binary_classifier system as its discrimination threshold is varied. The
+ROC can also be represented equivalently by plotting the fraction of true
+positives out of the positives (TPR = true positive rate) vs. the fraction of
+false_positives out of the negatives (FPR = false positive rate). Also known as
+a Relative Operating Characteristic curve, because it is a comparison of two
+operating characteristics (TPR &amp; FPR) as the criterion changes.[1]
+ROC analysis provides tools to select possibly optimal models and to discard
+suboptimal ones independently from (and prior to specifying) the cost context
+or the class distribution. ROC analysis is related in a direct and natural way
+to cost/benefit analysis of diagnostic decision_making. The ROC curve was first
+developed by electrical engineers and radar engineers during World War II for
+detecting enemy objects in battle fields, also known as the signal detection
+theory, and was soon introduced in psychology to account for perceptual
+detection of stimuli. ROC analysis since then has been used in medicine,
+radiology, and other areas for many decades, and it has been introduced
+relatively recently in other areas like machine_learning and data_mining.
+***** Contents *****
+    * 1_Basic_concept
+    * 2_ROC_space
+    * 3_Curves_in_ROC_space
+    * 4_Further_interpretations
+    * 5_Detection_Error_Tradeoff_Graph
+    * 6_Z-Transformation
+          o 6.1_Area_Under_Curve
+          o 6.2_Other_measures
+    * 7_History
+    * 8_See_also
+    * 9_References
+          o 9.1_General_references
+    * 10_Further_reading
+    * 11_External_links
+***** [edit] Basic concept *****
+                                        Terminology and derivations
+                                          from a confusion matrix
+                               true positive (TP)
+                                   eqv. with hit
+                               true negative (TN)
+                                   eqv. with correct rejection
+                               false positive (FP)
+                                   eqv. with false_alarm, Type_I_error
+                               false negative (FN)
+                                   eqv. with miss, Type_II_error
+                               sensitivity or true positive rate (TPR)
+                                   eqv. with hit_rate, recall
+                                   TPR = TP / P = TP / (TP + FN)
+                               false positive rate (FPR)
+                                   eqv. with fall-out
+                                   FPR = FP / N = FP / (FP + TN)
+                               accuracy (ACC)
+                                   ACC = (TP + TN) / (P + N)
+                               specificity (SPC) or True Negative Rate
+                                   SPC = TN / N = TN / (FP + TN) = 1 â FPR
+                               positive_predictive_value (PPV)
+                                   eqv. with precision
+                                   PPV = TP / (TP + FP)
+                               negative_predictive_value (NPV)
+                                   NPV = TN / (TN + FN)
+                               false_discovery_rate (FDR)
+                                   FDR = FP / (FP + TP)
+                               Matthews_correlation_coefficient (MCC)
+                                   [MCC = (TP*TN - FP*FN) / \sqrt{P N P' N'}]
+                               F1_score
+                                   F1 = 2TP / (P + P')
+                             Source: Fawcett (2006).
+See also: Type_I_and_type_II_errors
+A classification model (classifier or diagnosis) is a mapping of instances into
+a certain class/group. The classifier or diagnosis result can be in a real
+value (continuous output) in which the classifier boundary between classes must
+be determined by a threshold value, for instance to determine whether a person
+has hypertension based on blood_pressure measure, or it can be in a discrete
+class label indicating one of the classes.
+Let us consider a two-class prediction problem (binary_classification), in
+which the outcomes are labeled either as positive (p) or negative (n) class.
+There are four possible outcomes from a binary classifier. If the outcome from
+a prediction is p and the actual value is also p, then it is called a true
+positive (TP); however if the actual value is n then it is said to be a false
+positive (FP). Conversely, a true negative has occurred when both the
+prediction outcome and the actual value are n, and false negative is when the
+prediction outcome is n while the actual value is p.
+To get an appropriate example in a real-world problem, consider a diagnostic
+test that seeks to determine whether a person has a certain disease. A false
+positive in this case occurs when the person tests positive, but actually does
+not have the disease. A false negative, on the other hand, occurs when the
+person tests negative, suggesting they are healthy, when they actually do have
+the disease.
+Let us define an experiment from P positive instances and N negative instances.
+The four outcomes can be formulated in a 2Ã2 contingency_table or confusion
+matrix, as follows:
+                                     actual value
+                                  p        n        total
+                                p' True     False    P'
+                     prediction    Positive Positive
+                     outcome    n' False    True     N'
+                                   Negative Negative
+                             total      P        N
+***** [edit] ROC space *****
+The ROC space and plots of the four prediction examples.
+The contingency table can derive several evaluation "metrics" (see infobox). To
+draw an ROC curve, only the true positive rate (TPR) and false positive rate
+(FPR) are needed. TPR determines a classifier or a diagnostic test performance
+on classifying positive instances correctly among all positive samples
+available during the test. FPR, on the other hand, defines how many incorrect
+positive results occur among all negative samples available during the test.
+A ROC space is defined by FPR and TPR as x and y axes respectively, which
+depicts relative trade-offs between true positive (benefits) and false positive
+(costs). Since TPR is equivalent with sensitivity and FPR is equal to 1 â
+specificity, the ROC graph is sometimes called the sensitivity vs (1 â
+specificity) plot. Each prediction result or one instance of a confusion matrix
+represents one point in the ROC space.
+The best possible prediction method would yield a point in the upper left
+corner or coordinate (0,1) of the ROC space, representing 100% sensitivity (no
+false negatives) and 100% specificity (no false positives). The (0,1) point is
+also called a perfect classification. A completely random_guess would give a
+point along a diagonal line (the so-called line of no-discrimination) from the
+left bottom to the top right corners. An intuitive example of random guessing
+is a decision by flipping_coins_(head_or_tail).
+The diagonal divides the ROC space. Points above the diagonal represent good
+classification results, points below the line poor results. Note that the
+output of a poor predictor could simply be inverted to obtain points above the
+line.
+Let us look into four prediction results from 100 positive and 100 negative
+instances:
+A               B               C               C'
+TP=63 FP=28 91  TP=77 FP=77 154 TP=24 FP=88 112 TP=76 FP=12 88
+FN=37 TN=72 109 FN=23 TN=23 46  FN=76 TN=12 88  FN=24 TN=88 112
+100   100   200 100   100   200 100   100   200 100   100   200
+TPR = 0.63      TPR = 0.77      TPR = 0.24      TPR = 0.76
+FPR = 0.28      FPR = 0.77      FPR = 0.88      FPR = 0.12
+ACC = 0.68      ACC = 0.50      ACC = 0.18      ACC = 0.82
+Plots of the four results above in the ROC space are given in the figure. The
+result of method A clearly shows the best predictive power among A, B, and C.
+The result of B lies on the random guess line (the diagonal line), and it can
+be seen in the table that the accuracy of B is 50%. However, when C is mirrored
+across the center point (0.5,0.5), the resulting method C' is even better than
+A. This mirrored method simply reverses the predictions of whatever method or
+test produced the C contingency table. Although the original C method has
+negative predictive power, simply reversing its decisions leads to a new
+predictive method C' which has positive predictive power. When the C method
+predicts p or n, the C' method would predict n or p, respectively. In this
+manner, the C' test would perform the best. The closer a result from a
+contingency table is to the upper left corner, the better it predicts, but the
+distance from the random guess line in either direction is the best indicator
+of how much predictive power a method has. If the result is below the line
+(i.e. the method is worse than a random guess), all of the method's predictions
+must be reversed in order to utilize its power, thereby moving the result above
+the random guess line.
+***** [edit] Curves in ROC space *****
+[Receiver_Operating_Characteristic.png]
+Oftentimes, objects are classified based on a continuous_random_variable. For
+example, imagine that the protein level in diseased people and healthy people
+are normally_distributed with means of 2 g/dL and 1 g/dL respectively. A
+medical test might measure the level of a certain protein in a blood sample and
+classify any number above a certain threshold as indicating disease. The
+experimenter can adjust the threshold (black vertical line in figure), which
+will in turn change the false positive rate. Increasing the threshold would
+result in fewer false positives, corresponding to a leftward movement on the
+curve. The actual shape of the curve is determined by how much overlap the two
+distributions have.
+***** [edit] Further interpretations *****
+Sometimes, the ROC is used to generate a summary statistic. Common versions
+are:
+    * the intercept of the ROC curve with the line at 90 degrees to the no-
+      discrimination line (also called Youden's_J_statistic)
+    * the area between the ROC curve and the no-discrimination line[citation
+      needed]
+    * the area under the ROC curve, or "AUC" ("Area Under Curve"), or A'
+      (pronounced "a-prime") [2]
+    * d' (pronounced "d-prime"), the distance between the mean of the
+      distribution of activity in the system under noise-alone conditions and
+      its distribution under signal-alone conditions, divided by their standard
+      deviation, under the assumption that both these distributions are normal
+      with the same standard deviation. Under these assumptions, it can be
+      proved that the shape of the ROC depends only on d'.
+However, any attempt to summarize the ROC curve into a single number loses
+information about the pattern of tradeoffs of the particular discriminator
+algorithm.
+***** [edit] Detection Error Tradeoff Graph *****
+An alternative to the ROC curve is the Detection_Error_Tradeoff_(DET)_Graph,
+which plots the False Negative Rate (missed detections) vs the False Positive
+Rate (false alarms), often on logarithmic scales.
+***** [edit] Z-Transformation *****
+If a z-transformation is applied to the ROC curve, the curve will be
+transformed into a straight line. This z-transformation is based on a normal
+distribution with a mean of zero and a standard deviation of one. In strength
+theory, one must assume that the zROC is not only linear, but has a slope of
+1.0. The normal distributions of target and lures is the factor causing the
+zROC to be linear.
+The linearity of the zROC curve depends on the standard deviations of the
+target and lure strength distributions. If the standard deviations are equal,
+the slope will be 1.0. If the standard deviation of the target strength
+distribution is larger than the standard deviation of the lure strength
+distribution, then the slope will be smaller than 1.0. In most studies, it has
+been found that the zROC curve slopes constantly fall below 1, usually between
+0.5 and 0.9.[3] Many experiments yielded a zROC slope of 0.8. A slope of 0.8
+implies tat the variability of the target strength distribution is 25% larger
+than the variability of the lure strength distribution.[4]
+Another variable used is d'. d' is a measure of sensitivity for yes-no
+recognition that can easily be expressed in terms of z-values. d' measures
+sensitivity, in that it measures the degree of overlap between target and lure
+distributions. It is calculated as the mean of the target distribution minus
+the mean of the lure distribution, expressed in standard deviation units. For a
+given hit rate and false alarm rate, d' can be calculated with the following
+equation: d'=z(hit rate)- z(false alarm rate). Although d' is a commonly used
+parameter, it must be recognized that it is only relevant when strictly
+adhering to the very strong assumptions of strength theory made above.[5]
+The z-transformation of an ROC curve is always linear, as assumed, except in
+special situations. The Yonelinas Familiarity-Recollection model is a two-
+dimensional account of recognition memory. Instead of the subject simply
+answering yes or no to a specific input, the subject gives the input a feeling
+of familiarity, which operates like the original ROC curve. What changes,
+though, is a parameter for Recollection (R). Recollection is assumed to be all-
+or-none, and it trumps familiarity. If there were no recollection component,
+zROC would have a predicted slope of 1. However, when adding the recollection
+component, the zROC curve will be concave up, with a decreased slope. This
+difference in shape and slope result from an added element of variability due
+to some items being recollected. Patients with anterograde amnesia are unable
+to recollect, so their Yonelinas zROC curve would have a slope close to 1.0.[6]
+**** [edit] Area Under Curve ****
+The AUC is equal to the probability that a classifier will rank a randomly
+chosen positive instance higher than a randomly chosen negative one.[7] It can
+be shown that the area under the ROC curve is closely related to the
+MannâWhitney_U,[8] which tests whether positives are ranked higher than
+negatives. It is also equivalent to the Wilcoxon_test_of_ranks.[8] The AUC is
+related to the Gini_coefficient (G1) by the formula G1 + 1 = 2AUC, where:
+      [G_1 = 1 - \sum_{k=1}^{n} (X_{k} - X_{k-1}) (Y_{k} + Y_{k-1})][9]
+In this way, it is possible to calculate the AUC by using an average of a
+number of trapezoidal approximations.
+The machine_learning community most often uses the ROC AUC statistic for model
+comparison.[10] However, this practice has recently been questioned based upon
+new machine learning research that shows that the AUC is quite noisy as a
+classification measure [11] and has some other significant problems in model
+comparison.[12][13] With a reliable and valid AUC estimate, this measure can be
+interpreted as the probability that when we randomly pick one positive and one
+negative example, the classifier will assign a higher score to the positive
+example than to the negative. However, as this recent machine learning research
+that is critical of the AUC suggests, the problem is that reliable and valid
+AUC estimates are very often not obtained. Thus, the usefulness and practical
+value of the AUC measure has been questioned by these machine learning
+researchers, as the AUC may actually introduce more uncertainty into machine
+learning classification accuracy comparisons than resolution.
+**** [edit] Other measures ****
+In engineering, the area between the ROC curve and the no-discrimination line
+is often preferred, because of its useful mathematical properties as a non-
+parametric_statistic[citation_needed]. This area is often simply known as the
+discrimination. In psychophysics, d' is the most commonly used measure.
+The illustration at the top right of the page shows the use of ROC graphs for
+the discrimination between the quality of different epitope predicting
+algorithms. If you wish to discover at least 60% of the epitopes in a virus
+protein, you can read out of the graph that about 1/3 of the output would be
+falsely marked as an epitope. The information that is not visible in this graph
+is that the person that uses the algorithms knows what threshold settings give
+a certain point in the ROC graph.
+Sometimes it can be more useful to look at a specific region of the ROC Curve
+rather than at the whole curve. It is possible to compute partial AUC.[14] For
+example, one could focus on the region of the curve with low false positive
+rate, which is often of prime interest for population screening tests.[15]
+Another common approach for classification problems in which P << N (common in
+bioinformatics applications) is to use a logarithmic scale for the x-axis.[16]
+***** [edit] History *****
+The ROC curve was first used during World_War_II for the analysis of radar
+signals before it was employed in signal_detection_theory.[17] Following the
+attack_on_Pearl_Harbor in 1941, the United States army began new research to
+increase the prediction of correctly detected Japanese aircraft from their
+radar signals.
+In the 1950s, ROC curves were employed in psychophysics to assess human (and
+occasionally non-human animal) detection of weak signals.[17] In medicine, ROC
+analysis has been extensively used in the evaluation of diagnostic_tests.[18]
+[19] ROC curves are also used extensively in epidemiology and medical_research
+and are frequently mentioned in conjunction with evidence-based_medicine. In
+radiology, ROC analysis is a common technique to evaluate new radiology
+techniques.[20] In the social sciences, ROC analysis is often called the ROC
+Accuracy Ratio, a common technique for judging the accuracy of default
+probability models.
+ROC curves also proved useful for the evaluation of machine_learning
+techniques. The first application of ROC in machine learning was by Spackman
+who demonstrated the value of ROC curves in comparing and evaluating different
+classification algorithms.[21]
+***** [edit] See also *****
+ Wikimedia Commons has media related to: Receiver_operating_characteristic
+    * Constant_false_alarm_rate
+    * Detection_theory
+    * False_alarm
+    * Gain_(information_retrieval)
+    * Precision_and_recall
+    * Detection_Error_Tradeoff
+***** [edit] References *****
+   1. ^ Signal detection theory and ROC analysis in psychology and
+      diagnostics : collected papers; Swets, 1996
+   2. ^ J. Fogarty, R. Baker, S. Hudson (2005). "Case_studies_in_the_use_of_ROC
+      curve_analysis_for_sensor-based_estimates_in_human_computer_interaction".
+      ACM International Conference Proceeding Series, Proceedings of Graphics
+      Interface 2005. Waterloo, Ontario, Canada: Canadian Human-Computer
+      Communications Society. http://portal.acm.org/citation.cfm?id=1089530. 
+   3. ^ Glanzer, M.; Kim, K., Hilford, A., &amp; Adams, J.K. (1999). "Slope of
+      the receiver-operating characteristic in recognition memory". Journal of
+      Experimental Psychology: Learning, Memory, and Cognition 25 (2): 500-
+      513. 
+   4. ^ Ratcliff, R.; McCoon, G., &amp; Tindal, M. (1994). "Empirical
+      generality of data from recognition memory ROC functions and implications
+      for GMMs". Journal of Experimental Psychology: Learning, Memory, and
+      Cognition 20: 763-785. 
+   5. ^ Zhang, J.; Mueller, S. T. (2005). "A note on ROC analysis and non-
+      parametric estimate of sensitivity". Psychometrika 70 (203-212). 
+   6. ^ Yonelinas, A. P.; Kroll, N. E. A., Dobbins, I. G., Lazzara, M., &amp;
+      Knight, R. T. (1998). "Recolection and familiarity deficits in amnesia:
+      Convergence of remember-know, process dissociation, and receiver
+      operating characteristic data". Neuropsychology 12: 323-339. 
+   7. ^ Fawcett, T. (2006). An introduction to ROC analysis. Pattern
+      Recognition Letters, 27, 861â874.
+   8. ^ a b Mason, S. J.; Graham, N. E. (2002). "Areas_beneath_the_relative
+      operating_characteristics_(ROC)_and_relative_operating_levels_(ROL)
+      curves:_Statistical_significance_and_interpretation". Quarterly Journal
+      of the Royal Meteorological Society (128): 2145â2166. http://
+      reia.inmet.gov.br/documentos/cursoI_INMET_IRI/Climate_Information_Course/
+      References/Mason+Graham_2002.pdf. 
+   9. ^ Hand, D.J., &amp; Till, R.J. (2001). A simple generalization of the
+      area under the ROC curve to multiple class classification problems.
+      Machine Learning, 45, 171â186.
+  10. ^ Hanley, JA; BJ McNeil (1983-09-01). "A_method_of_comparing_the_areas
+      under_receiver_operating_characteristic_curves_derived_from_the_same
+      cases". Radiology 148 (3): 839â843. PMID 6878708. http://
+      radiology.rsnajnls.org/cgi/content/abstract/148/3/839. Retrieved 2008-12-
+      03. 
+  11. ^ Hanczar, B., Hua, J., Sima, C., Weinstein, J., Bittner, M. and
+      Dougherty, E.R. (2010). Small-sample precision of ROC-related estimates.
+      Bioinformatics 26 (6): 822â830.
+  12. ^ Lobo, J. M., JimÃ©nez-Valverde, A. and Real, R. (2008), AUC: a
+      misleading measure of the performance of predictive distribution models.
+      Global Ecology and Biogeography, 17: 145â151.
+  13. ^ Hand, D.J. (2009). Measuring classifier performance: A coherent
+      alternative to the area under the ROC curve. Machine Learning, 77:
+      103â123.
+  14. ^ McClish, Donna Katzman (1989-08-01). "Analyzing_a_Portion_of_the_ROC
+      Curve". Med Decis Making 9 (3): 190â195. doi:10.1177/
+      0272989X8900900307. PMID 2668680. http://mdm.sagepub.com/cgi/content/
+      abstract/9/3/190. Retrieved 2008-09-29. 
+  15. ^ Dodd, Lori E.; Margaret S. Pepe (2003). "Partial_AUC_Estimation_and
+      Regression". Biometrics 59 (3): 614â623. doi:10.1111/1541-0420.00071.
+      PMID 14601762. http://www.blackwell-synergy.com/doi/abs/10.1111/1541-
+      0420.00071. Retrieved 2007-12-18. 
+  16. ^ http://www.soe.ucsc.edu/~karplus/papers/better-than-chance-sep-07.pdf
+  17. ^ a b D.M. Green and J.M. Swets (1966). Signal detection theory and
+      psychophysics. New York: John Wiley and Sons Inc.. ISBN 0-471-32420-5. 
+  18. ^ M.H. Zweig and G. Campbell (1993). "Receiver-operating characteristic
+      (ROC) plots: a fundamental evaluation tool in clinical medicine".
+      Clinical chemistry 39 (8): 561â577. PMID 8472349. 
+  19. ^ M.S. Pepe (2003). The statistical evaluation of medical tests for
+      classification and prediction. New York: Oxford. 
+  20. ^ N.A. Obuchowski (2003). "Receiver operating characteristic curves and
+      their use in radiology". Radiology 229 (1): 3â8. doi:10.1148/
+      radiol.2291010898. PMID 14519861. 
+  21. ^ Spackman, K. A. (1989). "Signal detection theory: Valuable tools for
+      evaluating inductive learning". Proceedings of the Sixth International
+      Workshop on Machine Learning. San Mateo, CA: Morgan_Kaufmann.
+      pp. 160â163. 
+**** [edit] General references ****
+    * X. H. Zhou, N. A. Obuchowski, and D. M. McClish (2002). New York, USA:
+      Wiley &amp; Sons. ISBN 9780471347729. 
+***** [edit] Further reading *****
+    * Fawcett, Tom (2004) ROC_Graphs:_Notes_and_Practical_Considerations_for
+      Researchers; Machine Learning, 2004
+    * Zou, K.H., O'Malley, A.J., Mauri, L. (2007). Receiver-operating
+      characteristic analysis for evaluating diagnostic tests and predictive
+      models. Circulation, 6;115(5):654â7.
+    * Lasko, T.A., J.G. Bhagwat, K.H. Zou and Ohno-Machado, L. (2005). The use
+      of receiver operating characteristic curves in biomedical informatics.
+      Journal of Biomedical Informatics, 38(5):404â415.
+    * Balakrishnan, N., (1991) Handbook of the Logistic Distribution, Marcel
+      Dekker, Inc., ISBN_978-0-8247-8587-1.
+    * Gonen M., (2007) Analyzing Receiver Operating Characteristic Curves Using
+      SAS, SAS Press, ISBN_978-1-59994-298-1.
+    * Green, W.H., (2003) Econometric Analysis, fifth edition, Prentice_Hall,
+      ISBN_0-13-066189-9.
+    * Heagerty, P.J., Lumley, T., Pepe, M. S. (2000) Time-dependent ROC Curves
+      for Censored Survival Data and a Diagnostic Marker Biometrics, 56:337 â
+      344
+    * Hosmer, D.W. and Lemeshow, S., (2000) Applied Logistic Regression, 2nd
+      ed., New York; Chichester, Wiley, ISBN_0-471-35632-8.
+    * Brown, C.D., and Davis, H.T. (2006) Receiver operating characteristic
+      curves and related decision measures: a tutorial, Chemometrics and
+      Intelligent Laboratory Systems, 80:24â38
+    * Mason, S.J. and Graham, N.E. (2002) Areas beneath the relative operating
+      characteristics (ROC) and relative operating levels (ROL) curves:
+      Statistical significance and interpretation. Q.J.R. Meteorol. Soc., 128:
+      2145â2166.
+    * Pepe, M.S. (2003). The statistical evaluation of medical tests for
+      classification and prediction. Oxford. ISBN_0198565828.
+    * Carsten, S. Wesseling, S., Schink, T., and Jung, K. (2003) Comparison of
+      Eight Computer Programs for Receiver-Operating Characteristic Analysis.
+      Clinical Chemistry, 49:433â439
+    * Swets, J.A. (1995). Signal detection theory and ROC analysis in
+      psychology and diagnostics: Collected papers. Lawrence Erlbaum
+      Associates.
+    * Swets, J.A., Dawes, R., and Monahan, J. (2000) Better Decisions through
+      Science. Scientific_American, October, pages 82â87.
+***** [edit] External links *****
+ This article's use of external_links may not follow Wikipedia's policies or
+ guidelines. Please improve_this_article by removing excessive and
+ inappropriate external links. (March 2010)
+    * Kelly_H._Zou's_Bibliography_of_ROC_Literature_and_Articles
+    * A_more_thorough_treatment_of_ROC_curves_and_signal_detection_theory
+    * Tom_Fawcett's_ROC_Convex_Hull:_tutorial,_program_and_papers
+    * Peter_Flach's_tutorial_on_ROC_analysis_in_machine_learning
+    * The_magnificent_ROC â An explanation and interactive demonstration of
+      the connection of ROCs to archetypal bi-normal test result plots
+    * Web-based_Calculator_for_ROC_Curves â by John_Eng
+
+Retrieved from "http://en.wikipedia.org/wiki/Receiver_operating_characteristic"
+
+Categories: Detection_theory | Data_mining | Socioeconomics | Biostatistics |
+Statistical_classification
+Hidden categories: All_articles_with_unsourced_statements | Articles_with
+unsourced_statements_from_March_2010 | Wikipedia_external_links_cleanup_from
+March_2010 | Wikipedia_spam_cleanup_from_March_2010
+

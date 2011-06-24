@@ -1,0 +1,48 @@
+
+****** Category:Computational statistics ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+The main article for this category is Computational_statistics.
+
+***** Subcategories *****
+This category has the following 8 subcategories, out of 8 total.
+**** A ****                                           **** M ****                                  **** N ****
+    * [+]  Statistical_algorithms (1 C, 32 P)             * [+]  Machine_learning (13 C, 272 P)        * [Ã]  Non-uniform_random_numbers (10 P)
+**** D ****                                               * [Ã]  Markov_chain_Monte_Carlo (8 P) **** S ****
+    * [+]  Data_mining (2 C, 90 P)                        * [+]  Monte_Carlo_methods (6 C, 42 P)       * [+]  Statistical_software (7 C, 91 P)
+**** J ****
+    * [Ã]  Computational_statistics_journals (4 P)
+Pages in category "Computational statistics"
+The following 27 pages are in this category, out of 27 total. This list may not
+reflect recent changes (learn_more).
+    * Computational       **** C cont. ****         **** R ****
+      statistics              * Control_variates        * User:Rachelhuang01/
+**** A ****               **** F ****                     Bayesian_tool_for
+    * Antithetic_variates     * FastICA                   methylation_analysis
+    * Artificial_neural   **** G ****                     (Batman)
+      network                 * Group_method_of         * Radial_basis
+    * Auxiliary_particle        data_handling             function_network
+      filter              **** I ****                   * Reversible-jump
+**** B ****                   * Isomap                    Markov_chain_Monte
+    * Bootstrap           **** L ****                     Carlo
+      aggregating             * Linear_least        **** S ****
+    * Bootstrap_error-          squares_                * Semidefinite
+      adjusted_single-          (mathematics)             embedding
+      sample_technique    **** M ****                   * Spiking_neural
+    * Bootstrapping_          * Markov_chain_Monte        network
+      (statistics)              Carlo                   * Statistical
+    * Bootstrapping           * Multivariate_kernel       relational_learning
+      populations               density_estimation      * Stochastic_gradient
+**** C ****               **** O ****                     descent
+    * Continuity              * Owen's_T_function   **** T ****
+      correction          **** P ****                   * Twisting_properties
+                              * Particle_filter         * Types_of_artificial
+                                                          neural_networks
+Retrieved from "http://en.wikipedia.org/wiki/Category:Computational_statistics"
+
+Categories: Statistics | Algorithms
+

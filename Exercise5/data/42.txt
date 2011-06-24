@@ -1,0 +1,37 @@
+
+****** Category:Cluster analysis ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+The main article for this category is Cluster_analysis.
+ Wikimedia Commons has media related to: Cluster_analysis
+
+***** Subcategories *****
+This category has the following 2 subcategories, out of 2 total.
+**** C ****
+    * [Ã]  Clustering_criteria (5 P)
+**** D ****
+    * [Ã]  Data_clustering_algorithms (25 P)
+Pages in category "Cluster analysis"
+The following 11 pages are in this category, out of 11 total. This list may not
+reflect recent changes (learn_more).
+**** * ****             **** C cont. ****          **** K ****
+    * Cluster_analysis      * Correlation              * K-medians_clustering
+**** B ****                   clustering           **** M ****
+    * Biclustering      **** D ****                    * Medoid
+**** C ****                 * Data_classification_     * Mixture_model
+    * Cluster_analysis_       (business
+      (in_marketing)          intelligence)
+    * Clustering_high-      * Determining_the
+      dimensional_data        number_of_clusters
+                              in_a_data_set
+                        **** H ****
+                            * Hierarchical
+                              clustering
+Retrieved from "http://en.wikipedia.org/wiki/Category:Cluster_analysis"
+
+Categories: Data_analysis | Data_mining | Multivariate_statistics
+

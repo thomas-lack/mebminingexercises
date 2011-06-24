@@ -1,0 +1,114 @@
+
+****** Feature Selection Toolbox ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                          Feature Selection Toolbox
+[FeatureSelectionToolbox1_screenshot.png]
+
+The screenshot illustrates the full user interface of FST1 with log window on
+the left showing feature selection results, result table window in center
+right and a graphic projection of data and mixture model components in bottom
+right. On top of it is the dialog for setting parameters of optimal subset
+search methods.
+Developer(s)     UTIA, Czech_Academy_of_Sciences
+Stable_release   3.1.0 / 2011/03/30
+Operating_system Cross-platform (v3)
+Type             Machine_Learning, Pattern_Recognition
+License          Free for non-commercial use
+Website          http://fst.utia.cz
+Feature Selection Toolbox (FST) is a machine_learning software focusing
+primarily on the feature_selection[1] problem, written in C++, developed at the
+Institute_of_Information_Theory_and_Automation (UTIA), of the Czech_Academy_of
+Sciences.
+***** Contents *****
+    * 1_Feature_Selection_Toolbox_1[2]
+    * 2_Feature_Selection_Toolbox_3[3]
+    * 3_History
+    * 4_See_also
+    * 5_References
+***** [edit] Feature Selection Toolbox 1[2] *****
+The first generation of the software (FST1) is a Windows application with user
+interface allowing users to apply several sub-optimal, optimal and mixture-
+based feature selection methods on data stored in a trivial proprietary textual
+flat file format. FST1 is publicly available and free for non-commercial use.
+***** [edit] Feature Selection Toolbox 3[3] *****
+The third generation of the software (Feature Selection Toolbox 3) is a library
+without user interface, written to be more efficient and versatile than the
+original FST1. FST3 is publicly available and free for non-commercial use.
+FST3 supports several standard data_mining tasks, more specifically, data
+preprocessing and classification, but its main focus is on feature_selection.
+In feature selection context it implements several common as well as less usual
+techniques, with particular emphasis put on threaded implementation of various
+sequential search methods (a form of hill-climbing). Implemented methods
+include individual feature ranking, floating search, oscillating search
+(suitable for very-high-dimensional problems) in randomized or deterministic
+form, optimal methods of branch_and_bound type, probabilistic class distance
+criteria, various classifier accuracy estimators, feature subset size
+optimization, feature selection with pre-specified feature weights, criteria
+ensembles, hybrid methods, detection of all equivalent solutions, or two-
+criterion optimization. FST3 is more narrowly specialized than popular software
+like WEKA, RapidMiner or PRTools.
+By default FST's techniques are predicated on the assumption that the data is
+available as a single flat file in a simple proprietary format or in WEKA
+format ARFF, where each data point is described by a fixed number of numeric
+attributes. FST3 is provided without user_interface, and is meant to be used by
+users familiar both with machine_learning and C++ programming. The older FST1
+software is more suitable for simple experimenting or educational purposes
+because it can be used without necessity to code in C++.
+***** [edit] History *****
+    * In 1999, the development of the first Feature Selection Toolbox version
+      started at UTIA as part of a Ph.D. thesis. It was originally developed in
+      Optima++ (later known under the name Power++) RAD C++ environment.
+    * In 2002, the development of the first FST generation has been suspended,
+      mainly due to end of Sybase's support of the then used development
+      environment.
+    * In 2002-2008, FST kernel has been re-coded and used for research
+      experimentation within UTIA only.
+    * In 2009, 3rd FST kernel re-coding from scratch has started.
+    * In 2010, FST3 has been made publicly available in form of a C++ library
+      without GUI. The accompanying web page collects feature selection related
+      links, references, documentation and the original FST1 available for
+      download.
+    * In 2011, an update of FST3 to version 3.1 includes new methods (in
+      particular a novel dependency-aware feature ranking suitable for very-
+      high-dimensional recognition problems) and core code improvements.
+***** [edit] See also *****
+[Portal-puzzle.svg] Free_software_portal
+    * Feature_Selection
+    * Pattern_Recognition
+    * Machine_Learning
+    * Data_Mining
+    * WEKA (comprehensive and popular Java open-source software from University
+      of_Waikato)
+    * RapidMiner (formerly YALE (Yet Another Learning Environment)) open-source
+      machine learning framework implemented in Java fully integrating Weka
+    * PRTools of the Delft University of Technology
+    * Infosel++ specialized in information_theory based feature selection
+    * Tooldiag a C++ pattern recognition toolbox
+    * List_of_numerical_analysis_software
+***** [edit] References *****
+   1. ^ Petr Somol; Jana NovoviÄovÃ¡ and Pavel Pudil (2010). "Efficient
+      Feature_Subset_Selection_and_Subset_Size_Optimization". Pattern
+      Recognition Recent Advances, INTECH, ISBN_978-953-7619-90-9. pp. 75â97.
+      http://library.utia.cas.cz/separaty/2010/RO/somol-
+      efficient%20feature%20subset%20selection%20and%20subset%20size%20optimization.pdf. 
+   2. ^ Petr Somol; Pavel Pudil (2002). "Feature_Selection_toolbox". Pattern
+      Recognition vol.35, no.12, Elsevier. pp. 2749â2759. http://
+      library.utia.cas.cz/separaty/historie/somol-
+      feature%20selection%20toolbox.pdf. 
+   3. ^ Petr Somol; Pavel VÃ¡cha and Stanislav MikeÅ¡ and Jan Hora and Pavel
+      Pudil and Pavel Å½id (2010). "Introduction_to_Feature_Selection_Toolbox_3
+      --_The_C++_Library_for_Subset_Search,_Data_Modeling_and_Classification".
+      UTIA Tech. Report No. 2287. pp. 1â12. http://fst.utia.cz/download/
+      FST3_Introduction_UTIA_TR2287.pdf. Retrieved 2010-11-02. 
+
+Retrieved from "http://en.wikipedia.org/wiki/Feature_Selection_Toolbox"
+
+Categories: Machine_learning | Classification_algorithms | Data_mining | C++
+software | Data_modeling_tools | Free_software_projects | Computer_libraries |
+Cross-platform_software | Science_software | Software_projects | Software
+

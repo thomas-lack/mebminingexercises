@@ -1,0 +1,117 @@
+
+****** Educational data mining ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                        This article needs references that appear in reliable
+                        third-party publications. Primary_sources or sources
+[Question_book-new.svg] affiliated with the subject are generally not
+                        sufficient for a Wikipedia article. Please add more
+                        appropriate citations from reliable_sources. (January
+                        2011)
+***** Contents *****
+    * 1_Definition
+    * 2_EDM_methods_and_areas
+    * 3_Publication_Venues
+    * 4_The_use_of_Educational_Data_Mining_in_the_KDD_Cup
+    * 5_References
+***** [edit] Definition *****
+Educational Data Mining (called EDM) is an emerging discipline, concerned with
+developing methods for exploring the unique types of data that come from
+educational settings, and using those methods to better understand students,
+and the settings which they learn in.[1] A key area of EDM is mining computer
+logs of student_performance.[2] Another key area is mining enrollment data.[3]
+Key uses of EDM include predicting_student_performance, and studying learning
+in order to recommend improvements to current educational practice. EDM can be
+considered one of the learning_sciences, as well as an area of data_mining. A
+related field is learning_analytics.
+***** [edit] EDM methods and areas *****
+The types of EDM method are related to those found in data_mining in general,
+but with some differences based on the unique features of educational data.
+Ryan Baker [4] classifies the areas of EDM as follows:
+    * Prediction
+          o Classification
+          o Regression
+          o Density estimation
+    * Clustering
+    * Relationship mining
+          o Association rule mining
+          o Correlation mining
+          o Sequential pattern mining
+          o Causal data mining
+    * Distillation of data for human judgment
+    * Discovery with models
+Baker and Kalina_Yacef claim that discovery with models is particularly
+prominent in EDM, as compared to data mining in general. In discovery with
+models, a model of a phenomenon is developed through any process that can be
+validated in some fashion (most commonly, prediction or knowledge engineering),
+and this model is then used as a component in another analysis, such as
+prediction or relationship mining.
+A list of the primary applications of EDM is provided by Cristobal_Romero and
+Sebastian_Ventura.[5] In their taxonomy, the areas of EDM application are:
+    * Analysis and visualization of data
+    * Providing feedback for supporting instructors
+    * Recommendations for students
+    * Predicting student performance
+    * Student modeling
+    * Detecting undesirable student behaviors
+    * Grouping students
+    * Social network analysis
+    * Developing concept maps
+    * Constructing courseware
+    * Planning and scheduling
+***** [edit] Publication Venues *****
+Considerable amounts of EDM work are published at the peer-reviewed
+International Conference on Educational Data Mining.
+    * 1st International Conference on Educational Data Mining (2008) [6] -
+      - Montreal, Canada
+    * 2nd International Conference on Educational Data Mining (2009) [7] -
+      - Cordoba, Spain
+    * 3rd International Conference on Educational Data Mining (2010) [8] -
+      - Pittsburgh, USA
+    * 4th International Conference on Educational Data Mining (2011) [9] -
+      - Eindhoven, Netherlands
+EDM papers are also published in the Journal of Educational Data Mining (JEDM).
+[10]
+Many EDM papers are routinely published in related conferences, such as
+Artificial Intelligence and Education, Intelligent Tutoring Systems, and User
+Modeling and Adaptive Personalization.
+***** [edit] The use of Educational Data Mining in the KDD Cup *****
+In 2010, the Association_of_Computing_Machinery's KDD_Cup was held, with a data
+and topic in the domain of educational data mining. The data set was provided
+by the Pittsburgh_Science_of_Learning_Center DataShop, and consisted of over a
+million data points from students using Cognitive_Tutor educational software.
+600 Teams competed for over $8000 dollars in prize money donated by Facebook.
+The winners used the Random_forest, Bayesian_Networks, and Feature_generation
+techinques to accurately predict the performance of over half a million unseen
+student responses.
+***** [edit] References *****
+   1. ^ "EducationalDataMining.org". 2010. http://
+      www.educationaldatamining.org/. Retrieved 2011-01-16. 
+   2. ^ R. Baker, K. Yacef (2010). "The State of Educational Data Mining in
+      2009: A Review and Future Visions". Journal of Educational Data Mining,
+      Volume 1, Issue 1 1: 3â 17. 
+   3. ^ C. Romero, S. Ventura, E. Garcia (2008). "Data Mining in Course
+      Management Systems: MOODLE Case Study and Tutorial". Computers &amp;
+      Education 51(1): 368â384. 
+   4. ^ R. Baker (2010) Data Mining for Education. In McGaw, B., Peterson, P.,
+      Baker, E. (Eds.) International Encyclopedia of Education (3rd edition),
+      vol. 7, pp. 112-118. Oxford, UK: Elsevier.
+   5. ^ C. Romero, S. Ventura. Educational Data Mining: A Review of the State-
+      of-the-Art. IEEE Transaction on Systems, Man, and Cybernetics, Part C:
+      Applications and Reviews. 40(6), 601-618, 2010.
+   6. ^ http://www.educationaldata.mining.org/EDM2008
+   7. ^ http://www.educationaldata.mining.org/EDM2009
+   8. ^ http://www.educationaldata.mining.org/EDM2010
+   9. ^ http://www.educationaldata.mining.org/EDM2011
+  10. ^ http://www.educationaldatamining.org/JEDM/
+
+Retrieved from "http://en.wikipedia.org/wiki/Educational_data_mining"
+
+Categories: Data_mining | Interdisciplinary_fields | Educational_psychology
+Hidden categories: Articles_lacking_reliable_references_from_January_2011 | All
+articles_lacking_reliable_references
+

@@ -1,0 +1,144 @@
+
+****** Business analytics ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                        This article needs additional citations for
+                        verification.
+[Question_book-new.svg] Please help improve_this_article by adding reliable
+                        references. Unsourced material may be challenged and
+                        removed. (October 2010)
+Business analytics (BA) refers to the skills, technologies, applications and
+practices for continuous iterative exploration and investigation of past
+business performance to gain insight and drive business planning.[1] Business
+analytics focuses on developing new insights and understanding of business
+performance based on data and statistical_methods. In contrast, business
+intelligence traditionally focuses on using a consistent set of metrics to both
+measure past performance and guide business planning, which is also based on
+data and statistical methods.
+Business analytics makes extensive use of data, statistical and quantitative
+analysis, explanatory and predictive_modeling,[2] and fact-based management to
+drive decision_making. Analytics may be used as input for human decisions or
+may drive fully automated decisions. Business intelligence is querying,
+reporting, OLAP, and "alerts".
+In other words, querying, reporting, OLAP, and alert tools can answer questions
+such as what happened, how many, how often, where the problem is, and what
+actions are needed. Business analytics can answer questions like why is this
+happening, what if these trends continue, what will happen next (that is,
+predict), what is the best that can happen (that is, optimize).[3]
+***** Contents *****
+    * 1_Examples_of_application
+    * 2_Types_of_analytics
+    * 3_Basic_domains_within_analytics
+    * 4_History
+    * 5_Challenges
+    * 6_Competing_on_analytics
+    * 7_See_also
+    * 8_References
+    * 9_Further_reading
+***** [edit] Examples of application *****
+Banks, such as Capital_One, use data_analysis to differentiate among customers
+based on credit risk, usage and other characteristics and then to match
+customer characteristics with appropriate product offerings. Harrahâs, the
+gaming firm, uses analytics in its customer loyalty programs. E_&amp;_J_Gallo
+Winery quantitatively analyzes and predicts the appeal of its wines. Between
+2002 and 2005, Deere_&amp;_Company saved more than $1 billion by employing a
+new analytical tool to better optimize inventory.[3]
+***** [edit] Types of analytics *****
+    * Reporting or Descriptive Analytics
+    * Modeling or Predictive_analytics
+    * Data-Driven Strategy
+    * Clustering
+    * Affinity grouping
+***** [edit] Basic domains within analytics *****
+    * Retail Sales analytics
+    * Financial Services analytics
+    * Risk &amp; Credit analytics
+    * Marketing analytics
+    * Collections analytics
+    * Fraud analytics
+    * Pricing analytics
+    * Telecommunications
+    * Supply Chain analytics
+    * Transportation analytics
+***** [edit] History *****
+Analytics have been used in business since the time management exercises that
+were initiated by Frederick_Winslow_Taylor in the late 19th century. Henry_Ford
+measured pacing of assembly line. But analytics began to command more attention
+in the late 1960s when computers were used in decision_support_systems. Since
+then, analytics have evolved with the development of enterprise_resource
+planning (ERP) systems, data_warehouses, and a wide variety of other hardware
+and software tools and applications.[3]
+***** [edit] Challenges *****
+Analytics is dependent on data. The most important factor to the successful
+implementation of business analytics practices is sufficient volumes of high
+quality data. The difficulty in ensuring data quality is integrating and
+reconciling data across different systems, and then deciding what subsets of
+data to make available.[3]
+***** [edit] Competing on analytics *****
+Davenport argues that businesses can optimize a distinct business capability
+via analytics and thus better compete. He identifies these characteristics of
+an organization that are apt to compete on analytics:[3]
+    * One or more senior executives who strongly advocate fact-based decision
+      making and, specifically, analytics
+    * Widespread use of not only descriptive_statistics, but also predictive
+      modeling and complex optimization techniques
+    * Substantial use of analytics across multiple business functions or
+      processes
+    * Movement toward an enterprise level approach to managing analytical
+      tools, data, and organizational skills and capabilities
+***** [edit] See also *****
+    * Data_mining
+    * Analytics
+    * Business_Intelligence
+    * Test_and_Learn
+    * Business_Process_Discovery
+    * OLAP
+    * Statistics
+    * Customer_dynamics
+***** [edit] References *****
+   1. ^ Beller, Michael J.; Alan Barnett (2009-06-18). "Next_Generation
+      Business_Analytics". Lightship Partners LLC. http://www.docstoc.com/docs/
+      7486045/Next-Generation-Business-Analytics-Presentation. Retrieved 2009-
+      06-20. 
+   2. ^ Galit Schmueli and Otto Koppius. "Predictive_vs._Explanatory_Modeling
+      in_IS_Research". http://www.citi.uconn.edu/cist07/5c.pdf. 
+   3. ^ a b c d e Davenport, Thomas H.; Harris, Jeanne G. (2007). Competing on
+      analytics : the new science of winning. Boston, Mass.: Harvard Business
+      School Press. ISBN 978-1-4221-0332-6. 
+***** [edit] Further reading *****
+    * Davenport,_Thomas_H.; Jeanne G. Harris (March 2007). Competing on
+      Analytics: The New Science of Winning. Harvard Business School Press. 
+    * McDonald, Mark; Tina Nunno (February 2007). Creating Enterprise Leverage:
+      The 2007 CIO Agenda. Stamford, CT: Gartner, Inc.. 
+    * Baker, Stephen (January 23, 2006). "Math_Will_Rock_Your_World".
+      BusinessWeek. http://www.businessweek.com/print/magazine/content/06_04/
+      b3968001.htm?chan=gl. Retrieved 2007-09-19. 
+    * Davenport, Thomas H. (January 1, 2006). "Competing on Analytics". Harvard
+      Business Review. 
+    * Pfeffer,_Jeffrey; Robert_I._Sutton (January 2006). "Evidence-Based
+      Management". Harvard Business Review. 
+    * Davenport, Thomas H.; Jeanne G. Harris (Summer 2005). "Automated Decision
+      Making Comes of Age". MIT Sloan Management Review. 
+    * Lewis, Michael (April 2004). Moneyball: The Art of Winning an Unfair
+      Game. W.W. Norton &amp; Co.. 
+    * Bonabeau, Eric (May 2003). "Donât Trust Your Gut". Harvard Business
+      Review. 
+    * Davenport, Thomas H.; Jeanne G. Harris, David W. De Long, Alvin L.
+      Jacobson. "Data to Knowledge to Results: Building an Analytic
+      Capability". California Management Review 43 (2): 117â138. 
+    * Ranadive, Vivek (2006-01-26). The Power to Predict: How Real Time
+      Businesses Anticipate Customer Needs, Create Opportunities, and Beat the
+      Competition. McGraw-Hill. 
+    * Zabin, Jeffrey; Gresh Brebach (February 2004). Precision Marketing. John
+      Wiley. 
+
+Retrieved from "http://en.wikipedia.org/wiki/Business_analytics"
+
+Categories: Business_terms | Data_warehousing | Data_mining
+Hidden categories: Articles_needing_additional_references_from_October_2010 |
+All_articles_needing_additional_references
+

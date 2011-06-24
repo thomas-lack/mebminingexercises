@@ -1,0 +1,219 @@
+
+****** Decision tree learning ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+This article is about decision trees in machine learning. For the use of the
+term in decision analysis, see Decision_tree.
+Decision tree learning, used in statistics, data_mining and machine_learning,
+uses a decision_tree as a predictive_model which maps observations about an
+item to conclusions about the item's target value. More descriptive names for
+such tree models are classification trees or regression trees. In these tree
+structures, leaves represent classifications and branches represent
+conjunctions of features that lead to those classifications.
+In decision analysis, a decision tree can be used to visually and explicitly
+represent decisions and decision_making. In data_mining, a decision tree
+describes data but not decisions; rather the resulting classification tree can
+be an input for decision_making. This page deals with decision trees in data
+mining.
+***** Contents *****
+    * 1_General
+    * 2_Types
+    * 3_Formulae
+          o 3.1_Gini_impurity
+          o 3.2_Information_gain
+    * 4_Decision_tree_advantages
+    * 5_Limitations
+    * 6_Extending_decision_trees_with_decision_graphs
+    * 7_See_also
+    * 8_Implementations
+    * 9_References
+    * 10_External_links
+***** [edit] General *****
+A tree showing survival of passengers on the Titanic ("sibsp" is the number of
+spouses or siblings aboard). The figures under the leaves show the probability
+of survival and the percentage of observations in the leaf.
+Decision tree learning is a method commonly used in data mining. The goal is to
+create a model that predicts the value of a target variable based on several
+input variables. An example is shown on the right. Each interior_node
+corresponds to one of the input variables; there are edges to children for each
+of the possible values of that input variable. Each leaf represents a value of
+the target variable given the values of the input variables represented by the
+path from the root to the leaf.
+A tree can be "learned" by splitting the source set into subsets based on an
+attribute value test. This process is repeated on each derived subset in a
+recursive manner called recursive_partitioning. The recursion is completed when
+the subset at a node all has the same value of the target variable, or when
+splitting no longer adds value to the predictions.
+In data_mining, trees can be described also as the combination of mathematical
+and computational techniques to aid the description, categorisation and
+generalisation of a given set of data.
+Data comes in records of the form:
+      [(\textbf{x},Y) = (x_1, x_2, x_3, ..., x_k, Y)]
+The dependent variable, Y, is the target variable that we are trying to
+understand, classify or generalise. The vector x is composed of the input
+variables, x1, x2, x3 etc., that are used for that task.
+***** [edit] Types *****
+Decision trees used in data_mining are of two main types:
+    * Classification tree analysis is when the predicted outcome is the class
+      to which the data belongs.
+    * Regression tree analysis is when the predicted outcome can be considered
+      a real number (e.g. the price of a house, or a patientâs length of stay
+      in a hospital).
+The term Classification And Regression Tree (CART) analysis is an umbrella_term
+used to refer to both of the above procedures, first introduced by Breiman et
+al.[1] Trees used for regression and trees used for classification have some
+similarities - but also some differences, such as the procedure used to
+determine where to split.[1]
+Some techniques use more than one decision tree for their analysis:
+    * A Random_Forest classifier uses a number of decision trees, in order to
+      improve the classification rate.
+    * Boosted_Trees can be used for regression-type and classification-type
+      problems.[2][3]
+There are many specific decision-tree algorithms. Notable ones include:
+    * ID3_algorithm
+    * C4.5_algorithm
+    * CHi-squared Automatic Interaction Detector (CHAID). Performs multi-level
+      splits when computing classification trees.[4]
+    * MARS: extends decision trees to better handle numerical data
+***** [edit] Formulae *****
+The algorithms that are used for constructing decision trees usually work top-
+down by choosing a variable at each step that is the next best variable to use
+in splitting the set of items.[5] "Best" is defined by how well the variable
+splits the set into homogeneous subsets that have the same value of the target
+variable. Different algorithms use different formulae for measuring "best".
+This section presents a few of the most common formulae. These formulae are
+applied to each candidate subset, and the resulting values are combined (e.g.,
+averaged) to provide a measure of the quality of the split.
+**** [edit] Gini impurity ****
+Main article: Gini_coefficient
+Used by the CART algorithm, Gini impurity is a measure of how often a randomly
+chosen element from the set would be incorrectly labelled if it were randomly
+labelled according to the distribution of labels in the subset. Gini impurity
+can be computed by summing the probability of each item being chosen times the
+probability of a mistake in categorizing that item. It reaches its minimum
+(zero) when all cases in the node fall into a single target category.
+To compute Gini impurity for a set of items, suppose y takes on values in {1,
+2, ..., m}, and let fi = the fraction of items labelled with value i in the
+set.
+[I_{G}(f) = \sum_{i=1}^{m} f_i (1-f_i) = \sum_{i=1}^{m} (f_i - {f_i}^2) = \sum_
+{i=1}^m f_i - \sum_{i=1}^{m} {f_i}^2 = 1 - \sum^{m}_{i=1} {f_i}^{2}]
+**** [edit] Information gain ****
+Main article: Information_gain_in_decision_trees
+Used by the ID3, C4.5 and C5.0 tree generation algorithms. Information_gain is
+based on the concept of entropy used in information_theory.
+[I_{E}(f) = - \sum^{m}_{i=1} f_i \log^{}_2 f_i]
+***** [edit] Decision tree advantages *****
+Amongst other data mining methods, decision trees have various advantages:
+    * Simple to understand and interpret. People are able to understand
+      decision tree models after a brief explanation.
+    * Requires little data preparation. Other techniques often require data
+      normalisation, dummy_variables need to be created and blank values to be
+      removed.
+    * Able to handle both numerical and categorical data. Other techniques are
+      usually specialised in analysing datasets that have only one type of
+      variable. Ex: relation rules can be used only with nominal variables
+      while neural networks can be used only with numerical variables.
+    * Uses a white_box model. If a given situation is observable in a model the
+      explanation for the condition is easily explained by boolean logic. An
+      example of a black box model is an artificial_neural_network since the
+      explanation for the results is difficult to understand.
+    * Possible to validate a model using statistical tests. That makes it
+      possible to account for the reliability of the model.
+    * Robust. Performs well even if its assumptions are somewhat violated by
+      the true model from which the data were generated.
+    * Perform well with large data in a short time. Large amounts of data can
+      be analysed using personal computers in a time short enough to enable
+      stakeholders to take decisions based on its analysis.
+***** [edit] Limitations *****
+    * The problem of learning an optimal decision tree is known to be NP-
+      complete under several aspects of optimality and even for simple
+      concepts.[6][7] Consequently, practical decision-tree learning algorithms
+      are based on heuristic algorithms such as the greedy_algorithm where
+      locally optimal decisions are made at each node. Such algorithms cannot
+      guarantee to return the globally optimal decision tree. Recent
+      developments suggest the use of genetic algorithms to avoid local optimal
+      decisions and search the decision tree space with little a priori bias.
+      [8]
+    * Decision-tree learners can create over-complex trees that do not
+      generalise the data well. This is called overfitting.[9] Mechanisms such
+      as pruning are necessary to avoid this problem.
+    * There are concepts that are hard to learn because decision trees do not
+      express them easily, such as XOR, parity or multiplexer problems. In such
+      cases, the decision tree becomes prohibitively large. Approaches to solve
+      the problem involve either changing the representation of the problem
+      domain (known as propositionalisation)[10] or using learning algorithms
+      based on more expressive representations (such as statistical_relational
+      learning or inductive_logic_programming).
+    * For data including categorical variables with different number of levels,
+      information_gain_in_decision_trees are biased in favor of those
+      attributes with more levels. [11]
+***** [edit] Extending decision trees with decision graphs *****
+In a decision tree, all paths from the root node to the leaf node proceed by
+way of conjunction, or AND. In a decision graph, it is possible to use
+disjunctions (ORs) to join two more paths together using Minimum_Message_Length
+(MML).[12] Decision graphs have been further extended to allow for previously
+unstated new attributes to be learnt dynamically and used at different places
+within the graph.[13] The more general coding scheme results in better
+predictive accuracy and log-loss probabilistic scoring. In general, decision
+graphs infer models with fewer leaves than decision trees.
+***** [edit] See also *****
+    * Decision_tree_pruning
+    * Binary_decision_diagram
+    * CART
+    * Decision_stump
+    * Incremental_decision_tree
+    * Alternating_decision_tree
+    * Structured_data_analysis_(statistics)
+***** [edit] Implementations *****
+    * Weka, a free and open-source data mining suite, contains many decision
+      tree algorithms
+    * Orange, a free data mining software suite, module orngTree
+    * Sipina, a free decision tree software, including an interactive tree
+      builder
+    * KNIME
+***** [edit] References *****
+   1. ^ a b Breiman, Leo; Friedman, J. H., Olshen, R. A., &amp; Stone, C. J.
+      (1984). Classification and regression trees. Monterey, CA: Wadsworth
+      &amp; Brooks/Cole Advanced Books &amp; Software. ISBN 978-0412048418. 
+   2. ^ Friedman, J. H. (1999). Stochastic gradient boosting. Stanford
+      University.
+   3. ^ Hastie, T., Tibshirani, R., Friedman, J. H. (2001). The elements of
+      statistical learning : Data mining, inference, and prediction. New York:
+      Springer Verlag.
+   4. ^ Kass, G. V. (1980). "An_exploratory_technique_for_investigating_large
+      quantities_of_categorical_data". Applied Statistics 29 (2): 119â127.
+      doi:10.2307/2986296. http://jstor.org/stable/2986296. 
+   5. ^ Rokach, L.; Maimon, O. (2005). "Top-down induction of decision trees
+      classifiers-a survey". IEEE Transactions on Systems, Man, and
+      Cybernetics, Part C 35: 476â487. 
+   6. ^ Hyafil, Laurent; Rivest, RL (1976). "Constructing Optimal Binary
+      Decision Trees is NP-complete". Information Processing Letters 5 (1):
+      15â17. doi:10.1016/0020-0190(76)90095-8. 
+   7. ^ Murthy S. (1998). Automatic construction of decision trees from data: A
+      multidisciplinary survey. Data Mining and Knowledge Discovery
+   8. ^ Papagelis A., Kalles D.(2001). Breeding Decision Trees Using
+      Evolutionary Techniques, Proceedings of the Eighteenth International
+      Conference on Machine Learning, p.393-400, June 28-July 01, 2001
+   9. ^ doi:10.1007/978-1-84628-766-4
+  10. ^ doi:10.1007/b13700
+  11. ^ Deng,H.; Runger, G.; Tuv, E. (2011). "Bias_of_importance_measures_for
+      multi-valued_attributes_and_solutions". Proceedings of the 21st
+      International Conference on Artificial Neural Networks (ICANN). http://
+      enpub.fulton.asu.edu/hdeng3/MultiICANN2011.pdf. 
+  12. ^ http://citeseer.ist.psu.edu/oliver93decision.html
+  13. ^ Tan_&amp;_Dowe_(2003)
+***** [edit] External links *****
+    * Building_Decision_Trees_in_Python From O'Reilly.
+    * An_Addendum_to_"Building_Decision_Trees_in_Python" From O'Reilly.
+    * Decision_Trees_page_at_aaai.org, a page with commented links.
+    * Decision_tree_implementation_in_Ruby_(AI4R)
+
+Retrieved from "http://en.wikipedia.org/wiki/Decision_tree_learning"
+
+Categories: Data_mining | Decision_trees | Classification_algorithms | Machine
+learning
+

@@ -1,0 +1,80 @@
+
+****** Accuracy paradox ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                        This article needs additional citations for
+                        verification.
+[Question_book-new.svg] Please help improve_this_article by adding reliable
+                        references. Unsourced material may be challenged and
+                        removed. (December 2009)
+The accuracy paradox for predictive_analytics states that predictive models
+with a given level of accuracy may have greater predictive_power than models
+with higher accuracy. It may be better to avoid the accuracy metric in favor of
+other metrics such as precision and recall.
+Accuracy is often the starting point for analyzing the quality of a predictive
+model, as well as an obvious criterion for prediction. Accuracy measures the
+ratio of correct predictions to the total number of cases evaluated. It may
+seem obvious that the ratio of correct predictions to cases should be a key
+metric. A predictive model may have high accuracy, but be useless.
+In an example predictive model for an insurance_fraud application, all cases
+that are predicted as high-risk by the model will be investigated. To evaluate
+the performance of the model, the insurance company has created a sample data
+set of 10,000 claims. All 10,000 cases in the validation sample have been
+carefully checked and it is known which cases are fraudulent. To analyze the
+quality of the model, the insurance uses the table_of_confusion. The definition
+of accuracy, the table of confusion for model M1Fraud, and the calculation of
+accuracy for model M1Fraud is shown below.
+[\mathrm{A}(M) = \frac{TN + TP}{TN + FP + FN + TP}] where
+      TN is the number of true negative cases
+      FP is the number of false positive cases
+      FN is the number of false negative cases
+      TP is the number of true positive cases
+Formula 1: Definition of Accuracy
+               Predicted Negative Predicted Positive
+Negative Cases 9,700              150
+Positive Cases 50                 100
+Table 1: Table of Confusion for Fraud Model M1Fraud.
+[\mathrm A (M) = \frac{9,700 + 100}{9,700 + 150 + 50 + 100} = 98.0%]
+Formula 2: Accuracy for model M1Fraud
+With an accuracy of 98.0% model M1Fraud appears to perform fairly well. The
+paradox lies in the fact that accuracy can be easily improved to 98.5% by
+always predicting "no fraud". The table of confusion and the accuracy for this
+trivial âalways predict negativeâ model M2Fraud and the accuracy of this
+model are shown below.
+               Predicted Negative Predicted Positive
+Negative Cases 9,850              0
+Positive Cases 150                0
+Table 2: Table of Confusion for Fraud Model M2Fraud.
+[\mathrm{A}(M) = \frac{9,850 + 0}{9,850 + 150 + 0 + 0} = 98.5%]
+Formula 3: Accuracy for model M2Fraud
+Model M2Fraudreduces the rate of inaccurate predictions from 2% to 1.5%. This
+is an apparent improvement of 25%. The new model M2Fraud shows fewer incorrect
+predictions and markedly improved accuracy, as compared to the original model
+M1Fraud, but is obviously useless.
+The alternative model M2Fraud does not offer any value to the company for
+preventing fraud. The less accurate model is more useful than the more accurate
+model.
+Model improvements should not be measured in terms of accuracy gains. It may be
+going too far to say that accuracy is irrelevant, but caution is advised when
+using accuracy in the evaluation of predictive models.
+***** [edit] See also *****
+    * Receiver_operating_characteristic for other measures of how good model
+      predictions are.
+***** [edit] Bibliography *****
+    * Zhu, Xingquan (2007), Knowledge_Discovery_and_Data_Mining:_Challenges_and
+      Realities, IGI Global, pp. 118â119, ISBN 978-1-59904-252-7, http://
+      books.google.com/
+      ?id=zdJQAAAAMAAJ&amp;q=data+mining+challenges+and+realities&amp;dq=data+mining+challenges+and+realities 
+    * doi:10.1117/12.785623
+    * pp 86-87 of this_Master's_thesis
+
+Retrieved from "http://en.wikipedia.org/wiki/Accuracy_paradox"
+
+Categories: Statistical_paradoxes | Machine_learning | Data_mining
+Hidden categories: Articles_needing_additional_references_from_December_2009 |
+All_articles_needing_additional_references
+

@@ -1,0 +1,158 @@
+
+****** Big data ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+A data visualization created_by_IBM shows that Big data such as Wikipedia edits
+by bot Pearle are more meaningful when enhanced with colors and position.
+Big data[1] are datasets that grow so large that they become awkward to work
+with using on-hand database management tools. Difficulties include capture,
+storage,[2] search, sharing, analytics,[3] and visualizing. This trend
+continues because of the benefits of working with larger and larger datasets
+allowing analysts to "spot business trends, prevent diseases, combat crime."[4]
+Though a moving target, current limits are on the order of terabytes, exabytes
+and zettabytes of data.[5] Scientists regularly encounter this problem in
+meteorology, genomics[6] , connectomics, complex physics simulations [7],
+biological research, Internet search, finance and business_informatics. Data
+sets also grow in size because they are increasingly being gathered by
+ubiquitous information-sensing mobile devices, "software logs, cameras,
+microphones, RFID readers, wireless sensor networks and so on."[8][9]
+One current feature of big data is the difficulty working with it using
+relational databases and desktop statistics/visualization packages, requiring
+instead "massively parallel software running on tens, hundreds, or even
+thousands of servers."[10] The size of "Big data" varies depending on the
+capabilities of the organization managing the set. "For some organizations,
+facing hundreds of gigabytes of data for the first time may trigger a need to
+reconsider data management options. For others, it may take tens or hundreds of
+terabytes before data size becomes a significant consideration."[11]
+***** Contents *****
+    * 1_Definition
+    * 2_Examples
+    * 3_Technologies
+    * 4_Critique
+    * 5_See_also
+    * 6_References
+***** [edit] Definition *****
+Big Data is a term applied to data sets whose size is beyond the ability of
+commonly used software tools to capture, manage, and process the data within a
+tolerable elapsed time. Big data sizes are a constantly moving target currently
+ranging from a few dozen terabytes to many petabytes of data in a single data
+set.
+***** [edit] Examples *****
+Examples include web logs; RFID; sensor networks; social networks; social data
+(due to the Social_data_revolution), Internet text and documents; Internet
+search indexing; call detail records; astronomy, atmospheric science, genomics,
+biogeochemical, biological, and other complex and/or interdisciplinary
+scientific research; military surveillance; medical records; photography
+archives; video archives; and large scale eCommerce.
+***** [edit] Technologies *****
+Big Data requires exceptional technologies to efficiently process large
+quantities of data within tolerable elapsed times. Technologies being applied
+to Big Data include massively parallel processing (MPP) databases, datamining
+grids, Apache Hadoop Framework, HPCC/ECL, distributed file systems, distributed
+databases, MapReduce algorithms, cloud computing platforms, the Internet, and
+scalable storage systems such as SONAS.
+Some but not all MPP relational databases have the ability to store and manage
+petabytes of data. Implicit is the ability to load, monitor, backup, and
+optimize the use of the large data tables in the RDBMS. [12] [13]
+***** [edit] Critique *****
+Concerns have been raised about the use of Big Data in science neglecting
+principles such as choosing a representative_sample by being too concerned
+about actually handling the huge amounts of data.[14] As such, the results
+often are biased in one way or another.
+***** [edit] See also *****
+     [Search_Wikimedia   Wikimedia_Commons has media  related to (category):
+      Commons]            Database or Database_models
+    * BigTable
+    * Cloud_computing
+    * Cloud_infrastructure
+    * Data_assimilation
+    * Database_theory
+    * Database-centric_architecture
+    * Data_Intensive_Computing
+    * Datastructure
+    * ECL
+    * Hadoop
+    * HPCC
+    * MapReduce
+    * Online_database
+    * Real_time_database
+    * Relational_database
+    * Social_data_revolution
+    * SONAS
+    * Supercomputer
+***** [edit] References *****
+   1. ^ White, Tom. Hadoop: The Definitive Guide. 2009. 1st Edition. O'Reilly
+      Media. Pg 3.
+   2. ^ Kusnetzky, Dan. What is "Big Data?". ZDNet. http://blogs.zdnet.com/
+      virtualization/?p=1708
+   3. ^ Vance, Ashley. Start-Up Goes After Big Data With Hadoop Helper. New
+      York Times Blog. April 22, 2010. http://bits.blogs.nytimes.com/2010/04/
+      22/start-up-goes-after-big-data-with-hadoop-helper/?dbk
+   4. ^ Cukier, K. (25 Feb 2010). Data, data everywhere. The Economist. http://
+      www.economist.com/specialreports/displaystory.cfm?story_id=15557443
+   5. ^ Horowitz, Mark. Visualizing Big Data: Bar Charts for Words. Wired
+      Magazine. Vol 16 (7). June 23, 2008. http://www.wired.com/science/
+      discoveries/magazine/16-07/pb_visualizing##ixzz0llT2DN5j. Volu 16(7)
+   6. ^ Community cleverness required. Nature, 455(7209), 1. 2008. http://
+      www.nature.com/nature/journal/v455/n7209/full/455001a.html
+   7. ^ Sandia sees data management challenges spiral. HPC Projects. Aug. 4,
+      2009. http://www.hpcprojects.com/news/news_story.php?news_id=922
+   8. ^ Hellerstein, Joe. Parallel Programming in the Age of Big Data. Gigaom
+      Blog. Nov. 9, 2008. http://gigaom.com/2008/11/09/mapreduce-leads-the-way-
+      for-parallel-programming/
+   9. ^ Segaran, Toby and Hammerbacher, Jeff. Beautiful Data. 1st Edition.
+      O'Reilly Media. Pg 257.
+  10. ^ Jacobs, A. (6 July 2009). The Pathologies of Big Data. ACMQueue. http:/
+      /queue.acm.org/detail.cfm?id=1563874
+  11. ^ Magoulas, Roger., Lorica, Ben. (Feb 2009) Introduction to Big Data.
+      Release 2.0. Issue 11. Sebastopol, CA: OâReilly Media. http://
+      radar.oreilly.com/r2/release2-0-11.html
+  12. ^ Monash, Curt eBayâs two enormous data warehouses, April 30, 2009
+      http://www.dbms2.com/2009/04/30/ebays-two-enormous-data-warehouses/
+  13. ^ Monash, Curt eBay followup â Greenplum out, Teradata > 10 petabytes,
+      Hadoop has some value, and more, October 6, 2010 http://www.dbms2.com/
+      2010/10/06/ebay-followup-greenplum-out-teradata-10-petabytes-hadoop-has-
+      some-value-and-more/
+  14. ^ Danah_Boyd (2010-04-29). "Privacy_and_Publicity_in_the_Context_of_Big
+      Data" (html). WWW_2010_conference. http://www.danah.org/papers/talks/
+      2010/WWW2010.html. Retrieved 2011-04-18. 
+v Â· d Â· eDatabase_models
+Models          Flat  Â· Hierarchical  Â· Dimensional_model  Â· Network  Â· Relational  Â· Graph  Â· Object-oriented  Â· Entity-attribute-value_model
+Other models    Associative  Â· Concept-oriented  Â· Multidimensional  Â· Semantic  Â· Star_schema  Â· XML_database
+Implementations Flat_file  Â· Deductive  Â· Document-oriented Â· Object-relational Â· Temporal Â· XML_data_stores  Â· Triplestores
+v Â· d Â· eDatabase_management_systems
+Database_models Â· Database_normalization Â· Database_storage Â· Distributed_DBMS Â· Federated_database_system Â· Referential_integrity Â· Relational
+algebra Â· Relational_calculus Â· Relational_database Â· Relational_DBMS Â· Relational_model Â· Object-relational_database Â· Transaction_processing
+Concepts   Database Â· ACID Â· CRUD Â· Null Â· Candidate_key Â· Foreign_key Â· Primary_key Â· Superkey Â· Surrogate_key Â· Armstrong's_axioms
+Objects    Relation (Table) Â· View Â· Transaction Â· Log Â· Trigger Â· Index Â· Stored_procedure Â· Cursor Â· Partition
+Components Concurrency_control Â· Data_dictionary Â· JDBC Â· ODBC Â· Query_language Â· Query_optimizer Â· Query_plan
+Database products: Object-oriented (comparison) Â· Relational (comparison) Â· Document-oriented
+v Â· d Â· eSoftware_engineering
+Fields       Requirements_analysis â¢ Systems_analysis â¢ Software_design â¢ Computer_programming â¢ Formal_methods â¢ Software_testing â¢ Software_deployment â¢ Software_maintenance
+Concepts     Data_modeling â¢ Enterprise_architecture â¢ Functional_specification â¢ Modeling_language â¢ Programming_paradigm â¢ Software â¢ Software_architecture â¢ Software_development
+             methodology â¢ Software_development_process â¢ Software_quality â¢ Software_quality_assurance â¢ Software_archaeology â¢ Structured_analysis
+Orientations Agile â¢ Aspect-oriented â¢ Object_orientation â¢ Ontology â¢ Service_orientation â¢ SDLC
+             Development models Agile â¢ Iterative_model â¢ RUP â¢ Scrum â¢ Spiral_model â¢ Waterfall_model â¢ XP â¢ V-Model â¢ Incremental_model â¢ Prototype_model
+Models       Other models       Automotive_SPICE â¢ CMMI â¢ Data_model â¢ Function_model â¢ Information_model â¢ Metamodeling â¢ Object_model â¢ Systems_model â¢ View_model
+             Modeling languages IDEF â¢ UML
+Software     Kent_Beck â¢ Grady_Booch â¢ Fred_Brooks â¢ Barry_Boehm â¢ Ward_Cunningham â¢ Ole-Johan_Dahl â¢ Tom_DeMarco â¢ Martin_Fowler â¢ C._A._R._Hoare â¢ Watts_Humphrey â¢ Michael_A.
+engineers    Jackson â¢ Ivar_Jacobson â¢ Craig_Larman â¢ James_Martin â¢ Bertrand_Meyer â¢ David_Parnas â¢ Winston_W._Royce â¢ Colette_Rolland â¢ James_Rumbaugh â¢ Niklaus_Wirth â¢ Edward
+             Yourdon â¢ Victor_Basili
+Related      Computer_science â¢ Computer_engineering â¢ Enterprise_engineering â¢ History â¢ Management â¢ Project_management â¢ Quality_management â¢ Software_ergonomics â¢ Systems
+fields       engineering
+
+[Stub_icon] This computer science article is a stub. You can help Wikipedia by
+            expanding_it.v Â· d Â· e
+
+Retrieved from "http://en.wikipedia.org/wiki/Big_data"
+
+Categories: Database_management_systems | Data_mining | Data_modeling |
+Database_theory | Distributed_computing_problems | Emerging_technology | Formal
+sciences | Project_management | System_administration | Technology_development
+| Technology_forecasting | Technology_in_society | Transaction_processing |
+Computer_science_stubs
+

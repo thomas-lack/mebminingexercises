@@ -1,0 +1,22 @@
+
+****** Category talk:Knowledge discovery in databases ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                            This category was nominated for deletion, renaming,
+[Categories_for_discussion] or merging with another category on 2008 January 1.
+                            The result of the_discussion was no consensus.
+Should be merged in. KDD is a common naming (see ACM SIDKDD), but most of it is
+called "data mining" as well. Wikipedia currently not even has a separate
+article on Knowledge_Discovery_in_Databases, but that redirects to data_mining.
+So why have a separate category? --87.174.124.55 (talk) 02:39, 31 May 2010
+(UTC)
+
+Retrieved from "http://en.wikipedia.org/wiki/Category_talk:
+Knowledge_discovery_in_databases"
+
+Categories: Data_mining
+

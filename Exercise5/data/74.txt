@@ -1,0 +1,106 @@
+
+****** Category:Algorithms ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                 Pages in this category should be moved to subcategories where
+                 applicable.
+[Sub-arrows.svg] This category may require frequent maintenance to avoid
+                 becoming too large. It should directly contain very few, if
+                 any, articles and should mainly contain subcategories.
+ Wikimedia Commons has media related to: Algorithms
+The main article for this category is Algorithm.
+An algorithm, broadly defined, is an understandable and finite set of
+instructions for accomplishing some task which, given a defined set of inputs,
+will result in some recognisable end-state (contrast with heuristic).
+Algorithms often have steps that repeat (iterate) or require decisions (such as
+logic or comparison) until the task is completed.
+
+***** Subcategories *****
+This category has the following 50 subcategories, out of 50 total.
+**** A ****                                         **** D cont. ****                               **** P cont. ****
+    * [+]  Computer_algebra (1 C, 29 P)                 * [+]  Digital_signal_processing (11 C, 167     * [+]  Computational_physics (3 C, 65 P)
+    * [Ã]  Algorithm_description_languages (6 P)       P)                                            * [Ã]  Pseudo-polynomial_time_algorithms (2 P)
+    * [+]  Analysis_of_algorithms (1 C, 31 P)           * [+]  Distributed_algorithms (4 C, 32 P)   **** Q ****
+    * [Ã]  Approximation_algorithms (15 P)       **** E ****                                         * [Ã]  Quantum_algorithms (14 P)
+    * [+]  Arbitrary_precision_algorithms (1 C, 16      * [+]  Error_detection_and_correction (5 C, **** R ****
+      P)                                                  106 P)                                        * [+]  Randomized_algorithms (1 C, 5 P)
+**** B ****                                             * [+]  Evolutionary_algorithms (3 C, 36 P,      * [Ã]  Root-finding_algorithms (32 P)
+    * [+]  Bioinformatics_algorithms (1 C, 14 P)          3 F)                                          * [Ã]  Routing_algorithms (30 P)
+**** C ****                                             * [+]  External_memory_algorithms (1 C, 1   **** S ****
+    * [Ã]  Calendar_algorithms (8 P)                   P)                                            * [+]  Scheduling_algorithms (1 C, 62 P)
+    * [Ã]  Checksum_algorithms (25 P)            **** G ****                                         * [+]  Search_algorithms (4 C, 99 P)
+    * [+]  Classification_algorithms (2 C, 66 P)        * [+]  Geometric_algorithms (2 C, 107 P)        * [Ã]  Selection_algorithms (4 P)
+    * [+]  Combinatorial_algorithms (5 C, 16 P)         * [+]  Computer_graphics_algorithms (4 C,       * [+]  Sorting_algorithms (3 C, 64 P)
+    * [+]  Compression_algorithms (2 C, 1 P)              46 P, 1 F)                                    * [+]  Statistical_algorithms (1 C, 32 P)
+    * [+]  Concurrent_algorithms (2 C, 2 P)             * [Ã]  Computational_group_theory (10 P)     * [+]  Computational_statistics (8 C, 27 P)
+    * [+]  Constraint_satisfaction (1 C, 57 P)      **** H ****                                         * [+]  Stochastic_algorithms (2 C, 12 P)
+    * [+]  Cryptographic_algorithms (11 C, 50 P)        * [Ã]  Heuristic_algorithms (8 P)            * [+]  Algorithms_on_strings (2 C, 49 P)
+**** D ****                                         **** M ****                                     **** V ****
+    * [Ã]  Data_clustering_algorithms (25 P)         * [+]  Machine_learning (13 C, 272 P)           * [+]  Computer_vision (13 C, 100 P)
+    * [+]  Data_mining (2 C, 90 P)                      * [+]  Memory_management_algorithms (1 C,   **** Î ****
+    * [+]  Database_algorithms (1 C, 8 P)                 12 P)                                         * [Ã]  Algorithm_stubs (54 P)
+                                                    **** N ****
+                                                        * [Ã]  Networking_algorithms (13 P)
+                                                        * [+]  Computational_number_theory (1 C, 14
+                                                          P)
+                                                        * [+]  Numerical_analysis (18 C, 157 P)
+                                                    **** O ****
+                                                        * [Ã]  Online_algorithms (9 P)
+                                                        * [+]  Optimization_algorithms (4 C, 80 P)
+                                                    **** P ****
+                                                        * [+]  Pattern_matching (2 C, 32 P)
+Pages in category "Algorithms"
+The following 53 pages are in this category, out of 53 total. This list may not
+reflect recent changes (learn_more).
+    * Algorithm                             **** H ****         **** P cont. ****
+    * LubachevskyâStillinger_algorithm     * HAKMEM            * Principle_of_deferred_decision
+    * List_of_algorithm_general_topics          * Holographic   **** R ****
+    * List_of_algorithms                          algorithm         * Randomization_function
+    * List_of_terms_relating_to_algorithms      * Hyphenation       * Randomized_rounding
+      and_data_structures                         algorithm         * Reservoir_sampling
+**** A ****                                 **** I ****             * Reversible_reference_system
+    * Adaptive_algorithm                        * In-place            propagation_algorithm
+    * Algorism                                    algorithm         * Run-time_algorithm_specialisation
+    * Algorithm_characterizations           **** K ****         **** S ****
+    * Algorithm_design                          * Kronecker         * SardinasâPatterson_algorithm
+    * Algorithm_examples                          substitution      * Sequential_algorithm
+    * User:Dasickis/sandbox                 **** M ****             * Simulation_Algorithms_for_Atomic
+    * The_Art_of_Computer_Programming           * Manhattan           DEVS
+    * Astronomical_algorithm                      address           * Simulation_Algorithms_for_Coupled
+**** B ****                                       algorithm           DEVS
+    * Biologically_inspired_algorithms          * Maze              * Spreading_activation
+    * British_Museum_algorithm                    generation        * Streaming_algorithm
+**** D ****                                       algorithm         * Super-recursive_algorithm
+    * Dictionary_of_Algorithms_and_Data         * Maze_solving  **** T ****
+      Structures                                  algorithm         * Timeline_of_algorithms
+    * Divide_and_conquer_algorithm              * MClone            * Tomasulo_algorithm
+**** F ****                                     * Medical       **** W ****
+    * Fourier_division                            algorithm         * User:Heksagon_Lavish/The_Hexagon
+                                                * Method_of           Lavish
+                                                  conditional   **** X ****
+                                                  probabilities     * XOR_swap_algorithm
+                                            **** O ****
+                                                * One-pass
+                                                  algorithm
+                                                * Out-of-core
+                                                  algorithm
+                                            **** P ****
+                                                * Pantelides
+                                                  algorithm
+                                                * Ping-pong
+                                                  scheme
+                                                * PR-CPA
+                                                  advantage
+                                                * Predictor-
+                                                  corrector
+                                                  method
+                                                * PRF_advantage
+Retrieved from "http://en.wikipedia.org/wiki/Category:Algorithms"
+
+Categories: Applied_mathematics | Computer_science | Computer_programming
+Hidden categories: Categories_requiring_diffusion
+

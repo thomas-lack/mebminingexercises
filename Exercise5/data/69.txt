@@ -1,0 +1,34 @@
+
+****** Category:Knowledge discovery in databases ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+Knowledge discovery in databases (KDD), is the practice of automatically
+searching large stores of data for patterns.
+The main article for this category is Knowledge_discovery_in_databases.
+
+***** Subcategories *****
+This category has only the following subcategory.
+**** D ****
+    * [+]  Data_mining (2 C, 90 P)
+Pages in category "Knowledge discovery in databases"
+The following 11 pages are in this category, out of 11 total. This list may not
+reflect recent changes (learn_more).
+**** C ****               **** K ****                  **** O ****
+    * Cluster_analysis        * Knowledge_discovery        * Optimal_matching
+    * Cluster-weighted        * Knowledge_Discovery_in **** S ****
+      modeling                  Databases                  * Silhouette_
+**** H ****                   * Knowledge_tag                (clustering)
+    * Health_Research     **** M ****                  **** U ****
+      Development             * Multifactor                * Unstructured_data
+      Information_Network       dimensionality
+**** J ****                     reduction
+    * Jumper_2.0
+Retrieved from "http://en.wikipedia.org/wiki/Category:
+Knowledge_discovery_in_databases"
+
+Categories: Knowledge_representation | Databases
+

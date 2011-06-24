@@ -1,0 +1,42 @@
+
+****** Inference attack ******
+
+From Wikipedia, the free encyclopedia
+
+
+Jump to: navigation, search
+
+                    This article is an orphan, as few or no other articles link
+[Wiki_letter_w.svg] to_it. Please introduce_links to this page from related
+                    articles; suggestions_may_be_available. (February 2009)
+An Inference Attack is a data_mining technique performed by analyzing data in
+order to illegitimately gain knowledge about a subject or database.[1] A
+subject's sensitive information can be considered as leaked if an adversary can
+infer its real value with a high confidence. [2] This is an example of breached
+information_security. An Inference attack occurs when a user is able to infer
+from trivial information more robust information about a database without
+directly accessing it.[3] The object of Inference attacks is to piece together
+information at one security level to determine a fact that should be protected
+at a higher security level.[4]
+***** [edit] Countermeasures *****
+Computer security inference control is the attempt to prevent users to infer
+classified information from rightfully accessible chunks of information with
+lower classification. Computer security professionals install protocols into
+databases to prevent inference attacks by software but to date there is no
+software or hardware, such as an anti-inference engine, that delivers this
+countermeasure against a human inference_engine. [5]
+***** [edit] References *****
+   1. ^ "Inference_Attacks_on_Location_Tracks"_by_John_Krumm
+   2. ^ http://www.ics.uci.edu/~chenli/pub/2007-dasfaa.pdf "Protecting
+      Individual Information Against Inference Attacks in Data Publishing" by
+      Chen Li, Houtan Shirani-Mehr, and Xiaochun Yang
+   3. ^ "Detecting_Inference_Attacks_Using_Association_Rules"_by_Sangeetha
+      Raman,_2001
+   4. ^ "Database_Security_Issues:_Inference"_by_Mike_Chapple
+   5. ^ "Computer_Security_Inference_Control"_by_Halim._M._Khelalfa_(1997)
+
+Retrieved from "http://en.wikipedia.org/wiki/Inference_attack"
+
+Categories: Computer_security | Data_mining | Data_security
+Hidden categories: Orphaned_articles_from_February_2009 | All_orphaned_articles
+
