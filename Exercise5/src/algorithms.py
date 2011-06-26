@@ -7,56 +7,74 @@ import math
 import re
 
 def calcPageRank(pages, iter, d):
+    print "calcPageRank"
     N = len(pages.keys())
+    pr = {}
+    
+    for p in pages.values():
+        pr[p.getId()] = 0
+    
     for i in xrange(0,iter):
+        change = 0.0
         for p in pages.values():
             tmp = 0.0
             for incoming in p.getIncomingLinks():
                 q = pages[incoming]
-                tmp += q.getPageRank() / float(len(q.getOutgoingLinks()))
-            old = p.getPageRank()
+                tmp += pr[q.getId()] / float(len(q.getOutgoingLinks()))
+            old = pr[p.getId()]
             new = (1.0 - d) * (1.0 / N) + d * tmp
-            
-            if math.fabs(new - old) < 0.0001:
-                return pages
-            
-            p.setPageRank(new)
-    return pages
+            change += math.fabs(new - old)
+            pr[p.getId()] = new
+        if (change / N) < 0.0001:
+            break
+        
+    print "i = ", i
+    return pr
 
 def calcHubAndAuthorities(pages, iter):
+    print "calcHubAndAuthorities"
+    N = len(pages.keys())
+    hubs = {}
+    authoritys = {}
+    
+    for p in pages.values():
+        hubs[p.getId()] = 1.0
+        authoritys[p.getId()] = 1.0
+    
     for i in xrange(0,iter):
         norm = 0.0
+        change = 0.0
         for p in pages.values():
             for id in p.getIncomingLinks():
                 q = pages[id]
-                p.setAuthority(p.getAuthority() + q.getHub())
-            norm += math.sqrt(p.getAuthority())
+                authoritys[p.getId()] += hubs[q.getId()] 
+            norm += math.sqrt(authoritys[p.getId()])
         norm = math.sqrt(norm)
         
         for p in pages.values():
-            old = p.getAuthority()
-            new = p.getAuthority() / norm
-            if math.fabs(new - old) < 0.0001:
-                return pages
-            
-            p.setAuthority(p.getAuthority() / norm)
+            old = authoritys[p.getId()]
+            new = old / norm
+            change += math.fabs(new - old)
+            authoritys[p.getId()] /= norm
         norm = 0.0
         
         for p in pages.values():
             for id in p.getOutgoingLinks():
                 q = pages[id]
-                p.setHub(p.getHub() + q.getAuthority())
-            norm += math.sqrt(p.getHub())
+                hubs[p.getId()] += authoritys[q.getId()]
+            norm += math.sqrt(hubs[p.getId()])
         norm = math.sqrt(norm)
         
         for p in pages.values():
-            old = p.getHub()
-            new = p.getHub() / norm
-            if math.fabs(new - old) < 0.0001:
-                return pages
+            old = hubs[p.getId()]
+            new = old / norm
+            change += math.fabs(new - old)
+            hubs[p.getId()] = new
+        if (change / (2*N)) < 0.0001:
+            break
             
-            p.setHub(new)
-    return pages
+    print "i = ", i
+    return (hubs, authoritys)
 
 def makeRootSet(query, pages):
     keys = query.split(" ");
@@ -84,8 +102,22 @@ def makeBaseSet(pages, rootset):
             
     return result
             
-def concatDicts(d1, d2):
-    return dict(d1.items() + d2.items())
+def makeSubGraph(rootSet, baseSet):
+    graph = dict(rootSet.items() + baseSet.items())
+    keys = graph.keys()
+    for p in graph.values():
+        tmp = []
+        for id in p.getOutgoingLinks():
+            if id in keys:
+                tmp.append(id)
+        p.setOutgoingLinks(tmp)
         
+        tmp = []
+        for id in p.getIncomingLinks():
+            if id in keys:
+                tmp.append(id)
+        p.setIncomingLinks(tmp)
+                
+    return graph
     
         
