@@ -18,9 +18,9 @@ def calcPageRank(pages, iter, d):
         change = 0.0
         for p in pages.values():
             tmp = 0.0
-            for incoming in p.getIncomingLinks():
+            for incoming in set(p.getIncomingLinks()):
                 q = pages[incoming]
-                tmp += pr[q.getId()] / float(len(q.getOutgoingLinks()))
+                tmp += pr[q.getId()] / float(len(set(q.getOutgoingLinks())))
             old = pr[p.getId()]
             new = (1.0 - d) * (1.0 / N) + d * tmp
             change += math.fabs(new - old)
@@ -45,7 +45,7 @@ def calcHubAndAuthorities(pages, iter):
         norm = 0.0
         change = 0.0
         for p in pages.values():
-            for id in p.getIncomingLinks():
+            for id in set(p.getIncomingLinks()):
                 q = pages[id]
                 authoritys[p.getId()] += hubs[q.getId()] 
             norm += math.sqrt(authoritys[p.getId()])
@@ -59,7 +59,7 @@ def calcHubAndAuthorities(pages, iter):
         norm = 0.0
         
         for p in pages.values():
-            for id in p.getOutgoingLinks():
+            for id in set(p.getOutgoingLinks()):
                 q = pages[id]
                 hubs[p.getId()] += authoritys[q.getId()]
             norm += math.sqrt(hubs[p.getId()])
@@ -117,13 +117,13 @@ def makeSubGraph(rootSet, baseSet):
         for id in p.getOutgoingLinks():
             if id in keys:
                 tmp.append(id)
-        p.setOutgoingLinks(tmp)
+        p.setOutgoingLinks(sorted(set(tmp)))
         
         tmp = []
         for id in p.getIncomingLinks():
             if id in keys:
                 tmp.append(id)
-        p.setIncomingLinks(tmp)
+        p.setIncomingLinks(sorted(set(tmp)))
                 
     return graph
     
