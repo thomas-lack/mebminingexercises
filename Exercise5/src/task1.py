@@ -7,7 +7,7 @@ from datautils import readGraph
 from query import doQuery
 
 pages = readGraph("data")
-result = doQuery("machine learning", pages)
+result = doQuery("web mining", pages)
 
 
 print "\nPageRank"

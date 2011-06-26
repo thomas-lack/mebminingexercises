@@ -14,6 +14,12 @@ def doQuery(query, pages):
     pageRank = calcPageRank(pages, 10000, 0.85)
     hubAndAuthorities = calcHubAndAuthorities(subGraph, 10000)
     
+    sum = 0
+    for pr in pageRank.values():
+        sum += pr
+    
+    print "sum ", sum
+    
     print "RootSet"
     for p in rootSet.values():
         print p.getId(), p.getLink()," out: ", p.getOutgoingLinks(), " in: ", p.getIncomingLinks()
