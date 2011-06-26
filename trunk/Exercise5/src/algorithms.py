@@ -48,21 +48,21 @@ def calcHubAndAuthorities(pages, iter):
             for id in set(p.getIncomingLinks()):
                 q = pages[id]
                 authoritys[p.getId()] += hubs[q.getId()] 
-            norm += math.sqrt(authoritys[p.getId()])
+            norm += (authoritys[p.getId()] * authoritys[p.getId()])
         norm = math.sqrt(norm)
         
         for p in pages.values():
             old = authoritys[p.getId()]
             new = old / norm
             change += math.fabs(new - old)
-            authoritys[p.getId()] /= norm
+            authoritys[p.getId()] = new
         norm = 0.0
         
         for p in pages.values():
             for id in set(p.getOutgoingLinks()):
                 q = pages[id]
                 hubs[p.getId()] += authoritys[q.getId()]
-            norm += math.sqrt(hubs[p.getId()])
+            norm += (hubs[p.getId()] * hubs[p.getId()])
         norm = math.sqrt(norm)
         
         for p in pages.values():
@@ -70,6 +70,7 @@ def calcHubAndAuthorities(pages, iter):
             new = old / norm
             change += math.fabs(new - old)
             hubs[p.getId()] = new
+        
         if (change / (2*N)) < 0.0001:
             break
             
