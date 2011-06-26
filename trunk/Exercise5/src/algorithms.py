@@ -76,6 +76,11 @@ def calcHubAndAuthorities(pages, iter):
     print "i = ", i
     return (hubs, authoritys)
 
+def readWordsFromString(data):
+    data = re.sub("[-_!?.,;:'#+*~\"$%&/()=\}\]\[{}\'\`]", "", data)
+    data = re.sub("[\s]+", " ", data)
+    return map(lambda x: x.lower(),filter(lambda x: not 0 == len(x), data.split(" ")))
+
 def makeRootSet(query, pages):
     keys = query.split(" ");
     result = {}
@@ -83,8 +88,10 @@ def makeRootSet(query, pages):
     for p in pages.values():
         data = str(p.getData())
         hits = 0
+        words = readWordsFromString(data)
+        
         for key in keys:
-            if None != re.search(" " + key + " ", data, re.I):
+            if key.lower() in words:
                 hits += 1
                 
         if len(keys) == hits:
